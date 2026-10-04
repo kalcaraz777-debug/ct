@@ -109,6 +109,9 @@ td.plant { font-weight: 600; white-space: nowrap; }
 .chip.crowd { background: var(--mid); color: var(--ink-2); border-color: var(--line); }
 .chip.miss { background: transparent; color: var(--crit); border-color: var(--crit); }
 .chip.ad { background: var(--ad-soft); color: var(--ink); border-color: var(--ad); }
+.plants { min-width: 1020px; }
+.plants td:last-child { min-width: 190px; }
+.plants td:nth-child(5) { min-width: 150px; }
 .gap td:nth-child(2), .gap td:nth-child(3) { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .gap .bad { color: var(--crit); font-weight: 700; }
 .gap .ok { color: var(--good); font-weight: 700; }
@@ -181,7 +184,7 @@ footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--li
   </div>
   <div class="prose" style="display:grid;gap:10px">
     <p>Since 13 January 2026, only eBay's cost-per-click Promoted Listings (the "Priority" strategy) can take the first ad slot. BubbleBlooms alone filled 14 of the 69 top-three spots across these searches, mostly paid. When this report says "unpaid rank", it counts only the organic results, so "#1" means the first unpaid result even when ads sit above it.</p>
-    <p>One of your listings already showed up in an ad slot: <b>Watermelon peperomia appeared as Sponsored at position 3</b>. If you have a Promoted Listings campaign running, that's why. If you don't, check Seller Hub → Marketing.</p>
+    <p>One of your listings showed up in an ad slot: <b>Watermelon peperomia appeared with a rendered "Sponsored" label at position 3</b>, in both captures. You've confirmed you don't run Promoted Listings. Check Seller Hub → Marketing → Advertising for a campaign created during bulk listing, and check that listing's "Promote" setting. If both are empty, eBay placed it there itself. Either way it affects one listing, and none of your other 130 showed as Sponsored.</p>
   </div>
 </section>
 
@@ -223,7 +226,7 @@ footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--li
   <h2 id="plants">Where each plant stands today</h2>
   <p class="prose">"Your listings competing" counts how many of your own listings showed up for the search. "Listing" shows photos · units sold · watchers on your best-ranked eBay listing. Etsy page-1 counts are Etsy's public keyword pages (etsy.com/market/…), not logged-in search.</p>
   <div class="tablewrap">
-    <table>
+    <table class="plants">
       <thead><tr><th>Plant search</th><th>Status</th><th>Your best unpaid rank</th><th>Your listings competing</th><th>#1 unpaid seller</th><th>Listing<span class="sub">photos · sold · watchers</span></th><th>Etsy</th></tr></thead>
       <tbody>
 <tr><td class='plant'>Calathea setosa</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#1</b><span class='sub'>shown at #1 of 119</span></td><td class='num'>1</td><td><b>You</b></td><td class='num'>2 · 1 · 3</td><td>$18.99<span class='sub'>page 1 on 1 of 1 keyword pages</span></td></tr>
@@ -381,7 +384,7 @@ footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--li
       <ol>
         <li><b>Concentrate demand.</b> With one listing per plant, every watcher and sale lands on the same item number. Use eBay's "Send offers to buyers" for listings with watchers, and volume pricing ("buy 2, save 5–10%"). Volume pricing is already set on your Variegated Ficus.</li>
         <li><b>Run a small Priority (cost-per-click) Promoted Listings test</b> on the Defend and Reachable plants, but only after the photos and descriptions are fixed. An ad sends clicks to the listing, so a weak listing wastes the budget. Since January 2026 only Priority campaigns can win the ad slot just under the top result.</li>
-        <li><b>On Etsy:</b> cut titles to 15 words or fewer, name the plant first, and drop "from Riverside Greenhouses" (your shop name already shows). Move "Easy Care", "Pet Friendly" and similar into tags, and fill all 13 tags with multi-word phrases. Add the 4 missing plants. Use a first photo at least 2,000 px wide. Say in each listing that you grow or propagate the plant yourself: Etsy's 2025 Creativity Standards allow plants the shop cultivates but not plants resold unchanged.</li>
+        <li><b>On Etsy:</b> cut titles to 15 words or fewer, name the plant first, and drop "from Riverside Greenhouses" (your shop name already shows). Move "Easy Care", "Pet Friendly" and similar into tags, and fill all 13 tags with multi-word phrases. Add the 4 missing plants. Use a first photo at least 2,000 px wide. Say in each listing that you grow and propagate the plant yourself ("Grown and propagated in our Riverside, CA greenhouse"). Etsy's 2025 Creativity Standards allow plants the shop cultivates but not plants resold unchanged.</li>
         <li><b>Ask every happy Etsy buyer for a review.</b> Review count is the biggest visible gap between you and the shops that keep appearing (35 vs thousands).</li>
       </ol>
     </div>
@@ -443,12 +446,12 @@ footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--li
 
 <section aria-labelledby="next">
   <div class="eyebrow">What I need from you</div>
-  <h2 id="next">Four answers would sharpen this</h2>
+  <h2 id="next">Open questions and your answers</h2>
   <ol class="answers">
-    <li><b>Are you running eBay Promoted Listings?</b> Watermelon peperomia showed up as Sponsored at #3.</li>
-    <li><b>For each duplicate pair, which listing holds the sales and watchers?</b> Seller Hub shows this. I can only see the public counts.</li>
-    <li><b>Do you want the Etsy half measured on Etsy's real search order?</b> Create a free Etsy developer app at etsy.com/developers/register and share the keystring and shared secret (Etsy has required both since 9 February 2026). A collector script is ready. Alternatively, export your Listings CSV plus Stats → search terms.</li>
-    <li><b>Do you grow or propagate the plants yourself?</b> This matters for Etsy's Creativity Standards. Separately, though not a ranking issue: California requires a CDFA nursery licence for selling plants, including online, and Arizona and Hawaii have inspection rules for plants shipped in. Worth confirming you're set up for both.</li>
+    <li><b>Promoted Listings:</b> you're not running any. Still worth a two-minute check of Seller Hub → Marketing → Advertising, because Watermelon peperomia rendered as Sponsored. <i>(answered)</i></li>
+    <li><b>Duplicates:</b> you're checking which listing in each pair holds the sales and watchers (Seller Hub shows this; I can only see public counts). The 15 pairs are in the fix list above. <i>(you're checking)</i></li>
+    <li><b>Etsy on real data:</b> yes. Two parts. First, your own search numbers from Shop Manager (Search analytics and Stats → search terms), which need no setup. Second, Etsy's own search order through its Open API, using a free developer key stored in this environment's settings rather than pasted into chat. Read Etsy's API Terms of Use first (etsy.com/legal/api): summaries suggest they limit collecting Etsy content for analytics. <i>(in progress)</i></li>
+    <li><b>You grow and propagate the plants,</b> so Etsy's Creativity Standards allow them (they allow plants the shop cultivates). Say it in every listing, e.g. "Grown and propagated in our Riverside, CA greenhouse". That's also good copy for buyers. Separately, though not a ranking issue: California requires a CDFA nursery licence for selling plants, including online, and Arizona and Hawaii have inspection rules for plants shipped in. <i>(answered)</i></li>
   </ol>
 </section>
 
