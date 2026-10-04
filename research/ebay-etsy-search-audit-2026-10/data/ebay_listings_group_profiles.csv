@@ -1,0 +1,53 @@
+metric,organic_top3,ad_slot_top3,top3_as_displayed,control_organic_positions,owner_best_per_query,owner_new_template,owner_old_template,owner_all_131
+n listings,69,50,69,38,22,64,67,131
+photos: median,5.0,7.0,6.0,4.0,2.0,2.0,1.0,1.0
+photos: mean,5.46,7.42,6.93,4.63,2.05,2.19,1.0,1.58
+photos: min-max,1-20,1-45,1-45,1-14,1-5,2-5,1-1,1-5
+% with >=5 photos,55.07,72.0,63.77,47.37,4.55,1.56,0.0,0.76
+% with video,7.25,2.0,2.9,2.63,0.0,0.0,0.0,0.0
+item specifics: median count,12.0,9.0,10.0,11.5,14.0,14.0,22.0,19.0
+% with Genus specific,69.57,54.0,60.87,63.16,81.82,92.19,0.0,45.04
+% with Common Name specific,57.97,54.0,56.52,71.05,81.82,96.88,0.0,47.33
+% with Species/Botanical specific,0.0,0.0,0.0,2.63,0.0,0.0,0.0,0.0
+% with Pot Size specific,1.45,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+% with MPN specific,13.04,10.0,11.59,15.79,18.18,0.0,100.0,51.15
+% with Growth Stage specific,34.78,30.0,26.09,31.58,100.0,100.0,100.0,100.0
+% with condition set,2.9,4.0,4.35,0.0,0.0,0.0,0.0,0.0
+% with seller notes / condition description,31.88,6.0,15.94,15.79,0.0,0.0,0.0,0.0
+title chars: median,71.0,72.5,72.0,72.5,61.5,61.5,45.0,53.0
+"% title has pot size/""pot""",39.13,54.0,47.83,50.0,100.0,98.44,100.0,99.24
+"% title has ""live""",21.74,34.0,30.43,34.21,100.0,98.44,100.0,99.24
+% title starts with query phrase,33.33,26.0,26.09,21.05,77.27,66.67,38.46,57.5
+% title has all query words,91.3,78.0,82.61,57.89,100.0,81.48,76.92,80.0
+% title has genus+species/latin+common,43.48,30.0,34.78,34.21,63.64,74.07,0.0,50.0
+desc chars: median,969.0,1058.0,1005.0,887.5,624.0,645.5,455.0,528.0
+% desc has care info,37.68,38.0,40.58,26.32,18.18,0.0,100.0,51.15
+% desc has size/what-you-get,68.12,52.0,56.52,52.63,100.0,100.0,91.04,95.42
+% desc mentions packing/shipping,65.22,68.0,66.67,63.16,18.18,1.56,100.0,51.91
+% desc has live-arrival/DOA/guarantee,24.64,14.0,20.29,18.42,18.18,0.0,100.0,51.15
+% desc has heat/cold pack/temperature,40.58,28.0,30.43,34.21,81.82,100.0,0.0,48.85
+% desc has seller story,15.94,14.0,14.49,5.26,0.0,1.56,1.49,1.53
+price: median $,21.0,24.99,24.99,23.99,18.99,17.99,23.29,20.25
+% free shipping (item page),43.48,46.0,47.83,23.68,0.0,0.0,0.0,0.0
+ship cost: median $ (paid only),9.95,8.99,9.4,9.23,6.99,6.99,9.99,9.99
+total (price+ship): median $,25.99,29.24,26.99,29.39,25.98,24.98,33.28,29.83
+handling days: median,3.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0
+% handling <=1 business day,25.76,44.0,41.18,7.89,0.0,0.0,0.0,0.0
+delivery est. (days from fetch): median start-end,4-10,4-11,4-11,3-10,4-12,4-12,3-6,3-6
+% returns accepted,31.88,62.0,52.17,23.68,100.0,100.0,100.0,100.0
+% return window >=30 days,18.84,50.0,42.03,15.79,100.0,100.0,100.0,100.0
+% free returns (seller pays),1.45,8.0,7.25,5.26,0.0,0.0,0.0,0.0
+% Best Offer,20.29,28.0,26.09,36.84,18.18,0.0,100.0,51.15
+"% ""More than 10 available""",14.49,32.0,27.54,7.89,77.27,90.62,0.0,44.27
+% with sold > 0,52.17,58.0,62.32,28.95,13.64,6.25,4.48,5.34
+sold: median (listings with sold>0),4.5,8.0,6.0,4.0,2.0,1.0,1.0,1.0
+% with watchers >= 1,84.06,86.0,88.41,71.05,31.82,20.31,14.93,17.56
+watchers: median,3.0,7.0,9.0,2.5,0.0,0.0,0.0,0.0
+% in >=1 cart,43.48,48.0,52.17,28.95,9.09,3.12,1.49,2.29
+% volume discount,11.59,40.0,30.43,5.26,0.0,0.0,1.49,0.76
+% shipping-discount promo,7.25,34.0,27.54,7.89,0.0,0.0,0.0,0.0
+listing age days: median,45.0,232.5,155.0,278.5,64.0,64.0,184.0,184.0
+% revised in last 30 days,34.78,40.0,40.58,10.53,0.0,0.0,0.0,0.0
+% listed in last 30 days,34.78,26.0,24.64,15.79,0.0,0.0,0.0,0.0
+% fresh (listed or revised in last 30 days),59.42,60.0,59.42,21.05,0.0,0.0,0.0,0.0
+seller feedback: median,429.0,898.5,635.0,251.0,4.0,4.0,4.0,4.0

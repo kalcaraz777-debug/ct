@@ -1,0 +1,98 @@
+{
+  "verified_on": "2026-10-04",
+  "how_verified": "help.etsy.com and etsy.com/seller-handbook returned HTTP 403 to my fetch (not circumvented). Menu paths and descriptions below come from Etsy Help titles/snippets surfaced by search engines (quoted) and from Alura's public seller docs; items marked UI-CHECK should be confirmed on screen by the owner.",
+  "exports": [
+    {
+      "name": "Listings CSV ('Currently for Sale')",
+      "path": "Shop Manager > Settings > Options > Download Data > Listings > Download CSV",
+      "contents": "Per Etsy Help / Alura: listing title, description, price, currency code, quantity, tags, materials, image URLs and SKU (variation columns also exist). Exact header names (e.g. IMAGE1..IMAGE10) to be confirmed on the downloaded file.",
+      "does_not_contain": "views, visits, favorites, search position, review counts",
+      "use_for_this_study": "Exact current titles, all 13 tags, materials, attributes-in-description, photo count (count the IMAGE columns), price, quantity. Needed to test title/tag overlap with the keywords that top competitors use and to rewrite titles. HIGH VALUE, 2 minutes.",
+      "finishes_comparison": "partly (own side only)"
+    },
+    {
+      "name": "Sold Order Items CSV and Sold Orders CSV",
+      "path": "Shop Manager > Settings > Options > Download Data > Orders (choose CSV Type, Month, Year; omit month for a whole year)",
+      "contents": "Order Items = item-level sales report (one row per item sold); Orders = order-level report with payment method and financial detail such as processing fees (Alura). Typical fields: item title, price, quantity, SKU, sale date, order id, ship-to location - confirm columns on the file.",
+      "use_for_this_study": "Sales per listing and per plant, order dates (ties the 89-sale snapshot to actual dates), ship-to states (shipping-zone costs), repeat buyers. HIGH VALUE for 'which of my listings convert'.",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Reviews CSV",
+      "path": "Shop Manager > Settings > Options > Download Data > 'Take your data with you' > Download Your Reviews",
+      "contents": "Etsy Help ('How the Review System Works for Sellers'): 'To download your reviews ... Select Download Your Reviews.' Column list not published in what I could read - expect rating, review text, date and listing reference (to be confirmed).",
+      "use_for_this_study": "Review velocity per listing, text themes (rooting, packaging, pest-free) to compare with top competitors' public review themes (API getReviewsByShop).",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Shop Settings download",
+      "path": "same tab: Download Your Shop Settings",
+      "contents": "Shop settings export (column list not read); useful for shipping profiles / processing times / policies if included.",
+      "use_for_this_study": "Shipping profiles / processing time / return policy vs competitors (these feed Etsy's customer-experience signals). Medium.",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Etsy Payments Sales / Deposits CSV, monthly statements",
+      "path": "Download Data tab (Etsy Payments Sales CSV; Etsy Payments Deposits CSV); Settings > Payment settings > Monthly statements",
+      "contents": "fees, payouts",
+      "use_for_this_study": "Margin check after Etsy fees with free shipping. Not needed for ranking.",
+      "finishes_comparison": "no"
+    },
+    {
+      "name": "Stats > search terms (on-screen)",
+      "path": "Shop Manager > Stats > 'How shoppers found you' > Etsy search (search terms people used to find your listings)",
+      "contents": "terms with visits for the chosen period; traffic-source tiles: Etsy search, Etsy app & other Etsy pages, Etsy marketing & SEO, Etsy Ads, Offsite Ads, social media, direct & other; per-listing views/favorites/orders/revenue; data from Nov 2017 onward",
+      "export": "UI-CHECK: sellers report there is no CSV for search terms (Facebook seller-group thread: 'I see search terms, but no option to download a report'); some third-party guides claim a CSV of listing stats exists. Copy/screenshot if no button.",
+      "use_for_this_study": "Which of the 25 plant queries actually bring visits; share of Etsy search vs Etsy Ads vs direct. HIGH VALUE.",
+      "finishes_comparison": "own side - the demand/visibility half"
+    },
+    {
+      "name": "Search Analytics (Marketing)",
+      "path": "Shop Manager > Marketing > Search Analytics",
+      "contents": "per search query: impressions, visits, orders, conversion rate, revenue, average POSITION, visits per impression, average order value; click the Listings number for a per-listing breakdown; date ranges by day/month/year (Alura 'Using Etsy's Search Analytics')",
+      "export": "UI-CHECK (docs do not mention an export button).",
+      "use_for_this_study": "The only first-party source of the owner's own search position per query. Capture the table (screenshot/copy) for each of the 25 plant queries and their variants. HIGHEST VALUE for 'where do I rank'.",
+      "finishes_comparison": "own rank side"
+    },
+    {
+      "name": "Etsy Search Visibility page",
+      "path": "Shop Manager > Etsy Search Visibility",
+      "contents": "how listings perform in three areas that factor into Etsy search - shop, listing and customer-service quality (Etsy Help 'How to Use the Etsy Search Visibility Page'; Seller Handbook checklist); the help page advises downloading the listings CSV before editing",
+      "use_for_this_study": "Etsy's own diagnostic flags per listing (title/tag/photo/attribute issues, customer-service standards). Screenshot. HIGH.",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Marketplace Insights",
+      "path": "Shop Manager > Stats > Marketplace Insights > type a keyword",
+      "contents": "Etsy Help: 'Enter a keyword into the search bar to view search data'; described as a tool 'to identify keyword opportunities and understand search trends' and to show relevant, frequently searched terms. Exact metrics to be confirmed on screen.",
+      "use_for_this_study": "Search volume tier per plant keyword and which spelling buyers use (e.g. 'hoya sunrise' vs 'hoya tequila sunrise'). HIGH for choosing title keywords; screenshot per keyword.",
+      "finishes_comparison": "market-demand side"
+    },
+    {
+      "name": "Star Seller / Customer Service Standards dashboard",
+      "path": "Shop Manager > Star Seller (progress) and Etsy Search Visibility > customer service",
+      "contents": "Star Seller badges (Etsy Help 'What is the Star Seller Badge'): message response rate (reply to 95% of first messages within 24 hours), on-time shipping and valid tracking (95% of orders), average review rating; Customer Service Standards add case rate.",
+      "use_for_this_study": "Tells whether RvsdGreenhouses currently holds the badge (not visible in any snippet) and which metric is missing.",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Etsy Ads reports (if ads are on)",
+      "path": "Shop Manager > Marketing > Etsy Ads > search terms / listing performance",
+      "contents": "Etsy Help: Etsy Ads search terms are viewable; also impressions/clicks/spend/orders per listing (exact layout to be confirmed).",
+      "use_for_this_study": "Separates paid from organic placement in the Stats search-term numbers.",
+      "finishes_comparison": "own side"
+    },
+    {
+      "name": "Owner-run logged-out search captures (no tool needed)",
+      "path": "In a private/incognito browser window on etsy.com, search each of the 25 plant names, scroll the first 2-3 pages and use 'Save page as ... (complete)' or print to PDF (a person using Etsy normally; we never touch the site)",
+      "contents": "the REAL Etsy result order, ads vs organic labels, badges (Star Seller, Bestseller, Popular now, Free shipping), prices, review counts",
+      "use_for_this_study": "The only legitimate way to see Etsy's actual first-page order today without the API. 25 queries x 2 pages = 50 files. Add the owner's ZIP code context if it matters.",
+      "finishes_comparison": "market side - ranking order"
+    }
+  ],
+  "minimum_set_to_finish_the_etsy_comparison": [
+    "A. Etsy API key (Seller App) -> run etsy_market_api_quickstart.py: real relevance-sorted (sort_on=score) top-300 per keyword with tags, price, favorites, ages, shop ids and shop review/sales counts, plus the owner's rank in each list.",
+    "B. Listings CSV + Search Analytics screenshots (position per query) + Stats search terms/traffic sources: the owner's side of the story.",
+    "C. Reviews CSV + Order Items CSV: conversion and review velocity by listing."
+  ]
+}

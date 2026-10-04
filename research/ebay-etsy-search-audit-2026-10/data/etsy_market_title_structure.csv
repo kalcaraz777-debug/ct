@@ -1,0 +1,4 @@
+group,n,median_chars,p25_chars,p75_chars,median_words,pct_pipe,pct_size,pct_live,pct_rare,pct_exact,pct_freeship,pct_usseller,pct_allcaps_word,pct_easycare,pct_brand_suffix,pct_cuttingw,pct_parens
+top10,209,61.0,35.0,93.0,9.0,11,19,11,17,1,0,2,11,4,2,10,8
+pos11_40,615,72.0,51.5,107.5,10.0,20,21,19,20,3,0,4,9,6,1,14,11
+owner_listings,65,118.0,114.0,123.0,18.0,98,100,100,25,0,0,0,0,94,100,0,3

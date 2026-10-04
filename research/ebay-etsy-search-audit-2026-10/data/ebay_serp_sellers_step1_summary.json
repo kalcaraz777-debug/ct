@@ -1,0 +1,106 @@
+{
+ "tag": "first",
+ "n_rows_total_cards": 2353,
+ "n_rows_in_N": 1958,
+ "n_queries": 23,
+ "rank1_fb_median": 410.0,
+ "rank1_fb_lt100": 6,
+ "rank1_fb_lt10": 2,
+ "rank1_fb_values": {
+  "calathea rattlesnake": [
+   "jessicastootielou",
+   6700
+  ],
+  "calathea setosa": [
+   "riversidegreenhouses",
+   4
+  ],
+  "cebu blue pothos": [
+   "snakerootbotanicals",
+   57
+  ],
+  "christmas cactus": [
+   "rwwsr",
+   3600
+  ],
+  "hoya australis lisa": [
+   "irvin-sophi",
+   1800
+  ],
+  "hoya carnosa compacta": [
+   "snakerootbotanicals",
+   57
+  ],
+  "hoya cummingiana": [
+   "haileyshoya",
+   235
+  ],
+  "hoya kerrii": [
+   "abznursery",
+   37
+  ],
+  "monstera peru": [
+   "leafandlilt",
+   187
+  ],
+  "monstera siltepecana": [
+   "baysidenursery02",
+   253
+  ],
+  "peperomia hope": [
+   "happilyplanted",
+   230
+  ],
+  "philodendron brasil": [
+   "succulentsandcactus",
+   2400
+  ],
+  "philodendron micans": [
+   "tinyturtlestropicals",
+   8
+  ],
+  "philodendron pink princess": [
+   "hanwin-2412",
+   60
+  ],
+  "pilea peperomioides": [
+   "dealcrossing",
+   2400
+  ],
+  "raven zz plant": [
+   "eden-elements",
+   250
+  ],
+  "rhaphidophora tetrasperma": [
+   "backtoobasics",
+   433
+  ],
+  "sansevieria moonshine": [
+   "pamz5432",
+   605
+  ],
+  "satin pothos": [
+   "abdullahalazam",
+   410
+  ],
+  "syngonium chiapense": [
+   "famplants",
+   1100
+  ],
+  "syngonium mojito": [
+   "anniestore2010",
+   21100
+  ],
+  "texas ebony plant": [
+   "exotic_cactus_collection",
+   56300
+  ],
+  "watermelon peperomia": [
+   "coastaltill1",
+   25600
+  ]
+ },
+ "top3_fb_lt100_share": 0.2463768115942029,
+ "top10_fb_lt100_share": 0.22807017543859648,
+ "rest_fb_lt100_share": 0.31445086705202313
+}

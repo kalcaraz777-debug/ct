@@ -1,0 +1,622 @@
+shop,n_plants,plants,n_listing_ids,n_shopping_rows,best_shopping_pos,sales,reviews,rating,years_on_etsy,age_text,location,star_seller_seen,n_block_obs
+PlantVers,16,calathea rattlesnake;calathea setosa;cebu blue pothos;hoya australis lisa;hoya carnosa compacta;monstera peru;peperomia hope;philodendron brasil;philodendron micans;philodendron pink princess;pilea peperomioides;raven zz plant;rhaphidophora tetrasperma;satin pothos;syngonium chiapense;syngonium pink splash,55,23,3,136300.0,41800.0,4.7,6.0,6 years on Etsy,"Lake Orion, Michigan",True,33
+CaliforniaTropicals,14,calathea setosa;cebu blue pothos;hoya australis lisa;hoya cummingiana;hoya kerrii;hoya sunrise;monstera peru;peperomia hope;philodendron pink princess;raven zz plant;rhaphidophora tetrasperma;satin pothos;syngonium mojito;texas ebony plant,10,9,1,165900.0,54300.0,4.8,7.0,7 years on Etsy,United States,False,8
+TheGreenEscape,10,calathea rattlesnake;calathea setosa;hoya australis lisa;hoya sunrise;monstera peru;monstera siltepecana;philodendron micans;philodendron pink princess;pilea peperomioides;syngonium chiapense,31,4,1,875000.0,266100.0,4.7,6.0,6 years on Etsy,"Florida, United States",False,19
+RvsdGreenhouses,9,calathea rattlesnake;calathea setosa;christmas cactus;hoya sunrise;pilea peperomioides;rhaphidophora tetrasperma;sansevieria moonshine;satin pothos;syngonium chiapense,53,3,8,89.0,35.0,4.9,0.33,4 months on Etsy,"Riverside, California",False,28
+RareFoliagePlantCo,9,hoya sunrise;monstera peru;monstera siltepecana;philodendron micans;philodendron pink princess;rhaphidophora tetrasperma;syngonium chiapense;syngonium mojito;syngonium pink splash,32,0,,17200.0,6600.0,4.9,3.0,3 years on Etsy,"Winter Garden, Florida",True,17
+NYCitySucculents,9,calathea rattlesnake;christmas cactus;hoya australis lisa;monstera siltepecana;peperomia hope;philodendron pink princess;sansevieria moonshine;syngonium pink splash;watermelon peperomia,14,11,1,69200.0,19100.0,4.4,6.0,6 years on Etsy,"New York, United States",False,6
+LasOrquideasRamos,8,calathea setosa;cebu blue pothos;hoya sunrise;monstera peru;philodendron micans;sansevieria moonshine;satin pothos;syngonium pink splash,24,0,,3700.0,1300.0,4.8,,,"Miami, Florida",True,13
+plantproperco,7,calathea setosa;hoya australis lisa;hoya sunrise;monstera siltepecana;philodendron micans;sansevieria moonshine;syngonium pink splash,19,0,,14200.0,6000.0,4.9,5.0,5 years on Etsy,"Homestead, Florida",True,9
+CanopyGems,7,monstera peru;monstera siltepecana;philodendron micans;philodendron pink princess;rhaphidophora tetrasperma;syngonium chiapense;syngonium mojito,17,1,12,10800.0,3800.0,4.9,16.0,16 years on Etsy,United States,False,13
+TropicalAmbiance,7,calathea rattlesnake;calathea setosa;hoya australis lisa;monstera peru;philodendron brasil;philodendron micans;sansevieria moonshine,15,0,,38800.0,14700.0,4.8,6.0,6 years on Etsy,United States,False,10
+FreshFromGreenhouse,7,calathea rattlesnake;christmas cactus;hoya cummingiana;hoya sunrise;peperomia hope;sansevieria moonshine;watermelon peperomia,13,7,6,51700.0,16800.0,4.8,5.0,5 years on Etsy,"Umatilla, Florida",False,11
+AnnasPlantlings,7,calathea rattlesnake;hoya australis lisa;peperomia hope;philodendron brasil;raven zz plant;syngonium mojito;watermelon peperomia,8,0,,70.0,10.0,5.0,3.0,3 years on Etsy,United States,False,7
+IshysPlants,7,cebu blue pothos;hoya carnosa compacta;monstera peru;monstera siltepecana;philodendron micans;raven zz plant;rhaphidophora tetrasperma,7,0,,1200.0,347.0,4.4,1.0,1 year on Etsy,"Brooklyn, New York",False,5
+BronxPlantLady,6,calathea rattlesnake;cebu blue pothos;monstera peru;sansevieria moonshine;syngonium mojito;watermelon peperomia,6,0,,16500.0,7000.0,4.9,5.0,5 years on Etsy,"Bronx, New York",True,1
+Inquisitivegreens,5,monstera siltepecana;rhaphidophora tetrasperma;syngonium chiapense;syngonium pink splash;watermelon peperomia,7,0,,3900.0,1600.0,4.9,10.0,10 years on Etsy,"Michigan, United States",True,6
+TzakisNaturals,5,hoya carnosa compacta;monstera siltepecana;peperomia hope;rhaphidophora tetrasperma;satin pothos,7,0,,6700.0,2100.0,4.9,,,"Woodburn, Oregon",True,4
+Camargosplantas,5,hoya australis lisa;hoya kerrii;hoya sunrise;monstera siltepecana;watermelon peperomia,6,0,,4900.0,2100.0,4.7,4.0,4 years on Etsy,"Los Angeles, California",False,6
+OurTinyPlantStore,5,cebu blue pothos;monstera siltepecana;philodendron micans;sansevieria moonshine;satin pothos,6,0,,659.0,143.0,4.4,1.5,1.5 years on Etsy,"Webster, Texas",False,4
+BrumleyandBloom,5,cebu blue pothos;hoya australis lisa;peperomia hope;sansevieria moonshine;satin pothos,6,0,,264400.0,80600.0,4.8,9.0,9 years on Etsy,"Fenton, Michigan",True,1
+TheOddFrond,5,calathea rattlesnake;cebu blue pothos;monstera peru;satin pothos;syngonium pink splash,5,1,28,70400.0,28700.0,4.8,,,"Miami, Florida",True,1
+BloomingVale,5,christmas cactus;hoya carnosa compacta;peperomia hope;pilea peperomioides;texas ebony plant,5,0,,36000.0,10600.0,4.8,3.0,3 years on Etsy,"Fallbrook, California",True,1
+LivingPlantDesigns,5,cebu blue pothos;hoya kerrii;sansevieria moonshine;satin pothos;syngonium pink splash,2,3,5,,,,,,,False,0
+MyPlantsShopLLC,4,calathea rattlesnake;peperomia hope;philodendron micans;satin pothos,15,0,,6100.0,2600.0,4.8,3.0,3 years on Etsy,"Riverside, California",True,10
+AnniesGardenGems,4,hoya australis lisa;hoya cummingiana;hoya kerrii;hoya sunrise,10,1,11,8900.0,3700.0,5.0,5.0,5 years on Etsy,"San Diego, California",True,3
+NomoreplantsCo,4,philodendron brasil;philodendron micans;rhaphidophora tetrasperma;syngonium chiapense,9,0,,16400.0,6900.0,4.9,4.0,4 years on Etsy,United States,True,5
+FloraExotica,4,calathea rattlesnake;calathea setosa;hoya carnosa compacta;philodendron brasil,7,0,,10000.0,3500.0,4.8,6.0,6 years on Etsy,"Los Angeles, California",True,2
+BumblePlantsCom,4,calathea setosa;cebu blue pothos;hoya carnosa compacta;pilea peperomioides,7,1,10,725.0,,,6.0,6 years on Etsy,"New York, United States",False,2
+KayKaysplanties,4,calathea rattlesnake;philodendron pink princess;syngonium mojito;syngonium pink splash,6,1,9,16800.0,4100.0,4.8,0.25,3 months on Etsy,"Orlando, Florida",True,1
+FastechPlants,4,calathea rattlesnake;cebu blue pothos;hoya kerrii;watermelon peperomia,5,0,,5900.0,2200.0,4.9,,,United States,True,1
+Leafecho,4,hoya kerrii;hoya sunrise;philodendron micans;rhaphidophora tetrasperma,5,2,23,2000.0,568.0,4.8,2.0,2 years on Etsy,"Palo Alto, California",False,3
+LSOHPlantLady,4,philodendron brasil;philodendron pink princess;satin pothos;syngonium mojito,5,1,26,4700.0,2000.0,5.0,2.5,2.5 years on Etsy,"Holt, Florida",True,2
+SDTROPICS,4,calathea setosa;peperomia hope;philodendron micans;pilea peperomioides,4,0,,,,,,,,False,0
+HirtsGardens,4,peperomia hope;philodendron brasil;rhaphidophora tetrasperma;watermelon peperomia,4,2,22,535100.0,138100.0,4.8,12.0,12 years on Etsy,"Medina, Ohio",True,3
+HausOfRootsLLC,4,monstera peru;monstera siltepecana;rhaphidophora tetrasperma;syngonium mojito,4,0,,157.0,60.0,4.9,0.25,3 months on Etsy,"Kenton, Ohio",True,2
+WonderlandHG,4,calathea rattlesnake;peperomia hope;pilea peperomioides;satin pothos,3,3,37,,,,,,,True,0
+SkyGardenByPhoenix,4,peperomia hope;philodendron pink princess;pilea peperomioides;watermelon peperomia,3,1,8,,,,,,,True,0
+LilyParadiseFlowers,4,calathea setosa;hoya carnosa compacta;hoya cummingiana;syngonium pink splash,3,1,6,47600.0,14500.0,4.7,6.0,6 years on Etsy,"Homestead, Florida",True,1
+SunshineGreens,3,calathea rattlesnake;philodendron pink princess;satin pothos,12,1,14,374800.0,84600.0,4.1,4.0,4 years on Etsy,"Florida, United States",False,3
+MooniqueID,3,hoya sunrise;sansevieria moonshine;syngonium mojito,7,0,,18.0,1.0,5.0,0.42,5 months on Etsy,"Bali, Indonesia",True,3
+GreenMillennium,3,calathea setosa;hoya australis lisa;hoya carnosa compacta,5,0,,17200.0,6800.0,4.9,7.0,7 years on Etsy,"Miami, Florida",False,4
+phelsuma,3,philodendron micans;syngonium chiapense;syngonium pink splash,5,1,27,5000.0,2100.0,4.9,17.0,17 years on Etsy,"Downingtown, Pennsylvania",False,5
+Xiao1977,3,sansevieria moonshine;syngonium mojito;syngonium pink splash,5,0,,10200.0,4100.0,4.9,4.0,4 years on Etsy,"Virginia Beach, Virginia",True,3
+CaliforniaNatClassic,3,hoya australis lisa;hoya carnosa compacta;raven zz plant,5,0,,330.0,133.0,5.0,,,"Chatsworth, California",True,3
+landofalicestudio,3,hoya sunrise;monstera peru;syngonium pink splash,4,0,,34400.0,12800.0,4.9,14.0,14 years on Etsy,"Orlando, Florida",False,3
+SUNNYJENNIGARDEN,3,hoya cummingiana;hoya kerrii;hoya sunrise,4,0,,2000.0,752.0,4.9,,,"Santa Fe, New Mexico",True,1
+marleyvictorious,3,hoya carnosa compacta;philodendron brasil;rhaphidophora tetrasperma,4,0,,1500.0,821.0,4.9,5.0,5 years on Etsy,United States,True,1
+DsGardenandTreasures,3,hoya australis lisa;hoya carnosa compacta;satin pothos,4,1,12,3200.0,1600.0,4.9,3.0,3 years on Etsy,"Texas, United States",True,3
+PawsitivePlantPowers,3,peperomia hope;rhaphidophora tetrasperma;syngonium pink splash,4,0,,217.0,114.0,4.9,2.0,2 years on Etsy,United States,True,1
+PBLTigersJungle,3,hoya carnosa compacta;hoya cummingiana;hoya sunrise,4,0,,15700.0,6700.0,4.9,6.0,6 years on Etsy,"Houston, Texas",True,3
+MyGreenObsession,3,calathea rattlesnake;calathea setosa;philodendron micans,3,0,,22200.0,6900.0,4.9,11.0,11 years on Etsy,"Perrysville, Ohio",True,3
+Thegreenshouse,3,calathea rattlesnake;cebu blue pothos;raven zz plant,3,1,12,109200.0,31100.0,4.8,6.0,6 years on Etsy,"Plantation, Florida",True,1
+Auragiftshop,3,calathea rattlesnake;monstera peru;sansevieria moonshine,3,2,17,9200.0,2900.0,4.9,,,"Homestead, Florida",True,1
+GenevaSpringsFarm,3,sansevieria moonshine;syngonium mojito;watermelon peperomia,3,0,,3300.0,,,4.0,4 years on Etsy,"Pickens, Mississippi",False,2
+SouthernOakExotics,3,calathea rattlesnake;syngonium pink splash;watermelon peperomia,3,0,,7500.0,,,6.0,6 years on Etsy,United States,False,3
+PeachTreeGardensLLC,3,hoya australis lisa;hoya kerrii;satin pothos,3,0,,,,,,,,True,0
+TheGreeenAngels,3,cebu blue pothos;raven zz plant;syngonium chiapense,3,0,,5100.0,1200.0,4.9,3.0,3 years on Etsy,United States,True,2
+CraftiPet,3,hoya kerrii;pilea peperomioides;rhaphidophora tetrasperma,3,0,,,,,,,,True,0
+SalamLestari,3,sansevieria moonshine;syngonium mojito;syngonium pink splash,3,0,,45.0,8.0,5.0,0.42,5 months on Etsy,Indonesia,True,1
+PlantObsessedSD,3,hoya australis lisa;peperomia hope;sansevieria moonshine,3,0,,10100.0,4000.0,4.9,3.0,3 years on Etsy,"San Diego, California",False,1
+LacquernLeaf,3,monstera peru;syngonium pink splash;watermelon peperomia,3,0,,248.0,41.0,4.9,2.0,2 years on Etsy,United States,True,3
+PlantasticRootsLLC,3,hoya carnosa compacta;monstera siltepecana;peperomia hope,3,0,,6200.0,2300.0,4.9,3.0,3 years on Etsy,"Kissimmee, Florida",True,1
+ForTheLoveOfFoliage,3,hoya australis lisa;hoya sunrise;philodendron micans,3,0,,628.0,111.0,4.8,6.0,6 years on Etsy,"Cleveland, Ohio",False,2
+SunSoakedPlants,3,calathea setosa;cebu blue pothos;syngonium pink splash,3,0,,6900.0,1400.0,4.8,6.0,6 years on Etsy,"Atlanta, Georgia",False,3
+RoxelRoots,3,monstera peru;philodendron brasil;syngonium pink splash,3,0,,131.0,51.0,4.6,3.0,3 years on Etsy,United States,True,2
+PlantTipz,3,peperomia hope;syngonium chiapense;texas ebony plant,3,1,15,22700.0,7100.0,4.7,6.0,6 years on Etsy,"Los Angeles, California",False,1
+ThorsensGreenhouse,3,calathea rattlesnake;christmas cactus;syngonium pink splash,2,2,14,28800.0,9600.0,4.8,6.0,6 years on Etsy,"Delaware, Ohio",True,1
+AmericanCenturyShop,3,hoya australis lisa;hoya carnosa compacta;hoya sunrise,2,4,2,,,,,,,True,0
+HoyaTreasures,3,hoya australis lisa;hoya cummingiana;hoya sunrise,2,0,,7600.0,3200.0,5.0,5.0,5 years on Etsy,"Orem, Utah",True,1
+RockNLeaf,2,hoya carnosa compacta;hoya kerrii,6,0,,2300.0,1000.0,5.0,2.5,2.5 years on Etsy,"Vista, California",True,3
+Haileyshoya,2,hoya cummingiana;hoya sunrise,6,3,17,3500.0,1500.0,5.0,5.0,5 years on Etsy,"North Port, Florida",True,4
+HoyaHoe,2,hoya carnosa compacta;hoya cummingiana,5,1,32,4200.0,1700.0,4.9,4.0,4 years on Etsy,United States,True,5
+AllPlantsVariegated,2,rhaphidophora tetrasperma;syngonium mojito,5,0,,4300.0,2000.0,4.9,,,"San Diego, California",True,3
+DivineFoliage,2,hoya australis lisa;syngonium chiapense,4,0,,730.0,349.0,5.0,4.0,4 years on Etsy,"Pennsylvania, United States",True,2
+ThePlantFarmSpokane,2,hoya cummingiana;peperomia hope,4,0,,9300.0,3400.0,4.9,,,"Spokane Valley, Washington",True,1
+GardenGator,2,cebu blue pothos;monstera siltepecana,4,0,,3600.0,1500.0,5.0,10.0,10 years on Etsy,"Pensacola, Florida",True,1
+NsntrTropicalPlant,2,sansevieria moonshine;syngonium mojito,4,0,,,,,,,,True,0
+LuckyFortuneGarden,2,hoya carnosa compacta;hoya kerrii,3,0,,3000.0,1400.0,4.8,,,United States,False,2
+NilsaTropicalGarden,2,raven zz plant;sansevieria moonshine,3,0,,,,,,,,False,0
+Plantstopus,2,syngonium chiapense;syngonium mojito,3,0,,1500.0,532.0,4.9,2.5,2.5 years on Etsy,"New Jersey, United States",True,3
+SarahCottaPlants,2,texas ebony plant;watermelon peperomia,3,0,,9000.0,3300.0,4.9,,,"Los Angeles, California",True,2
+BackBasicsGreenhouse,2,monstera peru;syngonium chiapense,3,0,,16100.000000000002,5900.0,4.7,4.0,4 years on Etsy,"Mechanicsville, Maryland",False,2
+ZenSucculentGarden,2,hoya cummingiana;hoya kerrii,3,0,,9200.0,3100.0,4.8,8.0,8 years on Etsy,United States,False,2
+CreeksideAlchemy,2,cebu blue pothos;peperomia hope,3,0,,,,,,,,True,0
+LaurasTreasureStore,2,hoya cummingiana;philodendron brasil,3,1,3,252.0,107.0,4.9,4.0,4 years on Etsy,"Ocoee, Florida",True,1
+BubbleBlooms,2,hoya carnosa compacta;peperomia hope,3,0,,20200.0,7200.0,4.6,6.0,6 years on Etsy,"Miami, Florida",False,1
+BandBTropicalPlants,2,calathea rattlesnake;cebu blue pothos,2,0,,350.0,87.0,4.9,0.33,4 months on Etsy,"New Jersey, United States",True,1
+SucculentsSuch,2,satin pothos;watermelon peperomia,2,0,,,,,,,,False,0
+HousePlantShopStore,2,calathea rattlesnake;watermelon peperomia,2,0,,67.0,22.0,4.4,0.42,5 months on Etsy,"Florida, United States",False,2
+PlantGab,2,hoya sunrise;raven zz plant,2,0,,17100.0,8000.0,4.9,,,"South Carolina, United States",True,1
+RarePlantsNation,2,philodendron micans;philodendron pink princess,2,0,,1100.0,369.0,4.9,0.83,10 months on Etsy,"North Carolina, United States",True,1
+ModernInkMuse,2,hoya sunrise;syngonium mojito,2,0,,45.0,8.0,4.9,0.17,2 months on Etsy,United Kingdom,False,2
+plantbinch,2,rhaphidophora tetrasperma;syngonium mojito,2,6,5,1500.0,536.0,4.7,12.0,12 years on Etsy,"Chicago, Illinois",False,1
+AdiwijayaPlant,2,philodendron brasil;sansevieria moonshine,2,1,13,34.0,5.0,4.6,0.58,7 months on Etsy,Indonesia,False,1
+SundalasNursery,2,rhaphidophora tetrasperma;sansevieria moonshine,2,0,,28.0,6.0,3.8,0.67,8 months on Etsy,Indonesia,False,2
+SnakerootPlants,2,calathea rattlesnake;philodendron brasil,2,0,,1100.0,353.0,4.8,0.83,10 months on Etsy,"Indianapolis, Indiana",False,2
+AllAboutPlantiesLLC,2,calathea rattlesnake;peperomia hope,2,1,8,88.0,15.0,4.7,,,"San Diego, California",False,2
+ThePeacefulGardener,2,philodendron brasil;satin pothos,2,0,,2500.0,948.0,4.8,6.0,6 years on Etsy,"Charlotte, North Carolina",True,1
+AroidzOasis,2,rhaphidophora tetrasperma;syngonium chiapense,2,0,,7800.0,3500.0,4.9,4.0,4 years on Etsy,"Springdale, Arkansas",True,1
+SomaNature,2,syngonium mojito;syngonium pink splash,2,0,,,,,,,,True,0
+CandyFarm88,2,cebu blue pothos;satin pothos,2,0,,291.0,30.0,3.8,1.0,1 year on Etsy,United States,False,1
+TheVerdantNook,2,satin pothos;syngonium chiapense,2,0,,,,,,,,True,0
+cocoprabu,2,sansevieria moonshine;syngonium pink splash,2,0,,344.0,110.0,4.9,1.5,1.5 years on Etsy,Indonesia,True,1
+TheTropicalOasis,2,calathea setosa;syngonium pink splash,2,0,,55100.0,15300.0,4.8,,,"Florida, United States",True,1
+AJGardenStore,2,philodendron brasil;pilea peperomioides,2,0,,1100.0,294.0,4.3,3.0,3 years on Etsy,"Aldie, Virginia",False,1
+TidzBitz,2,monstera siltepecana;satin pothos,2,0,,8400.0,3200.0,4.8,6.0,6 years on Etsy,United States,True,1
+RunoPlants,2,cebu blue pothos;monstera peru,2,0,,3100.0,1000.0,4.7,3.0,3 years on Etsy,"Miami, Florida",False,1
+MagicValleyGarden,2,cebu blue pothos;peperomia hope,2,0,,,,,,,,True,0
+ClassyplantsUsa,2,monstera peru;rhaphidophora tetrasperma,2,0,,233.0,87.0,4.9,1.5,1.5 years on Etsy,"Fort Lauderdale, Florida",False,1
+IjustwetmyplantsCo,2,monstera peru;philodendron brasil,2,0,,216.0,76.0,4.9,0.58,7 months on Etsy,"Bon Aqua Junction, Tennessee",False,2
+Estusaearoid,2,monstera peru;philodendron pink princess,2,0,,,,,,,,True,0
+GardenandPots,2,hoya australis lisa;rhaphidophora tetrasperma,2,0,,1400.0,661.0,5.0,6.0,6 years on Etsy,"Manassas, Virginia",True,1
+BettysAmazingJungle,2,cebu blue pothos;sansevieria moonshine,2,0,,,,,,,,True,0
+berkahelplant,2,rhaphidophora tetrasperma;sansevieria moonshine,2,0,,,,,,,,True,0
+Plantsocity,2,peperomia hope;sansevieria moonshine,2,1,13,1600.0,590.0,4.8,5.0,5 years on Etsy,"San Marcos, California",False,1
+LeafyFiona,2,hoya sunrise;rhaphidophora tetrasperma,2,2,12,,,,,,,True,0
+CCGPlants,2,syngonium chiapense;syngonium mojito,1,0,,580.0,303.0,4.8,1.5,1.5 years on Etsy,United States,True,1
+PlantTheStudio,2,hoya cummingiana;syngonium pink splash,1,1,32,26100.0,8700.0,4.6,9.0,9 years on Etsy,"New York, United States",False,1
+JacquelineHomeGarden,2,hoya australis lisa;peperomia hope,1,2,12,35900.0,12200.0,4.9,8.0,8 years on Etsy,,True,1
+WoodlandMuseCo,2,monstera peru;rhaphidophora tetrasperma,1,1,18,,,,,,,True,0
+Sunnipots,2,monstera siltepecana;rhaphidophora tetrasperma,1,0,,,,,,,,True,0
+StemEm,2,hoya sunrise;peperomia hope,1,1,13,20300.0,8500.0,4.9,6.0,6 years on Etsy,"Plattsburgh, New York",False,1
+CynsSucculents,2,philodendron pink princess;sansevieria moonshine,1,3,9,1500.0,416.0,4.5,5.0,5 years on Etsy,United States,False,1
+HempatoriumCreations,2,cebu blue pothos;satin pothos,1,2,7,,,,,,,False,0
+KodamaForest,2,calathea rattlesnake;calathea setosa,0,4,3,,,,,,,False,0
+SucculentFrenzy,2,christmas cactus;hoya australis lisa,0,2,9,,,,,,,False,0
+ThaiLuckyShop,2,hoya australis lisa;hoya sunrise,0,3,14,,,,,,,False,0
+PlantificationCanada,2,monstera peru;syngonium pink splash,0,3,9,,,,,,,False,0
+OrchidBoxInc,2,monstera peru;raven zz plant,0,2,18,,,,,,,False,0
+EmeraldGardensGH,2,philodendron brasil;raven zz plant,0,2,4,,,,,,,False,0
+FloridaPlantsGardens,2,philodendron brasil;watermelon peperomia,0,2,6,,,,,,,False,0
+BruceGarden,1,christmas cactus,4,0,,,,,,,,False,0
+RareHerbsGardenNJ,1,hoya cummingiana,3,0,,2000.0,889.0,4.9,4.0,4 years on Etsy,"New Jersey, United States",True,2
+VIPWoodenPens,1,texas ebony plant,3,0,,324.0,135.0,5.0,10.0,10 years on Etsy,"Colorado Springs, Colorado",True,3
+shadowandspathe,1,syngonium chiapense,3,0,,70.0,34.0,5.0,0.75,9 months on Etsy,United States,True,3
+FullSunNShade,1,watermelon peperomia,2,0,,80.0,8.0,4.5,0.5,6 months on Etsy,United States,False,1
+NotGrannysPlanties,1,hoya kerrii,2,0,,218.0,122.0,4.9,11.0,11 years on Etsy,"Gadsden, Alabama",False,1
+SunshinePlantita,1,hoya carnosa compacta,2,0,,5800.0,1600.0,4.7,4.0,4 years on Etsy,United States,False,1
+Darumshop11,1,syngonium mojito,2,0,,0.0,0,,0.25,3 months on Etsy,Indonesia,False,1
+Amerikaktus,1,hoya sunrise,2,0,,37700.0,13700.0,4.9,3.0,3 years on Etsy,"San Diego, California",False,1
+BerkahAbadan,1,hoya sunrise,2,0,,9.0,0,,0.58,7 months on Etsy,Indonesia,False,1
+BORNEOgarden,1,sansevieria moonshine,2,0,,63.0,27.0,4.8,1.0,1 year on Etsy,Indonesia,False,2
+ReadyLimited,1,sansevieria moonshine,2,1,3,1000.0,273.0,4.8,7.0,7 years on Etsy,"Houston, Texas",False,1
+MugoLancarPlant,1,sansevieria moonshine,2,1,33,34.0,4.0,4.0,0.67,8 months on Etsy,Indonesia,False,1
+MichaelaShop88,1,texas ebony plant,2,0,,16.0,2.0,3.0,0.17,2 months on Etsy,"Rochester, New York",False,1
+Seeds2TreesTX,1,texas ebony plant,2,0,,145.0,35.0,4.9,0.75,9 months on Etsy,"Texas, United States",False,1
+LovelyLeafCoo,1,satin pothos,2,0,,,,,,,,False,0
+SayanNatureNest,1,monstera peru,2,0,,123.0,24.0,4.9,0.58,7 months on Etsy,"New Jersey, United States",True,1
+VADAPlants,1,hoya cummingiana,2,0,,1000.0,392.0,5.0,2.5,2.5 years on Etsy,"Georgia, United States",True,1
+onemoreplantShop,1,hoya australis lisa,2,0,,254.0,86.0,5.0,1.0,1 year on Etsy,"Denver, Colorado",True,1
+WhittonGreenhouses,1,christmas cactus,2,0,,,,,,,,True,0
+RxBotanics,1,philodendron micans,2,0,,526.0,262.0,4.9,,,"Idaho, United States",False,2
+craftedvan,1,pilea peperomioides,2,1,7,51500.0,12400.0,4.9,12.0,12 years on Etsy,"Vancouver, Canada",False,2
+PrettyPlantyThingsUS,1,pilea peperomioides,2,0,,16.0,3.0,5.0,0.25,3 months on Etsy,"Locke, New York",False,1
+GrammysPlantShack,1,rhaphidophora tetrasperma,2,0,,81.0,35.0,5.0,1.0,1 year on Etsy,United States,False,2
+FloridaGrownGardens,1,raven zz plant,2,1,9,1100.0,416.0,4.9,,,"Palm Coast, Florida",True,1
+AustinJungleCo,1,peperomia hope,2,0,,,,,,,,False,0
+LANGGENGRAHAYU,1,syngonium chiapense,2,0,,13.0,2.0,5.0,0.92,11 months on Etsy,Indonesia,False,1
+TheGreenOasisLLC,1,syngonium chiapense,2,0,,232.0,85.0,4.8,,,"Moultonborough, New Hampshire",False,2
+BerkahGodongPlant,1,syngonium chiapense,2,0,,2.0,0,,0.92,11 months on Etsy,Indonesia,False,1
+RumahAroid,1,hoya sunrise,2,0,,9.0,4.0,5.0,0.25,3 months on Etsy,"Mojokerto, Indonesia",False,1
+HousePlantsLiving,1,philodendron brasil,2,1,2,5000.0,1200.0,4.6,4.0,4 years on Etsy,"Azusa, California",False,1
+RakonanganBonsai,1,calathea setosa,2,1,5,,,,,,,True,0
+ikakostore,1,calathea setosa,2,2,8,80.0,21.0,4.6,2.0,2 years on Etsy,"Kediri, Indonesia",False,2
+PricklySucculents,1,calathea rattlesnake,1,0,,2000.0,761.0,4.9,2.5,2.5 years on Etsy,"San Diego, California",True,1
+PurpleShovelPlants,1,calathea rattlesnake,1,1,19,17.0,6.0,5.0,0.33,4 months on Etsy,"Cypress, Texas",True,1
+vuduberi,1,calathea rattlesnake,1,0,,4500.0,1600.0,5.0,18.0,18 years on Etsy,"Los Angeles, California",False,1
+FLOURISHbyJubilee,1,calathea rattlesnake,1,0,,,,,,,,True,0
+SapphireGardensNC,1,calathea rattlesnake,1,0,,,,,,,,True,0
+Clayococo,1,calathea rattlesnake,1,0,,,,,,,,True,0
+aaronapsley,1,calathea rattlesnake,1,0,,,,,,,,True,0
+SproutsofBristol,1,watermelon peperomia,1,1,33,4900.0,1000.0,4.8,4.0,4 years on Etsy,"Bristol, United Kingdom",False,1
+FloralRootsGarden,1,watermelon peperomia,1,0,,48.0,6.0,4.0,0.25,3 months on Etsy,United States,False,1
+TheGardenGreenhouses,1,watermelon peperomia,1,1,31,52.0,11.0,4.6,0.58,7 months on Etsy,"Salisbury, North Carolina",False,1
+RootsnFlora,1,watermelon peperomia,1,0,,69.0,25.0,4.7,4.0,4 years on Etsy,"Eustis, Florida",False,1
+GardenGalsPlants,1,watermelon peperomia,1,0,,,,,,,,True,0
+DowntownPlantCo,1,watermelon peperomia,1,0,,1200.0,352.0,4.9,,,"Tooele, Utah",False,1
+OwlsGreenery,1,watermelon peperomia,1,0,,,,,,,,False,0
+danblanshard,1,watermelon peperomia,1,0,,,,,,,,False,0
+PerfectPothos,1,watermelon peperomia,1,0,,1100.0,142.0,5.0,7.0,7 years on Etsy,"Palm Bay, Florida",False,1
+HappilyPlantedShop,1,watermelon peperomia,1,0,,,,,,,,False,0
+relaine,1,watermelon peperomia,1,0,,6200.0,1300.0,4.9,18.0,18 years on Etsy,"Minneapolis, Minnesota",False,1
+DebzzArtistry,1,watermelon peperomia,1,0,,156.0,27.0,4.7,3.0,3 years on Etsy,"Hod HaSharon, Israel",False,1
+HollydayzGifts,1,hoya kerrii,1,0,,,,,,,,False,0
+EmyGardenShop,1,hoya kerrii,1,0,,74.0,4.0,3.0,0.42,5 months on Etsy,"New York, United States",False,1
+Greenmindgrowers,1,hoya kerrii,1,0,,8600.0,4100.0,5.0,,,"Florida, United States",True,1
+RusticeleganceGiftCo,1,hoya kerrii,1,0,,,,,,,,True,0
+HostaKing,1,hoya kerrii,1,0,,,,,,,,False,0
+StokesandStuff,1,hoya kerrii,1,0,,,,,,,,False,0
+OwlsEvergreen,1,hoya carnosa compacta,1,0,,,,,,,,False,0
+HyenaSilks,1,hoya carnosa compacta,1,0,,1300.0,537.0,4.9,6.0,6 years on Etsy,"Los Angeles, California",False,1
+WRCgreenhouses,1,hoya carnosa compacta,1,0,,45400.0,13300.0,4.8,8.0,8 years on Etsy,United States,False,1
+WellRootedGarden,1,hoya carnosa compacta,1,0,,,,,,,,False,0
+nextstyleplantshop,1,hoya carnosa compacta,1,0,,590.0,34.0,2.4,0.17,2 months on Etsy,Hong Kong,False,1
+ExoticcactuSandleaf,1,hoya sunrise,1,0,,,,,,,Puerto Rico,False,0
+JamiescustomcreatArt,1,hoya sunrise,1,0,,459.0,81.0,4.1,,,United States,False,1
+RarePlantClub,1,hoya sunrise,1,0,,336.0,109.0,4.9,,,"San Diego, California",False,1
+SmallBatchTropicals,1,hoya sunrise,1,0,,,,,,,,True,0
+PlantsByJMH,1,raven zz plant,1,0,,133.0,38.0,4.1,1.5,1.5 years on Etsy,"Murfreesboro, Tennessee",False,1
+VerdantRiotPlants,1,raven zz plant,1,0,,1100.0,366.0,4.9,14.0,14 years on Etsy,"Pacifica, California",True,1
+JBsPlantShop,1,raven zz plant,1,0,,480.0,278.0,4.9,4.0,4 years on Etsy,"Akron, Ohio",False,1
+DeadandGoneGarden,1,raven zz plant,1,0,,8.0,2.0,5.0,,,"Orlando, Florida",False,1
+PrinticoLab,1,raven zz plant,1,0,,36.0,8.0,5.0,0.92,11 months on Etsy,"Kharkiv, Ukraine",True,1
+FernandPebbles,1,raven zz plant,1,0,,394.0,70.0,5.0,8.0,8 years on Etsy,"North Carolina, United States",False,1
+CitadelBotanicals,1,raven zz plant,1,0,,155.0,78.0,4.9,4.0,4 years on Etsy,"New York, United States",False,1
+MilasExoticPlants,1,pilea peperomioides,1,1,27,166.0,61.0,4.9,0.92,11 months on Etsy,"La Grange, Illinois",True,1
+EcoGlen,1,pilea peperomioides,1,0,,133.0,30.0,4.8,4.0,4 years on Etsy,"Gaithersburg, Maryland",True,1
+PunAndInkShop,1,pilea peperomioides,1,0,,3500.0,634.0,5.0,4.0,4 years on Etsy,United Kingdom,False,1
+BellaVintageHome,1,pilea peperomioides,1,0,,,,,,,,True,0
+katebroughton,1,pilea peperomioides,1,0,,,,,,,,True,0
+HandcraftedByJesslyn,1,pilea peperomioides,1,0,,,,,,,,True,0
+WonderlandFloraSTR,1,pilea peperomioides,1,0,,,,,,,,True,0
+yougreentube,1,pilea peperomioides,1,0,,,,,,,,True,0
+SoulFoliageLLC,1,raven zz plant,1,0,,,,,,,,False,0
+FunFoliage,1,raven zz plant,1,1,25,22700.0,7600.0,4.8,,,"Anaheim, California",True,1
+HeartfeltHideaway,1,philodendron micans,1,0,,,,,,,,False,0
+CaliFoliage,1,philodendron micans,1,0,,,,,,,,True,0
+PupsNPlantsUS,1,syngonium mojito,1,0,,535.0,340.0,5.0,4.0,4 years on Etsy,"Webster, New York",True,1
+RonRin,1,syngonium mojito,1,0,,0.0,0,,0.08,1 month on Etsy,Indonesia,False,1
+GalleryMorison,1,syngonium mojito,1,0,,0.0,0,,0.25,3 months on Etsy,Indonesia,False,1
+PlantgirlmagikShop,1,syngonium mojito,1,0,,23.0,15.0,5.0,3.0,3 years on Etsy,United States,False,1
+FerneCreative,1,syngonium mojito,1,0,,5600.0,1600.0,5.0,6.0,6 years on Etsy,"Bristol, United Kingdom",True,1
+RadAroids,1,syngonium mojito,1,0,,63.0,32.0,5.0,0.42,5 months on Etsy,,True,1
+TropikHaven,1,syngonium mojito,1,0,,59.0,14.0,4.3,1.0,1 year on Etsy,Indonesia,False,1
+plantdreamscometrue,1,hoya sunrise,1,1,27,,,,,,,False,0
+PlantGenetix,1,hoya sunrise,1,0,,,,,,,"Brick, New Jersey",False,0
+SarahsGreenthumbery,1,hoya sunrise,1,1,5,,,,,,,False,0
+alzanursery,1,hoya sunrise,1,0,,,,,,,,False,0
+PlantasticByHuong,1,hoya sunrise,1,0,,8900.0,3600.0,5.0,7.0,7 years on Etsy,United States,False,1
+VivibeArts,1,hoya kerrii,1,0,,,,,,,,True,0
+CrackedPotRarePlants,1,hoya kerrii,1,0,,2500.0,885.0,4.9,6.0,6 years on Etsy,"Youngstown, Ohio",True,1
+ShirleysPlantFarm,1,hoya kerrii,1,0,,,,,,,,True,0
+ImaGionationGifts,1,hoya kerrii,1,0,,,,,,,,True,0
+KittyCatShop,1,hoya kerrii,1,0,,49900.0,15200.0,4.9,14.0,14 years on Etsy,"Bethlehem, Pennsylvania",True,1
+SMBCharmingCreations,1,sansevieria moonshine,1,0,,1400.0,236.0,4.2,10.0,10 years on Etsy,"Maryland, United States",False,1
+LongHairPlantCare,1,sansevieria moonshine,1,0,,1400.0,547.0,4.6,5.0,5 years on Etsy,"Tampa, Florida",False,1
+UmaamShop,1,sansevieria moonshine,1,0,,0.0,0,,0.25,3 months on Etsy,Indonesia,False,1
+CaramelGarden,1,sansevieria moonshine,1,0,,7.0,1.0,5.0,0.25,3 months on Etsy,Indonesia,False,1
+AngiesPlanties,1,calathea rattlesnake,1,0,,,,,,,,False,0
+feralFLORALS,1,calathea rattlesnake,1,0,,,,,,,,False,0
+JonesGreenEscape,1,cebu blue pothos,1,0,,26.0,8.0,5.0,0.75,9 months on Etsy,"Georgia, United States",False,1
+WilcoxCustoms365,1,cebu blue pothos,1,0,,,,,,,,False,0
+JungleByYou,1,cebu blue pothos,1,0,,895.0,290.0,4.8,6.0,6 years on Etsy,"Clearwater, Florida",False,1
+NewleafPlants,1,cebu blue pothos,1,0,,3100.0,875.0,4.9,6.0,6 years on Etsy,"Asheville, North Carolina",False,1
+PlantNatureArt,1,cebu blue pothos,1,0,,,,,,,,False,0
+PlantMonsterandCo,1,cebu blue pothos,1,0,,68.0,11.0,4.3,2.5,2.5 years on Etsy,"Clearwater, Florida",False,1
+agseedco,1,texas ebony plant,1,0,,6.0,2.0,5.0,,,United States,False,1
+SeedofNatura,1,texas ebony plant,1,0,,,,,,,,False,0
+NeniGarden,1,texas ebony plant,1,0,,0.0,0,,0.0,New on Etsy,"New York, United States",False,1
+GoldenSeedling,1,texas ebony plant,1,0,,,,,,,,False,0
+ArizonaSeedsByMerna,1,texas ebony plant,1,0,,,,,,,,True,0
+WildsofTexas,1,texas ebony plant,1,0,,2600.0,367.0,4.9,5.0,5 years on Etsy,"Georgetown, Texas",True,1
+DesertGardenShop,1,texas ebony plant,1,0,,153.0,40.0,4.8,4.0,4 years on Etsy,United States,False,1
+MCseeds,1,texas ebony plant,1,0,,,,,,,,False,0
+PopsiGarden,1,texas ebony plant,1,0,,,,,,,,False,0
+GeodebyGina,1,texas ebony plant,1,0,,812.0,126.0,5.0,,,"Chandler, Arizona",True,1
+edelweissnatureco,1,texas ebony plant,1,0,,,,,,,,False,0
+TreeForYouStore,1,texas ebony plant,1,0,,,,,,,,False,0
+BloomySeeds,1,texas ebony plant,1,0,,,,,,,,False,0
+BodegaNursery,1,texas ebony plant,1,0,,,,,,,,False,0
+TurningDesignsByPaul,1,texas ebony plant,1,0,,161.0,79.0,5.0,5.0,5 years on Etsy,"Pearland, Texas",True,1
+DingPlants,1,philodendron micans,1,0,,2900.0,1000.0,4.9,5.0,5 years on Etsy,"Boston, Massachusetts",True,1
+CollectablesByAaron,1,philodendron brasil,1,0,,552.0,173.0,4.9,2.5,2.5 years on Etsy,United States,True,1
+FrescoGarden,1,philodendron brasil,1,0,,,,,,,,True,0
+MasPlantasTropicales,1,philodendron brasil,1,0,,,,,,,,True,0
+MorgansNursery,1,philodendron brasil,1,1,39,,,,,,,True,0
+BougieBotanist,1,philodendron brasil,1,0,,,,,,,,True,0
+Beehive95Plants,1,philodendron brasil,1,0,,,,,,,,True,0
+Flauntyourleaves,1,philodendron brasil,1,0,,,,,,,,True,0
+ThriveTheoryPlants,1,philodendron brasil,1,0,,,,,,,,True,0
+HarmonyFoliage,1,watermelon peperomia,1,0,,,,,,,,True,0
+Enjoypillows,1,watermelon peperomia,1,0,,,,,,,,True,0
+TheBleuDahlia,1,watermelon peperomia,1,0,,,,,,,,True,0
+MelonTops,1,watermelon peperomia,1,0,,,,,,,,True,0
+BigShouldersNursery,1,watermelon peperomia,1,0,,,,,,,,True,0
+UrsinasDecoShop,1,watermelon peperomia,1,0,,,,,,,,True,0
+MozesSupposes,1,watermelon peperomia,1,0,,,,,,,,True,0
+ZevaPlant,1,syngonium chiapense,1,0,,109.0,23.0,4.8,0.42,5 months on Etsy,Indonesia,False,1
+Lukmanfloris,1,syngonium chiapense,1,0,,168.0,44.0,4.5,0.75,9 months on Etsy,"Kediri, Indonesia",False,1
+CactusLadyFinds,1,christmas cactus,1,0,,316.0,133.0,5.0,2.0,2 years on Etsy,United States,True,1
+CheninsCupsNStuff,1,christmas cactus,1,0,,140.0,33.0,5.0,8.0,8 years on Etsy,United States,False,1
+BudsnBloomsCo,1,christmas cactus,1,0,,,,,,,,False,0
+AbbieRenIllustration,1,christmas cactus,1,0,,,,,,,,False,0
+ReasonableCreations,1,christmas cactus,1,0,,3400.0,1000.0,5.0,9.0,9 years on Etsy,"Portland, Oregon",True,1
+NataliaMade,1,christmas cactus,1,0,,184000.0,36300.0,5.0,13.0,13 years on Etsy,"Phoenix, Arizona",True,1
+MollyBeeArtandGifts,1,christmas cactus,1,0,,166.0,,,7.0,7 years on Etsy,,False,1
+ThreadsandHoney,1,christmas cactus,1,0,,5300.0,793.0,5.0,4.0,4 years on Etsy,"Louisville, Kentucky",True,1
+Ricardosnurserytrees,1,christmas cactus,1,0,,4200.0,1100.0,4.9,4.0,4 years on Etsy,"Long Beach, California",False,1
+TheBloomingPots,1,satin pothos,1,0,,17.0,7.0,4.4,1.0,1 year on Etsy,"Westbury, New York",True,1
+PlantstoriesByDana,1,satin pothos,1,0,,,,,,,,False,0
+GreenPointGardens,1,satin pothos,1,0,,99.0,,,1.5,1.5 years on Etsy,,False,1
+KnotEnoughStuff,1,satin pothos,1,0,,,,,,,,False,0
+PineAndPothosCo,1,satin pothos,1,0,,,,,,,,False,0
+ECOGlamourGirl,1,satin pothos,1,0,,,,,,,,False,0
+AgathasAttire,1,satin pothos,1,0,,,,,,,,True,0
+MahameruLandscape,1,syngonium pink splash,1,0,,,,,,,,True,0
+KiKiBeauTeak,1,syngonium pink splash,1,0,,3000.0,964.0,4.9,14.0,14 years on Etsy,"Floral City, Florida",True,1
+TheHouseJungleShop,1,philodendron pink princess,1,0,,1700.0,748.0,4.9,2.0,2 years on Etsy,United States,True,1
+Akrilikledstore,1,philodendron pink princess,1,0,,,,,,,,False,0
+SubcultureLabs,1,philodendron pink princess,1,0,,481.0,187.0,4.8,1.0,1 year on Etsy,"Carbondale, Illinois",True,1
+EMERITUSGARDENS,1,philodendron pink princess,1,0,,,,,,,,False,0
+BombshellBotanyCo,1,philodendron pink princess,1,0,,1900.0,517.0,4.7,2.5,2.5 years on Etsy,"Tallahassee, Florida",False,1
+PlantieShoppe,1,philodendron pink princess,1,0,,,,,,,,True,0
+VerdantTouchPlants,1,philodendron pink princess,1,0,,,,,,,,False,0
+WonderlandFloraWW,1,pilea peperomioides,1,0,,189.0,55.0,4.5,,,"Highland Park, New Jersey",False,1
+SuzzySucculents,1,pilea peperomioides,1,0,,,,,,,,False,0
+BotanicaAZ,1,pilea peperomioides,1,0,,,,,,,,False,0
+GrannyPlanties9,1,pilea peperomioides,1,0,,37.0,12.0,4.6,0.75,9 months on Etsy,"San Diego, California",False,1
+EternalBloomCo98,1,pilea peperomioides,1,0,,26.0,5.0,3.8,0.08,1 month on Etsy,United States,False,1
+LJPlantNursery,1,sansevieria moonshine,1,0,,,,,,,,False,0
+SereneFlora56,1,pilea peperomioides,1,0,,2.0,0,,0.17,2 months on Etsy,United States,False,1
+printbyMARCUSBROWN,1,pilea peperomioides,1,0,,10.0,2.0,5.0,3.0,3 years on Etsy,"Exeter, United Kingdom",False,1
+StrangeTraces,1,pilea peperomioides,1,0,,,,,,,,False,0
+AthenasHappyGarden,1,peperomia hope,1,0,,,,,,,,True,0
+BearFootFarmsLLC,1,peperomia hope,1,0,,57800.0,16800.0,4.7,6.0,6 years on Etsy,"Hubbard, Oregon",False,1
+PlantsThisWeekend,1,peperomia hope,1,0,,,,,,,,False,0
+BoldBrands,1,peperomia hope,1,0,,9.0,0,,3.0,3 years on Etsy,"Salzburg, Austria",False,1
+PlantandPurpose,1,peperomia hope,1,0,,192.0,70.0,5.0,0.83,10 months on Etsy,"Tennessee, United States",True,1
+NativeWestCalifornia,1,peperomia hope,1,0,,86300.0,24700.0,4.9,6.0,6 years on Etsy,"Temecula, California",True,1
+BreezyGardens,1,peperomia hope,1,0,,31100.0,5000.0,4.6,3.0,3 years on Etsy,"Gurnee, Illinois",False,1
+leafandrootplants,1,monstera siltepecana,1,0,,265.0,151.0,5.0,5.0,5 years on Etsy,"Florida, United States",True,1
+PerfectlyPlantable,1,monstera siltepecana,1,0,,386.0,138.0,4.7,6.0,6 years on Etsy,United States,False,1
+TalkPlantsToMe,1,monstera siltepecana,1,0,,2700.0,1100.0,4.6,5.0,5 years on Etsy,"Florida, United States",False,1
+gypsy2014,1,monstera siltepecana,1,0,,3.0,2.0,5.0,11.0,11 years on Etsy,United States,False,1
+Tracysplanting,1,monstera siltepecana,1,0,,2.0,0,,3.0,3 years on Etsy,United States,False,1
+PotHeadPlantCoShop,1,monstera peru,1,0,,18.0,10.0,3.7,0.83,10 months on Etsy,"New York, United States",False,1
+SproutAndSprigPlants,1,monstera peru,1,0,,9700.0,548.0,4.9,2.0,2 years on Etsy,"Murfreesboro, Tennessee",True,1
+lorenzocaum,1,monstera peru,1,0,,,,,,,,True,0
+ThePlantFam,1,monstera peru,1,0,,141.0,10.0,5.0,0.58,7 months on Etsy,"Texas, United States",False,1
+BotaniHaven,1,monstera peru,1,0,,27.0,8.0,5.0,1.0,1 year on Etsy,"Denver, Colorado",False,1
+DemetersGreen,1,monstera peru,1,0,,24.0,12.0,5.0,3.0,3 years on Etsy,"Tampa, Florida",False,1
+ThePlantNanny,1,hoya cummingiana,1,0,,656.0,342.0,4.9,3.0,3 years on Etsy,"Louisville, Kentucky",False,1
+SecondCityTropicals,1,hoya cummingiana,1,0,,2100.0,923.0,4.9,,,United States,False,1
+LVSsales,1,hoya cummingiana,1,0,,287.0,179.0,5.0,0.33,4 months on Etsy,"Camas, Washington",True,1
+Reesheinc,1,hoya carnosa compacta,1,0,,,,,,,,True,0
+WeArePlantLoversShop,1,hoya carnosa compacta,1,0,,,,,,,,True,0
+SucculentsEmpireLLC,1,hoya australis lisa,1,0,,4500.0,1900.0,4.7,4.0,4 years on Etsy,United States,False,1
+LeavesByJanuary,1,hoya australis lisa,1,1,5,31.0,15.0,5.0,0.25,3 months on Etsy,"Athens, Alabama",False,1
+crzyplnt,1,hoya australis lisa,1,0,,366.0,171.0,5.0,3.0,3 years on Etsy,"San Diego, California",True,1
+ButtyGarden,1,hoya australis lisa,1,1,15,76.0,21.0,4.7,0.75,9 months on Etsy,Indonesia,False,1
+VariegateCo,1,hoya australis lisa,1,0,,2500.0,254.0,5.0,5.0,5 years on Etsy,"Ohio, United States",False,1
+JEWLPLANTS,1,hoya australis lisa,1,0,,3400.0,1600.0,4.9,4.0,4 years on Etsy,"Los Angeles, California",False,1
+FloravinesCo,1,syngonium pink splash,1,0,,,,,,,,False,0
+pamstrplants,1,syngonium pink splash,1,0,,,,,,,,False,0
+BlueGenesStudio,1,texas ebony plant,1,0,,,,,,,,True,0
+WildHuntArt,1,texas ebony plant,1,0,,57.0,26.0,5.0,2.5,2.5 years on Etsy,"Warrington, United Kingdom",True,1
+LiulfrCreations,1,texas ebony plant,1,0,,61.0,32.0,5.0,1.5,1.5 years on Etsy,United States,True,1
+OutNumberedNovelties,1,texas ebony plant,1,0,,,,,,,,True,0
+MylaCreates,1,texas ebony plant,1,0,,,,,,,,True,0
+RachelWilkDesigns,1,texas ebony plant,1,0,,,,,,,,True,0
+SucculentSelection,1,peperomia hope,1,0,,22200.0,7600.0,4.9,11.0,11 years on Etsy,"Escondido, California",True,1
+theplantfarm,1,peperomia hope,1,0,,172600.0,53800.0,4.9,8.0,8 years on Etsy,"Spokane Valley, Washington",True,1
+TheTatteredTrellis,1,peperomia hope,1,0,,,,,,,,True,0
+CartersCornerStudio,1,monstera peru,1,0,,43.0,20.0,5.0,2.5,2.5 years on Etsy,"Severance, Colorado",False,1
+IronandIvyDesigns,1,monstera peru,1,0,,,,,,,,True,0
+RareGreenPlantCo,1,monstera peru,1,0,,,,,,,,True,0
+PLANTAMANI,1,monstera peru,1,1,40,,,,,,,True,0
+AllisonSucculents,1,christmas cactus,1,0,,,,,,,,True,0
+SunflowerHouseShoppe,1,christmas cactus,1,0,,,,,,,,False,0
+ParTeeDesignCO,1,christmas cactus,1,0,,,,,,,,True,0
+viriditygardens,1,philodendron brasil,1,1,36,29.0,10.0,4.5,1.5,1.5 years on Etsy,"Connecticut, United States",False,1
+FloricultureUS,1,philodendron brasil,1,0,,3400.0,,,5.0,5 years on Etsy,,False,1
+MistysPlantStudio,1,philodendron brasil,1,1,14,,,,,,,False,0
+KChelleShoppe,1,philodendron brasil,1,0,,56.0,,,1.5,1.5 years on Etsy,,False,1
+Amiegarden,1,philodendron brasil,1,0,,5400.0,1400.0,4.8,4.0,4 years on Etsy,United States,False,1
+MaDouceVie,1,philodendron brasil,1,0,,,,,,,,False,0
+BluePixieStudio,1,philodendron brasil,1,0,,,,,,,,False,0
+SoulExotics,1,philodendron brasil,1,0,,,,,,,,False,0
+SunSoulCreations,1,philodendron brasil,1,0,,,,,,,,False,0
+SunRiseDaylas,1,philodendron brasil,1,0,,407.0,137.0,4.5,5.0,5 years on Etsy,"Belmont, Massachusetts",False,1
+SnazzyLemon,1,philodendron brasil,1,0,,15.0,4.0,4.7,4.0,4 years on Etsy,"Moore, Idaho",False,1
+FairieTaleGardens,1,calathea setosa,1,0,,3900.0,928.0,4.8,7.0,7 years on Etsy,"Mobile, Alabama",True,1
+InnerJoyPlants,1,calathea setosa,1,0,,,,,,,,False,0
+PlantHut,1,calathea setosa,1,0,,7800.0,1800.0,4.7,9.0,9 years on Etsy,"Greenfield, Massachusetts",False,1
+SemestaGarden,1,christmas cactus,1,1,23,,,,,,,False,0
+FarmerJoePlantsStore,1,christmas cactus,1,0,,,,,,,,False,0
+frugalfranks,1,christmas cactus,1,0,,,,,,,,False,0
+littleornament,1,christmas cactus,1,0,,,,,,,,False,0
+LanCraftUS,1,christmas cactus,1,0,,,,,,,,False,0
+CustomixDesign,1,christmas cactus,1,0,,,,,,,,False,0
+RarePlantFairyLLC,1,syngonium chiapense,1,0,,,,,,,,False,0
+LiYaoSucculents,1,hoya carnosa compacta,1,0,,645.0,299.0,4.9,6.0,6 years on Etsy,United States,False,1
+HoyaHorizon,1,hoya carnosa compacta,1,0,,14.0,10.0,5.0,0.17,2 months on Etsy,United States,False,1
+Airflorallc,1,hoya carnosa compacta,1,0,,7800.0,3100.0,4.8,3.0,3 years on Etsy,United States,False,1
+DebsCraftMenagerie,1,christmas cactus,1,0,,,,,,,,True,0
+BookNerdChelcie,1,christmas cactus,1,0,,,,,,,,True,0
+GriffonCoGifts,1,christmas cactus,1,0,,,,,,,,True,0
+InGodWeTrustCeramics,1,christmas cactus,1,0,,,,,,,,True,0
+valleysilk,1,christmas cactus,1,0,,,,,,,,True,0
+ComfortZoneShirts,1,christmas cactus,1,0,,,,,,,,True,0
+viabelladesignstudio,1,christmas cactus,1,0,,,,,,,,True,0
+SewMuchMoreStore,1,christmas cactus,1,0,,,,,,,,True,0
+LittleForestCityArts,1,christmas cactus,1,0,,,,,,,,True,0
+Viewlake,1,christmas cactus,1,0,,,,,,,,True,0
+MayteesGarden,1,hoya australis lisa,1,0,,,,,,,,False,0
+SoEasyGrowing,1,cebu blue pothos,1,0,,130.0,33.0,4.3,2.0,2 years on Etsy,United States,False,1
+PaulThePlantParent,1,cebu blue pothos,1,0,,3200.0,1100.0,4.9,13.0,13 years on Etsy,United States,True,1
+CrazyLadiesPlants,1,cebu blue pothos,1,0,,309.0,186.0,4.8,4.0,4 years on Etsy,"Glidden, Texas",True,1
+PeacefulHillTreeFarm,1,cebu blue pothos,1,0,,1100.0,275.0,4.5,1.5,1.5 years on Etsy,"East Hampton, Connecticut",False,1
+AlchemicMuse,1,calathea setosa,1,0,,,,,,,,True,0
+MustardSeedDigitals,1,calathea setosa,1,0,,,,,,,,True,0
+4YourMagicalEvents,1,calathea setosa,1,0,,,,,,,,True,0
+TapestryNeedleFelt,1,calathea setosa,1,0,,,,,,,,True,0
+KreativeEarth,1,calathea setosa,1,0,,,,,,,,True,0
+RayZeeInspired,1,calathea setosa,1,0,,,,,,,,True,0
+ArtByNatashaKanevski,1,calathea setosa,1,0,,,,,,,,True,0
+BHOLEBAMJEWELLERS,1,calathea setosa,1,0,,,,,,,,True,0
+EtchedTherapyDesigns,1,calathea setosa,1,0,,,,,,,,True,0
+clbeads,1,calathea setosa,1,0,,,,,,,,True,0
+JustInKhas,1,hoya australis lisa,1,0,,,,,,,,True,0
+BerichandgrowShop,1,sansevieria moonshine,1,0,,,,,,,,True,0
+RootedandBeaded,1,satin pothos,1,0,,,,,,,,True,0
+WonderlandFloraHP,1,satin pothos,1,0,,,,,,,,True,0
+PrayerfullyPlanted,1,cebu blue pothos,1,1,2,914.0,323.0,5.0,,,"Dallas, Texas",True,1
+CascadingCredenza,1,cebu blue pothos,1,0,,,,,,,,True,0
+Thesentientgarden,1,syngonium chiapense,1,0,,,,,,,,True,0
+LuTheGENIUS,1,syngonium chiapense,1,0,,189.0,79.0,5.0,1.0,1 year on Etsy,United States,True,1
+genzplants,1,calathea rattlesnake,1,0,,2500.0,810.0,4.8,2.5,2.5 years on Etsy,"Apopka, Florida",False,1
+ThereIsNoCanvas,1,calathea rattlesnake,1,0,,16.0,2.0,5.0,1.5,1.5 years on Etsy,"London, United Kingdom",False,1
+LeafStork,1,monstera siltepecana,1,0,,,,,,,,True,0
+MKSuburbanJungle,1,monstera siltepecana,1,0,,,,,,,,True,0
+BrentandtheBeanstalk,1,syngonium mojito,1,0,,,,,,,,True,0
+ChloroCreations,1,sansevieria moonshine,1,0,,,,,,,,False,0
+UrbanSproutID,1,texas ebony plant,1,0,,46.0,2.0,2.9,0.42,5 months on Etsy,"Cincinnati, Ohio",False,1
+AldyGarden,1,texas ebony plant,1,1,4,,,,,,"Cincinnati, Ohio",False,0
+GoingWithThePhloem,1,hoya kerrii,1,0,,200.0,50.0,4.3,5.0,5 years on Etsy,United States,False,1
+PlantCityUS,1,hoya kerrii,1,0,,11900.0,3200.0,4.3,2.0,2 years on Etsy,"Citrus Springs, Florida",False,1
+GrnrStore,1,hoya kerrii,1,0,,16.0,3.0,3.2,4.0,4 years on Etsy,United States,False,1
+PlantedByBails,1,cebu blue pothos,1,0,,,,,,,,False,0
+BumiBotanica,1,monstera siltepecana,1,0,,,,,,,,False,0
+TQHoyas,1,hoya sunrise,1,0,,10700.0,3700.0,4.9,5.0,5 years on Etsy,"Hockley, Texas",True,1
+TrueVineandBranch,1,peperomia hope,1,0,,199.0,71.0,4.8,1.5,1.5 years on Etsy,United States,False,1
+MedioPlant,1,peperomia hope,1,0,,271.0,,,4.0,4 years on Etsy,,False,1
+LATropicaMart,1,syngonium pink splash,1,0,,13400.0,5700.0,4.7,4.0,4 years on Etsy,"Los Angeles, California",False,1
+NOESANTRAPLANT,1,syngonium pink splash,1,0,,,,,,,,False,0
+HandRFarms,1,hoya australis lisa,1,0,,,,,,,,True,0
+ElenasGreenPlanet,1,hoya australis lisa,1,0,,,,,,,,True,0
+AnnsAccentsShop,1,hoya australis lisa,1,0,,,,,,,,True,0
+PlantScouts,1,watermelon peperomia,1,0,,,,,,,,False,0
+RootsByRizza,1,rhaphidophora tetrasperma,1,0,,2400.0,1100.0,5.0,6.0,6 years on Etsy,United States,False,1
+PlantNecessary,1,rhaphidophora tetrasperma,1,0,,55.0,18.0,5.0,4.0,4 years on Etsy,United States,False,1
+GreenCornerPlants,1,rhaphidophora tetrasperma,1,0,,,,,,,"Duluth, Georgia",False,0
+LeafcultureStore,1,rhaphidophora tetrasperma,1,0,,1600.0,811.0,4.9,4.0,4 years on Etsy,United States,False,1
+Aliendioramas,1,rhaphidophora tetrasperma,1,0,,154.0,47.0,4.9,3.0,3 years on Etsy,United States,True,1
+ThePinkGreenhaus,1,philodendron micans,1,0,,,,,,,,True,0
+EasytoGrow,1,philodendron micans,1,0,,90900.0,16500.0,4.6,8.0,8 years on Etsy,"Milwaukee, Wisconsin",False,1
+TheLeafLair,1,philodendron micans,1,0,,335.0,163.0,4.9,2.5,2.5 years on Etsy,United States,False,1
+PaintingMariArt,1,pilea peperomioides,1,0,,9.0,3.0,5.0,5.0,5 years on Etsy,"Sondershausen, Germany",False,1
+ManonPIllustrations,1,pilea peperomioides,1,0,,170.0,50.0,5.0,5.0,5 years on Etsy,"Montpellier, France",False,1
+MyVariegatedJungle,1,philodendron pink princess,1,0,,817.0,439.0,5.0,6.0,6 years on Etsy,United States,True,1
+SushiStudios,1,philodendron pink princess,1,0,,36600.0,11600.0,5.0,11.0,11 years on Etsy,"Gloucester, United Kingdom",False,1
+HatarahHandmade,1,rhaphidophora tetrasperma,1,0,,13.0,2.0,5.0,1.0,1 year on Etsy,"Guangzhou, China",True,1
+BotanicalBrujaLLC,1,rhaphidophora tetrasperma,1,0,,56.0,14.0,4.8,1.5,1.5 years on Etsy,"Connecticut, United States",False,1
+PulseandPetalsPlants,1,hoya cummingiana,1,0,,,,,,,,False,0
+KingdomPlantFarms,1,syngonium pink splash,1,0,,511.0,206.0,4.9,3.0,3 years on Etsy,"San Antonio, Texas",False,1
+LunaHavenGarden,1,syngonium pink splash,1,0,,158.0,26.0,4.8,2.0,2 years on Etsy,United States,False,1
+ThePlantFamilia,1,peperomia hope,1,0,,,,,,,,False,0
+BotanicElegance,1,peperomia hope,1,0,,,,,,,,False,0
+GroundedBKK,1,syngonium chiapense,1,0,,228.0,97.0,4.5,5.0,5 years on Etsy,"Bangkok, Thailand",False,1
+NatureBowl,1,hoya carnosa compacta,1,0,,,,,,,,False,0
+GothDollsGardens,1,philodendron brasil,1,0,,6.0,1.0,5.0,0.33,4 months on Etsy,"Greeley, Colorado",False,1
+ItsReigningPlants,1,hoya kerrii,1,0,,,,,,,,False,0
+TeesOfNYStore,1,hoya kerrii,1,0,,,,,,,,False,0
+SunAndJade,1,watermelon peperomia,1,0,,2200.0,754.0,4.8,6.0,6 years on Etsy,United States,False,1
+AutumnMooninBloom,1,hoya sunrise,1,0,,1500.0,773.0,4.9,4.0,4 years on Etsy,United States,False,1
+MadPropsSCLLC,1,hoya sunrise,1,0,,9.0,,,1.0,1 year on Etsy,,False,1
+LibertyLeafGarden96,1,philodendron brasil,1,0,,,,,,,,False,0
+PlantingWithWine,1,hoya cummingiana,1,2,9,,,,,,,False,0
+dirtanddaydreams244,1,philodendron pink princess,1,0,,,,,,,,True,0
+orchidscollectors,1,philodendron pink princess,1,0,,,,,,,,True,0
+PROJOplant,1,philodendron pink princess,1,0,,,,,,,,True,0
+PlantsPotsParadise,1,philodendron pink princess,1,0,,,,,,,,True,0
+sarasvinesandvintage,1,philodendron pink princess,1,0,,,,,,,,True,0
+NoOrdinaryLeaf,1,philodendron pink princess,1,0,,,,,,,,True,0
+TheBulbBasket,1,calathea rattlesnake,1,0,,16.0,4.0,1.5,0.17,2 months on Etsy,United States,False,1
+ChillWorldArt,1,calathea rattlesnake,1,0,,191.0,72.0,4.9,7.0,7 years on Etsy,"Los Gatos, California",False,1
+94DesignShop,1,pilea peperomioides,1,1,9,,,,,,,False,0
+SavvyLeavesandBlooms,1,hoya cummingiana,1,1,15,563.0,280.0,4.9,1.5,1.5 years on Etsy,United States,False,1
+TheSecretYarnery,1,christmas cactus,1,1,6,,,,,,,False,0
+PlantKingdomGoods,1,calathea setosa,1,1,15,,,,,,,False,0
+Botaniclivebysandra,1,monstera siltepecana,1,1,14,1200.0,404.0,4.9,6.0,6 years on Etsy,"Miami, Florida",False,1
+Aston15,1,philodendron brasil,1,1,1,31.0,7.0,5.0,2.5,2.5 years on Etsy,Indonesia,False,1
+Jungletropicalexotic,1,christmas cactus,1,1,7,,,,,,,False,0
+GubukAroid,1,hoya australis lisa,1,1,16,,,,,,,False,0
+GreenplantsBoutique,1,philodendron brasil,1,1,6,,,,,,,False,0
+AcadiaPlants,1,monstera siltepecana,1,1,2,,,,,,,False,0
+StupidEggHouseplants,1,monstera siltepecana,1,1,5,138900.0,32299.999999999996,4.9,,,"Ringmer, United Kingdom",True,1
+RarePlantMiami,1,raven zz plant,1,1,24,,,,,,,False,0
+RootedFriends,1,sansevieria moonshine,1,1,12,,,,,,,False,0
+atinsuy,1,calathea setosa,1,1,4,,,,,,,False,0
+WildPrairieImages,1,monstera peru,1,1,11,,,,,,,False,0
+FaithFolkStudio,1,texas ebony plant,1,2,7,,,,,,,False,0
+CrochetAsthetic,1,monstera peru,1,1,13,,,,,,,False,0
+TinTinTinFlowers,1,calathea rattlesnake,0,2,21,,,,,,,False,0
+Arosezen,1,calathea rattlesnake,0,1,30,,,,,,,False,0
+SpiritGlassMillies,1,cebu blue pothos,0,1,21,,,,,,,False,0
+HeyJBDesign,1,christmas cactus,0,1,4,,,,,,,False,0
+CTSairplants,1,hoya australis lisa,0,1,1,,,,,,,False,0
+MyGardenofEdith,1,hoya australis lisa,0,1,37,,,,,,,False,0
+ArtandtheGarden,1,hoya carnosa compacta,0,1,34,,,,,,,False,0
+JUSTpaintingArts,1,hoya kerrii,0,1,7,,,,,,,False,0
+ElementalBonsaiGardn,1,hoya kerrii,0,3,16,,,,,,,False,0
+WellThatsBizarre,1,monstera siltepecana,0,1,36,,,,,,,False,0
+AmandaMeszarosArt,1,peperomia hope,0,1,3,,,,,,,False,0
+FiddleandVine,1,philodendron micans,0,1,38,,,,,,,False,0
+Hammonie,1,philodendron pink princess,0,1,12,,,,,,,False,0
+TheStickerLabCo,1,philodendron pink princess,0,2,15,,,,,,,False,0
+AQuartzyLife,1,philodendron pink princess,0,1,23,,,,,,,False,0
+GraphicGardenPrintCo,1,pilea peperomioides,0,2,5,,,,,,,False,0
+StudioLaWiene,1,pilea peperomioides,0,1,23,,,,,,,False,0
+LanDanGallery,1,pilea peperomioides,0,1,26,,,,,,,False,0
+LinnaeaBorealisPlant,1,raven zz plant,0,1,4,,,,,,,False,0
+hemleva,1,rhaphidophora tetrasperma,0,1,1,,,,,,,False,0
+4KidsAndMore,1,rhaphidophora tetrasperma,0,1,9,,,,,,,False,0
+TropicalplantsFL,1,rhaphidophora tetrasperma,0,1,22,,,,,,,False,0
+SucculentsbyDoris,1,satin pothos,0,1,10,,,,,,,False,0
+LiveBonsaiTree,1,texas ebony plant,0,1,11,,,,,,,False,0
+HappyStoreALL,1,texas ebony plant,0,1,12,,,,,,,False,0
+DesiredLabels,1,texas ebony plant,0,1,13,,,,,,,False,0
+FiveSeasonStuff,1,watermelon peperomia,0,1,15,,,,,,,False,0
+AugustBreezeFarm,1,watermelon peperomia,0,1,18,,,,,,,False,0
+YouniqueGallery,1,watermelon peperomia,0,1,27,,,,,,,False,0
+DiNnovatiArt,0,,5,0,,,,,,,,False,0
+JuniperusIndonesia,0,,4,0,,2.0,2.0,2.0,0.42,5 months on Etsy,Indonesia,False,1
+PEPENURSERY,0,,4,0,,,,,,,United States,False,0
+PlantaireCo,0,,2,0,,,,,,,,False,0
+VisaPlant,0,,2,0,,,,,,,,False,0
+UnicornClubPlants,0,,2,0,,,,,,,,False,0
+BloomingVinesCV,0,,2,0,,,,,,,,False,0
+EllasGardenNY,0,,2,0,,,,,,,,False,0
+PeggySueAlso,0,,2,0,,,,,,,,True,0
+KslsucculentCo,0,,1,0,,293.0,127.0,3.4,4.0,4 years on Etsy,United States,False,1
+HemerikHout,0,,1,0,,,,,,,,False,0
+BlackRaven1989,0,,1,0,,,,,,,,False,0
+KettyPots,0,,1,0,,,,,,,,False,0
+Galaxygardenn,0,,1,0,,,,,,,,False,0
+ComfortingLeaves,0,,1,0,,,,,,,,False,0
+BayuGardens,0,,1,0,,,,,,,,False,0
+MasterPlantID,0,,1,0,,51.0,10.0,4.8,0.67,8 months on Etsy,Indonesia,False,1
+SallyTCrispCreations,0,,1,0,,,,,,,,False,0
+FunkyFrogCreativeDes,0,,1,0,,,,,,,,False,0
+tanjasova,0,,1,0,,,,,,,,False,0
+ButterflyGardenSeeds,0,,1,0,,,,,,,,False,0
+WiseOwlPDFs,0,,1,0,,13.0,3.0,5.0,0.5,6 months on Etsy,"Las Cruces, New Mexico",False,1
+Gatsbylady,0,,1,0,,,,,,,,False,0
+WallArty,0,,1,0,,,,,,,,False,0
+PlantsAndGoodVibesNC,0,,1,0,,,,,,,,False,0
+RootedInNapa,0,,1,0,,,,,,,,False,0
+RicksEclectics,0,,1,0,,,,,,,,False,0
+MermaidMelsJungle,0,,1,0,,5400.0,2000.0,4.9,6.0,6 years on Etsy,"Medford, Oregon",False,1
+JMCREATIONS37,0,,1,0,,,,,,,,False,0
+BrooklynHorneArt,0,,1,0,,,,,,,,False,0
+LaceyOlsonDesign,0,,1,0,,,,,,,,False,0
+KnottyPlantsStudio,0,,1,0,,1700.0,583.0,4.8,,,"Chicago, Illinois",False,1
+NuansaTropicalPlant,0,,1,0,,,,,,,,False,0
+EloraScape,0,,1,0,,,,,,,,False,0
+Nurseryplants,0,,1,0,,,,,,,,False,0
+SamanthasBotanyBay,0,,1,0,,,,,,,,False,0
+DecoMailboxes,0,,1,0,,,,,,,,False,0
+Craftingbymoonlight1,0,,1,0,,,,,,,,False,0
+CreatiDecor,0,,1,0,,,,,,,,False,0
+JungleRelic,0,,1,0,,,,,,,,False,0
+KangBrew,0,,1,0,,4.0,1.0,5.0,0.33,4 months on Etsy,Indonesia,False,1
+HeavenlyrootsUS,0,,1,0,,,,,,,,False,0
+PlantsByPrecious,0,,1,0,,,,,,,,False,0
+3DogLogos,0,,1,0,,,,,,,,False,0
+ElysianGreen,0,,1,0,,20.0,3.0,5.0,,,"Jakarta, Indonesia",False,1
+Hieropice,0,,1,0,,,,,,,,False,0
+Botanicaz,0,,1,0,,,,,,,,False,0
+AnayasOasis,0,,1,0,,,,,,,,False,0
+AshleysSucculents,0,,1,0,,,,,,,,True,0
+ShopWidowsLushGreens,0,,1,0,,514.0,267.0,4.8,4.0,4 years on Etsy,"New Jersey, United States",False,1
+HopesTropicalFlowers,0,,1,0,,58300.0,14200.0,4.6,,,"Lucedale, Mississippi",False,1
+EverythingByRuth,0,,1,0,,,,,,,,False,0
+CozyCornerRoots,0,,1,0,,,,,,,,False,0
+OakGroveHome,0,,1,0,,,,,,,,False,0
+PeysPlantCo,0,,1,0,,,,,,,,False,0
+PixelsPrinted,0,,1,0,,,,,,,,False,0
+NapaCabbage,0,,1,0,,,,,,,,False,0
+speakinplants,0,,1,0,,,,,,,,False,0
+PlantsOnly,0,,1,0,,,,,,,,False,0
+TashiStudio,0,,1,0,,,,,,,Spain,False,0
+StitchKing1,0,,1,0,,,,,,,,False,0
+SFmineralsBG,0,,1,0,,,,,,,,False,0
+LoveEngravedLLC,0,,1,0,,,,,,,,False,0
+SingSuccess,0,,1,0,,,,,,,,False,0
+BecksSpace,0,,1,0,,,,,,,,False,0
+Beeplants,0,,1,0,,,,,,,,False,0
+AProperMessStudio,0,,1,0,,,,,,,,True,0
+SzilvaBeads,0,,1,0,,,,,,,,True,0
+TheAladdinsCave,0,,1,0,,,,,,,,True,0
+packTHEnature,0,,1,0,,,,,,,,True,0
+Joy7design,0,,1,0,,,,,,,,True,0
+BrookeBsBoutique,0,,1,0,,,,,,,,True,0
+ShepherdsGroveStudio,0,,1,0,,,,,,,,True,0
+LoveStoryCoDesign,0,,1,0,,,,,,,,True,0
+DecalPitstop,0,,1,0,,,,,,,,True,0
+ToleTreasures,0,,1,0,,,,,,,,True,0
+Pinksquaredesign,0,,1,0,,,,,,,,True,0
+SuziQSweetFabric,0,,1,0,,,,,,,,True,0
+lanabeads2,0,,1,0,,,,,,,,True,0
+misscarpet,0,,1,0,,,,,,,,True,0
+CustomizedGiftStore,0,,1,0,,,,,,,,True,0
+ELKTOOTHCREATIONS,0,,1,0,,,,,,,,True,0
+BestinGems,0,,1,0,,,,,,,,True,0
+yakutum,0,,1,0,,,,,,,,True,0
+artistJP,0,,1,0,,,,,,,,True,0
+beccabudgets777,0,,1,0,,11700.0,2700.0,5.0,2.0,2 years on Etsy,United States,True,1
+BACATUSCR,0,,1,0,,28900.0,3100.0,4.8,5.0,5 years on Etsy,China,True,1
+PeytonFabricStore,0,,1,0,,1200.0,290.0,4.9,14.0,14 years on Etsy,United States,True,1
+Kgcolorstone,0,,1,0,,1200.0,453.0,5.0,,,"Jaipur, India",True,1
+littlegroupiestees,0,,1,0,,,,,,,,True,0
+PunchOfColor,0,,1,0,,,,,,,,True,0
+MariaMarrese,0,,1,0,,,,,,,,True,0
+SangisCreativeCorner,0,,1,0,,,,,,,,True,0
+ArtifexXxX,0,,1,0,,121.0,9.0,4.9,3.0,3 years on Etsy,United States,False,1
+scrapbookassistant,0,,1,0,,,,,,,,True,0
+ThePaperSandbox,0,,1,0,,,,,,,,True,0
+BookishStickerThings,0,,1,0,,,,,,,,True,0
+CreativeFlagsbyAnn,0,,1,0,,,,,,,,True,0
+RMPersonalizedGifts,0,,1,0,,,,,,,,True,0
+Lgreenplants,0,,1,0,,,,,,,,False,0

@@ -1,0 +1,58 @@
+{
+ "tl": {
+  "n": 824,
+  "pooled_rho": 0.14251344638434313,
+  "within_plant_mean_rho": 0.13549645307730104,
+  "n_plants": 25,
+  "plants_positive": 20,
+  "plants_negative": 5
+ },
+ "pr": {
+  "n": 824,
+  "pooled_rho": 0.14694218166760145,
+  "within_plant_mean_rho": 0.1191108702173961,
+  "n_plants": 25,
+  "plants_positive": 14,
+  "plants_negative": 11
+ },
+ "free": {
+  "n": 824,
+  "pooled_rho": -0.002796132982082949,
+  "within_plant_mean_rho": -0.04460061833477633,
+  "n_plants": 25,
+  "plants_positive": 11,
+  "plants_negative": 14
+ },
+ "cut": {
+  "n": 824,
+  "pooled_rho": 0.043840289669028316,
+  "within_plant_mean_rho": 0.0023453459209349346,
+  "n_plants": 20,
+  "plants_positive": 11,
+  "plants_negative": 9
+ },
+ "has_rating": {
+  "n": 824,
+  "pooled_rho": -0.3030000319542178,
+  "within_plant_mean_rho": -0.32645694403127884,
+  "n_plants": 25,
+  "plants_positive": 3,
+  "plants_negative": 22
+ },
+ "sale": {
+  "n": 824,
+  "pooled_rho": 0.037000189308095476,
+  "within_plant_mean_rho": 0.016157074079921018,
+  "n_plants": 25,
+  "plants_positive": 12,
+  "plants_negative": 12
+ },
+ "reviews": {
+  "n": 337,
+  "pooled_rho": -0.1917742976280971,
+  "within_plant_mean_rho": -0.16554423855946773,
+  "n_plants": 19,
+  "plants_positive": 5,
+  "plants_negative": 14
+ }
+}

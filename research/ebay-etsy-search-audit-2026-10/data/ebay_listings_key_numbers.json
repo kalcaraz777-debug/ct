@@ -1,0 +1,299 @@
+{
+ "pages": 292,
+ "owner_pages": 131,
+ "comp_unique": 161,
+ "top3_slots": 69,
+ "top3_unique": 68,
+ "top3_ad": 50,
+ "top3_ad_pct": 72,
+ "top3_bubble": 14,
+ "org_slots": 69,
+ "org_unique": 68,
+ "org_sellers": 52,
+ "ctrl_n": 45,
+ "ctrl_mid": 22,
+ "ctrl_low": 23,
+ "ctrl_org_n": 38,
+ "fmt_top3": {
+  "rooted pot": 41,
+  "bundle": 15,
+  "cuttings": 5,
+  "bare root": 2,
+  "seeds": 4,
+  "other (not a plant)": 1
+ },
+ "fmt_org": {
+  "rooted pot": 43,
+  "bundle": 7,
+  "cuttings": 9,
+  "bare root": 7,
+  "seeds": 2
+ },
+ "owner_best_n": 22,
+ "owner_best_all_words": 22,
+ "owner_best_starts": 17,
+ "org_starts_pct": 33,
+ "org_allwords_pct": 91,
+ "ctrl_org_allwords_pct": 58,
+ "owner_ranks": [
+  [
+   "calathea rattlesnake",
+   7,
+   4,
+   53
+  ],
+  [
+   "calathea setosa",
+   1,
+   1,
+   119
+  ],
+  [
+   "cebu blue pothos",
+   52,
+   38,
+   85
+  ],
+  [
+   "hoya australis lisa",
+   27,
+   20,
+   150
+  ],
+  [
+   "hoya carnosa compacta",
+   5,
+   1,
+   69
+  ],
+  [
+   "hoya cummingiana",
+   5,
+   2,
+   1200
+  ],
+  [
+   "hoya kerrii",
+   88,
+   77,
+   643
+  ],
+  [
+   "monstera peru",
+   33,
+   22,
+   56
+  ],
+  [
+   "monstera siltepecana",
+   21,
+   14,
+   63
+  ],
+  [
+   "peperomia hope",
+   17,
+   10,
+   57
+  ],
+  [
+   "philodendron brasil",
+   49,
+   36,
+   169
+  ],
+  [
+   "philodendron micans",
+   48,
+   35,
+   111
+  ],
+  [
+   "philodendron pink princess",
+   94,
+   81,
+   164
+  ],
+  [
+   "pilea peperomioides",
+   48,
+   35,
+   164
+  ],
+  [
+   "raven zz plant",
+   27,
+   20,
+   46
+  ],
+  [
+   "rhaphidophora tetrasperma",
+   21,
+   14,
+   63
+  ],
+  [
+   "sansevieria moonshine",
+   18,
+   11,
+   92
+  ],
+  [
+   "satin pothos",
+   43,
+   30,
+   116
+  ],
+  [
+   "syngonium chiapense",
+   20,
+   12,
+   208
+  ],
+  [
+   "syngonium mojito",
+   10,
+   7,
+   21
+  ],
+  [
+   "texas ebony plant",
+   6,
+   3,
+   8
+  ],
+  [
+   "watermelon peperomia",
+   3,
+   "",
+   39
+  ]
+ ],
+ "video_top3": [
+  2,
+  68
+ ],
+ "video_org": [
+  5,
+  68
+ ],
+ "video_ctrl": [
+  1,
+  45
+ ],
+ "video_owner": [
+  0,
+  131
+ ],
+ "fresh_org": {
+  "n": 69,
+  "listed14": 29,
+  "listed30": 35,
+  "revised30": 35,
+  "fresh": 59,
+  "median_age": 45.0
+ },
+ "fresh_ctrl_org": {
+  "n": 38,
+  "listed14": 3,
+  "listed30": 16,
+  "revised30": 11,
+  "fresh": 21,
+  "median_age": 278.5
+ },
+ "fresh_ad": {
+  "n": 50,
+  "listed14": 24,
+  "listed30": 26,
+  "revised30": 40,
+  "fresh": 60,
+  "median_age": 232.5
+ },
+ "fresh_best": {
+  "n": 22,
+  "listed14": 0,
+  "listed30": 0,
+  "revised30": 0,
+  "fresh": 0,
+  "median_age": 64.0
+ },
+ "fresh_own": {
+  "n": 131,
+  "listed14": 0,
+  "listed30": 0,
+  "revised30": 0,
+  "fresh": 0,
+  "median_age": 184.0
+ },
+ "srp_rows": 196,
+ "sold_page_pos": 83,
+ "sold_page_pos_card_none": 70,
+ "watch_page_pos": 142,
+ "watch_page_pos_card_none": 96,
+ "price_agree": 196,
+ "ship_mismatch": 22,
+ "ship_mismatch_bubble": 15,
+ "own_old": 67,
+ "own_new": 64,
+ "own_units_sold": 10,
+ "own_sold_listings": 7,
+ "own_watched": 23,
+ "mpn_n": 67,
+ "mpn_unique": 17,
+ "mpn_shared_listings": 56,
+ "mpn_shared_codes": 6,
+ "own_photos": {
+  "2": 56,
+  "3": 5,
+  "1": 67,
+  "4": 2,
+  "5": 1
+ },
+ "own_price_old_med": 23.29,
+ "own_price_new_med": 17.99,
+ "own_total_old_med": 33.28,
+ "own_total_new_med": 24.98,
+ "sellers_org": [
+  [
+   "abdullahalazam",
+   5
+  ],
+  [
+   "rwwsr",
+   3
+  ],
+  [
+   "Happily Planted Nursery",
+   3
+  ],
+  [
+   "hanwin-2412",
+   3
+  ]
+ ],
+ "state_top3": [
+  [
+   "Florida",
+   26
+  ],
+  [
+   "Texas",
+   7
+  ],
+  [
+   "Maryland",
+   5
+  ],
+  [
+   "California",
+   5
+  ],
+  [
+   "Connecticut",
+   3
+  ]
+ ],
+ "ahead": 621,
+ "ahead_match": 530,
+ "ahead_ad": 168
+}

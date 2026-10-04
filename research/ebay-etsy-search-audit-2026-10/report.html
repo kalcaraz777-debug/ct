@@ -1,0 +1,488 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>
+<title>Riverside Greenhouses Search Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (≈70ch) that widens for data tables; findings first, evidence after, fix list last. */
+:root {
+  --bg: #f3f5f1;
+  --surface: #ffffff;
+  --ink: #17221b;
+  --ink-2: #455449;
+  --muted: #6c7a70;
+  --line: #d6ddd5;
+  --accent: #2c6a49;
+  --accent-soft: #e2eee6;
+  --ad: #eb6834;
+  --ad-soft: #fbe2d6;
+  --pos: #2a78d6;
+  --neg: #e34948;
+  --mid: #e6e9e4;
+  --good: #0f7a3c;
+  --warn: #9a5b00;
+  --warn-soft: #fdf0d8;
+  --crit: #b42f2f;
+  --font-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111713; --surface: #18201b; --ink: #e6ede8; --ink-2: #b6c3ba; --muted: #8b9a90; --line: #2b3830;
+    --accent: #7cc49b; --accent-soft: #1f3328; --ad: #d95926; --ad-soft: #3a2419; --pos: #3987e5; --neg: #e66767;
+    --mid: #2a332d; --good: #5fcf8a; --warn: #f0b860; --warn-soft: #33281a; --crit: #ef7c7c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111713; --surface: #18201b; --ink: #e6ede8; --ink-2: #b6c3ba; --muted: #8b9a90; --line: #2b3830;
+  --accent: #7cc49b; --accent-soft: #1f3328; --ad: #d95926; --ad-soft: #3a2419; --pos: #3987e5; --neg: #e66767;
+  --mid: #2a332d; --good: #5fcf8a; --warn: #f0b860; --warn-soft: #33281a; --crit: #ef7c7c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 72px; display: grid; gap: 56px; }
+.prose { max-width: 70ch; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.45rem, 3vw, 1.9rem); }
+h3 { font-size: 1.15rem; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+section { display: grid; gap: 18px; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.12rem; color: var(--ink-2); max-width: 66ch; }
+.meta { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+header { display: grid; gap: 16px; border-bottom: 1px solid var(--line); padding-bottom: 28px; }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 4px; align-content: start; }
+.tile .big { font-family: var(--font-display); font-size: 2rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tile .cap { color: var(--ink-2); font-size: 0.92rem; line-height: 1.45; }
+
+ol.answers { margin: 0; padding-left: 1.4em; display: grid; gap: 12px; max-width: 74ch; }
+ol.answers li::marker { font-family: var(--font-mono); color: var(--muted); }
+ol.answers b { font-weight: 700; }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: grid; gap: 14px; min-width: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.85rem; color: var(--ink-2); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 6px; }
+.strip { display: grid; grid-template-columns: repeat(20, minmax(0, 1fr)); gap: 3px; }
+.slot { aspect-ratio: 1; max-width: 100%; border-radius: 4px; display: grid; place-items: center; font-family: var(--font-mono); font-size: 0.68rem; }
+.slot.org { background: var(--mid); color: var(--ink-2); }
+.slot.ad { background: var(--ad); color: #fff; }
+.slot.mix { background: var(--ad-soft); color: var(--ink); outline: 1px dashed var(--ad); outline-offset: -1px; }
+@media (max-width: 560px) { .strip { grid-template-columns: repeat(10, minmax(0, 1fr)); } }
+
+.chart { display: grid; gap: 7px; }
+.crow { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) 3.4rem; gap: 12px; align-items: center; }
+.clab { font-size: 0.88rem; color: var(--ink-2); text-align: right; line-height: 1.3; }
+.ctrack { display: grid; grid-template-columns: 1fr 1fr; height: 18px; }
+.cneg { display: flex; justify-content: flex-end; border-right: 1px solid var(--muted); }
+.cpos { display: flex; justify-content: flex-start; }
+.bar { display: block; height: 100%; }
+.bar.pos { background: var(--pos); border-radius: 0 4px 4px 0; }
+.bar.neg { background: var(--neg); border-radius: 4px 0 0 4px; }
+.cval { font-family: var(--font-mono); font-size: 0.82rem; font-variant-numeric: tabular-nums; color: var(--ink); }
+.axisnote { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) 3.4rem; gap: 12px; font-size: 0.78rem; color: var(--muted); }
+.axisnote span:nth-child(2) { display: flex; justify-content: space-between; }
+@media (max-width: 640px) {
+  .crow, .axisnote { grid-template-columns: minmax(0, 1fr) 3rem; }
+  .clab { grid-column: 1 / -1; text-align: left; }
+  .axisnote span:first-child { display: none; }
+}
+
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { padding: 10px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { font-size: 0.74rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--surface); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.plant { font-weight: 600; white-space: nowrap; }
+.sub { display: block; font-size: 0.78rem; color: var(--muted); font-weight: 400; white-space: normal; }
+.mono { font-family: var(--font-mono); }
+.warn { color: var(--warn); font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+.chip { display: inline-block; font-size: 0.74rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; border: 1px solid transparent; }
+.chip.defend { background: var(--accent-soft); color: var(--good); border-color: var(--good); }
+.chip.reach { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
+.chip.crowd { background: var(--mid); color: var(--ink-2); border-color: var(--line); }
+.chip.miss { background: transparent; color: var(--crit); border-color: var(--crit); }
+.chip.ad { background: var(--ad-soft); color: var(--ink); border-color: var(--ad); }
+.gap td:nth-child(2), .gap td:nth-child(3) { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gap .bad { color: var(--crit); font-weight: 700; }
+.gap .ok { color: var(--good); font-weight: 700; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 6px; align-content: start; }
+.card .who { font-weight: 700; }
+.card .stat { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.card p { font-size: 0.92rem; color: var(--ink-2); }
+
+.steps { display: grid; gap: 22px; }
+.phase { display: grid; gap: 10px; }
+.phase h3 { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.phase h3 small { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+.phase ol { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; max-width: 76ch; }
+.callout { border-left: 3px solid var(--ad); background: var(--ad-soft); padding: 14px 16px; border-radius: 0 8px 8px 0; max-width: 76ch; display: grid; gap: 6px; }
+.callout.green { border-left-color: var(--accent); background: var(--accent-soft); }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+details > summary { cursor: pointer; padding: 14px 18px; font-weight: 600; }
+details > .inner { padding: 0 18px 18px; display: grid; gap: 12px; }
+details .tablewrap { border-radius: 8px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+.two > * { min-width: 0; }
+ul.plain { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.sources { font-size: 0.85rem; color: var(--ink-2); }
+.sources li { overflow-wrap: anywhere; }
+footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); padding-top: 18px; }
+@media (prefers-reduced-motion: no-preference) { details[open] > .inner { animation: none; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Search ranking audit · eBay + Etsy</div>
+  <h1>Riverside Greenhouses search audit</h1>
+  <p class="lede">Why your plants land where they do on eBay and Etsy, measured on 25 plant searches you sell into. Each finding is compared with the small sellers who sit above you, and ends in a fix list ordered by likely impact.</p>
+  <div class="meta">
+    <span>eBay store: riversidegreenhouses</span>
+    <span>Etsy shop: RvsdGreenhouses</span>
+    <span>Captured 4 Oct 2026 · logged out · ship-to 94104</span>
+  </div>
+</header>
+
+<section aria-labelledby="short">
+  <div class="eyebrow">The short answer</div>
+  <h2 id="short">eBay isn't punishing you for being new. It's ranking what buyers already click on.</h2>
+  <div class="tiles">
+    <div class="tile"><div class="big">#1</div><div class="cap">unpaid result for Calathea setosa, Hoya carnosa compacta and Hoya cummingiana, with only 4 feedback.</div></div>
+    <div class="tile"><div class="big">#18–#81</div><div class="cap">your best unpaid rank on 11 crowded plants, including Satin pothos, Philodendron Brasil, Cebu Blue, Pink Princess and Hoya kerrii.</div></div>
+    <div class="tile"><div class="big">0 of 131</div><div class="cap">of your eBay listings were listed or revised in the last 30 days. 59% of the unpaid top 3 were.</div></div>
+    <div class="tile"><div class="big">89 vs 8</div><div class="cap">Etsy sales against eBay items sold. Etsy is already working (35 reviews, 4.9★).</div></div>
+  </div>
+  <ol class="answers">
+    <li><b>Three of eBay's top 10 are ads, always in the same places.</b> Positions 2, 3 and 4 were Sponsored in all 23 searches checked for ads, and so were 13–16, 29–32 and 39–40. No listing climbs into those slots without paying.</li>
+    <li><b>Your titles and prices are already competitive.</b> Your best listing contains every search word in 22 of 22 searches. Its delivered price matches the unpaid top 3 almost exactly ($25.98 vs $25.99). Rewording titles won't fix the crowded plants.</li>
+    <li><b>Feedback count doesn't decide rank.</b> Across about 1,700 unpaid results, feedback count had essentially no relationship with position (ρ = +0.02). Sellers with 8, 37, 57 and 60 feedback held #1 spots.</li>
+    <li><b>What the unpaid top 3 have and you don't: buyer activity, freshness and photos.</b> 84% have watchers (yours: 30%). 52% have a sale (13%). 59% were listed or revised in the last 30 days (0%). They show 5–6 photos (you show 1–2).</li>
+    <li><b>Your catalog works against you.</b> 15 plants are listed twice, so clicks and sales are split across two listings. 29 titles are vague or don't name the plant ("Freddy", "Moonshine", "Silver Moon"). A few descriptions describe a different plant.</li>
+    <li><b>On Etsy, the gap is reviews and title length, not visibility.</b> Your listings are on page 1 of Etsy's keyword pages for Hoya Sunrise, Hoya australis Lisa, Syngonium chiapense and Sansevieria Moonshine. The shops that keep showing up have thousands of reviews, and your titles run 118 characters against their 61.</li>
+  </ol>
+</section>
+
+<section aria-labelledby="page">
+  <div class="eyebrow">How an eBay results page is built</div>
+  <h2 id="page">The ad slots are fixed. Plan around them.</h2>
+  <div class="panel">
+    <div class="legend"><span><i style="background:var(--ad)"></i>Sponsored in 75%+ of searches</span><span><i style="background:var(--ad-soft);outline:1px dashed var(--ad);outline-offset:-1px"></i>Sometimes sponsored</span><span><i style="background:var(--mid)"></i>Unpaid (organic)</span></div>
+    <div class="strip"><div class='slot mix' role='img' aria-label='Position 1: Sponsored in 4 of 23 searches' title='Position 1: Sponsored in 4 of 23 searches'><span>1</span></div><div class='slot ad' role='img' aria-label='Position 2: Sponsored in 23 of 23 searches' title='Position 2: Sponsored in 23 of 23 searches'><span>2</span></div><div class='slot ad' role='img' aria-label='Position 3: Sponsored in 23 of 23 searches' title='Position 3: Sponsored in 23 of 23 searches'><span>3</span></div><div class='slot ad' role='img' aria-label='Position 4: Sponsored in 23 of 23 searches' title='Position 4: Sponsored in 23 of 23 searches'><span>4</span></div><div class='slot org' role='img' aria-label='Position 5: Sponsored in 0 of 23 searches' title='Position 5: Sponsored in 0 of 23 searches'><span>5</span></div><div class='slot org' role='img' aria-label='Position 6: Sponsored in 0 of 23 searches' title='Position 6: Sponsored in 0 of 23 searches'><span>6</span></div><div class='slot org' role='img' aria-label='Position 7: Sponsored in 0 of 23 searches' title='Position 7: Sponsored in 0 of 23 searches'><span>7</span></div><div class='slot org' role='img' aria-label='Position 8: Sponsored in 0 of 23 searches' title='Position 8: Sponsored in 0 of 23 searches'><span>8</span></div><div class='slot org' role='img' aria-label='Position 9: Sponsored in 0 of 23 searches' title='Position 9: Sponsored in 0 of 23 searches'><span>9</span></div><div class='slot org' role='img' aria-label='Position 10: Sponsored in 0 of 23 searches' title='Position 10: Sponsored in 0 of 23 searches'><span>10</span></div><div class='slot org' role='img' aria-label='Position 11: Sponsored in 0 of 23 searches' title='Position 11: Sponsored in 0 of 23 searches'><span>11</span></div><div class='slot org' role='img' aria-label='Position 12: Sponsored in 0 of 23 searches' title='Position 12: Sponsored in 0 of 23 searches'><span>12</span></div><div class='slot ad' role='img' aria-label='Position 13: Sponsored in 21 of 23 searches' title='Position 13: Sponsored in 21 of 23 searches'><span>13</span></div><div class='slot ad' role='img' aria-label='Position 14: Sponsored in 22 of 23 searches' title='Position 14: Sponsored in 22 of 23 searches'><span>14</span></div><div class='slot ad' role='img' aria-label='Position 15: Sponsored in 20 of 23 searches' title='Position 15: Sponsored in 20 of 23 searches'><span>15</span></div><div class='slot ad' role='img' aria-label='Position 16: Sponsored in 21 of 23 searches' title='Position 16: Sponsored in 21 of 23 searches'><span>16</span></div><div class='slot org' role='img' aria-label='Position 17: Sponsored in 1 of 23 searches' title='Position 17: Sponsored in 1 of 23 searches'><span>17</span></div><div class='slot org' role='img' aria-label='Position 18: Sponsored in 1 of 23 searches' title='Position 18: Sponsored in 1 of 23 searches'><span>18</span></div><div class='slot org' role='img' aria-label='Position 19: Sponsored in 1 of 23 searches' title='Position 19: Sponsored in 1 of 23 searches'><span>19</span></div><div class='slot org' role='img' aria-label='Position 20: Sponsored in 0 of 23 searches' title='Position 20: Sponsored in 0 of 23 searches'><span>20</span></div><div class='slot org' role='img' aria-label='Position 21: Sponsored in 0 of 23 searches' title='Position 21: Sponsored in 0 of 23 searches'><span>21</span></div><div class='slot org' role='img' aria-label='Position 22: Sponsored in 1 of 23 searches' title='Position 22: Sponsored in 1 of 23 searches'><span>22</span></div><div class='slot org' role='img' aria-label='Position 23: Sponsored in 1 of 23 searches' title='Position 23: Sponsored in 1 of 23 searches'><span>23</span></div><div class='slot org' role='img' aria-label='Position 24: Sponsored in 0 of 23 searches' title='Position 24: Sponsored in 0 of 23 searches'><span>24</span></div><div class='slot org' role='img' aria-label='Position 25: Sponsored in 0 of 23 searches' title='Position 25: Sponsored in 0 of 23 searches'><span>25</span></div><div class='slot org' role='img' aria-label='Position 26: Sponsored in 0 of 23 searches' title='Position 26: Sponsored in 0 of 23 searches'><span>26</span></div><div class='slot org' role='img' aria-label='Position 27: Sponsored in 0 of 23 searches' title='Position 27: Sponsored in 0 of 23 searches'><span>27</span></div><div class='slot org' role='img' aria-label='Position 28: Sponsored in 0 of 23 searches' title='Position 28: Sponsored in 0 of 23 searches'><span>28</span></div><div class='slot ad' role='img' aria-label='Position 29: Sponsored in 21 of 23 searches' title='Position 29: Sponsored in 21 of 23 searches'><span>29</span></div><div class='slot ad' role='img' aria-label='Position 30: Sponsored in 20 of 23 searches' title='Position 30: Sponsored in 20 of 23 searches'><span>30</span></div><div class='slot ad' role='img' aria-label='Position 31: Sponsored in 21 of 23 searches' title='Position 31: Sponsored in 21 of 23 searches'><span>31</span></div><div class='slot ad' role='img' aria-label='Position 32: Sponsored in 22 of 23 searches' title='Position 32: Sponsored in 22 of 23 searches'><span>32</span></div><div class='slot org' role='img' aria-label='Position 33: Sponsored in 2 of 23 searches' title='Position 33: Sponsored in 2 of 23 searches'><span>33</span></div><div class='slot org' role='img' aria-label='Position 34: Sponsored in 2 of 23 searches' title='Position 34: Sponsored in 2 of 23 searches'><span>34</span></div><div class='slot org' role='img' aria-label='Position 35: Sponsored in 1 of 23 searches' title='Position 35: Sponsored in 1 of 23 searches'><span>35</span></div><div class='slot org' role='img' aria-label='Position 36: Sponsored in 0 of 23 searches' title='Position 36: Sponsored in 0 of 23 searches'><span>36</span></div><div class='slot org' role='img' aria-label='Position 37: Sponsored in 0 of 23 searches' title='Position 37: Sponsored in 0 of 23 searches'><span>37</span></div><div class='slot org' role='img' aria-label='Position 38: Sponsored in 0 of 23 searches' title='Position 38: Sponsored in 0 of 23 searches'><span>38</span></div><div class='slot ad' role='img' aria-label='Position 39: Sponsored in 18 of 23 searches' title='Position 39: Sponsored in 18 of 23 searches'><span>39</span></div><div class='slot ad' role='img' aria-label='Position 40: Sponsored in 18 of 23 searches' title='Position 40: Sponsored in 18 of 23 searches'><span>40</span></div></div>
+    <p class="sub">First 40 positions on eBay Best Match, 23 plant searches, 4 Oct 2026. Position 1 was an ad in 4 of 23 searches. Hover a square for its count.</p>
+  </div>
+  <div class="prose" style="display:grid;gap:10px">
+    <p>Since 13 January 2026, only eBay's cost-per-click Promoted Listings (the "Priority" strategy) can take the first ad slot. BubbleBlooms alone filled 14 of the 69 top-three spots across these searches, mostly paid. When this report says "unpaid rank", it counts only the organic results, so "#1" means the first unpaid result even when ads sit above it.</p>
+    <p>One of your listings already showed up in an ad slot: <b>Watermelon peperomia appeared as Sponsored at position 3</b>. If you have a Promoted Listings campaign running, that's why. If you don't, check Seller Hub → Marketing.</p>
+  </div>
+</section>
+
+<section aria-labelledby="factors">
+  <div class="eyebrow">What moved unpaid rank</div>
+  <h2 id="factors">Matching the search words gets you in. Price and buyer activity decide the order.</h2>
+  <div class="panel">
+    <div class="chart" role="list" aria-label="Correlation of listing features with unpaid rank">
+      <div class='crow' role='listitem'><div class='clab'>Title contains every search word</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:88.0%" title="Title contains every search word: +0.40"></i></div></div><div class='cval'>+0.40</div></div>
+<div class='crow' role='listitem'><div class='clab'>Title contains the exact search phrase</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:70.7%" title="Title contains the exact search phrase: +0.32"></i></div></div><div class='cval'>+0.32</div></div>
+<div class='crow' role='listitem'><div class='clab'>Seller % positive feedback</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:43.6%" title="Seller % positive feedback: +0.20"></i></div></div><div class='cval'>+0.20</div></div>
+<div class='crow' role='listitem'><div class='clab'>“Just listed” banner on the card</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:32.9%" title="“Just listed” banner on the card: +0.15"></i></div></div><div class='cval'>+0.15</div></div>
+<div class='crow' role='listitem'><div class='clab'>Watchers shown on the card</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:30.7%" title="Watchers shown on the card: +0.14"></i></div></div><div class='cval'>+0.14</div></div>
+<div class='crow' role='listitem'><div class='clab'>“N sold” shown on the card</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:15.8%" title="“N sold” shown on the card: +0.07"></i></div></div><div class='cval'>+0.07</div></div>
+<div class='crow' role='listitem'><div class='clab'>Free shipping</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:8.4%" title="Free shipping: +0.04"></i></div></div><div class='cval'>+0.04</div></div>
+<div class='crow' role='listitem'><div class='clab'>Seller feedback count</div><div class='ctrack'><div class='cneg'></div><div class='cpos'><i class="bar pos" style="width:5.3%" title="Seller feedback count: +0.02"></i></div></div><div class='cval'>+0.02</div></div>
+<div class='crow' role='listitem'><div class='clab'>Volume discount</div><div class='ctrack'><div class='cneg'><i class="bar neg" style="width:8.7%" title="Volume discount: −0.04"></i></div><div class='cpos'></div></div><div class='cval'>−0.04</div></div>
+<div class='crow' role='listitem'><div class='clab'>Best Offer enabled</div><div class='ctrack'><div class='cneg'><i class="bar neg" style="width:25.3%" title="Best Offer enabled: −0.11"></i></div><div class='cpos'></div></div><div class='cval'>−0.11</div></div>
+<div class='crow' role='listitem'><div class='clab'>No feedback in the last 12 months</div><div class='ctrack'><div class='cneg'><i class="bar neg" style="width:34.7%" title="No feedback in the last 12 months: −0.16"></i></div><div class='cpos'></div></div><div class='cval'>−0.16</div></div>
+<div class='crow' role='listitem'><div class='clab'>Delivered price vs the search’s median</div><div class='ctrack'><div class='cneg'><i class="bar neg" style="width:51.3%" title="Delivered price vs the search’s median: −0.23"></i></div><div class='cpos'></div></div><div class='cval'>−0.23</div></div>
+    </div>
+    <div class="axisnote"><span></span><span><span>← lower on the page</span><span>higher on the page →</span></span><span></span></div>
+    <p class="sub">Average per-search Spearman correlation between each feature and position, unpaid results only (about 1,700 listings, 23 searches). Positive means listings with the feature sat higher. Correlation from one day of data; it shows what top listings have in common, not proof of cause.</p>
+  </div>
+  <div class="two">
+    <div class="prose" style="display:grid;gap:10px">
+      <h3>What eBay says it uses</h3>
+      <p>eBay's own Best Match page lists: how closely the listing matches the search, how popular the item is, price, listing quality (photos and description), how complete the listing is (item specifics), terms such as returns and handling time, and your track record as a seller. It publishes no weights. Shipping cost isn't on the list, and in our data free shipping alone barely mattered (+0.04). Total delivered price did matter (−0.23).</p>
+    </div>
+    <div class="prose" style="display:grid;gap:10px">
+      <h3>What this means for you</h3>
+      <p>You already pass the first gate: your titles match. But 85% of the 621 listings ranked above your best ones also contain every search word, so matching alone isn't enough. The tie-breakers you can influence are popularity (watchers, sales, carts), listing quality (photos, a full description), freshness, and a clean catalog with one listing per plant.</p>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="plants">
+  <div class="eyebrow">Plant by plant</div>
+  <h2 id="plants">Where each plant stands today</h2>
+  <p class="prose">"Your listings competing" counts how many of your own listings showed up for the search. "Listing" shows photos · units sold · watchers on your best-ranked eBay listing. Etsy page-1 counts are Etsy's public keyword pages (etsy.com/market/…), not logged-in search.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Plant search</th><th>Status</th><th>Your best unpaid rank</th><th>Your listings competing</th><th>#1 unpaid seller</th><th>Listing<span class="sub">photos · sold · watchers</span></th><th>Etsy</th></tr></thead>
+      <tbody>
+<tr><td class='plant'>Calathea setosa</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#1</b><span class='sub'>shown at #1 of 119</span></td><td class='num'>1</td><td><b>You</b></td><td class='num'>2 · 1 · 3</td><td>$18.99<span class='sub'>page 1 on 1 of 1 keyword pages</span></td></tr>
+<tr><td class='plant'>Hoya carnosa compacta</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#1</b><span class='sub'>shown at #5 of 69</span></td><td class='num'>1</td><td><b>You</b></td><td class='num'>2 · 3 · 10</td><td>$13.99 / $16.99<span class='sub'>page 1 on 1 of 1 keyword pages</span></td></tr>
+<tr><td class='plant'>Hoya cummingiana</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#1</b><span class='sub'>shown at #1 of 120</span></td><td class='num'>1</td><td><b>You</b></td><td class='num'>1 · 0 · 1</td><td><span class='warn'>not on Etsy</span></td></tr>
+<tr><td class='plant'>Texas ebony plant</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#3</b><span class='sub'>shown at #6 of 8</span></td><td class='num'>1</td><td>exotic_cactus_collection<span class='sub'>56,300 feedback</span></td><td class='num'>1 · 2 · 2</td><td><span class='warn'>not on Etsy</span></td></tr>
+<tr><td class='plant'>Calathea rattlesnake</td><td><span class='chip defend'>Defend</span></td><td class='num'><b>#5</b><span class='sub'>shown at #8 of 53</span></td><td class='num'>1</td><td>jessicastootielou<span class='sub'>6,700 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$17.99<span class='sub'>page 1 on 1 of 2 keyword pages</span></td></tr>
+<tr><td class='plant'>Watermelon peperomia</td><td><span class='chip ad'>Ad slot only</span></td><td class='num'><b>—</b><span class='sub'>only as a Sponsored card at #3</span></td><td class='num'>1</td><td>coastaltill1<span class='sub'>25,600 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$18.99<span class='sub'>page 1 on 3 of 4 keyword pages</span></td></tr>
+<tr><td class='plant'>Hoya Sunrise</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#6</b><span class='sub'>shown at #9 of 66</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>giorgios1972<span class='sub'>9,700 feedback</span></td><td class='num'>—</td><td>$18.99<span class='sub'>page 1 on 6 of 6 keyword pages</span></td></tr>
+<tr><td class='plant'>Syngonium Mojito</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#7</b><span class='sub'>shown at #10 of 21</span></td><td class='num'>1</td><td>anniestore2010<span class='sub'>21,100 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$23.99<span class='sub'>page 1 on 3 of 4 keyword pages</span></td></tr>
+<tr><td class='plant'>Peperomia Hope</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#11</b><span class='sub'>shown at #18 of 57</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>happilyplanted<span class='sub'>230 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$16.99 / $17.99<span class='sub'>page 1 on 3 of 4 keyword pages</span></td></tr>
+<tr><td class='plant'>Sansevieria Moonshine</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#11</b><span class='sub'>shown at #18 of 92</span><span class='sub'>first snapshot</span></td><td class='num'>1</td><td>pamz5432<span class='sub'>605 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$18.99 / $21.99 / $23.99<span class='sub'>page 1 on 5 of 7 keyword pages</span></td></tr>
+<tr><td class='plant'>Syngonium chiapense</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#12</b><span class='sub'>shown at #20 of 120</span></td><td class='num'>1</td><td>the_sentient_garden<span class='sub'>165 feedback</span></td><td class='num'>2 · 0 · 1</td><td>$21.99<span class='sub'>page 1 on 2 of 2 keyword pages</span></td></tr>
+<tr><td class='plant'>Rhaphidophora tetrasperma</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#13</b><span class='sub'>shown at #20 of 64</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>backtoobasics<span class='sub'>433 feedback</span></td><td class='num'>2 · 0 · 2</td><td>$16.99 / $27.99<span class='sub'>page 1 on 4 of 6 keyword pages</span></td></tr>
+<tr><td class='plant'>Monstera siltepecana</td><td><span class='chip reach'>Reachable</span></td><td class='num'><b>#14</b><span class='sub'>shown at #21 of 62</span></td><td class='num'>1</td><td>abdullahalazam<span class='sub'>410 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$21.99<span class='sub'>page 1 on 2 of 2 keyword pages</span></td></tr>
+<tr><td class='plant'>Hoya australis Lisa</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#18</b><span class='sub'>shown at #25 of 120</span></td><td class='num'>1</td><td>irvin-sophi<span class='sub'>1,800 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$16.99 / $18.99<span class='sub'>page 1 on 7 of 7 keyword pages</span></td></tr>
+<tr><td class='plant'>Raven ZZ plant</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#21</b><span class='sub'>shown at #28 of 46</span></td><td class='num'>1</td><td>eden-elements<span class='sub'>250 feedback</span></td><td class='num'>1 · 0 · 0</td><td><span class='warn'>not on Etsy</span></td></tr>
+<tr><td class='plant'>Monstera Peru</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#22</b><span class='sub'>shown at #33 of 56</span><span class='sub'>first snapshot</span></td><td class='num'>3 <span class='warn'>competing</span></td><td>leafandlilt<span class='sub'>187 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$17.5<span class='sub'>page 1 on 3 of 5 keyword pages</span></td></tr>
+<tr><td class='plant'>Syngonium Pink Splash</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#28</b><span class='sub'>shown at #42 of 120</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>caseymae13<span class='sub'>48 feedback</span></td><td class='num'>—</td><td>$24.99<span class='sub'>no keyword page found</span></td></tr>
+<tr><td class='plant'>Satin pothos</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#29</b><span class='sub'>shown at #42 of 115</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>abdullahalazam<span class='sub'>410 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$17.99<span class='sub'>page 1 on 0 of 1 keyword pages</span></td></tr>
+<tr><td class='plant'>Philodendron Brasil</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#33</b><span class='sub'>shown at #46 of 120</span></td><td class='num'>1</td><td>succulentsandcactus<span class='sub'>2,400 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$18.99<span class='sub'>page 1 on 2 of 5 keyword pages</span></td></tr>
+<tr><td class='plant'>Pilea peperomioides</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#35</b><span class='sub'>shown at #48 of 120</span></td><td class='num'>1</td><td>dealcrossing<span class='sub'>2,400 feedback</span></td><td class='num'>5 · 0 · 0</td><td>$21.99<span class='sub'>page 1 on 0 of 7 keyword pages</span></td></tr>
+<tr><td class='plant'>Philodendron micans</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#36</b><span class='sub'>shown at #49 of 111</span></td><td class='num'>1</td><td>tinyturtlestropicals<span class='sub'>8 feedback</span></td><td class='num'>2 · 0 · 2</td><td>$15.99<span class='sub'>page 1 on 1 of 2 keyword pages</span></td></tr>
+<tr><td class='plant'>Cebu Blue pothos</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#38</b><span class='sub'>shown at #52 of 84</span></td><td class='num'>1</td><td>abdullahalazam<span class='sub'>410 feedback</span></td><td class='num'>2 · 0 · 0</td><td>$12.79 / $15.99<span class='sub'>page 1 on 1 of 2 keyword pages</span></td></tr>
+<tr><td class='plant'>Philodendron Pink Princess</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#77</b><span class='sub'>shown at #90 of 120</span></td><td class='num'>1</td><td>hanwin-2412<span class='sub'>60 feedback</span></td><td class='num'>1 · 0 · 0</td><td><span class='warn'>not on Etsy</span></td></tr>
+<tr><td class='plant'>Hoya kerrii</td><td><span class='chip crowd'>Crowded</span></td><td class='num'><b>#81</b><span class='sub'>shown at #92 of 120</span></td><td class='num'>2 <span class='warn'>competing</span></td><td>abznursery<span class='sub'>37 feedback</span></td><td class='num'>4 · 0 · 0</td><td>$21.99<span class='sub'>page 1 on 2 of 4 keyword pages</span></td></tr>
+<tr><td class='plant'>Christmas cactus</td><td><span class='chip miss'>Not in top 120</span></td><td class='num'><b>—</b><span class='sub'>none of your Christmas cactus listings in the top 120 of 1,000+</span></td><td class='num'>0</td><td>rwwsr<span class='sub'>3,600 feedback</span></td><td class='num'>—</td><td>$17.99<span class='sub'>no keyword page found</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="sub">Defend = unpaid #1–5 · Reachable = #6–15 · Crowded = #16 or lower. Ranks come from the second capture, except Monstera Peru and Sansevieria Moonshine (first capture).</p>
+</section>
+
+<section aria-labelledby="gap">
+  <div class="eyebrow">You vs the unpaid top 3</div>
+  <h2 id="gap">The gap is behaviour and presentation, not keywords.</h2>
+  <div class="tablewrap">
+    <table class="gap">
+      <thead><tr><th>Listing feature</th><th>Unpaid top 3<span class="sub">69 listings, 52 sellers</span></th><th>Your best listing<span class="sub">23 searches</span></th></tr></thead>
+      <tbody>
+        <tr><td>Listed or revised in the last 30 days</td><td>59%</td><td class="bad">0%</td></tr>
+        <tr><td>Has at least one watcher</td><td>84%</td><td class="bad">30%</td></tr>
+        <tr><td>Has at least one sale on the listing</td><td>52%</td><td class="bad">13%</td></tr>
+        <tr><td>Currently in someone's cart</td><td>44%</td><td class="bad">9%</td></tr>
+        <tr><td>5 or more photos</td><td>55%</td><td class="bad">4%</td></tr>
+        <tr><td>Description 1,000+ characters</td><td>48%</td><td class="bad">0%</td></tr>
+        <tr><td>Description covers packing and shipping</td><td>65%</td><td class="bad">17%</td></tr>
+        <tr><td>Free shipping</td><td>44%</td><td class="bad">0%</td></tr>
+        <tr><td>1-business-day handling</td><td>25%</td><td class="bad">0%</td></tr>
+        <tr><td>Title contains every search word</td><td>91%</td><td class="ok">100%</td></tr>
+        <tr><td>Genus item specific filled</td><td>70%</td><td class="ok">83%</td></tr>
+        <tr><td>30-day returns</td><td>29%</td><td class="ok">100%</td></tr>
+        <tr><td>Delivered price (median)</td><td>$25.99</td><td class="ok">$25.98</td></tr>
+        <tr><td>Seller feedback (median)</td><td>429</td><td>4</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="prose sub">From 292 item pages read in full, including all 131 of yours. Search-result cards under-report activity: 70 of 83 listings with sales showed no "sold" badge on the card. So the item pages, not the cards, are the source for these rows.</p>
+  <div class="callout">
+    <p><b>Freshness is the strongest split we measured.</b> Unpaid top-3 listings had a median age of 45 days. Mid-page listings were 278 days old, and 29% of the top 3 were under two weeks old against 3% further down. All 131 of yours were created on two days (3 April and 1 August 2026) and none has been revised since. Revising a listing to add photos and fix its description is worth doing anyway. Ending and relisting is not: it resets the watchers and sales history that eBay counts as popularity.</p>
+  </div>
+</section>
+
+<section aria-labelledby="sellers">
+  <div class="eyebrow">Small sellers who beat you</div>
+  <h2 id="sellers">Low-feedback sellers reached #1 through sales speed or brand-new listings</h2>
+  <div class="cards">
+    <div class="card"><div class="who">Snakeroot Botanicals</div><div class="stat">57 feedback · joined May 2026 · 92 items sold · 88 listings</div><p>Joined two months after you, and ranked #1 for Cebu Blue pothos in the first capture. Its Hoya carnosa compacta runs as an ad. Titles lead with the botanical name ("Epipremnum pinnatum 'Cebu Blue Pothos'"), with 4–6 photos and paid shipping around $8.30. Sales volume, not account age, is what carries it.</p></div>
+    <div class="card"><div class="who">Tiny Turtles Tropicals</div><div class="stat">8 feedback · joined Oct 2025</div><p>#1 for Philodendron micans with a bundle listing posted one day earlier. That's the new-listing boost in action.</p></div>
+    <div class="card"><div class="who">hanwin-2412</div><div class="stat">60 feedback · 17 items sold</div><p>#1 for Pink Princess with a day-old listing, 5 photos and "EXACT PLANT" in the title. You're #77 unpaid with a 1-photo listing from April.</p></div>
+    <div class="card"><div class="who">abznursery</div><div class="stat">37 feedback · joined Aug 2025</div><p>#1 for Hoya kerrii. That listing had 31 watchers and 3 sales, and 6 of the seller's 9 result cards were ads. Your two Hoya kerrii listings sat at #81 and #89 unpaid.</p></div>
+    <div class="card"><div class="who">Eden Elements</div><div class="stat">250 feedback · 359 items sold</div><p>#1 for Raven ZZ: 23 sold and 51 watchers on one listing at $18.50 with free shipping. One listing that keeps selling beats several that don't.</p></div>
+    <div class="card"><div class="who">Leaf and Lilt</div><div class="stat">187 feedback</div><p>#1 for Monstera Peru with a short title, 8 photos and free shipping.</p></div>
+  </div>
+  <p class="prose">Feedback bands held unpaid top-10 slots at similar rates: sellers with 1–9 feedback had 11% of their listings in a top 10, 10–99 had 13%, 100–999 had 15%. The one band that clearly lost was sellers with no feedback in the last 12 months. Your 5 recent ratings keep you out of it. The big operators win with volume and ads: BubbleBlooms (Apopka, FL, 2,564 feedback) had 46 of its 76 result cards in paid slots.</p>
+</section>
+
+<section aria-labelledby="etsy">
+  <div class="eyebrow">Etsy</div>
+  <h2 id="etsy">Etsy is your stronger channel. Tighten the titles and grow reviews.</h2>
+  <div class="callout green">
+    <p><b>Read with care:</b> Etsy blocks automated access, so we never saw Etsy's own logged-in search order. Everything here comes from Google (about 1,000 searches plus 54 Google Shopping queries) and Etsy's public keyword pages. Snippets can be weeks old.</p>
+  </div>
+  <div class="two">
+    <div style="display:grid;gap:12px;min-width:0">
+      <h3>Your shop</h3>
+      <ul class="plain">
+        <li>89 sales, 35 reviews averaging 4.9★, first listing 29 May 2026. That's about ten times your eBay volume.</li>
+        <li>67 listings found. 21 of the 25 plants are listed. Missing from Etsy: Raven ZZ, Pink Princess, Texas ebony and Hoya cummingiana. These are exactly the plants that exist only in your older eBay format.</li>
+        <li>Free shipping on everything seen. Since 1 October 2024 Etsy favours US listings with shipping under $6, so you're covered.</li>
+        <li>Priced below the median of comparable non-cutting listings on 17 of 21 plants. The exception worth a look is Chinese Money Plant at $21.99 against a $12 median, and it has 0 page-1 appearances across 7 keyword pages.</li>
+        <li>Page 1 of Etsy keyword pages: Hoya Sunrise 6 of 6, Hoya australis Lisa 7 of 7, Syngonium chiapense 2 of 2, Sansevieria Moonshine 5 of 7, Syngonium Mojito 3 of 4. Weak: Satin pothos (page 3 only), Philodendron Brasil (2 of 5), and nothing found for Christmas cactus or Pink Splash.</li>
+      </ul>
+    </div>
+    <div style="display:grid;gap:12px;min-width:0">
+      <h3>Titles against the shops that rank</h3>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th></th><th>Yours</th><th>Google Shopping top 10</th></tr></thead>
+          <tbody>
+            <tr><td>Median length</td><td class="num">118 chars · 18 words</td><td class="num">61 chars · 9 words</td></tr>
+            <tr><td>Pipe-separated</td><td class="num">98%</td><td class="num">11%</td></tr>
+            <tr><td>Ends with shop name</td><td class="num">100%</td><td class="num">2%</td></tr>
+            <tr><td>"Easy Care"</td><td class="num">94%</td><td class="num">4%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sub">"from Riverside Greenhouses" uses about a quarter of every title. Etsy's August 2025 guidance asks for titles under 15 words that name the item first, with descriptors moved into the 13 tags.</p>
+    </div>
+  </div>
+  <h3>Etsy shops that keep showing up for your plants</h3>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Shop</th><th>Your plants it sells</th><th>Sales</th><th>Reviews</th><th>Rating</th><th>Based in</th></tr></thead>
+      <tbody>
+        <tr><td>PlantVers</td><td class="num">16 of 25</td><td class="num">136,300</td><td class="num">41,800</td><td class="num">4.7</td><td>Lake Orion, MI</td></tr>
+        <tr><td>CaliforniaTropicals</td><td class="num">14 of 25</td><td class="num">165,900</td><td class="num">54,300</td><td class="num">4.8</td><td>United States</td></tr>
+        <tr><td>TheGreenEscape</td><td class="num">10 of 25</td><td class="num">875,000</td><td class="num">266,100</td><td class="num">4.7</td><td>Florida</td></tr>
+        <tr><td>RareFoliagePlantCo</td><td class="num">9 of 25</td><td class="num">17,200</td><td class="num">6,600</td><td class="num">4.9</td><td>Winter Garden, FL</td></tr>
+        <tr><td>NYCitySucculents</td><td class="num">9 of 25</td><td class="num">69,200</td><td class="num">19,100</td><td class="num">4.4</td><td>New York</td></tr>
+        <tr><td>LasOrquideasRamos</td><td class="num">8 of 25</td><td class="num">3,700</td><td class="num">1,300</td><td class="num">4.8</td><td>Miami, FL</td></tr>
+        <tr><td>plantproperco</td><td class="num">7 of 25</td><td class="num">14,200</td><td class="num">6,000</td><td class="num">4.9</td><td>Homestead, FL</td></tr>
+        <tr><td>You (RvsdGreenhouses)</td><td class="num">21 of 25</td><td class="num">89</td><td class="num">35</td><td class="num">4.9</td><td>Riverside, CA</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="prose">Etsy says its ranking uses relevance (title, tags, attributes, category), listing quality (clicks, favourites, purchases), customer and market experience (reviews, policies, service), shipping price, and a small, short-lived boost for new listings. Etsy has said the Star Seller badge, Etsy Ads and video do not change organic order. Same-city competitor to watch: MyPlantsShopLLC in Riverside, about 6,100 sales.</p>
+</section>
+
+<section aria-labelledby="fix">
+  <div class="eyebrow">Fix list</div>
+  <h2 id="fix">What to change, in order</h2>
+  <div class="steps">
+    <div class="phase">
+      <h3>Clean the catalog <small>this week</small></h3>
+      <ol>
+        <li><b>End one listing from each of the 15 duplicate pairs</b> (table below). Keep the one with sales or watchers. If neither has any, keep the newer format, which is $1.55–$7.05 cheaper delivered and has better item specifics. eBay's duplicate-listings policy allows one fixed-price listing per identical item.</li>
+        <li><b>Fix descriptions that describe the wrong plant.</b> "Shooting Star" describes <i>Dodecatheon meadia</i>, a woodland garden perennial. "Siltepecana El Salvador" calls itself a Hoya. The two "Creamsicle" listings disagree on what the plant is. The old "Grey Star" description calls it a Hoya, while your newer Grey Star is a Calathea, so one of them is wrong. Check each against the plant you actually ship.</li>
+        <li><b>Remove the "add Thermal Cool Shield / Heat Pack" lines from your eBay descriptions,</b> or create an eBay heat-pack listing. All 64 newer descriptions tell buyers to add one, but it only exists in your Etsy shop.</li>
+        <li><b>Put care instructions and the live-arrival guarantee back.</b> Your older template had both in 67 of 67 listings. The newer template dropped them in 64 of 64.</li>
+        <li><b>Set handling to 1 business day</b> if you can ship that fast. eBay names handling time as a Best Match input, and it shortens the delivery estimate buyers see.</li>
+      </ol>
+    </div>
+    <div class="phase">
+      <h3>Raise listing quality on the plants you can win <small>next 2 weeks</small></h3>
+      <ol>
+        <li><b>Shoot 5–8 real photos per listing,</b> starting with the Defend and Reachable plants. Cover the whole plant, a leaf close-up, a top-down view, the pot and roots, a hand for scale, and the packed box. The 6 first photos we inspected were cut-outs on an artificial backdrop with a logo; eBay's photo guidance says not to add borders or text.</li>
+        <li><b>Revise these listings in place; don't end and relist.</b> Revising keeps the item number, watchers and sales count, and it makes the listing "recently revised" like 59% of the unpaid top 3.</li>
+        <li><b>Rename the vague older titles</b> (20 suggestions below). Each one is built only from words in your own description, so confirm the plant before using it.</li>
+        <li><b>Fix delivered price on the older listings.</b> They average $33.28 delivered against $24.98 for the newer format, mostly from $9.99 shipping. Free shipping didn't move rank by itself, but delivered price did. If you fold shipping into the price, keep the total at or below today's newer-format total.</li>
+      </ol>
+    </div>
+    <div class="phase">
+      <h3>Build buyer activity, then test ads <small>ongoing</small></h3>
+      <ol>
+        <li><b>Concentrate demand.</b> With one listing per plant, every watcher and sale lands on the same item number. Use eBay's "Send offers to buyers" for listings with watchers, and volume pricing ("buy 2, save 5–10%"). Volume pricing is already set on your Variegated Ficus.</li>
+        <li><b>Run a small Priority (cost-per-click) Promoted Listings test</b> on the Defend and Reachable plants, but only after the photos and descriptions are fixed. An ad sends clicks to the listing, so a weak listing wastes the budget. Since January 2026 only Priority campaigns can win the ad slot just under the top result.</li>
+        <li><b>On Etsy:</b> cut titles to 15 words or fewer, name the plant first, and drop "from Riverside Greenhouses" (your shop name already shows). Move "Easy Care", "Pet Friendly" and similar into tags, and fill all 13 tags with multi-word phrases. Add the 4 missing plants. Use a first photo at least 2,000 px wide. Say in each listing that you grow or propagate the plant yourself: Etsy's 2025 Creativity Standards allow plants the shop cultivates but not plants resold unchanged.</li>
+        <li><b>Ask every happy Etsy buyer for a review.</b> Review count is the biggest visible gap between you and the shops that keep appearing (35 vs thousands).</li>
+      </ol>
+    </div>
+  </div>
+
+  <details>
+    <summary>The 15 duplicate pairs to resolve</summary>
+    <div class="inner">
+      <p class="sub">"Exact" = same plant and size. "Probable" = same name, but the descriptions disagree on what the plant is. Another 7 pairs differ only by pot size, and 2 groups by colour (Christmas cactus, Bromeliad). Merge those into one variation listing later.</p>
+      <div class="tablewrap"><table><thead><tr><th>Listing A</th><th>Listing B</th><th>Type</th></tr></thead><tbody>
+<tr><td>ZZ Plant 2 in Live Houseplant | Zamioculcas Zamiifolia<span class='sub mono'>168578976252 · $19.98 delivered · 1 watching</span></td><td>ZZ Plant 2 in Live Houseplant | Zamioculcas Zamiifolia<span class='sub mono'>168578976271 · $19.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Satin Pothos 4 in Live Houseplant | Scindapsus Pictus<span class='sub mono'>168578976237 · $23.98 delivered</span></td><td>Satin Pothos 4 in Live Houseplant | Scindapsus Pictus<span class='sub mono'>168578976270 · $23.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Crimson Princess - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607629 · $37.77 delivered</span></td><td>Hoya Crimson Princess - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607670 · $37.77 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Hoya Kerrii - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607681 · $32.13 delivered</span></td><td>Hoya Kerrii 4 in Variegated 1 Heart Leaf Live Succulent Heart Plant Easy Care<span class='sub mono'>168578976223 · $28.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Monstera Peru - Live Houseplant - 3-inch Pot<span class='sub mono'>168284607697 · $29.83 delivered · 1 watching</span></td><td>Monstera Peru 3 in Live Houseplant | Monstera Karstenianum<span class='sub mono'>168578976251 · $24.49 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Syngonium Pink Splash - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607757 · $39.03 delivered</span></td><td>Syngonium Pink Splash 4 in Live Houseplant | Arrowhead Plant<span class='sub mono'>168578976219 · $31.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Syngonium Batik - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607754 · $39.61 delivered</span></td><td>Syngonium Batik 4 in Live Houseplant | Rare Arrowhead Plant<span class='sub mono'>168578976250 · $32.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Hoya Sunrise - Live Houseplant - Standard Pot<span class='sub mono'>168284607679 · $36.73 delivered</span></td><td>Hoya Sunrise 4 in Live Houseplant | Rare Hoya | Easy Care Indoor Vining Plant<span class='sub mono'>168578976226 · $25.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Rainbow Anthurium - Live Houseplant - Standard Pot<span class='sub mono'>168284607730 · $33.28 delivered</span></td><td>Rainbow Anthurium 4 in Live Houseplant | Flamingo Flower<span class='sub mono'>168578976238 · $25.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Hoya Carnosa - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607678 · $29.83 delivered</span></td><td>Hoya Carnosa (Jade Wax) 4 in Live Houseplant | Wax Plant<span class='sub mono'>168578976241 · $24.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Sansevieria - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607740 · $36.73 delivered</span></td><td>Sansevieria Zeylanica 6 in Live Houseplant | Bowstring Hemp Snake Plant<span class='sub mono'>168578976227 · $30.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Marble Queen - Live Houseplant - Standard Pot<span class='sub mono'>168284607692 · $30.98 delivered</span></td><td>Marble Queen Pothos 4 in Live Houseplant | Epipremnum Aureum<span class='sub mono'>168578976266 · $22.98 delivered</span></td><td><span class='chip crowd'>exact</span></td></tr>
+<tr><td>Creamsicle - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607627 · $29.84 delivered</span></td><td>Creamsicle Plant 4 in Live Houseplant | Rare Tropical Indoor Plant<span class='sub mono'>168578976258 · $23.98 delivered</span></td><td><span class='chip reach'>probable</span></td></tr>
+<tr><td>Curly Sue - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607636 · $36.73 delivered</span></td><td>Curly Sue 4 in Live Houseplant | Unique Curly Leaf Plant<span class='sub mono'>168578976273 · $29.98 delivered</span></td><td><span class='chip reach'>probable</span></td></tr>
+<tr><td>Siltepecana El Salvador - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607756 · $44.78 delivered</span></td><td>Monstera Siltepecana 4 in Live Houseplant | Silver Monstera<span class='sub mono'>168578976222 · $28.98 delivered</span></td><td><span class='chip reach'>probable</span></td></tr>
+      </tbody></table></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>Suggested titles for the 20 vague older listings</summary>
+    <div class="inner">
+      <p class="sub">Every word comes from your own title or description; nothing is invented. eBay's title limit is 80 characters. Shorter titles are fine, as long as they lead with the name buyers type.</p>
+      <div class="tablewrap"><table><thead><tr><th>Current</th><th>Suggested</th></tr></thead><tbody>
+<tr><td>Freddy - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607654</span></td><td>Hoya Freddy 6 inch Pot Live Plant | Waxy Leaves Aromatic Flowers Wax Plant<span class='sub'>74 characters</span></td></tr>
+<tr><td>Moonshine - Live Houseplant - Standard Pot<span class='sub mono'>168284607698</span></td><td>Hoya Carnosa Moonshine Live Plant | Silver Foliage Trailing Wax Plant <span class='warn'>confirm plant first</span><span class='sub'>69 characters</span></td></tr>
+<tr><td>Silver Moon - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607751</span></td><td>Hoya Silver Moon 4 inch Pot Live Plant | Variegated Leaves Easy Care Wax Plant<span class='sub'>78 characters</span></td></tr>
+<tr><td>Florida Ghost - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607650</span></td><td>Florida Ghost 6 inch Pot Live Houseplant | Striking White Variegation Easy Care <span class='warn'>confirm plant first</span><span class='sub'>79 characters</span></td></tr>
+<tr><td>Shooting Star - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607737</span></td><td>Dodecatheon Meadia Shooting Star 4 inch Pot Live Perennial Plant | Shade <span class='warn'>confirm plant first</span><span class='sub'>72 characters</span></td></tr>
+<tr><td>Hoya - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607690</span></td><td>Hoya Sigillatis 4 inch Pot Live Plant | Vining Wax Plant Waxy Leaves<span class='sub'>68 characters</span></td></tr>
+<tr><td>Purple Star - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607725</span></td><td>Hoya Pubicalyx Purple Star 6 inch Pot Live Vining Plant | Star Shaped Flowers<span class='sub'>77 characters</span></td></tr>
+<tr><td>Prince Of Orange - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607719</span></td><td>Philodendron Prince of Orange 6 inch Pot Live Plant | Orange Leaves Mature Green<span class='sub'>80 characters</span></td></tr>
+<tr><td>Flapjack - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607643</span></td><td>Flapjack Succulent 4 inch Pot Live Plant | Paddle Leaves Turn Vibrant Colors<span class='sub'>76 characters</span></td></tr>
+<tr><td>Creamsicle - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607627</span></td><td>Aloe Creamsicle 4 inch Pot Live Succulent | Compact Cream Orange Peach Leaves<span class='sub'>77 characters</span></td></tr>
+<tr><td>Curly Sue - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607636</span></td><td>Juncus Effusus Curly Sue 4 inch Pot Live Rush Plant | Spiral Curled Stems<span class='sub'>73 characters</span></td></tr>
+<tr><td>Grey Star - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607657</span></td><td>Hoya Pubicalyx Grey Star 4 inch Pot Live Plant | Striking Star Shaped Leaves<span class='sub'>76 characters</span></td></tr>
+<tr><td>Epiperemnum Marble - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607659</span></td><td>Epipremnum Aureum Marble 4 inch Pot Live Plant | Variegated Cascading Growth<span class='sub'>76 characters</span></td></tr>
+<tr><td>Hoya Cummingiana - Live Houseplant - 6-inch Pot<span class='sub mono'>168284607684</span></td><td>Hoya Cummingiana 6 inch Pot Live Plant | Lemon Scented Leaves Yellow Flowers<span class='sub'>76 characters</span></td></tr>
+<tr><td>Rare Black Raven ZZ - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607742</span></td><td>Black Raven ZZ Plant Zamioculcas Zamiifolia 4 inch Pot Live Houseplant Rare<span class='sub'>75 characters</span></td></tr>
+<tr><td>Texas Ebony - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607758</span></td><td>Texas Ebony Live Tree 4 inch Pot | Hardy Drought Tolerant Dense Canopy <span class='warn'>confirm plant first</span><span class='sub'>70 characters</span></td></tr>
+<tr><td>Philodendron Pink Princess - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607710</span></td><td>Philodendron Pink Princess 4 inch Pot Live Plant | Pink Variegated Erubescens<span class='sub'>77 characters</span></td></tr>
+<tr><td>Krinkle Wax - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607680</span></td><td>Hoya Carnosa Krinkle Wax 4 inch Pot Live Plant | Textured Leaves Star Flowers<span class='sub'>77 characters</span></td></tr>
+<tr><td>Florida Beauty - Live Houseplant - Standard Pot<span class='sub mono'>168284607642</span></td><td>Hoya Florida Beauty Variegated Live Plant | Easy Care Wax Plant <span class='warn'>confirm plant first</span><span class='sub'>63 characters</span></td></tr>
+<tr><td>Emerald Star - Live Houseplant - 4-inch Pot<span class='sub mono'>168284607651</span></td><td>Hoya Emerald Star 4 inch Pot Live Plant | Glossy Star Shaped Green Leaves<span class='sub'>73 characters</span></td></tr>
+      </tbody></table></div>
+    </div>
+  </details>
+</section>
+
+<section aria-labelledby="next">
+  <div class="eyebrow">What I need from you</div>
+  <h2 id="next">Four answers would sharpen this</h2>
+  <ol class="answers">
+    <li><b>Are you running eBay Promoted Listings?</b> Watermelon peperomia showed up as Sponsored at #3.</li>
+    <li><b>For each duplicate pair, which listing holds the sales and watchers?</b> Seller Hub shows this. I can only see the public counts.</li>
+    <li><b>Do you want the Etsy half measured on Etsy's real search order?</b> Create a free Etsy developer app at etsy.com/developers/register and share the keystring and shared secret (Etsy has required both since 9 February 2026). A collector script is ready. Alternatively, export your Listings CSV plus Stats → search terms.</li>
+    <li><b>Do you grow or propagate the plants yourself?</b> This matters for Etsy's Creativity Standards. Separately, though not a ranking issue: California requires a CDFA nursery licence for selling plants, including online, and Arizona and Hawaii have inspection rules for plants shipped in. Worth confirming you're set up for both.</li>
+  </ol>
+</section>
+
+<section aria-labelledby="method">
+  <div class="eyebrow">How this was measured</div>
+  <h2 id="method">Method and limits</h2>
+  <ul class="plain prose">
+    <li><b>eBay searches:</b> 25 plant searches, Best Match, logged out, ship-to ZIP 94104, captured twice on 4 Oct 2026 (2,057 result cards). The two captures agreed closely (rank correlation 0.86–1.00), so the order is stable day to day. Ads were identified from the rendered "Sponsored" label. Results personalise by buyer history and location, so your own view may differ.</li>
+    <li><b>eBay listings:</b> 292 item pages read in full, covering all 131 of yours, the top 3 for every search (ads and unpaid separately), and 45 mid- and low-ranked listings as a comparison group. 18 seller feedback profiles and store pages.</li>
+    <li><b>Etsy:</b> no direct access (bot protection). Google search and Google Shopping results, plus Etsy's public keyword pages, as described above.</li>
+    <li><b>Ranking factors:</b> eBay and Etsy help pages, announcements and reputable trade press. Neither platform publishes weights.</li>
+    <li><b>Limits:</b> one day of data, 25 searches, correlation rather than proof. A planned test of how a far-away ship-to ZIP changes rank was not run.</li>
+  </ul>
+  <details>
+    <summary>Sources</summary>
+    <div class="inner">
+      <ul class="plain sources">
+        <li>eBay: Optimizing your listings for Best Match — <a href="https://www.ebay.com/help/selling/listings/listing-tips/optimising-listings-best-match?id=4166">ebay.com/help … id=4166</a></li>
+        <li>eBay Seller Center: Item specifics — <a href="https://www.ebay.com/sellercenter/listings/item-specifics">ebay.com/sellercenter/listings/item-specifics</a></li>
+        <li>eBay: Duplicate listings policy — <a href="https://www.ebay.com/help/policies/listing-policies/duplicate-listings-policy?id=4255">ebay.com/help … id=4255</a></li>
+        <li>eBay Seller Center: Top Rated Seller program — <a href="https://www.ebay.com/sellercenter/protections/top-rated-program">ebay.com/sellercenter/protections/top-rated-program</a></li>
+        <li>eBay: Promoted Listings changes effective 13 Jan 2026 — <a href="https://export.ebay.com/en/services-tools/advertising/seller-announcement-updates-to-ebays-promoted-listings-are-coming-soon/">export.ebay.com</a></li>
+        <li>eBay Developer KB 613: Good 'Til Cancelled keeps its item number — <a href="https://developer.ebay.com/support/knowledge-base/613">developer.ebay.com/support/knowledge-base/613</a></li>
+        <li>Etsy search visibility page (Aug 2024) — <a href="https://community.etsy.com/t5/Announcements/Updated-8-22-Etsy-search-visibility-page-More-insights-than-ever/td-p/146420965">community.etsy.com</a></li>
+        <li>Etsy: shipping under $6 prioritised from 1 Oct 2024 — <a href="https://www.valueaddedresource.net/etsy-search-visibility-page-shipping-cost-ranking/">Value Added Resource</a>, <a href="https://growingyourcraft.com/blog/etsy-october-2024-algorithm-update">Growing Your Craft</a></li>
+        <li>Etsy title guidance (Aug 2025) — <a href="https://www.valueaddedresource.net/etsy-guidance-listing-titles-ai/">Value Added Resource</a></li>
+        <li>Etsy Updates to Search: What's New (Jan 2023) — <a href="https://community.etsy.com/t5/Announcements/Updates-to-Etsy-Search-What-s-New/td-p/140979826">community.etsy.com</a></li>
+        <li>Etsy Creativity Standards update (Jun 2025) — <a href="https://www.valueaddedresource.net/etsy-creativity-standards-update-june-2025/">Value Added Resource</a></li>
+        <li>Etsy Open API v3 — <a href="https://developers.etsy.com/documentation/">developers.etsy.com/documentation</a></li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<footer>Prepared 4 October 2026 from public eBay pages, eBay and Etsy documentation, and Google results. Seller names are public store names; buyer identities were never collected.</footer>
+</div>
+</body></html>

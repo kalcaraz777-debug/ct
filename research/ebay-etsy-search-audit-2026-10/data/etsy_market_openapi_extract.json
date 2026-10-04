@@ -1,0 +1,1170 @@
+{
+ "source": "Etsy Open API v3 OpenAPI spec fetched 2026-10-04 from https://www.etsy.com/openapi/generated/oas/3.0.0.json (HTTP 200, Last-Modified Fri, 02 Oct 2026 17:43:44 GMT, 911,340 bytes, info.version 3.0.0)",
+ "base_url": "https://openapi.etsy.com",
+ "security_scheme": {
+  "type": "apiKey",
+  "name": "x-api-key",
+  "in": "header",
+  "description": "Every request to a v3 API endpoint must include this data in the format `keystring:shared_secret`. Your keystring and shared secret are available on the [Your Apps](https://www.etsy.com/developers/your-apps) page."
+ },
+ "oauth_scopes": [
+  "address_r",
+  "address_w",
+  "email_r",
+  "listings_d",
+  "listings_r",
+  "listings_w",
+  "profile_r",
+  "profile_w",
+  "shops_r",
+  "shops_w",
+  "transactions_r",
+  "transactions_w"
+ ],
+ "operations": [
+  {
+   "method": "GET",
+   "path": "/v3/application/openapi-ping",
+   "operationId": "ping",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": []
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/shops",
+   "operationId": "findShops",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "shop_name",
+     "in_": "query",
+     "required": true,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The shop's name string."
+    },
+    {
+     "name": "limit",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": 100,
+     "default": 25,
+     "description": "The maximum number of results to return."
+    },
+    {
+     "name": "offset",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 0,
+     "maximum": null,
+     "default": 0,
+     "description": "The number of records to skip before selecting the first result."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/shops/{shop_id}",
+   "operationId": "getShop",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "shop_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The unique positive non-zero numeric ID for an Etsy Shop."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/shops/{shop_id}/listings/active",
+   "operationId": "findAllActiveListingsByShop",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "shop_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The unique positive non-zero numeric ID for an Etsy Shop."
+    },
+    {
+     "name": "limit",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": 100,
+     "default": 25,
+     "description": "The maximum number of results to return."
+    },
+    {
+     "name": "sort_on",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": [
+      "created",
+      "price",
+      "updated",
+      "score"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": "created",
+     "description": "The value to sort a search result of listings on. NOTES: a) `sort_on` only works when combined with one of the search options (keywords, region, etc.). b) when using `score` the returned results will always be in _descending_ order, regardless of the `sort_ord"
+    },
+    {
+     "name": "sort_order",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": [
+      "asc",
+      "ascending",
+      "desc",
+      "descending",
+      "up",
+      "down"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": "desc",
+     "description": "The ascending(up) or descending(down) order to sort listings by. NOTE: sort_order only works when combined with one of the search options (keywords, region, etc.)."
+    },
+    {
+     "name": "offset",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 0,
+     "maximum": null,
+     "default": 0,
+     "description": "The number of records to skip before selecting the first result."
+    },
+    {
+     "name": "keywords",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "Search term or phrase that must appear in all results."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/shops/{shop_id}/reviews",
+   "operationId": "getReviewsByShop",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "shop_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The unique positive non-zero numeric ID for an Etsy Shop."
+    },
+    {
+     "name": "limit",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": 100,
+     "default": 25,
+     "description": "The maximum number of results to return."
+    },
+    {
+     "name": "offset",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 0,
+     "maximum": null,
+     "default": 0,
+     "description": "The number of records to skip before selecting the first result."
+    },
+    {
+     "name": "min_created",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 946684800,
+     "maximum": null,
+     "default": null,
+     "description": "The earliest unix timestamp for when a record was created."
+    },
+    {
+     "name": "max_created",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 946684800,
+     "maximum": null,
+     "default": null,
+     "description": "The latest unix timestamp for when a record was created."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/listings/active",
+   "operationId": "findAllListingsActive",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "limit",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": 100,
+     "default": 25,
+     "description": "The maximum number of results to return."
+    },
+    {
+     "name": "offset",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 0,
+     "maximum": null,
+     "default": 0,
+     "description": "The number of records to skip before selecting the first result."
+    },
+    {
+     "name": "keywords",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "Search term or phrase that must appear in all results."
+    },
+    {
+     "name": "sort_on",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": [
+      "created",
+      "price",
+      "updated",
+      "score"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": "created",
+     "description": "The value to sort a search result of listings on. NOTES: a) `sort_on` only works when combined with one of the search options (keywords, region, etc.). b) when using `score` the returned results will always be in _descending_ order, regardless of the `sort_ord"
+    },
+    {
+     "name": "sort_order",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": [
+      "asc",
+      "ascending",
+      "desc",
+      "descending",
+      "up",
+      "down"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": "desc",
+     "description": "The ascending(up) or descending(down) order to sort listings by. NOTE: sort_order only works when combined with one of the search options (keywords, region, etc.)."
+    },
+    {
+     "name": "min_price",
+     "in_": "query",
+     "required": false,
+     "type": "number",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The minimum price of listings to be returned by a search result."
+    },
+    {
+     "name": "max_price",
+     "in_": "query",
+     "required": false,
+     "type": "number",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The maximum price of listings to be returned by a search result."
+    },
+    {
+     "name": "taxonomy_id",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The numerical taxonomy ID of the listing. See [SellerTaxonomy](/documentation/reference#tag/SellerTaxonomy) and [BuyerTaxonomy](/documentation/reference#tag/BuyerTaxonomy) for more information."
+    },
+    {
+     "name": "shop_location",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "Filters by shop location. If location cannot be parsed, Etsy responds with an error."
+    },
+    {
+     "name": "is_safe",
+     "in_": "query",
+     "required": false,
+     "type": "boolean",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "When true, filters out mature/adult content from search results."
+    },
+    {
+     "name": "currency",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The ISO 4217 alphabetic currency code (e.g., EUR, MXN) for price conversion. If provided, the listing price will be converted to this currency."
+    },
+    {
+     "name": "buyer_country",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The ISO 3166-1 alpha-2 country code (e.g., DE, MX). Filters results to listings that ship to this country."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/listings/batch",
+   "operationId": "getListingsByListingIds",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "listing_ids",
+     "in_": "query",
+     "required": true,
+     "type": "array",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The list of numeric IDS for the listings in a specific Etsy shop."
+    },
+    {
+     "name": "includes",
+     "in_": "query",
+     "required": false,
+     "type": "array",
+     "enum": [
+      "Images",
+      "Shop",
+      "User",
+      "Translations",
+      "Videos",
+      "Personalization",
+      "BuyerPrice"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "An enumerated string that attaches a valid association. Acceptable inputs are 'Shop', 'Images', 'User', 'Translations', 'Videos', 'Personalization' and 'BuyerPrice'."
+    },
+    {
+     "name": "legacy",
+     "in_": "query",
+     "required": false,
+     "type": "boolean",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "This parameter is needed to enable new parameters and response values related to processing profiles."
+    },
+    {
+     "name": "currency",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The ISO 4217 alphabetic currency code (e.g., EUR, MXN) for price conversion. If provided, the listing price will be converted to this currency."
+    },
+    {
+     "name": "buyer_country",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The ISO 3166-1 alpha-2 country code (e.g., GB, DE). Used for buyer-facing price calculations (VAT, inclusive shipping). Does not filter listings."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/listings/{listing_id}",
+   "operationId": "getListing",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "listing_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The numeric ID for the [listing](/documentation/reference#tag/ShopListing) associated to this transaction."
+    },
+    {
+     "name": "includes",
+     "in_": "query",
+     "required": false,
+     "type": "array",
+     "enum": [
+      "Images",
+      "Shop",
+      "User",
+      "Translations",
+      "Videos",
+      "Personalization",
+      "BuyerPrice"
+     ],
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "An enumerated string that attaches a valid association. Acceptable inputs are 'Shop', 'Images', 'User', 'Translations', 'Videos', 'Personalization' and 'BuyerPrice'."
+    },
+    {
+     "name": "language",
+     "in_": "query",
+     "required": false,
+     "type": "string",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "The IETF language tag for the language of this translation. Ex: `de`, `en`, `es`, `fr`, `it`, `ja`, `nl`, `pl`, `pt`."
+    },
+    {
+     "name": "allow_suggested_title",
+     "in_": "query",
+     "required": false,
+     "type": "boolean",
+     "enum": null,
+     "minimum": null,
+     "maximum": null,
+     "default": null,
+     "description": "This parameter will include in the response a suggested title for the listing, if one is available. Since suggestions are only available to the listing's owner, client must submit an oauth_access_token scoped to the owner of the listing."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/listings/{listing_id}/reviews",
+   "operationId": "getReviewsByListing",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "listing_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The numeric ID for the [listing](/documentation/reference#tag/ShopListing) associated to this transaction."
+    },
+    {
+     "name": "limit",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": 100,
+     "default": 25,
+     "description": "The maximum number of results to return."
+    },
+    {
+     "name": "offset",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 0,
+     "maximum": null,
+     "default": 0,
+     "description": "The number of records to skip before selecting the first result."
+    },
+    {
+     "name": "min_created",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 946684800,
+     "maximum": null,
+     "default": null,
+     "description": "The earliest unix timestamp for when a record was created."
+    },
+    {
+     "name": "max_created",
+     "in_": "query",
+     "required": false,
+     "type": "integer",
+     "enum": null,
+     "minimum": 946684800,
+     "maximum": null,
+     "default": null,
+     "description": "The latest unix timestamp for when a record was created."
+    }
+   ]
+  },
+  {
+   "method": "GET",
+   "path": "/v3/application/listings/{listing_id}/images",
+   "operationId": "getListingImages",
+   "auth": "API key only (x-api-key: keystring:shared_secret)",
+   "params": [
+    {
+     "name": "listing_id",
+     "in_": "path",
+     "required": true,
+     "type": "integer",
+     "enum": null,
+     "minimum": 1,
+     "maximum": null,
+     "default": null,
+     "description": "The numeric ID for the [listing](/documentation/reference#tag/ShopListing) associated to this transaction."
+    }
+   ]
+  }
+ ],
+ "schemas": {
+  "ShopListing(fields returned by listings/active and shops/{id}/listings/active)": {
+   "listing_id": {
+    "type": "integer",
+    "description": "The numeric ID for the [listing](/documentation/reference#tag/ShopListing) associated to this transaction."
+   },
+   "user_id": {
+    "type": "integer",
+    "description": "The numeric ID for the [user](/documentation/reference#tag/User) posting the listing."
+   },
+   "shop_id": {
+    "type": "integer",
+    "description": "The unique positive non-zero numeric ID for an Etsy Shop."
+   },
+   "title": {
+    "type": "string",
+    "description": "The listing's title string. When creating or updating a listing, valid title strings contain only letters, numbers, punctuation marks, mathematical symbols, whitespace characters, \u2122, \u00a9, and \u00ae. (regex:"
+   },
+   "description": {
+    "type": "string",
+    "description": "A description string of the product for sale in the listing."
+   },
+   "state": {
+    "type": "string",
+    "description": "When _updating_ a listing, this value can be either `active` or `inactive`. Note: Setting a `draft` listing to `active` will also publish the listing on etsy.com and requires that the listing have an "
+   },
+   "creation_timestamp": {
+    "type": "integer",
+    "description": "The listing's creation time, in epoch seconds."
+   },
+   "created_timestamp": {
+    "type": "integer",
+    "description": "The listing's creation time, in epoch seconds."
+   },
+   "ending_timestamp": {
+    "type": "integer",
+    "description": "The listing's expiration time, in epoch seconds."
+   },
+   "original_creation_timestamp": {
+    "type": "integer",
+    "description": "The listing's creation time, in epoch seconds."
+   },
+   "last_modified_timestamp": {
+    "type": "integer",
+    "description": "The time of the last update to the listing, in epoch seconds."
+   },
+   "updated_timestamp": {
+    "type": "integer",
+    "description": "The time of the last update to the listing, in epoch seconds."
+   },
+   "state_timestamp": {
+    "type": "integer",
+    "description": "The date and time of the last state change of this listing."
+   },
+   "quantity": {
+    "type": "integer",
+    "description": "The positive non-zero number of products available for purchase in the listing. Note: The listing quantity is the sum of available offering quantities. You can request the quantities for individual of"
+   },
+   "shop_section_id": {
+    "type": "integer",
+    "description": "The numeric ID of a section in a specific Etsy shop."
+   },
+   "featured_rank": {
+    "type": "integer",
+    "description": "The positive non-zero numeric position in the featured listings of the shop, with rank 1 listings appearing in the left-most position in featured listing on a shop's home page."
+   },
+   "url": {
+    "type": "string",
+    "description": "The full URL to the listing's page on Etsy."
+   },
+   "num_favorers": {
+    "type": "integer",
+    "description": "The number of users who marked this Listing a favorite."
+   },
+   "non_taxable": {
+    "type": "boolean",
+    "description": "When true, applicable [shop](/documentation/reference#tag/Shop) tax rates do not apply to this listing at checkout."
+   },
+   "is_taxable": {
+    "type": "boolean",
+    "description": "When true, applicable [shop](/documentation/reference#tag/Shop) tax rates apply to this listing at checkout."
+   },
+   "is_customizable": {
+    "type": "boolean",
+    "description": "When true, a buyer may contact the seller for a customized order. The default value is true when a shop accepts custom orders. Does not apply to shops that do not accept custom orders."
+   },
+   "is_personalizable": {
+    "type": "boolean",
+    "description": "When true, this listing is personalizable. The default value is false."
+   },
+   "listing_type": {
+    "type": "string",
+    "description": "An enumerated type string that indicates whether the listing is physical or a digital download."
+   },
+   "tags": {
+    "type": "array<string>",
+    "description": "A comma-separated list of tag strings for the listing. When creating or updating a listing, valid tag strings contain only letters, numbers, whitespace characters, -, ', \u2122, \u00a9, and \u00ae. (regex: /[^\\p{L}\\"
+   },
+   "materials": {
+    "type": "array<string>",
+    "description": "A list of material strings for materials used in the product. Valid materials strings contain only letters, numbers, and whitespace characters. (regex: /[^\\p{L}\\p{Nd}\\p{Zs}]/u) Default value is null."
+   },
+   "shipping_profile_id": {
+    "type": "integer",
+    "description": "The numeric ID of the [shipping profile](/documentation/reference#operation/getShopShippingProfile) associated with the listing. Required when listing type is `physical`."
+   },
+   "return_policy_id": {
+    "type": "integer",
+    "description": "The numeric ID of the [Return Policy](/documentation/reference#operation/getShopReturnPolicies)."
+   },
+   "processing_min": {
+    "type": "integer",
+    "description": "The minimum number of days required to process this listing. Default value is null."
+   },
+   "processing_max": {
+    "type": "integer",
+    "description": "The maximum number of days required to process this listing. Default value is null."
+   },
+   "who_made": {
+    "type": "string",
+    "description": "An enumerated string indicating who made the product. Helps buyers locate the listing under the Handmade heading. Requires 'is_supply' and 'when_made'."
+   },
+   "when_made": {
+    "type": "string",
+    "description": "An enumerated string for the era in which the maker made the product in this listing. Helps buyers locate the listing under the Vintage heading. Requires 'is_supply' and 'who_made'."
+   },
+   "is_supply": {
+    "type": "boolean",
+    "description": "When true, tags the listing as a supply product, else indicates that it's a finished product. Helps buyers locate the listing under the Supplies heading. Requires 'who_made' and 'when_made'."
+   },
+   "item_weight": {
+    "type": "number",
+    "description": "The numeric weight of the product measured in units set in 'item_weight_unit'. Default value is null. If set, the value must be greater than 0."
+   },
+   "item_weight_unit": {
+    "type": "string",
+    "description": "A string defining the units used to measure the weight of the product. Default value is null."
+   },
+   "item_length": {
+    "type": "number",
+    "description": "The numeric length of the product measured in units set in 'item_dimensions_unit'. Default value is null. If set, the value must be greater than 0."
+   },
+   "item_width": {
+    "type": "number",
+    "description": "The numeric width of the product measured in units set in 'item_dimensions_unit'. Default value is null. If set, the value must be greater than 0."
+   },
+   "item_height": {
+    "type": "number",
+    "description": "The numeric length of the product measured in units set in 'item_dimensions_unit'. Default value is null. If set, the value must be greater than 0."
+   },
+   "item_dimensions_unit": {
+    "type": "string",
+    "description": "A string defining the units used to measure the dimensions of the product. Default value is null."
+   },
+   "is_private": {
+    "type": "boolean",
+    "description": "When true, this is a private listing intended for a specific buyer and hidden from shop view."
+   },
+   "style": {
+    "type": "array<string>",
+    "description": "An array of style strings for this listing, each of which is free-form text string such as \"Formal\", or \"Steampunk\". When creating or updating a listing, the listing may have up to two styles. Valid s"
+   },
+   "file_data": {
+    "type": "string",
+    "description": "A string describing the files attached to a digital listing."
+   },
+   "has_variations": {
+    "type": "boolean",
+    "description": "When true, the listing has variations."
+   },
+   "should_auto_renew": {
+    "type": "boolean",
+    "description": "When true, renews a listing for four months upon expiration."
+   },
+   "language": {
+    "type": "string",
+    "description": "The IETF language tag for the default language of the listing. Ex: `de`, `en`, `es`, `fr`, `it`, `ja`, `nl`, `pl`, `pt`, `ru`."
+   },
+   "price": {
+    "type": "object",
+    "description": "The positive non-zero price of the product. (Sold product listings are private) Note: The price is the minimum possible price. The [`getListingInventory`](/documentation/reference/#operation/getListin"
+   },
+   "converted_price": {
+    "type": "object",
+    "description": "The listing price converted to the currency requested via the currency parameter. Only present when the currency parameter is provided. Null if the conversion rate is unavailable."
+   },
+   "taxonomy_id": {
+    "type": "integer",
+    "description": "The numerical taxonomy ID of the listing. See [SellerTaxonomy](/documentation/reference#tag/SellerTaxonomy) and [BuyerTaxonomy](/documentation/reference#tag/BuyerTaxonomy) for more information."
+   },
+   "readiness_state_id": {
+    "type": "integer",
+    "description": "The numeric ID of the [processing profile](/documentation/reference#operation/getShopReadinessStateDefinition) associated with the listing. Returned only when the listing is `active` and of type `phys"
+   },
+   "suggested_title": {
+    "type": "string",
+    "description": "A title string suggested by Etsy. Only available for a user's own listings, when allow_suggested_title param is present, and when a shop's language setting is English. Not all listings will have sugge"
+   },
+   "ecgt_garan_brand": {
+    "type": "string",
+    "description": "Brand or trademark name for the EU commercial guarantee label."
+   },
+   "ecgt_garan_years": {
+    "type": "integer",
+    "description": "Duration of the commercial guarantee in whole years (3\u201399)."
+   },
+   "ecgt_garan_model": {
+    "type": "string",
+    "description": "Product model or reference number for the EU commercial guarantee label."
+   },
+   "ecgt_garan_guarantee_details": {
+    "type": "string",
+    "description": "Free-text details of the commercial guarantee."
+   },
+   "ecgt_other_commercial_guarantee_details": {
+    "type": "string",
+    "description": "Free-text details of any additional commercial guarantee or warranty."
+   },
+   "ecgt_after_sales_service_info": {
+    "type": "string",
+    "description": "After-sales service, repairability, or eco-friendly delivery information."
+   },
+   "ecgt_software_update_details": {
+    "type": "string",
+    "description": "For digital or software listings: software update availability and duration."
+   },
+   "ecgt_commercial_guarantee_enabled": {
+    "type": "boolean",
+    "description": "True when all four commercial guarantee fields are filled. Read-only; derived server-side."
+   }
+  },
+  "ShopListingWithAssociations(extra fields in listings/batch)": {
+   "shipping_profile": {
+    "type": "object",
+    "description": "An array of data representing the shipping profile resource."
+   },
+   "user": {
+    "type": "object",
+    "description": "Represents a single user of the site"
+   },
+   "shop": {
+    "type": "object",
+    "description": "A shop created by an Etsy user."
+   },
+   "images": {
+    "type": "array<object>",
+    "description": "Represents a list of listing image resources, each of which contains the reference URLs and metadata for an image"
+   },
+   "videos": {
+    "type": "array<object>",
+    "description": "The single video associated with a listing."
+   },
+   "inventory": {
+    "type": "object",
+    "description": "An enumerated string that attaches a valid association. Default value is null."
+   },
+   "production_partners": {
+    "type": "array<object>",
+    "description": "Represents a list of production partners for a shop."
+   },
+   "skus": {
+    "type": "array<string>",
+    "description": "A list of SKU strings for the listing. SKUs will only appear if the requesting user owns the shop and a valid matching OAuth 2 token is provided. When requested without the token it will be an empty a"
+   },
+   "translations": {
+    "type": "object",
+    "description": "A map of translations for the listing. Default value is a map of all supported languages keyed to null."
+   },
+   "views": {
+    "type": "integer",
+    "description": "The number of times the listing has been viewed. This value is tabulated once per day and **only for active listings**, so the value is not real-time. If `0`, the listing has either not been viewed, n"
+   },
+   "personalization": {
+    "type": "object",
+    "description": ""
+   },
+   "buyer_price": {
+    "type": "object",
+    "description": "The buyer-facing price for a listing, including VAT, inclusive shipping (UK), and active promotions. Requires buyer_country parameter. Shows base_price, shipping_cost, original_price (display price), "
+   }
+  },
+  "Shop(getShop / findShops)": {
+   "shop_id": {
+    "type": "integer",
+    "description": "The unique positive non-zero numeric ID for an Etsy Shop."
+   },
+   "user_id": {
+    "type": "integer",
+    "description": "The numeric user ID of the [user](/documentation/reference#tag/User) who owns this shop."
+   },
+   "shop_name": {
+    "type": "string",
+    "description": "The shop's name string."
+   },
+   "create_date": {
+    "type": "integer",
+    "description": "The date and time this shop was created, in epoch seconds."
+   },
+   "created_timestamp": {
+    "type": "integer",
+    "description": "The date and time this shop was created, in epoch seconds."
+   },
+   "title": {
+    "type": "string",
+    "description": "A brief heading string for the shop's main page."
+   },
+   "announcement": {
+    "type": "string",
+    "description": "An announcement string to buyers that displays on the shop's homepage."
+   },
+   "currency_code": {
+    "type": "string",
+    "description": "The ISO (alphabetic) code for the shop's currency. The shop displays all prices in this currency by default."
+   },
+   "is_vacation": {
+    "type": "boolean",
+    "description": "When true, this shop is not accepting purchases."
+   },
+   "vacation_message": {
+    "type": "string",
+    "description": "The shop's message string displayed when `is_vacation` is true."
+   },
+   "sale_message": {
+    "type": "string",
+    "description": "A message string sent to users who complete a purchase from this shop."
+   },
+   "digital_sale_message": {
+    "type": "string",
+    "description": "A message string sent to users who purchase a digital item from this shop."
+   },
+   "update_date": {
+    "type": "integer",
+    "description": "The date and time of the last update to the shop, in epoch seconds."
+   },
+   "updated_timestamp": {
+    "type": "integer",
+    "description": "The date and time of the last update to the shop, in epoch seconds."
+   },
+   "listing_active_count": {
+    "type": "integer",
+    "description": "The number of active listings in the shop."
+   },
+   "digital_listing_count": {
+    "type": "integer",
+    "description": "The number of digital listings in the shop."
+   },
+   "login_name": {
+    "type": "string",
+    "description": "The shop owner's login name string."
+   },
+   "accepts_custom_requests": {
+    "type": "boolean",
+    "description": "When true, the shop accepts customization requests."
+   },
+   "policy_welcome": {
+    "type": "string",
+    "description": "The shop's policy welcome string (may be blank)."
+   },
+   "policy_payment": {
+    "type": "string",
+    "description": "The shop's payment policy string (may be blank)."
+   },
+   "policy_shipping": {
+    "type": "string",
+    "description": "The shop's shipping policy string (may be blank)."
+   },
+   "policy_refunds": {
+    "type": "string",
+    "description": "The shop's refund policy string (may be blank)."
+   },
+   "policy_additional": {
+    "type": "string",
+    "description": "The shop's additional policies string (may be blank)."
+   },
+   "policy_seller_info": {
+    "type": "string",
+    "description": "The shop's seller information string (may be blank)."
+   },
+   "policy_update_date": {
+    "type": "integer",
+    "description": "The date and time of the last update to the shop's policies, in epoch seconds."
+   },
+   "policy_has_private_receipt_info": {
+    "type": "boolean",
+    "description": "When true, EU receipts display private info."
+   },
+   "has_unstructured_policies": {
+    "type": "boolean",
+    "description": "When true, the shop displays additional unstructured policy fields."
+   },
+   "policy_privacy": {
+    "type": "string",
+    "description": "The shop's privacy policy string (may be blank)."
+   },
+   "vacation_autoreply": {
+    "type": "string",
+    "description": "The shop's automatic reply string displayed in new conversations when `is_vacation` is true."
+   },
+   "url": {
+    "type": "string",
+    "description": "The URL string for this shop."
+   },
+   "image_url_760x100": {
+    "type": "string",
+    "description": "The URL string for this shop's banner image."
+   },
+   "num_favorers": {
+    "type": "integer",
+    "description": "The number of users who marked this shop a favorite."
+   },
+   "languages": {
+    "type": "array<string>",
+    "description": "A list of language strings for the shop's enrolled languages where the default shop language is the first element in the array."
+   },
+   "icon_url_fullxfull": {
+    "type": "string",
+    "description": "The URL string for this shop's icon image."
+   },
+   "is_using_structured_policies": {
+    "type": "boolean",
+    "description": "When true, the shop accepted using structured policies."
+   },
+   "has_onboarded_structured_policies": {
+    "type": "boolean",
+    "description": "When true, the shop accepted OR declined after viewing structured policies onboarding."
+   },
+   "include_dispute_form_link": {
+    "type": "boolean",
+    "description": "When true, this shop's policies include a link to an EU online dispute form."
+   },
+   "is_direct_checkout_onboarded": {
+    "type": "boolean",
+    "description": "(**DEPRECATED: Replaced by _is_etsy_payments_onboarded_.) When true, the shop has onboarded onto Etsy Payments."
+   },
+   "is_etsy_payments_onboarded": {
+    "type": "boolean",
+    "description": "When true, the shop has onboarded onto Etsy Payments."
+   },
+   "is_calculated_eligible": {
+    "type": "boolean",
+    "description": "When true, the shop is eligible for calculated shipping profiles. (Only available in the US and Canada)"
+   },
+   "is_opted_in_to_buyer_promise": {
+    "type": "boolean",
+    "description": "When true, the shop opted in to buyer promise."
+   },
+   "is_shop_us_based": {
+    "type": "boolean",
+    "description": "When true, the shop is based in the US."
+   },
+   "transaction_sold_count": {
+    "type": "integer",
+    "description": "The total number of sales ([transactions](/documentation/reference#tag/Shop-Receipt-Transactions)) for this shop."
+   },
+   "shipping_from_country_iso": {
+    "type": "string",
+    "description": "The country ISO the shop is shipping from."
+   },
+   "shop_location_country_iso": {
+    "type": "string",
+    "description": "The country ISO where the shop is located."
+   },
+   "review_count": {
+    "type": "integer",
+    "description": "Number of reviews of shop listings in the past year."
+   },
+   "review_average": {
+    "type": "number",
+    "description": "Average rating based on reviews of shop listings in the past year."
+   }
+  },
+  "TransactionReview(getReviewsByShop / getReviewsByListing)": {
+   "shop_id": {
+    "type": "integer",
+    "description": "The shop's numeric ID."
+   },
+   "listing_id": {
+    "type": "integer",
+    "description": "The ID of the ShopListing that the TransactionReview belongs to."
+   },
+   "transaction_id": {
+    "type": "integer",
+    "description": "The ID of the ShopReceipt Transaction that the TransactionReview belongs to."
+   },
+   "buyer_user_id": {
+    "type": "integer",
+    "description": "The numeric ID of the user who was the buyer in this transaction. Note: This field may be absent, depending on the buyer's privacy settings."
+   },
+   "rating": {
+    "type": "integer",
+    "description": "Rating value on scale from 1 to 5"
+   },
+   "review": {
+    "type": "string",
+    "description": "A message left by the author, explaining the feedback, if provided."
+   },
+   "language": {
+    "type": "string",
+    "description": "The language of the TransactionReview"
+   },
+   "image_url_fullxfull": {
+    "type": "string",
+    "description": "The url to a photo provided with the feedback, dimensions fullxfull. Note: This field may be absent, depending on the buyer's privacy settings."
+   },
+   "create_timestamp": {
+    "type": "integer",
+    "description": "The date and time the TransactionReview was created in epoch seconds."
+   },
+   "created_timestamp": {
+    "type": "integer",
+    "description": "The date and time the TransactionReview was created in epoch seconds."
+   },
+   "update_timestamp": {
+    "type": "integer",
+    "description": "The date and time the TransactionReview was updated in epoch seconds."
+   },
+   "updated_timestamp": {
+    "type": "integer",
+    "description": "The date and time the TransactionReview was updated in epoch seconds."
+   }
+  }
+ },
+ "public_api_key_only_operations": [
+  "GET /v3/application/buyer-taxonomy/nodes (getBuyerTaxonomyNodes)",
+  "GET /v3/application/buyer-taxonomy/nodes/{taxonomy_id}/properties (getPropertiesByBuyerTaxonomyId)",
+  "GET /v3/application/listings/{listing_id} (getListing)",
+  "GET /v3/application/listings/active (findAllListingsActive)",
+  "GET /v3/application/shops/{shop_id}/listings/active (findAllActiveListingsByShop)",
+  "GET /v3/application/listings/{listing_id}/images/{listing_image_id} (getListingImage)",
+  "GET /v3/application/listings/{listing_id}/images (getListingImages)",
+  "GET /v3/application/listings/{listing_id}/products/{product_id}/offerings/{product_offering_id} (getListingOffering)",
+  "GET /v3/application/listings/batch (getListingsByListingIds)",
+  "GET /v3/application/shops/{shop_id}/listings/featured (getFeaturedListingsByShop)",
+  "GET /v3/application/listings/{listing_id}/personalization (getListingPersonalization)",
+  "GET /v3/application/listings/{listing_id}/properties/{property_id} (getListingProperty)",
+  "GET /v3/application/shops/{shop_id}/listings/{listing_id}/properties (getListingProperties)",
+  "GET /v3/application/shops/{shop_id}/listings/{listing_id}/translations/{language} (getListingTranslation)",
+  "GET /v3/application/shops/{shop_id}/listings/{listing_id}/variation-images (getListingVariationImages)",
+  "GET /v3/application/listings/{listing_id}/videos/{video_id} (getListingVideo)",
+  "GET /v3/application/listings/{listing_id}/videos (getListingVideos)",
+  "GET /v3/application/openapi-ping (ping)",
+  "GET /v3/application/listings/{listing_id}/reviews (getReviewsByListing)",
+  "GET /v3/application/shops/{shop_id}/reviews (getReviewsByShop)",
+  "GET /v3/application/seller-taxonomy/nodes (getSellerTaxonomyNodes)",
+  "GET /v3/application/seller-taxonomy/nodes/{taxonomy_id}/properties (getPropertiesByTaxonomyId)",
+  "GET /v3/application/shipping-carriers (getShippingCarriers)",
+  "GET /v3/application/shops/{shop_id} (getShop)",
+  "GET /v3/application/users/{user_id}/shops (getShopByOwnerUserId)",
+  "GET /v3/application/shops (findShops)",
+  "GET /v3/application/shops/{shop_id}/policies/return (getShopReturnPolicies)",
+  "GET /v3/application/shops/{shop_id}/policies/return/{return_policy_id} (getShopReturnPolicy)",
+  "GET /v3/application/shops/{shop_id}/sections (getShopSections)",
+  "GET /v3/application/shops/{shop_id}/sections/{shop_section_id} (getShopSection)",
+  "GET /v3/application/shops/{shop_id}/shop-sections/listings (getListingsByShopSectionId)",
+  "POST /v3/application/scopes (tokenScopes)"
+ ],
+ "notes": [
+  "sort_on=score: results are always returned in descending order regardless of sort_order; sort_on/sort_order only work together with a search option such as keywords (spec text).",
+  "findAllListingsActive has NO 'includes' parameter; use getListingsByListingIds (listings/batch, includes=Images,Shop,...) to attach images/shop and the 'views' field.",
+  "Shop.review_count / review_average cover reviews of shop listings in the past year (spec text), not lifetime; Shop.transaction_sold_count is the lifetime sales count.",
+  "ShopListing in the 2026 spec has no 'views' field (it only appears in ShopListingWithAssociations from listings/batch).",
+  "Max limit is 100 per call for all list endpoints above; paginate with offset."
+ ]
+}

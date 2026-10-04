@@ -1,0 +1,2354 @@
+query,rank,id,seller,kind,pot,same_plant,comparable,in_N
+calathea rattlesnake,1,134424858998,jessicastootielou,plant,,True,True,True
+calathea rattlesnake,2,314667131671,bubbleblooms.shop,plant,4.0,True,True,True
+calathea rattlesnake,3,314667165919,bubbleblooms.shop,plant,6.0,True,True,True
+calathea rattlesnake,4,396860821256,badgir_4739,plant,4.0,True,True,True
+calathea rattlesnake,5,287356233791,myplantsllc,plant,4.0,True,True,True
+calathea rattlesnake,6,306918807206,mor-329450,bundle,,True,False,True
+calathea rattlesnake,7,168578976268,riversidegreenhouses,plant,4.0,True,True,True
+calathea rattlesnake,8,188703134416,olisalv9,plant,4.0,True,True,True
+calathea rattlesnake,9,355793168726,rainbowgardensshop,seed,,True,False,True
+calathea rattlesnake,10,298721790673,kfsmith68,plant,,True,True,True
+calathea rattlesnake,11,407111675883,theplantry,plant,4.0,True,True,True
+calathea rattlesnake,12,317442489268,ks_plants,plant,,True,False,True
+calathea rattlesnake,13,204399660107,quinta_dos_ouriques,seed,,True,False,True
+calathea rattlesnake,14,255610670225,earthandparadisee,plant,4.0,True,True,True
+calathea rattlesnake,15,315123731065,bubbleblooms.shop,bundle,2.0,True,False,True
+calathea rattlesnake,16,188023951827,coastaltill1,plant,,True,True,True
+calathea rattlesnake,17,800722583848,floriculture-us,plant,4.0,True,True,True
+calathea rattlesnake,18,377379664601,greeenlife,plant,4.0,True,True,True
+calathea rattlesnake,19,255945807743,jessicascutietootie,plant,,True,True,True
+calathea rattlesnake,20,287588247853,shab-3770,plant,,True,True,True
+calathea rattlesnake,21,306899556123,mor-329450,bundle,,False,False,True
+calathea rattlesnake,22,306802421201,wonderfuldeal,bundle,,False,False,True
+calathea rattlesnake,23,377290370217,gardenshops,plant,2.5,True,True,True
+calathea rattlesnake,24,356201355946,unbeatablesales,plant,,True,True,True
+calathea rattlesnake,25,157743325403,llamaboy17,plant,4.0,True,True,True
+calathea rattlesnake,26,398445102011,rosolo15,plant,4.0,True,True,True
+calathea rattlesnake,27,397686277943,tropicalcherries,bundle,4.25,False,False,True
+calathea rattlesnake,28,389410087031,om.bro,plant,4.0,True,True,True
+calathea rattlesnake,29,189012695474,huna-2310,bundle,4.0,False,False,True
+calathea rattlesnake,30,298659902827,sell_blocker,non_plant,,True,False,True
+calathea rattlesnake,31,236681778824,gbmvelect,plant,4.0,True,True,True
+calathea rattlesnake,32,820107548385,awwesales,non_plant,,True,False,True
+calathea rattlesnake,33,357728711385,rainbowgardensshop,seed,,True,False,True
+calathea rattlesnake,34,304461798605,krc712,non_plant,5.0,True,False,True
+calathea rattlesnake,35,154499031551,mainelycoastalplants,plant,,True,True,True
+calathea rattlesnake,36,377026544263,jasomaye-87,plant,4.0,True,True,True
+calathea rattlesnake,37,178432442974,americanre0,bundle,,True,False,True
+calathea rattlesnake,38,295539535288,hirtsgardens,plant,2.5,True,False,True
+calathea rattlesnake,39,318541998764,bronxplantlady1225,plant,6.0,False,False,True
+calathea rattlesnake,40,167863337006,stellarplants,plant,4.0,True,True,True
+calathea rattlesnake,41,167863337008,stellarplants,plant,6.0,True,True,True
+calathea rattlesnake,42,136996586538,westcoastresale,plant,6.0,True,True,True
+calathea rattlesnake,43,145354839708,wekivafoliage,plant,4.0,True,True,True
+calathea rattlesnake,44,145357199930,wekivafoliage,plant,4.0,False,False,True
+calathea rattlesnake,45,145905389686,wekivafoliage,plant,6.0,False,False,True
+calathea rattlesnake,46,146349577175,wekivafoliage,non_plant,4.0,True,False,True
+calathea rattlesnake,47,145493111170,wekivafoliage,plant,4.0,False,False,True
+calathea rattlesnake,48,145494565815,wekivafoliage,plant,4.0,False,False,True
+calathea rattlesnake,49,145731735982,wekivafoliage,plant,6.0,True,False,True
+calathea rattlesnake,50,145894041863,wekivafoliage,plant,4.0,False,False,True
+calathea rattlesnake,51,145894042689,wekivafoliage,plant,4.0,False,False,True
+calathea rattlesnake,52,147202293163,wekivafoliage,plant,2.0,False,False,True
+calathea rattlesnake,53,147436216725,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,1,168578976239,riversidegreenhouses,plant,4.0,True,True,True
+calathea setosa,2,315342744568,bubbleblooms.shop,bundle,2.0,False,False,True
+calathea setosa,3,315123720896,bubbleblooms.shop,bundle,2.0,False,False,True
+calathea setosa,4,336022077178,leal_plants_ecuador,plant,,False,False,True
+calathea setosa,5,398444920471,amanda2.0,plant,3.5,False,False,True
+calathea setosa,6,336767136897,plants-zen,plant,4.0,False,False,True
+calathea setosa,7,314667161553,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,8,336767136887,plants-zen,plant,4.0,False,False,True
+calathea setosa,9,800718347943,floriculture-us,plant,4.0,False,False,True
+calathea setosa,10,315342723644,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,11,318598160650,ks_plants,plant,,False,False,True
+calathea setosa,12,257263236587,the-digital-outlet,non_plant,10.0,False,False,True
+calathea setosa,13,315342714375,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,14,398113399498,betterhomegoods-1,plant,,False,False,True
+calathea setosa,15,314667165160,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,16,357584677258,liams54,plant,6.0,False,False,True
+calathea setosa,17,168537940622,snakerootbotanicals,plant,,False,False,True
+calathea setosa,18,398429303583,loste_64,plant,3.0,False,False,True
+calathea setosa,19,267735248982,ardour,plant,6.0,False,False,True
+calathea setosa,20,336767136909,plants-zen,plant,6.0,False,False,True
+calathea setosa,21,407109082584,theplantry,plant,4.0,False,False,True
+calathea setosa,22,317768215661,ks_plants,plant,,False,False,True
+calathea setosa,23,236149756244,morgacharrie0,plant,,False,False,True
+calathea setosa,24,366685995805,spcell0,plant,6.0,False,False,True
+calathea setosa,25,800718247715,floriculture-us,plant,4.0,False,False,True
+calathea setosa,26,800722583848,floriculture-us,plant,4.0,False,False,True
+calathea setosa,27,375374241024,gardenshops,plant,2.5,False,False,True
+calathea setosa,28,298728621505,beach_4525,plant,,False,False,True
+calathea setosa,29,358595848067,vero-413641,bundle,6.0,False,False,True
+calathea setosa,30,198115131028,niashay,plant,6.0,False,False,True
+calathea setosa,31,314667131671,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,32,365685787672,allazifi,plant,,False,False,True
+calathea setosa,33,800603439343,louv-64,plant,,False,False,True
+calathea setosa,34,157939267433,irvin-sophi,plant,,False,False,True
+calathea setosa,35,168211756606,freshrootscollective,plant,,False,False,True
+calathea setosa,36,407218893226,mro-9877,plant,,False,False,True
+calathea setosa,37,185819077202,succulentsandcactus,plant,,False,False,True
+calathea setosa,38,800722873465,floriculture-us,plant,4.0,False,False,True
+calathea setosa,39,314667161159,bubbleblooms.shop,plant,4.0,False,False,True
+calathea setosa,40,336022121574,leal_plants_ecuador,plant,,False,False,True
+calathea setosa,41,407100951402,the_internet_shop,non_plant,4.0,False,False,True
+calathea setosa,42,185265417773,ecopla_61,plant,6.0,True,True,True
+calathea setosa,43,115479538341,lada.tropical.plants,plant,4.0,False,False,True
+calathea setosa,44,185819076665,succulentsandcactus,plant,4.0,False,False,True
+calathea setosa,45,256559242483,rita7878rita,plant,9.0,False,False,True
+calathea setosa,46,398352839378,aries_3184,plant,,False,False,True
+calathea setosa,47,377290370217,gardenshops,plant,2.5,False,False,True
+calathea setosa,48,203497672622,ellasgarden,plant,6.0,False,False,True
+calathea setosa,49,800405385561,theaestheticplants,plant,,False,False,True
+calathea setosa,50,318434221793,yu_792424,plant,6.0,False,False,True
+calathea setosa,51,394149194737,kunjmat_42,plant,12.0,False,False,True
+calathea setosa,52,375379472021,gardenshops,plant,2.5,False,False,True
+calathea setosa,53,297615465918,hirtsgardens,plant,4.0,False,False,True
+calathea setosa,54,227010272757,veronique.be.unique,plant,,False,False,True
+calathea setosa,55,396520794345,kunjmat_42,plant,4.0,False,False,True
+calathea setosa,56,236441220529,mdlj2567,plant,4.0,False,False,True
+calathea setosa,57,327267127791,veronique.be.unique,plant,,False,False,True
+calathea setosa,58,820107545594,awwesales,non_plant,,False,False,True
+calathea setosa,59,236521843313,mdlj2567,plant,4.0,False,False,True
+calathea setosa,60,307205766937,makingyourstatements,plant,,False,False,True
+calathea setosa,61,186833042211,luntiftiffa,plant,,False,False,True
+calathea setosa,62,197786397102,beautyroot,plant,,False,False,True
+calathea setosa,63,304461798605,krc712,non_plant,5.0,False,False,True
+calathea setosa,64,185262851434,ecopla_61,plant,,False,False,True
+calathea setosa,65,298659898034,sell_blocker,non_plant,,False,False,True
+calathea setosa,66,375591899058,greeenlife,plant,6.0,False,False,True
+calathea setosa,67,168061517387,rainbowxtropical,plant,,False,False,True
+calathea setosa,68,168061505444,rainbowxtropical,plant,,False,False,True
+calathea setosa,69,168061521746,rainbowxtropical,plant,,False,False,True
+calathea setosa,70,820058548441,jovans6669,plant,,False,False,True
+calathea setosa,71,168061504394,rainbowxtropical,plant,,False,False,True
+calathea setosa,72,168061520325,rainbowxtropical,plant,,False,False,True
+calathea setosa,73,168061510655,rainbowxtropical,plant,,False,False,True
+calathea setosa,74,168061507721,rainbowxtropical,plant,,False,False,True
+calathea setosa,75,168061515099,rainbowxtropical,plant,,False,False,True
+calathea setosa,76,167860758211,stellarplants,plant,6.0,False,False,True
+calathea setosa,77,167866803950,stellarplants,plant,4.0,False,False,True
+calathea setosa,78,168061509421,rainbowxtropical,plant,,False,False,True
+calathea setosa,79,178535484144,virventures,plant,,False,False,True
+calathea setosa,80,178535484146,virventures,plant,,False,False,True
+calathea setosa,81,137004764696,westcoastresale,plant,6.0,False,False,True
+calathea setosa,82,296985174431,divineroots,plant,,False,False,True
+calathea setosa,83,178164620989,ddmwc-3,cutting,,False,False,True
+calathea setosa,84,166931678190,nukemhi,plant,4.0,False,False,True
+calathea setosa,85,800472743946,theplantbrothers,plant,6.0,False,False,True
+calathea setosa,86,305570163975,praso8543,bundle,,False,False,True
+calathea setosa,87,305641867168,praso8543,bundle,,False,False,True
+calathea setosa,88,305570154479,praso8543,bundle,,False,False,True
+calathea setosa,89,188819900363,greatestmerch4u,plant,,False,False,True
+calathea setosa,90,128006565856,nocturnalgardens,plant,4.0,False,False,True
+calathea setosa,91,146349587573,wekivafoliage,non_plant,4.0,False,False,True
+calathea setosa,92,146401985626,wekivafoliage,non_plant,4.0,False,False,True
+calathea setosa,93,147202483670,wekivafoliage,plant,6.0,False,False,True
+calathea setosa,94,145493111170,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,95,145731784680,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,96,145794385785,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,97,145894041863,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,98,145894042689,wekivafoliage,plant,4.0,False,False,True
+calathea setosa,99,147202293163,wekivafoliage,plant,2.0,False,False,True
+calathea setosa,100,147239451474,wekivafoliage,plant,,False,False,True
+calathea setosa,101,147301407554,wekivafoliage,plant,,False,False,True
+calathea setosa,102,146401887241,wekivafoliage,non_plant,4.0,False,False,True
+calathea setosa,103,285117672806,junglequeen02,plant,,False,False,True
+calathea setosa,104,204515230425,freshyplants,plant,,False,False,True
+calathea setosa,105,204541222734,freshyplants,plant,,False,False,True
+calathea setosa,106,204717691764,freshyplants,plant,,False,False,True
+calathea setosa,107,204733382904,freshyplants,plant,,False,False,True
+calathea setosa,108,204851658418,freshyplants,plant,,False,False,True
+calathea setosa,109,204855284995,freshyplants,plant,,False,False,True
+calathea setosa,110,204855296948,freshyplants,plant,,False,False,True
+calathea setosa,111,204928006665,freshyplants,plant,,False,False,True
+calathea setosa,112,204928320904,freshyplants,plant,,False,False,True
+calathea setosa,113,204946550206,freshyplants,plant,,False,False,True
+calathea setosa,114,204946590338,freshyplants,plant,,False,False,True
+calathea setosa,115,204991555342,freshyplants,plant,,False,False,True
+calathea setosa,116,205895360573,freshyplants,plant,,False,False,True
+calathea setosa,117,206042174798,freshyplants,plant,,False,False,True
+calathea setosa,118,128071390662,tophercjw,plant,,False,False,True
+calathea setosa,119,366516741674,multisales555,plant,,False,False,True
+cebu blue pothos,1,168537975659,snakerootbotanicals,plant,,True,True,True
+cebu blue pothos,2,178137902483,pikaplants,cutting,,True,False,True
+cebu blue pothos,3,257544572077,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,4,397790733941,eden-elements,plant,,True,True,True
+cebu blue pothos,5,257703917139,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,6,257757509874,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,7,287617302083,plants_42,plant,,True,True,True
+cebu blue pothos,8,298220176570,stelladimarenursery,bundle,,True,False,True
+cebu blue pothos,9,257735805763,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,10,285822733882,maiksylvia,plant,5.0,True,True,True
+cebu blue pothos,11,285321857010,maiksylvia,cutting,,True,False,True
+cebu blue pothos,12,298445590418,scaroidjungle,plant,2.5,True,True,True
+cebu blue pothos,13,286339276221,uniquehomemart,plant,,True,True,True
+cebu blue pothos,14,278074754381,maiksylvia,cutting,,True,False,True
+cebu blue pothos,15,127169335494,dimensionalprint,plant,4.0,True,True,True
+cebu blue pothos,16,407218889626,moacces_85,cutting,,True,False,True
+cebu blue pothos,17,304456292836,faetedgarden,plant,,True,True,True
+cebu blue pothos,18,336767136933,plants-zen,plant,4.0,True,True,True
+cebu blue pothos,19,407027368229,rachelunsupervised,cutting,,True,False,True
+cebu blue pothos,20,188820715578,anniestore2010,plant,,True,True,True
+cebu blue pothos,21,298442094077,scaroidjungle,plant,2.5,True,True,True
+cebu blue pothos,22,257485997768,abdullahalazam,plant,2.0,True,True,True
+cebu blue pothos,23,318530469992,suzysplants,plant,2.5,True,True,True
+cebu blue pothos,24,404527210444,orchidelights,cutting,,True,False,True
+cebu blue pothos,25,298442106028,scaroidjungle,plant,2.5,True,True,True
+cebu blue pothos,26,257700652490,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,27,227529817247,tropicalflipper,cutting,,True,False,True
+cebu blue pothos,28,257600772705,abdullahalazam,cutting,,True,False,True
+cebu blue pothos,29,198313397530,bigfootnursery,cutting,,True,False,True
+cebu blue pothos,30,318875359000,alexsexotics,plant,2.0,True,True,True
+cebu blue pothos,31,257755202005,abdullahalazam,cutting,,False,False,True
+cebu blue pothos,32,317442503136,ks_plants,plant,,True,False,True
+cebu blue pothos,33,407216142486,rachelunsupervised,cutting,3.0,True,False,True
+cebu blue pothos,34,287410920000,homegrown10860,plant,,True,True,True
+cebu blue pothos,35,800088179696,momogarden,plant,,True,True,True
+cebu blue pothos,36,257617641951,abdullahalazam,plant,3.0,True,True,True
+cebu blue pothos,37,226380237673,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,38,356454817835,blackfitgardeners,cutting,,True,False,True
+cebu blue pothos,39,227505593670,tropicalflipper,cutting,,True,False,True
+cebu blue pothos,40,227270540976,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,41,227486173879,tropicalflipper,cutting,,True,False,True
+cebu blue pothos,42,800610577225,dynamic_gardens,plant,4.0,True,True,True
+cebu blue pothos,43,226068376981,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,44,198619626574,mayita246,plant,,True,True,True
+cebu blue pothos,45,398392329951,brad_9542,cutting,,True,False,True
+cebu blue pothos,46,227121963526,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,47,336812962831,debuff_0,bundle,,True,False,True
+cebu blue pothos,48,267183646842,ajd813793ot6,cutting,,True,False,True
+cebu blue pothos,49,185424416385,succulentsandcactus,cutting,,True,False,True
+cebu blue pothos,50,406840548684,sama_0823,cutting,,True,False,True
+cebu blue pothos,51,377522877481,woo4578,bundle,,True,False,True
+cebu blue pothos,52,168578976247,riversidegreenhouses,plant,3.0,True,True,True
+cebu blue pothos,53,334509617684,monicos_garden,cutting,,True,False,True
+cebu blue pothos,54,198432505314,victoriarialto,plant,,True,True,True
+cebu blue pothos,55,336194305598,monicos_garden,cutting,,True,False,True
+cebu blue pothos,56,226014031886,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,57,226014015578,plantsandpicks,cutting,,True,False,True
+cebu blue pothos,58,226788750246,plantsandpicks,plant,,True,True,True
+cebu blue pothos,59,304500082348,almuh_38,plant,,True,True,True
+cebu blue pothos,60,334509604464,monicos_garden,cutting,,True,False,True
+cebu blue pothos,61,286656693338,homegrown10860,plant,,True,True,True
+cebu blue pothos,62,174914417444,popopo2012,cutting,,True,False,True
+cebu blue pothos,63,316951469524,angelinaah,plant,4.0,True,True,True
+cebu blue pothos,64,257678000056,keedy2277,cutting,,False,False,True
+cebu blue pothos,65,393423101027,racmcdo26,plant,8.0,True,True,True
+cebu blue pothos,66,294948679295,allmyshrimpsliveintexas,cutting,,False,False,True
+cebu blue pothos,67,394867965566,elizpre81,cutting,,True,False,True
+cebu blue pothos,68,403648160751,veeshap85,cutting,,True,False,True
+cebu blue pothos,69,403639794961,peoniesplants,plant,,True,True,True
+cebu blue pothos,70,402984642725,mxaplantlove,plant,8.0,True,True,True
+cebu blue pothos,71,276593594691,klbrechbiel,cutting,,False,False,True
+cebu blue pothos,72,394969153812,deepalbodh-0,plant,4.0,True,True,True
+cebu blue pothos,73,225236082125,brookysan-5,plant,,True,True,True
+cebu blue pothos,74,384580868226,psychotic_87,plant,,True,True,True
+cebu blue pothos,75,317636150891,bronxplantlady1225,plant,4.5,True,True,True
+cebu blue pothos,76,318512159576,bronxplantlady1225,plant,6.0,True,True,True
+cebu blue pothos,77,155306583264,sarah_sellsstuff,cutting,,True,False,True
+cebu blue pothos,78,168313061162,pressedflowerartplantsandgifts,bundle,,True,False,True
+cebu blue pothos,79,287584708263,hollerpapaw,cutting,,True,False,True
+cebu blue pothos,80,387739201092,titis_garden,plant,,True,True,True
+cebu blue pothos,81,800472743987,theplantbrothers,plant,4.0,True,True,True
+cebu blue pothos,82,145419960473,wekivafoliage,plant,4.0,True,True,True
+cebu blue pothos,83,147362786990,wekivafoliage,plant,6.0,True,True,True
+cebu blue pothos,84,145432890498,wekivafoliage,plant,4.0,False,False,True
+cebu blue pothos,85,317303413853,vitalitym-60,plant,,True,True,True
+christmas cactus,1,257658906611,rwwsr,bundle,2.0,True,False,True
+christmas cactus,2,154892382998,baldmtgardens,plant,,True,True,True
+christmas cactus,3,398409734708,ahvnllc,plant,,True,True,True
+christmas cactus,4,127181396658,dimensionalprint,plant,3.0,True,True,True
+christmas cactus,5,257448600683,rwwsr,cutting,,True,False,True
+christmas cactus,6,257549939889,rwwsr,bundle,,True,False,True
+christmas cactus,7,395911426433,nnplant,plant,4.0,True,True,True
+christmas cactus,8,389354871416,s3succulents,cutting,,True,False,True
+christmas cactus,9,257460067721,rwwsr,cutting,,True,False,True
+christmas cactus,10,800581447039,s3succulents,cutting,,True,False,True
+christmas cactus,11,267642580071,rwwsr,cutting,,True,False,True
+christmas cactus,12,336696144856,arjav74,plant,,True,True,True
+christmas cactus,13,127181404833,dimensionalprint,plant,3.0,True,True,True
+christmas cactus,14,315123745775,bubbleblooms.shop,plant,6.0,True,True,True
+christmas cactus,15,307088642198,secretsucculentvilla,cutting,,True,False,True
+christmas cactus,16,127949136680,dimensionalprint,plant,3.0,True,True,True
+christmas cactus,17,353272578080,bjbw,cutting,,True,False,True
+christmas cactus,18,377529898321,nhai-45,plant,,True,True,True
+christmas cactus,19,257649721834,rwwsr,cutting,,True,False,True
+christmas cactus,20,389332369303,s3succulents,plant,,True,True,True
+christmas cactus,21,267633288625,rwwsr,cutting,,True,False,True
+christmas cactus,22,257448585083,rwwsr,cutting,,True,False,True
+christmas cactus,23,336612857796,robnski36,cutting,,True,False,True
+christmas cactus,24,155068212653,baldmtgardens,plant,,True,True,True
+christmas cactus,25,377529178483,nhai-45,plant,,True,True,True
+christmas cactus,26,154951785564,baldmtgardens,plant,,False,False,True
+christmas cactus,27,266382653668,daddyssweethope,plant,,True,True,True
+christmas cactus,28,257460049724,rwwsr,cutting,,True,False,True
+christmas cactus,29,398409734716,ahvnllc,plant,,True,True,True
+christmas cactus,30,287540186950,fromthebog,bundle,,True,False,True
+christmas cactus,31,396962445679,chuckyj-64,plant,3.0,True,True,True
+christmas cactus,32,137538955380,leaflyf,plant,6.0,True,True,True
+christmas cactus,33,307177704246,10khope,cutting,,True,False,True
+christmas cactus,34,168363266085,wzqkllc,plant,5.0,True,False,True
+christmas cactus,35,257466962236,1of9littleangels,bundle,,True,False,True
+christmas cactus,36,389354906125,s3succulents,cutting,,True,False,True
+christmas cactus,37,267642382478,rwwsr,cutting,,True,False,True
+christmas cactus,38,298522586623,powers1127a0x8,plant,,True,True,True
+christmas cactus,39,396757831585,chuckyj-64,plant,3.0,True,True,True
+christmas cactus,40,398409734725,ahvnllc,plant,,True,True,True
+christmas cactus,41,267101414167,succulentsdepot,plant,,True,False,True
+christmas cactus,42,206568600282,bearsandsuch,plant,,True,True,True
+christmas cactus,43,257461436456,rwwsr,cutting,,True,False,True
+christmas cactus,44,305318158399,10khope,cutting,,True,False,True
+christmas cactus,45,257460046701,rwwsr,cutting,,True,False,True
+christmas cactus,46,326859647176,sunny0454,cutting,,True,False,True
+christmas cactus,47,306798373737,10khope,cutting,,True,False,True
+christmas cactus,48,117403075780,faitjorda_44,plant,,True,True,True
+christmas cactus,49,257731682324,liza1987ose,plant,2.5,True,True,True
+christmas cactus,50,267642379372,rwwsr,cutting,,True,False,True
+christmas cactus,51,325915318098,kylie_kay28,cutting,,True,False,True
+christmas cactus,52,206569880545,bearsandsuch,plant,,True,True,True
+christmas cactus,53,267642561990,rwwsr,cutting,,True,False,True
+christmas cactus,54,206568602354,bearsandsuch,plant,,True,True,True
+christmas cactus,55,287575758082,dylmangardens,plant,,True,False,True
+christmas cactus,56,167993130599,wzqkllc,cutting,,True,False,True
+christmas cactus,57,236987216189,robnski36,cutting,,True,False,True
+christmas cactus,58,267515441448,daddyssweethope,plant,,True,True,True
+christmas cactus,59,198653818379,bearsandsuch,plant,,True,True,True
+christmas cactus,60,227097100227,aloyisouskona,plant,4.0,True,True,True
+christmas cactus,61,255729131437,daddyssweethope,plant,,True,True,True
+christmas cactus,62,277543827476,ashley656,plant,,True,True,True
+christmas cactus,63,145249274779,sugarrockusa,plant,2.0,True,False,True
+christmas cactus,64,198582916159,bearsandsuch,plant,,True,True,True
+christmas cactus,65,307200983525,miasorchids,plant,,True,True,True
+christmas cactus,66,206426491123,bearsandsuch,plant,,True,True,True
+christmas cactus,67,206539878205,bearsandsuch,plant,,True,True,True
+christmas cactus,68,115858992956,mossygathering,cutting,,True,False,True
+christmas cactus,69,262483978233,daddyssweethope,plant,,True,True,True
+christmas cactus,70,198623231757,bearsandsuch,plant,,True,True,True
+christmas cactus,71,206451230738,bearsandsuch,plant,,True,True,True
+christmas cactus,72,325348079605,sunny0454,cutting,,True,False,True
+christmas cactus,73,198509599219,bearsandsuch,plant,,True,True,True
+christmas cactus,74,267720030478,1of9littleangels,plant,,True,True,True
+christmas cactus,75,307190848274,bna2810.pvisrn,plant,,True,True,True
+christmas cactus,76,326859649323,sunny0454,cutting,,True,False,True
+christmas cactus,77,286618589889,dynamitedeals35,plant,,True,False,True
+christmas cactus,78,307201128950,miasorchids,plant,,True,True,True
+christmas cactus,79,198390354208,bearsandsuch,plant,,True,True,True
+christmas cactus,80,198509636767,bearsandsuch,plant,,True,True,True
+christmas cactus,81,198655207713,bearsandsuch,plant,,True,True,True
+christmas cactus,82,198622999392,bearsandsuch,plant,,True,True,True
+christmas cactus,83,198653815091,bearsandsuch,plant,,True,True,True
+christmas cactus,84,206504260713,bearsandsuch,plant,,True,True,True
+christmas cactus,85,314276971243,joyfulblooms,plant,,True,True,True
+christmas cactus,86,252425253531,daddyssweethope,plant,,True,True,True
+christmas cactus,87,396757862348,chuckyj-64,plant,3.0,True,True,True
+christmas cactus,88,326842004278,thegreenangels,cutting,,True,False,True
+christmas cactus,89,206468261143,bearsandsuch,plant,,True,True,True
+christmas cactus,90,266382559019,daddyssweethope,plant,,True,True,True
+christmas cactus,91,314970012329,joyfulblooms,plant,,True,True,True
+christmas cactus,92,198622998734,bearsandsuch,plant,,True,True,True
+christmas cactus,93,206504282569,bearsandsuch,plant,,True,True,True
+christmas cactus,94,127483810138,dimensionalprint,plant,3.0,True,True,True
+christmas cactus,95,278046041552,daniemorloc8,plant,3.0,True,True,True
+christmas cactus,96,128097217128,spencer_941,plant,,True,True,True
+christmas cactus,97,206539870683,bearsandsuch,plant,,True,True,True
+christmas cactus,98,206504288794,bearsandsuch,plant,,True,True,True
+christmas cactus,99,257729946179,liza1987ose,plant,2.5,True,True,True
+christmas cactus,100,307045596668,secretsucculentvilla,cutting,,False,False,True
+christmas cactus,101,252419748102,daddyssweethope,plant,,True,True,True
+christmas cactus,102,376375294352,pennyfountain,plant,,True,True,True
+christmas cactus,103,206381801946,bearsandsuch,plant,,True,True,True
+christmas cactus,104,256333370654,thebluebirdgarden,plant,,True,False,True
+christmas cactus,105,198623235595,bearsandsuch,plant,,True,True,True
+christmas cactus,106,397156600916,hannahserv81,plant,3.0,True,True,True
+christmas cactus,107,366695342457,e-shoponestop,plant,,True,True,True
+christmas cactus,108,398007586213,carlyjonesco,plant,,False,False,True
+christmas cactus,109,147546962582,dragan6766_2012,plant,,True,True,True
+christmas cactus,110,198623238012,bearsandsuch,plant,,True,True,True
+christmas cactus,111,133940754764,jessicastootielou,plant,,True,True,True
+christmas cactus,112,198434938262,bearsandsuch,plant,,True,True,True
+christmas cactus,113,206539876716,bearsandsuch,plant,,True,True,True
+christmas cactus,114,206259783198,nicrev43,plant,,True,True,True
+christmas cactus,115,376376245375,pzste-60,plant,3.0,True,True,True
+christmas cactus,116,920005536607,josnor_3000,plant,,False,False,True
+christmas cactus,117,206216390324,bearsandsuch,plant,,True,True,True
+christmas cactus,118,366406096210,artbymonica,cutting,,True,False,True
+christmas cactus,119,406059240867,deme-8594,bundle,3.0,True,False,True
+christmas cactus,120,398409734730,ahvnllc,plant,,True,True,True
+hoya australis lisa,1,158236107860,irvin-sophi,plant,,True,True,True
+hoya australis lisa,2,315342716287,bubbleblooms.shop,plant,,True,True,True
+hoya australis lisa,3,314667167717,bubbleblooms.shop,bundle,,True,False,True
+hoya australis lisa,4,315342715157,bubbleblooms.shop,plant,4.0,True,True,True
+hoya australis lisa,5,188809280746,coastaltill1,plant,4.0,True,True,True
+hoya australis lisa,6,158236859830,irvin-sophi,plant,,True,True,True
+hoya australis lisa,7,298347368568,beautiflorist,plant,,True,True,True
+hoya australis lisa,8,267441646271,reggicatt,plant,,True,True,True
+hoya australis lisa,9,116810739178,fun_plantsandcactus,plant,4.0,True,True,True
+hoya australis lisa,10,188149510107,iwakuni2002,plant,4.0,True,True,True
+hoya australis lisa,11,298349962445,beautiflorist,plant,,True,True,True
+hoya australis lisa,12,318930413237,adriennesadeniums38562,bundle,,True,False,True
+hoya australis lisa,13,315342744677,bubbleblooms.shop,bundle,2.0,True,False,True
+hoya australis lisa,14,314667156488,bubbleblooms.shop,bundle,,False,False,True
+hoya australis lisa,15,317510879172,ks_plants,plant,,True,True,True
+hoya australis lisa,16,314667132014,bubbleblooms.shop,plant,2.0,False,False,True
+hoya australis lisa,17,257665580837,bkb1fl62,plant,4.0,True,True,True
+hoya australis lisa,18,358812793707,planted-sights,plant,,True,True,True
+hoya australis lisa,19,168540968700,indoorvines,plant,,True,True,True
+hoya australis lisa,20,257665581866,bkb1fl62,plant,4.0,True,True,True
+hoya australis lisa,21,800754396265,natita0905,plant,,False,False,True
+hoya australis lisa,22,375424554748,gardenshops,plant,2.0,True,True,True
+hoya australis lisa,23,168143307710,indoorvines,plant,,True,True,True
+hoya australis lisa,24,267550276517,gdarwich,cutting,,True,False,True
+hoya australis lisa,25,267770715829,kikibeauteak,plant,4.0,True,True,True
+hoya australis lisa,26,407230212259,hirtsgardens,plant,2.0,True,True,True
+hoya australis lisa,27,168578976231,riversidegreenhouses,plant,4.0,True,True,True
+hoya australis lisa,28,227533342407,kellysucculentgarden,cutting,,False,False,True
+hoya australis lisa,29,317958616743,bigeasyhoyas,plant,,True,True,True
+hoya australis lisa,30,366036308784,abznursery,plant,,False,False,True
+hoya australis lisa,31,117431543757,burritobowlbokchoy,plant,,False,False,True
+hoya australis lisa,32,398434624742,bigthirdeye,bundle,,False,False,True
+hoya australis lisa,33,298721584002,yearsgonebynow,plant,,False,False,True
+hoya australis lisa,34,178530421363,radiowall42,plant,,False,False,True
+hoya australis lisa,35,158271591904,irvin-sophi,bundle,,False,False,True
+hoya australis lisa,36,178445242905,olthegoldenboy,plant,,False,False,True
+hoya australis lisa,37,128063793544,mbufalo12,plant,5.0,False,False,True
+hoya australis lisa,38,287393454681,happilyplanted,plant,4.0,True,True,True
+hoya australis lisa,39,366036312775,abznursery,plant,,False,False,True
+hoya australis lisa,40,206495547223,rareplantaddictus,cutting,,False,False,True
+hoya australis lisa,41,189006292006,kattrinas-hoya-house,plant,,False,False,True
+hoya australis lisa,42,327361225191,florida-grown-tropicals,plant,3.5,False,False,True
+hoya australis lisa,43,147611105887,jensorchids,plant,3.0,False,False,True
+hoya australis lisa,44,158300439144,greenbeeplantshop,plant,,False,False,True
+hoya australis lisa,45,227466436209,kellysucculentgarden,plant,,False,False,True
+hoya australis lisa,46,188334314113,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,47,158135738711,luckypanda2,plant,,False,False,True
+hoya australis lisa,48,117345429058,your_plant_haven,plant,,False,False,True
+hoya australis lisa,49,178484982462,olthegoldenboy,plant,,False,False,True
+hoya australis lisa,50,188923854381,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,51,327323089501,florida-grown-tropicals,plant,,False,False,True
+hoya australis lisa,52,157959844081,irvin-sophi,plant,,False,False,True
+hoya australis lisa,53,227495838809,rockymountain-mercantile,plant,,False,False,True
+hoya australis lisa,54,158122257745,irvin-sophi,plant,4.0,False,False,True
+hoya australis lisa,55,168346874510,indoorvines,plant,,False,False,True
+hoya australis lisa,56,237049460516,plantspotsparadise,cutting,,False,False,True
+hoya australis lisa,57,384087093222,cowboyflowerman,plant,2.0,False,False,True
+hoya australis lisa,58,257719197619,abdullahalazam,cutting,,False,False,True
+hoya australis lisa,59,257777097566,kikibeauteak,plant,4.0,False,False,True
+hoya australis lisa,60,385169528896,cowboyflowerman,plant,2.5,False,False,True
+hoya australis lisa,61,227495850613,rockymountain-mercantile,plant,,False,False,True
+hoya australis lisa,62,267347451793,gdarwich,cutting,,False,False,True
+hoya australis lisa,63,178536664465,olthegoldenboy,plant,,False,False,True
+hoya australis lisa,64,287563834185,am2015.arap,plant,,True,True,True
+hoya australis lisa,65,327303979269,bohogreenhouse,plant,,False,False,True
+hoya australis lisa,66,406080884374,natmc292,plant,,True,True,True
+hoya australis lisa,67,158036718516,tvu1147,plant,,False,False,True
+hoya australis lisa,68,188351326681,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,69,227495852487,rockymountain-mercantile,plant,,False,False,True
+hoya australis lisa,70,327342473853,bohogreenhouse,plant,,False,False,True
+hoya australis lisa,71,227495848187,rockymountain-mercantile,plant,,False,False,True
+hoya australis lisa,72,205668835916,savv-7662,plant,,False,False,True
+hoya australis lisa,73,189006298678,kattrinas-hoya-house,plant,,False,False,True
+hoya australis lisa,74,227533374750,kellysucculentgarden,cutting,,False,False,True
+hoya australis lisa,75,157955722840,tvu1147,plant,,False,False,True
+hoya australis lisa,76,267550301260,gdarwich,cutting,,False,False,True
+hoya australis lisa,77,188667828310,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,78,287437158059,purple-prowler3,plant,4.0,False,False,True
+hoya australis lisa,79,158271449897,irvin-sophi,plant,,False,False,True
+hoya australis lisa,80,157911192055,irvin-sophi,plant,,False,False,True
+hoya australis lisa,81,398417762137,nygardenia,plant,4.0,False,False,True
+hoya australis lisa,82,206408481317,nicrev43,plant,,False,False,True
+hoya australis lisa,83,227542299099,the6o3jungle,plant,3.0,False,False,True
+hoya australis lisa,84,178522037191,olthegoldenboy,plant,,True,True,True
+hoya australis lisa,85,117388562362,m_aracs,plant,,False,False,True
+hoya australis lisa,86,189006347381,kattrinas-hoya-house,plant,,False,False,True
+hoya australis lisa,87,157981031293,irvin-sophi,plant,,False,False,True
+hoya australis lisa,88,178488206859,radiowall42,plant,,False,False,True
+hoya australis lisa,89,188622235560,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,90,178424421062,radiowall42,plant,,False,False,True
+hoya australis lisa,91,257737163597,kikibeauteak,plant,,False,False,True
+hoya australis lisa,92,189006312800,kattrinas-hoya-house,plant,,False,False,True
+hoya australis lisa,93,158261548242,irvin-sophi,plant,,False,False,True
+hoya australis lisa,94,178488203028,radiowall42,plant,,False,False,True
+hoya australis lisa,95,257739101899,kikibeauteak,plant,4.0,False,False,True
+hoya australis lisa,96,398373773393,bigthirdeye,plant,,False,False,True
+hoya australis lisa,97,158151231543,irvin-sophi,plant,4.0,False,False,True
+hoya australis lisa,98,298418876779,hirtsgardens,plant,2.0,False,False,True
+hoya australis lisa,99,287381976026,christinhigh_0,plant,,False,False,True
+hoya australis lisa,100,188631957397,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,101,178424605273,radiowall42,plant,,False,False,True
+hoya australis lisa,102,237045817517,plantspotsparadise,plant,,False,False,True
+hoya australis lisa,103,188885411891,haileyshoya,plant,4.5,False,False,True
+hoya australis lisa,104,800715174471,luc_383190,plant,,False,False,True
+hoya australis lisa,105,178504478496,lesturn90,plant,,False,False,True
+hoya australis lisa,106,285009924303,purple-prowler3,plant,4.0,False,False,True
+hoya australis lisa,107,398296495177,bigthirdeye,plant,,False,False,True
+hoya australis lisa,108,154499052279,mainelycoastalplants,plant,,True,True,True
+hoya australis lisa,109,314443691547,ricvela-5326,plant,,False,False,True
+hoya australis lisa,110,237045816767,plantspotsparadise,plant,,False,False,True
+hoya australis lisa,111,178308037582,radiowall42,plant,,False,False,True
+hoya australis lisa,112,158291610428,irvin-sophi,plant,,False,False,True
+hoya australis lisa,113,178308038075,radiowall42,plant,,False,False,True
+hoya australis lisa,114,206495583026,rareplantaddictus,cutting,,False,False,True
+hoya australis lisa,115,285028036356,purple-prowler3,plant,4.0,False,False,True
+hoya australis lisa,116,286691281470,rkmarket,plant,3.5,False,False,True
+hoya australis lisa,117,188672196299,doqaan--com,plant,,False,False,True
+hoya australis lisa,118,188672196365,doqaan--com,plant,,False,False,True
+hoya australis lisa,119,800343718480,marassplants,cutting,,False,False,True
+hoya australis lisa,120,366036314394,abznursery,plant,,False,False,True
+hoya carnosa compacta,1,168537939852,snakerootbotanicals,plant,,True,True,True
+hoya carnosa compacta,2,206585992096,deporr-91,plant,,True,True,True
+hoya carnosa compacta,3,315342717635,bubbleblooms.shop,plant,2.0,True,True,True
+hoya carnosa compacta,4,315123702598,bubbleblooms.shop,plant,4.0,True,True,True
+hoya carnosa compacta,5,168578976224,riversidegreenhouses,plant,2.0,True,True,True
+hoya carnosa compacta,6,405328224010,air_flora,plant,8.0,True,True,True
+hoya carnosa compacta,7,257706851712,abdullahalazam,plant,2.0,True,True,True
+hoya carnosa compacta,8,336792340997,vicky8757,cutting,,True,False,True
+hoya carnosa compacta,9,405328257342,air_flora,plant,6.0,True,True,True
+hoya carnosa compacta,10,287618596890,happilyplanted,plant,4.0,True,True,True
+hoya carnosa compacta,11,407109700076,galactic.g_35,plant,4.0,True,True,True
+hoya carnosa compacta,12,407005464897,rachelunsupervised,plant,,True,True,True
+hoya carnosa compacta,13,377163209056,brig_9823,plant,4.0,True,True,True
+hoya carnosa compacta,14,185874904748,succulentsandcactus,plant,6.0,True,True,True
+hoya carnosa compacta,15,185819135364,succulentsandcactus,plant,6.0,True,True,True
+hoya carnosa compacta,16,186113880484,succulentsandcactus,plant,4.0,False,False,True
+hoya carnosa compacta,17,306918835998,mor-329450,bundle,,True,False,True
+hoya carnosa compacta,18,157922410436,irvin-sophi,plant,,True,True,True
+hoya carnosa compacta,19,406725248587,galactic.g_35,plant,4.0,True,True,True
+hoya carnosa compacta,20,195747537754,theflowerpotnursery,plant,6.0,True,True,True
+hoya carnosa compacta,21,257678430822,abdullahalazam,plant,2.0,True,True,True
+hoya carnosa compacta,22,257421326905,abdullahalazam,plant,4.0,True,True,True
+hoya carnosa compacta,23,286687009479,maiksylvia,plant,2.0,True,True,True
+hoya carnosa compacta,24,306935502493,mor-329450,bundle,6.0,True,False,True
+hoya carnosa compacta,25,284698876330,sofiyan-6,plant,4.0,False,False,True
+hoya carnosa compacta,26,405328289472,air_flora,plant,2.0,True,True,True
+hoya carnosa compacta,27,314755343481,malibuplants,plant,4.0,True,True,True
+hoya carnosa compacta,28,314667154753,bubbleblooms.shop,plant,2.0,True,True,True
+hoya carnosa compacta,29,186113878535,succulentsandcactus,plant,4.0,False,False,True
+hoya carnosa compacta,30,389410026124,om.bro,plant,6.0,True,True,True
+hoya carnosa compacta,31,296535873008,draxis305,plant,,True,True,True
+hoya carnosa compacta,32,226395122767,bohogreenhouse,plant,,False,False,True
+hoya carnosa compacta,33,405328311653,air_flora,plant,4.0,True,True,True
+hoya carnosa compacta,34,318280908435,shangri-hacactusranch,plant,10.0,True,True,True
+hoya carnosa compacta,35,116333212304,greenacresvista,plant,4.0,False,False,True
+hoya carnosa compacta,36,195265549215,theflowerpotnursery,plant,4.0,False,False,True
+hoya carnosa compacta,37,303896322695,faetedgarden,plant,,False,False,True
+hoya carnosa compacta,38,175197235168,coastaltill1,plant,6.0,False,False,True
+hoya carnosa compacta,39,317483584472,ks_plants,plant,,True,False,True
+hoya carnosa compacta,40,186113881206,succulentsandcactus,plant,4.0,False,False,True
+hoya carnosa compacta,41,125381985310,jennest_4748,plant,4.0,True,True,True
+hoya carnosa compacta,42,194359380929,theflowerpotnursery,plant,4.0,False,False,True
+hoya carnosa compacta,43,405328231974,air_flora,plant,4.0,False,False,True
+hoya carnosa compacta,44,193392286102,theflowerpotnursery,plant,4.0,True,True,True
+hoya carnosa compacta,45,356013496180,planted-sights,cutting,,False,False,True
+hoya carnosa compacta,46,185819128533,succulentsandcactus,plant,4.0,True,True,True
+hoya carnosa compacta,47,375424554929,gardenshops,plant,4.0,False,False,True
+hoya carnosa compacta,48,376433507843,brig_9823,plant,3.0,True,True,True
+hoya carnosa compacta,49,306805862870,beautiflorist,plant,,True,True,True
+hoya carnosa compacta,50,115988582415,queuen,plant,,False,False,True
+hoya carnosa compacta,51,323850363543,joyluck98,cutting,,False,False,True
+hoya carnosa compacta,52,185819130328,succulentsandcactus,plant,,True,True,True
+hoya carnosa compacta,53,324263917032,joyluck98,cutting,,False,False,True
+hoya carnosa compacta,54,313580346919,ricvela-5326,plant,,True,True,True
+hoya carnosa compacta,55,389425968349,om.bro,plant,,True,True,True
+hoya carnosa compacta,56,265943228640,theartisangreenhouse,plant,,False,False,True
+hoya carnosa compacta,57,285583583653,lokelanicrafts,plant,,False,False,True
+hoya carnosa compacta,58,195429319511,hong0318,cutting,12.0,False,False,True
+hoya carnosa compacta,59,314736677020,malibuplants,plant,2.5,True,False,True
+hoya carnosa compacta,60,257736126117,abdullahalazam,plant,2.0,True,True,True
+hoya carnosa compacta,61,225647182563,inezsila,plant,,True,True,True
+hoya carnosa compacta,62,225704727491,inezsila,cutting,,False,False,True
+hoya carnosa compacta,63,377192318890,hazel-9020,plant,4.0,True,True,True
+hoya carnosa compacta,64,377192318909,hazel-9020,plant,3.0,True,True,True
+hoya carnosa compacta,65,146333055986,wekivafoliage,non_plant,4.0,False,False,True
+hoya carnosa compacta,66,145355109357,wekivafoliage,plant,2.0,False,False,True
+hoya carnosa compacta,67,145949383963,wekivafoliage,plant,4.0,False,False,True
+hoya carnosa compacta,68,284496443135,junglequeen02,plant,,False,False,True
+hoya carnosa compacta,69,205205215692,freshyplants,plant,,False,False,True
+hoya cummingiana,1,188667828310,haileyshoya,plant,4.5,True,True,True
+hoya cummingiana,2,128113635145,381972kevin,plant,2.0,False,False,True
+hoya cummingiana,3,128106244687,381972kevin,plant,2.0,False,False,True
+hoya cummingiana,4,128086522990,381972kevin,cutting,2.0,False,False,True
+hoya cummingiana,5,168284607684,riversidegreenhouses,plant,6.0,True,True,True
+hoya cummingiana,6,287531352171,happilyplanted,plant,4.0,True,True,True
+hoya cummingiana,7,287372912796,happilyplanted,plant,4.0,True,True,True
+hoya cummingiana,8,206593642497,plumerindr,bundle,,True,False,True
+hoya cummingiana,9,800754396265,natita0905,plant,,False,False,True
+hoya cummingiana,10,137776032530,1018paul,plant,,False,False,True
+hoya cummingiana,11,317852977586,malibuplants,cutting,,False,False,True
+hoya cummingiana,12,158370901111,luckypanda2,plant,,False,False,True
+hoya cummingiana,13,314667156488,bubbleblooms.shop,bundle,,False,False,True
+hoya cummingiana,14,315342725082,bubbleblooms.shop,bundle,4.0,False,False,True
+hoya cummingiana,15,128112976011,381972kevin,cutting,2.0,False,False,True
+hoya cummingiana,16,366333450175,allazifi,plant,,False,False,True
+hoya cummingiana,17,158370968290,luckypanda2,plant,,False,False,True
+hoya cummingiana,18,117441931319,ulmus,plant,3.0,False,False,True
+hoya cummingiana,19,128112979605,381972kevin,cutting,2.0,False,False,True
+hoya cummingiana,20,128065720415,1970bonita,plant,,False,False,True
+hoya cummingiana,21,307184375016,beautiflorist,plant,,False,False,True
+hoya cummingiana,22,158095229079,irvin-sophi,plant,,False,False,True
+hoya cummingiana,23,127955668722,mbufalo12,plant,5.5,False,False,True
+hoya cummingiana,24,318392811913,malibuplants,cutting,,False,False,True
+hoya cummingiana,25,398451341102,luzva-392,plant,,False,False,True
+hoya cummingiana,26,178530421363,radiowall42,plant,,False,False,True
+hoya cummingiana,27,267550266259,gdarwich,cutting,,False,False,True
+hoya cummingiana,28,298721584002,yearsgonebynow,plant,,False,False,True
+hoya cummingiana,29,128091652247,381972kevin,cutting,2.0,False,False,True
+hoya cummingiana,30,315342754610,bubbleblooms.shop,plant,4.0,False,False,True
+hoya cummingiana,31,318201524385,var_plant,plant,,False,False,True
+hoya cummingiana,32,198440940996,yahahayuk_aroid,plant,,False,False,True
+hoya cummingiana,33,407210122048,cutelittleelf,plant,,False,False,True
+hoya cummingiana,34,267688160832,gdarwich,cutting,,False,False,True
+hoya cummingiana,35,178530806538,radiowall42,plant,,False,False,True
+hoya cummingiana,36,227524277559,kellysucculentgarden,plant,,False,False,True
+hoya cummingiana,37,278151074246,mbufalo12,plant,5.0,False,False,True
+hoya cummingiana,38,366176798434,plantl19,cutting,,True,False,True
+hoya cummingiana,39,227340075292,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,40,198469389911,yahahayuk_aroid,plant,,False,False,True
+hoya cummingiana,41,168591137705,snakerootbotanicals,plant,2.5,False,False,True
+hoya cummingiana,42,158300036688,greenbeeplantshop,cutting,,False,False,True
+hoya cummingiana,43,237031789948,stuffstuff01,plant,,False,False,True
+hoya cummingiana,44,278151074245,mbufalo12,plant,5.0,False,False,True
+hoya cummingiana,45,128063793544,mbufalo12,plant,5.0,False,False,True
+hoya cummingiana,46,206593643014,plumerindr,plant,12.0,False,False,True
+hoya cummingiana,47,327362912459,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,48,407227691218,cutelittleelf,plant,,False,False,True
+hoya cummingiana,49,158074114466,irvin-sophi,plant,,False,False,True
+hoya cummingiana,50,178530505659,radiowall42,plant,,False,False,True
+hoya cummingiana,51,298265808724,hirtsgardens,plant,2.0,False,False,True
+hoya cummingiana,52,178530680336,radiowall42,plant,,False,False,True
+hoya cummingiana,53,407210122030,cutelittleelf,plant,,False,False,True
+hoya cummingiana,54,920004412340,genavievwilliam0,plant,,False,False,True
+hoya cummingiana,55,178485153035,olthegoldenboy,plant,,False,False,True
+hoya cummingiana,56,227533374750,kellysucculentgarden,cutting,,False,False,True
+hoya cummingiana,57,307184374027,beautiflorist,plant,,False,False,True
+hoya cummingiana,58,168537939453,snakerootbotanicals,plant,2.5,False,False,True
+hoya cummingiana,59,227447483529,kellysucculentgarden,cutting,,False,False,True
+hoya cummingiana,60,327362910973,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,61,206550813894,nicrev43,plant,,False,False,True
+hoya cummingiana,62,158370837310,luckypanda2,plant,,False,False,True
+hoya cummingiana,63,178445242905,olthegoldenboy,plant,,False,False,True
+hoya cummingiana,64,227522710037,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,65,318930413237,adriennesadeniums38562,bundle,,False,False,True
+hoya cummingiana,66,117425674966,amachelle_725,plant,,False,False,True
+hoya cummingiana,67,178484982462,olthegoldenboy,plant,,False,False,True
+hoya cummingiana,68,136340158227,don040201,cutting,12.0,False,False,True
+hoya cummingiana,69,318696482905,hutchjr79,cutting,,False,False,True
+hoya cummingiana,70,298642963244,beautiflorist,plant,,False,False,True
+hoya cummingiana,71,147611094430,jensorchids,plant,3.0,False,False,True
+hoya cummingiana,72,188859633048,haileyshoya,plant,4.5,False,False,True
+hoya cummingiana,73,407210126190,cutelittleelf,plant,,False,False,True
+hoya cummingiana,74,227533345929,kellysucculentgarden,plant,,False,False,True
+hoya cummingiana,75,298730898807,yearsgonebynow,plant,,False,False,True
+hoya cummingiana,76,189006292006,kattrinas-hoya-house,plant,,False,False,True
+hoya cummingiana,77,327362894020,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,78,327361225191,florida-grown-tropicals,plant,3.5,False,False,True
+hoya cummingiana,79,227514326255,kellysucculentgarden,plant,,False,False,True
+hoya cummingiana,80,147611105887,jensorchids,plant,3.0,False,False,True
+hoya cummingiana,81,198253281907,starbl6030,plant,,False,False,True
+hoya cummingiana,82,298683398149,beautiflorist,plant,,False,False,True
+hoya cummingiana,83,366702430945,zonetenplants1,plant,,False,False,True
+hoya cummingiana,84,117388528973,m_aracs,plant,,False,False,True
+hoya cummingiana,85,128108032746,plumerindr,bundle,,False,False,True
+hoya cummingiana,86,128108025910,plumerindr,plant,,False,False,True
+hoya cummingiana,87,168537942252,snakerootbotanicals,plant,4.0,False,False,True
+hoya cummingiana,88,257466011532,abdullahalazam,plant,3.0,False,False,True
+hoya cummingiana,89,327339074512,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,90,137725447405,theplantdeli,plant,,False,False,True
+hoya cummingiana,91,178429949982,olthegoldenboy,plant,,False,False,True
+hoya cummingiana,92,407227687388,cutelittleelf,plant,,False,False,True
+hoya cummingiana,93,298730907914,yearsgonebynow,plant,,False,False,True
+hoya cummingiana,94,318581693778,mint.monster,cutting,4.0,False,False,True
+hoya cummingiana,95,398434624742,bigthirdeye,bundle,,False,False,True
+hoya cummingiana,96,189006303922,kattrinas-hoya-house,plant,,False,False,True
+hoya cummingiana,97,307151656924,beautiflorist,plant,,False,False,True
+hoya cummingiana,98,157959844081,irvin-sophi,plant,,False,False,True
+hoya cummingiana,99,298730905672,yearsgonebynow,plant,,False,False,True
+hoya cummingiana,100,227495850613,rockymountain-mercantile,plant,,False,False,True
+hoya cummingiana,101,117388510844,m_aracs,plant,3.5,False,False,True
+hoya cummingiana,102,157989270742,irvin-sophi,plant,,False,False,True
+hoya cummingiana,103,198531295970,purple012,plant,,False,False,True
+hoya cummingiana,104,227466436209,kellysucculentgarden,plant,,False,False,True
+hoya cummingiana,105,147611094016,jensorchids,plant,3.0,False,False,True
+hoya cummingiana,106,158251592320,tvu1147,non_plant,,False,False,True
+hoya cummingiana,107,158167566436,luckypanda2,plant,,False,False,True
+hoya cummingiana,108,237049460516,plantspotsparadise,cutting,,False,False,True
+hoya cummingiana,109,128097679735,381972kevin,cutting,2.0,False,False,True
+hoya cummingiana,110,168675920671,snakerootbotanicals,plant,3.0,False,False,True
+hoya cummingiana,111,158066827024,irvin-sophi,plant,,False,False,True
+hoya cummingiana,112,158300439144,greenbeeplantshop,plant,,False,False,True
+hoya cummingiana,113,366245919771,abznursery,plant,,False,False,True
+hoya cummingiana,114,117388509440,m_aracs,seed,,False,False,True
+hoya cummingiana,115,158122257745,irvin-sophi,plant,4.0,False,False,True
+hoya cummingiana,116,227484104133,bohogreenhouse,plant,,False,False,True
+hoya cummingiana,117,158251711172,tvu1147,plant,,False,False,True
+hoya cummingiana,118,206550810357,nicrev43,plant,,False,False,True
+hoya cummingiana,119,257657894686,greenvue,plant,,False,False,True
+hoya cummingiana,120,800748834181,yviebk925,plant,,False,False,True
+hoya kerrii,1,366036303830,abznursery,plant,,True,True,True
+hoya kerrii,2,365796038232,abznursery,plant,,True,True,True
+hoya kerrii,3,365842076436,abznursery,plant,,True,True,True
+hoya kerrii,4,365820977129,abznursery,plant,6.0,True,True,True
+hoya kerrii,5,314755343481,malibuplants,plant,4.0,False,False,True
+hoya kerrii,6,314829681403,malibuplants,cutting,,True,False,True
+hoya kerrii,7,366572234989,chau-4790,plant,,True,True,True
+hoya kerrii,8,315775247072,malibuplants,plant,4.0,False,False,True
+hoya kerrii,9,227491522108,kc121004,plant,,True,True,True
+hoya kerrii,10,257583427026,abdullahalazam,plant,3.0,True,True,True
+hoya kerrii,11,318629288200,augustastore1,plant,,True,True,True
+hoya kerrii,12,318842552356,augustastore1,plant,,True,True,True
+hoya kerrii,13,178454120665,coastaltill1,plant,6.0,True,True,True
+hoya kerrii,14,365934515162,abznursery,plant,,True,True,True
+hoya kerrii,15,397972899427,brit1799,plant,4.0,True,True,True
+hoya kerrii,16,406277400036,deme-8594,plant,4.0,True,True,True
+hoya kerrii,17,366655654231,chau-4790,plant,,True,True,True
+hoya kerrii,18,168591137705,snakerootbotanicals,plant,2.5,True,True,True
+hoya kerrii,19,318629288205,augustastore1,plant,,True,True,True
+hoya kerrii,20,168537939453,snakerootbotanicals,plant,2.5,True,True,True
+hoya kerrii,21,366698623025,pottedjunglefl,plant,4.0,True,True,True
+hoya kerrii,22,318842560725,augustastore1,plant,,True,True,True
+hoya kerrii,23,307207701578,hanwin-2412,plant,,True,True,True
+hoya kerrii,24,137708879847,leaflyf,plant,4.0,True,True,True
+hoya kerrii,25,395529316859,succulentqueenvira,cutting,,True,False,True
+hoya kerrii,26,366655657008,chau-4790,plant,,True,True,True
+hoya kerrii,27,168537942252,snakerootbotanicals,plant,4.0,True,True,True
+hoya kerrii,28,396932781223,hannahserv81,cutting,,True,False,True
+hoya kerrii,29,127583203378,dimensionalprint,plant,,True,True,True
+hoya kerrii,30,315123707514,bubbleblooms.shop,cutting,2.0,True,False,True
+hoya kerrii,31,406474926243,deme-8594,plant,,True,True,True
+hoya kerrii,32,314667132884,bubbleblooms.shop,plant,,True,True,True
+hoya kerrii,33,177989963450,coastaltill1,plant,4.0,True,True,True
+hoya kerrii,34,366655654258,chau-4790,plant,,True,True,True
+hoya kerrii,35,298381851062,beautiflorist,plant,,True,True,True
+hoya kerrii,36,257751203974,abdullahalazam,plant,,True,True,True
+hoya kerrii,37,137708879324,leaflyf,plant,2.0,True,True,True
+hoya kerrii,38,318842563696,augustastore1,plant,,True,True,True
+hoya kerrii,39,185853774314,succulentsandcactus,plant,,True,True,True
+hoya kerrii,40,314667166345,bubbleblooms.shop,plant,4.0,True,True,True
+hoya kerrii,41,257719197619,abdullahalazam,cutting,,True,False,True
+hoya kerrii,42,366655654248,chau-4790,plant,,True,True,True
+hoya kerrii,43,318842565278,augustastore1,plant,,True,True,True
+hoya kerrii,44,257761794012,abdullahalazam,plant,,True,True,True
+hoya kerrii,45,178418239295,coastaltill1,plant,,True,True,True
+hoya kerrii,46,137708879395,leaflyf,plant,4.0,True,True,True
+hoya kerrii,47,185496366380,succulentsandcactus,cutting,,True,False,True
+hoya kerrii,48,397573399859,hannahserv81,plant,4.0,True,True,True
+hoya kerrii,49,178509639374,gardenialabllc,plant,,True,True,True
+hoya kerrii,50,384952057577,cowboyflowerman,plant,3.0,True,True,True
+hoya kerrii,51,157934841388,irvin-sophi,plant,,False,False,True
+hoya kerrii,52,137708879397,leaflyf,plant,4.0,True,True,True
+hoya kerrii,53,398417762137,nygardenia,plant,4.0,True,True,True
+hoya kerrii,54,318842567909,augustastore1,plant,,True,True,True
+hoya kerrii,55,257751250822,abdullahalazam,plant,,True,True,True
+hoya kerrii,56,137708879846,leaflyf,plant,4.0,True,True,True
+hoya kerrii,57,366655654253,chau-4790,plant,,True,True,True
+hoya kerrii,58,314972247321,malibuplants,plant,6.0,True,True,True
+hoya kerrii,59,178509638988,gardenialabllc,plant,,True,True,True
+hoya kerrii,60,127188566032,oddauto64505,plant,4.0,True,True,True
+hoya kerrii,61,237079652315,silvergreens,plant,,True,True,True
+hoya kerrii,62,377495994999,robi_589292,plant,,True,True,True
+hoya kerrii,63,185496360095,succulentsandcactus,plant,4.0,True,True,True
+hoya kerrii,64,185496365411,succulentsandcactus,plant,,True,True,True
+hoya kerrii,65,168636799904,indoorvines,plant,2.0,True,True,True
+hoya kerrii,66,257751184669,abdullahalazam,plant,,True,True,True
+hoya kerrii,67,157942660236,gift--shop,plant,2.5,True,True,True
+hoya kerrii,68,194304856396,theflowerpotnursery,plant,4.0,True,True,True
+hoya kerrii,69,157531943739,sarah_sellsstuff,plant,,True,True,True
+hoya kerrii,70,376370350641,brig_9823,plant,4.0,True,True,True
+hoya kerrii,71,398333415339,ahvnllc,plant,4.0,True,True,True
+hoya kerrii,72,185496359335,succulentsandcactus,plant,,True,True,True
+hoya kerrii,73,287487664753,cdel_1551,bundle,,True,False,True
+hoya kerrii,74,306984884711,beautiflorist,plant,,False,False,True
+hoya kerrii,75,143179872308,don040201,plant,,False,False,True
+hoya kerrii,76,385015092590,cowboyflowerman,plant,3.0,True,True,True
+hoya kerrii,77,398409734915,ahvnllc,plant,,True,True,True
+hoya kerrii,78,178509639383,gardenialabllc,plant,,True,True,True
+hoya kerrii,79,317442490424,ks_plants,plant,,True,False,True
+hoya kerrii,80,366593950598,housenplantsllc,plant,,False,False,True
+hoya kerrii,81,186691911254,succulentsandcactus,plant,4.0,True,True,True
+hoya kerrii,82,137708879328,leaflyf,plant,2.0,True,True,True
+hoya kerrii,83,168058821483,skaterc19,plant,,True,True,True
+hoya kerrii,84,177931030578,anniestore2010,plant,4.0,False,False,True
+hoya kerrii,85,178509638512,gardenialabllc,plant,,True,True,True
+hoya kerrii,86,188672196299,doqaan--com,plant,,False,False,True
+hoya kerrii,87,313994632608,mongoose202010,plant,,True,True,True
+hoya kerrii,88,168578976223,riversidegreenhouses,plant,4.0,True,True,True
+hoya kerrii,89,178509638984,gardenialabllc,plant,,True,True,True
+hoya kerrii,90,178551976750,lasexit,plant,,False,False,True
+hoya kerrii,91,188672196183,doqaan--com,plant,,False,False,True
+hoya kerrii,92,188672196311,doqaan--com,plant,,False,False,True
+hoya kerrii,93,178189253041,anniestore2010,plant,4.0,False,False,True
+hoya kerrii,94,188672196100,doqaan--com,plant,,False,False,True
+hoya kerrii,95,168284607681,riversidegreenhouses,plant,4.0,True,True,True
+hoya kerrii,96,188633791892,doqaan--com,plant,,False,False,True
+hoya kerrii,97,406725248587,galactic.g_35,plant,4.0,False,False,True
+hoya kerrii,98,316715710549,ks_plants,plant,,True,False,True
+hoya kerrii,99,188633791769,doqaan--com,plant,,False,False,True
+hoya kerrii,100,188633791859,doqaan--com,plant,,False,False,True
+hoya kerrii,101,188672196125,doqaan--com,plant,,False,False,True
+hoya kerrii,102,127918049875,alisha_store_114,plant,,False,False,True
+hoya kerrii,103,127918050067,alisha_store_114,plant,,False,False,True
+hoya kerrii,104,188672196142,doqaan--com,plant,,False,False,True
+hoya kerrii,105,188633791693,doqaan--com,plant,,False,False,True
+hoya kerrii,106,188633791742,doqaan--com,plant,,False,False,True
+hoya kerrii,107,188633791792,doqaan--com,plant,,False,False,True
+hoya kerrii,108,188672196141,doqaan--com,plant,,False,False,True
+hoya kerrii,109,188672196081,doqaan--com,plant,,False,False,True
+hoya kerrii,110,188672196397,doqaan--com,plant,,False,False,True
+hoya kerrii,111,127918050061,alisha_store_114,plant,,False,False,True
+hoya kerrii,112,127945068667,alisha_store_114,plant,,False,False,True
+hoya kerrii,113,188633791833,doqaan--com,plant,,False,False,True
+hoya kerrii,114,398015086371,mulltininte_0,plant,,False,False,True
+hoya kerrii,115,127874746280,alisha_store_114,plant,,False,False,True
+hoya kerrii,116,137708879323,leaflyf,plant,2.0,True,True,True
+hoya kerrii,117,127945068590,alisha_store_114,plant,,False,False,True
+hoya kerrii,118,188633791686,doqaan--com,plant,,False,False,True
+hoya kerrii,119,315342746762,bubbleblooms.shop,bundle,2.0,True,False,True
+hoya kerrii,120,377178906647,brig_9823,plant,,True,True,True
+monstera peru,1,287442315251,leafandlilt,plant,,True,True,True
+monstera peru,2,227550999715,backtoobasics,plant,,True,True,True
+monstera peru,3,257007236973,greenvue,plant,4.0,True,True,True
+monstera peru,4,257007237012,greenvue,plant,4.0,True,True,True
+monstera peru,5,318935621465,wildeartha,plant,4.0,True,False,True
+monstera peru,6,206082611309,savv-7662,cutting,,True,False,True
+monstera peru,7,168661827902,canopygems,plant,2.5,True,True,True
+monstera peru,8,185193155325,anniestore2010,plant,4.0,True,True,True
+monstera peru,9,307128405305,vemeuniversal,plant,,False,False,True
+monstera peru,10,189014795716,wildeartha,plant,4.0,False,False,True
+monstera peru,11,407027391752,rachelunsupervised,cutting,,True,False,True
+monstera peru,12,198354524523,bigfootnursery,cutting,,True,False,True
+monstera peru,13,315342752785,bubbleblooms.shop,plant,6.0,True,True,True
+monstera peru,14,335712311621,leal_plants_ecuador,bundle,,True,False,True
+monstera peru,15,125663958996,yahtasha,cutting,,True,False,True
+monstera peru,16,125480905565,yahtasha,plant,3.0,True,True,True
+monstera peru,17,167899245301,canopygems,plant,4.0,True,True,True
+monstera peru,18,366597299431,housenplantsllc,plant,4.0,True,True,True
+monstera peru,19,366698571711,pottedjunglefl,plant,4.0,False,False,True
+monstera peru,20,298463517697,scaroidjungle,plant,2.5,True,True,True
+monstera peru,21,820125766799,traphouse-nursery,plant,,True,True,True
+monstera peru,22,227536352790,matneyfarms,plant,,True,True,True
+monstera peru,23,287598230656,leafandlilt,plant,,True,True,True
+monstera peru,24,127459981116,kuuhaku0,cutting,,True,False,True
+monstera peru,25,137724712743,theplantdeli,plant,3.5,True,True,True
+monstera peru,26,117246008281,offthepalmplts,plant,,True,True,True
+monstera peru,27,206082612928,savv-7662,cutting,,True,False,True
+monstera peru,28,126298571927,yahtasha,cutting,,True,False,True
+monstera peru,29,317442502836,ks_plants,plant,,True,False,True
+monstera peru,30,398272560187,itai-18,plant,6.0,True,True,True
+monstera peru,31,257007237133,greenvue,plant,4.0,True,True,True
+monstera peru,32,358876071901,thebarenode,plant,6.0,True,True,True
+monstera peru,33,168578976251,riversidegreenhouses,plant,3.0,True,True,True
+monstera peru,34,116432179195,your_plant_haven,plant,,True,True,True
+monstera peru,35,397273070351,bogtropic,plant,,True,True,True
+monstera peru,36,168578976212,riversidegreenhouses,plant,4.0,True,True,True
+monstera peru,37,306923344080,mor-329450,bundle,4.0,True,False,True
+monstera peru,38,394413158960,happy_planting,plant,4.0,True,True,True
+monstera peru,39,126298575178,yahtasha,plant,3.0,True,True,True
+monstera peru,40,185103234333,anny3030as,cutting,,False,False,True
+monstera peru,41,394419661768,happy_planting,plant,,True,True,True
+monstera peru,42,286595338657,gs5exotics,cutting,,True,False,True
+monstera peru,43,168284607697,riversidegreenhouses,plant,3.0,True,True,True
+monstera peru,44,366589487743,housenplantsllc,plant,,False,False,True
+monstera peru,45,366072769197,5tudri-18,plant,,True,True,True
+monstera peru,46,394680175423,deepalbodh-0,plant,,True,True,True
+monstera peru,47,395552438195,deepalbodh-0,plant,,True,True,True
+monstera peru,48,256700228138,palmcoastplants,cutting,,True,False,True
+monstera peru,49,395552438936,deepalbodh-0,plant,,True,True,True
+monstera peru,50,354156885230,darhug-4936,plant,,True,True,True
+monstera peru,51,354158952061,darhug-4936,cutting,,True,False,True
+monstera peru,52,167849138766,stellarplants,plant,4.0,True,True,True
+monstera peru,53,167405141700,nukemhi,cutting,,True,False,True
+monstera peru,54,146358874286,wekivafoliage,non_plant,4.0,True,False,True
+monstera peru,55,204855149493,freshyplants,plant,,True,True,True
+monstera peru,56,185103240161,anny3030as,cutting,,False,False,True
+monstera siltepecana,1,168628479446,baysidenursery02,plant,,False,False,True
+monstera siltepecana,2,276349896200,maiksylvia,plant,2.5,True,True,True
+monstera siltepecana,3,317743243148,ks_plants,plant,,True,False,True
+monstera siltepecana,4,178148621823,pikaplants,cutting,,True,False,True
+monstera siltepecana,5,257567497189,abdullahalazam,plant,,True,True,True
+monstera siltepecana,6,257776760256,posdoctor,plant,,True,False,True
+monstera siltepecana,7,277369351729,maiksylvia,cutting,,True,False,True
+monstera siltepecana,8,407027431433,rachelunsupervised,cutting,,True,False,True
+monstera siltepecana,9,257703917139,abdullahalazam,cutting,,False,False,True
+monstera siltepecana,10,257611053770,abdullahalazam,cutting,,True,False,True
+monstera siltepecana,11,388989572734,momogarden,cutting,,True,False,True
+monstera siltepecana,12,168571169190,baysidenursery02,plant,,False,False,True
+monstera siltepecana,13,307104595556,moss.market,cutting,,False,False,True
+monstera siltepecana,14,388237575110,verdantgreenery,plant,,True,True,True
+monstera siltepecana,15,256784399029,palmcoastplants,plant,6.0,True,True,True
+monstera siltepecana,16,206455807516,savv-7662,plant,,True,True,True
+monstera siltepecana,17,407191082898,rachelunsupervised,plant,4.0,True,True,True
+monstera siltepecana,18,157809416592,irvin-sophi,cutting,,True,False,True
+monstera siltepecana,19,287624651453,caseymae13,plant,,False,False,True
+monstera siltepecana,20,388933773307,momogarden,cutting,,True,False,True
+monstera siltepecana,21,168578976222,riversidegreenhouses,plant,4.0,True,True,True
+monstera siltepecana,22,257735805763,abdullahalazam,cutting,,False,False,True
+monstera siltepecana,23,198282400153,bigfootnursery,cutting,,True,False,True
+monstera siltepecana,24,366589508981,housenplantsllc,plant,,True,True,True
+monstera siltepecana,25,389117767394,cowboyflowerman,plant,3.0,False,False,True
+monstera siltepecana,26,257700652490,abdullahalazam,cutting,,False,False,True
+monstera siltepecana,27,235031573371,the_plantista,plant,,True,True,True
+monstera siltepecana,28,313480767672,ricvela-5326,plant,,False,False,True
+monstera siltepecana,29,298680781001,moss.market,cutting,,False,False,True
+monstera siltepecana,30,398220710902,redberryorchid,plant,,True,True,True
+monstera siltepecana,31,257216248554,greenvue,plant,,False,False,True
+monstera siltepecana,32,257762973572,greenvue,plant,6.0,False,False,True
+monstera siltepecana,33,800537362711,nickelsplants,plant,,False,False,True
+monstera siltepecana,34,313678832467,ricvela-5326,plant,,False,False,True
+monstera siltepecana,35,920002437826,jacksonacar6607,plant,,False,False,True
+monstera siltepecana,36,257671124819,abdullahalazam,cutting,,False,False,True
+monstera siltepecana,37,168537961029,snakerootbotanicals,plant,,False,False,True
+monstera siltepecana,38,358876071901,thebarenode,plant,6.0,False,False,True
+monstera siltepecana,39,257216250043,greenvue,plant,4.0,False,False,True
+monstera siltepecana,40,406914427487,erhul_2516,plant,,False,False,True
+monstera siltepecana,41,236441873471,devigree_0,cutting,,False,False,True
+monstera siltepecana,42,393424312262,racmcdo26,plant,4.5,True,True,True
+monstera siltepecana,43,406914426020,erhul_2516,plant,,False,False,True
+monstera siltepecana,44,256784397340,palmcoastplants,plant,4.0,True,True,True
+monstera siltepecana,45,366072771892,5tudri-18,plant,,False,False,True
+monstera siltepecana,46,127942425834,cattaraugusseedco,plant,,False,False,True
+monstera siltepecana,47,306012881206,jtg-jto-csyxhd,plant,,False,False,True
+monstera siltepecana,48,305971860381,jtg-jto-csyxhd,plant,,False,False,True
+monstera siltepecana,49,234527554981,rainbowlassie,plant,10.0,False,False,True
+monstera siltepecana,50,318390025955,bronxplantlady1225,plant,4.5,True,True,True
+monstera siltepecana,51,316930194093,bronxplantlady1225,plant,4.0,True,True,True
+monstera siltepecana,52,256700228138,palmcoastplants,cutting,,False,False,True
+monstera siltepecana,53,205698542186,newgirl_6286,plant,7.0,False,False,True
+monstera siltepecana,54,388743569893,capor6873,cutting,,False,False,True
+monstera siltepecana,55,398073250720,ke_725164,plant,,False,False,True
+monstera siltepecana,56,145627348570,kibashair,plant,,False,False,True
+monstera siltepecana,57,145333794881,floridaplantmanllc,plant,,False,False,True
+monstera siltepecana,58,145333782734,floridaplantmanllc,plant,,False,False,True
+monstera siltepecana,59,145333798271,floridaplantmanllc,plant,,False,False,True
+monstera siltepecana,60,125321363674,dreye_el,plant,,False,False,True
+monstera siltepecana,61,204541227537,freshyplants,plant,,False,False,True
+monstera siltepecana,62,204718141606,freshyplants,plant,,False,False,True
+monstera siltepecana,63,206596060651,freshyplants,plant,,False,False,True
+peperomia hope,1,287556713484,happilyplanted,plant,4.0,True,True,True
+peperomia hope,2,315342713116,bubbleblooms.shop,bundle,,False,False,True
+peperomia hope,3,315342712939,bubbleblooms.shop,plant,4.0,True,True,True
+peperomia hope,4,314667132225,bubbleblooms.shop,plant,4.0,True,True,True
+peperomia hope,5,395446273871,nnplant,cutting,6.0,True,False,True
+peperomia hope,6,137687408036,krifian_0,cutting,,True,False,True
+peperomia hope,7,198614681182,mayita246,cutting,6.0,True,False,True
+peperomia hope,8,178332076676,olthegoldenboy,plant,,False,False,True
+peperomia hope,9,186143504423,succulentsandcactus,plant,4.0,True,True,True
+peperomia hope,10,158323126127,ar_trendz,plant,4.0,True,True,True
+peperomia hope,11,186143503817,succulentsandcactus,plant,4.0,True,True,True
+peperomia hope,12,186143505849,succulentsandcactus,plant,4.0,True,True,True
+peperomia hope,13,377163240803,brig_9823,plant,2.0,True,True,True
+peperomia hope,14,317442495934,ks_plants,plant,,True,False,True
+peperomia hope,15,405841706465,wicatetfarm,bundle,,False,False,True
+peperomia hope,16,314667165247,bubbleblooms.shop,bundle,,False,False,True
+peperomia hope,17,168578976263,riversidegreenhouses,plant,4.0,True,True,True
+peperomia hope,18,394614046558,nnplant,plant,4.0,True,True,True
+peperomia hope,19,186143505108,succulentsandcactus,plant,4.0,True,True,True
+peperomia hope,20,282208347900,ricklogeesrareplants,plant,2.0,False,False,True
+peperomia hope,21,394614046552,nnplant,plant,6.0,True,True,True
+peperomia hope,22,116957994367,your_plant_haven,plant,,False,False,True
+peperomia hope,23,168284607715,riversidegreenhouses,plant,6.0,True,True,True
+peperomia hope,24,315342736716,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,25,196446185633,laurantoni-76,plant,4.0,True,True,True
+peperomia hope,26,168742420810,snakerootbotanicals,plant,,True,True,True
+peperomia hope,27,168629261058,snakerootbotanicals,plant,,False,False,True
+peperomia hope,28,315342749472,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,29,315123706641,bubbleblooms.shop,bundle,2.0,True,False,True
+peperomia hope,30,315342742169,bubbleblooms.shop,bundle,2.0,True,False,True
+peperomia hope,31,314667131150,bubbleblooms.shop,plant,2.0,True,True,True
+peperomia hope,32,315342726387,bubbleblooms.shop,plant,2.0,True,True,True
+peperomia hope,33,375368151576,gardenshops,plant,2.5,True,True,True
+peperomia hope,34,168658554810,snakerootbotanicals,plant,3.0,False,False,True
+peperomia hope,35,314667160742,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,36,186120238509,succulentsandcactus,bundle,4.0,False,False,True
+peperomia hope,37,296458897257,harmonyfoliage,plant,2.0,False,False,True
+peperomia hope,38,235593926897,cocotropics239,plant,,False,False,True
+peperomia hope,39,315342738133,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,40,315342748023,bubbleblooms.shop,bundle,2.0,False,False,True
+peperomia hope,41,117347708954,sandrus_zuodl,plant,,False,False,True
+peperomia hope,42,407217049890,orchidelights,plant,3.0,False,False,True
+peperomia hope,43,315395401333,bubbleblooms.shop,plant,2.0,False,False,True
+peperomia hope,44,405630906634,wicatetfarm,bundle,,False,False,True
+peperomia hope,45,315123705324,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,46,315342714564,bubbleblooms.shop,plant,,False,False,True
+peperomia hope,47,154499025551,mainelycoastalplants,plant,,False,False,True
+peperomia hope,48,315342719599,bubbleblooms.shop,plant,4.0,False,False,True
+peperomia hope,49,314667149280,bubbleblooms.shop,plant,,False,False,True
+peperomia hope,50,154499042577,mainelycoastalplants,plant,,False,False,True
+peperomia hope,51,286226161486,adsedd-0,plant,,False,False,True
+peperomia hope,52,375104880650,nilsatropicalgarden,plant,,False,False,True
+peperomia hope,53,376187750014,nilsatropicalgarden,plant,,False,False,True
+peperomia hope,54,168561788233,nukemhi,plant,,True,True,True
+peperomia hope,55,128006476096,nocturnalgardens,plant,4.0,True,True,True
+peperomia hope,56,377192318894,hazel-9020,plant,4.0,True,True,True
+peperomia hope,57,204855131333,freshyplants,plant,,True,True,True
+philodendron brasil,1,185632530752,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,2,366700343798,zonetenplants1,plant,,True,True,True
+philodendron brasil,3,186270927734,succulentsandcactus,plant,6.0,True,True,True
+philodendron brasil,4,128104560030,dimensionalprint,plant,,True,True,True
+philodendron brasil,5,198644566387,vintagelife365,cutting,,True,False,True
+philodendron brasil,6,185632525804,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,7,395259220011,nnplant,plant,4.0,True,True,True
+philodendron brasil,8,336767126175,plants-zen,cutting,,True,False,True
+philodendron brasil,9,198681097379,jos.jungle,cutting,,True,False,True
+philodendron brasil,10,800469244681,mysocksfelloff,cutting,,True,False,True
+philodendron brasil,11,405460963816,wicatetfarm,plant,4.0,True,True,True
+philodendron brasil,12,137740610403,theplantdeli,plant,,True,True,True
+philodendron brasil,13,405298319317,vmcplants,bundle,4.0,True,False,True
+philodendron brasil,14,178167083631,pikaplants,cutting,,True,False,True
+philodendron brasil,15,398368327486,brit1799,plant,,True,True,True
+philodendron brasil,16,186181995620,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,17,158285682603,romax_96,plant,,True,True,True
+philodendron brasil,18,185632531365,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,19,800148775762,momogarden,plant,,True,True,True
+philodendron brasil,20,185632524642,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,21,287600676364,plants_42,cutting,,True,False,True
+philodendron brasil,22,188607787440,coastaltill1,plant,4.0,True,True,True
+philodendron brasil,23,397982407634,nnplant,plant,4.0,True,True,True
+philodendron brasil,24,317765599064,ereekstei0,plant,,True,True,True
+philodendron brasil,25,168537976863,snakerootbotanicals,plant,,True,True,True
+philodendron brasil,26,125784049676,deason-spares,cutting,,True,False,True
+philodendron brasil,27,147607945282,melangez,plant,,True,True,True
+philodendron brasil,28,267800227913,chinabitbitsgarden,cutting,,True,False,True
+philodendron brasil,29,257693222417,giftsemporium,cutting,,True,False,True
+philodendron brasil,30,277006264947,maiksylvia,plant,8.0,True,True,True
+philodendron brasil,31,389006131747,beckybackyard,cutting,,True,False,True
+philodendron brasil,32,286327034396,uniquehomemart,plant,,True,True,True
+philodendron brasil,33,298679652027,scaroidjungle,plant,2.5,True,True,True
+philodendron brasil,34,334572160557,monicos_garden,cutting,,True,False,True
+philodendron brasil,35,128017063867,rskusd,plant,,True,True,True
+philodendron brasil,36,257353289112,abdullahalazam,plant,3.0,True,False,True
+philodendron brasil,37,318110856070,alicidutro_0,cutting,,True,False,True
+philodendron brasil,38,396989341440,nnplant,plant,4.0,True,True,True
+philodendron brasil,39,406157326858,twilighttropics,plant,,True,True,True
+philodendron brasil,40,317428650667,ks_plants,plant,,True,False,True
+philodendron brasil,41,117347586764,sandrus_zuodl,plant,4.0,True,True,True
+philodendron brasil,42,257774157283,flsunnybargains,plant,4.0,False,False,True
+philodendron brasil,43,397903799288,realnmtumbleweeds,cutting,,True,False,True
+philodendron brasil,44,377485291555,richa-281094,plant,,True,True,True
+philodendron brasil,45,358434583557,pg71-91,plant,,True,True,True
+philodendron brasil,46,307204141854,moss.market,plant,4.0,True,True,True
+philodendron brasil,47,366694076389,kri232696,plant,,True,True,True
+philodendron brasil,48,227491433684,matneyfarms,plant,,True,True,True
+philodendron brasil,49,168578976257,riversidegreenhouses,plant,6.0,True,True,True
+philodendron brasil,50,294195269643,faetedgarden,plant,,True,True,True
+philodendron brasil,51,318842563690,augustastore1,plant,,True,True,True
+philodendron brasil,52,366655658275,chau-4790,plant,,False,False,True
+philodendron brasil,53,188907578813,anniestore2010,plant,4.0,True,True,True
+philodendron brasil,54,198382416501,bigfootnursery,cutting,,True,False,True
+philodendron brasil,55,394398775239,kunjmat_42,plant,,True,True,True
+philodendron brasil,56,366655658285,chau-4790,plant,,True,True,True
+philodendron brasil,57,318842567913,augustastore1,plant,,True,True,True
+philodendron brasil,58,366655658289,chau-4790,plant,,True,True,True
+philodendron brasil,59,286816529765,maiksylvia,cutting,,True,False,True
+philodendron brasil,60,278372379115,shylasgarden,cutting,,True,False,True
+philodendron brasil,61,366655658261,chau-4790,plant,,True,True,True
+philodendron brasil,62,287585245908,sustyshop,plant,3.0,True,True,True
+philodendron brasil,63,366655658273,chau-4790,plant,,True,True,True
+philodendron brasil,64,366601464084,racheic0,cutting,,True,False,True
+philodendron brasil,65,336804265094,plantieshoppe,plant,6.0,True,True,True
+philodendron brasil,66,318842552330,augustastore1,plant,,True,True,True
+philodendron brasil,67,355782244437,blackfitgardeners,cutting,,True,False,True
+philodendron brasil,68,404816504161,vmcplants,plant,4.0,True,True,True
+philodendron brasil,69,188830101356,coastaltill1,plant,4.0,False,False,True
+philodendron brasil,70,318842565284,augustastore1,plant,,True,True,True
+philodendron brasil,71,285465538272,maiksylvia,plant,,True,True,True
+philodendron brasil,72,185632532788,succulentsandcactus,cutting,,True,False,True
+philodendron brasil,73,318496764286,suzysplants,cutting,,True,False,True
+philodendron brasil,74,318505953694,alexsexotics,plant,2.0,False,False,True
+philodendron brasil,75,257480747534,greenvue,plant,,False,False,True
+philodendron brasil,76,124892028036,deason-spares,cutting,,True,False,True
+philodendron brasil,77,168748568753,se_school_seasonal,plant,6.0,True,True,True
+philodendron brasil,78,257755202005,abdullahalazam,cutting,,False,False,True
+philodendron brasil,79,124923044992,deason-spares,cutting,,True,False,True
+philodendron brasil,80,318842564412,augustastore1,plant,,False,False,True
+philodendron brasil,81,186276648936,succulentsandcactus,cutting,6.0,True,False,True
+philodendron brasil,82,267274674833,flower-fan,cutting,,True,False,True
+philodendron brasil,83,267274666957,flower-fan,cutting,,True,False,True
+philodendron brasil,84,226436173165,bluecrashfish,plant,,True,True,True
+philodendron brasil,85,227195687544,dirtslinger561,cutting,,False,False,True
+philodendron brasil,86,257058519904,mairim55563,cutting,,True,False,True
+philodendron brasil,87,189006159704,kattrinas-hoya-house,plant,4.0,True,False,True
+philodendron brasil,88,314231048152,thegard1,plant,,True,True,True
+philodendron brasil,89,403928107319,orchidelights,bundle,,True,False,True
+philodendron brasil,90,117302398210,your_plant_haven,plant,,False,False,True
+philodendron brasil,91,398372646909,lynan731,plant,,True,True,True
+philodendron brasil,92,317442491420,ks_plants,plant,,False,False,True
+philodendron brasil,93,267783654330,uniquetreasures000,cutting,,True,False,True
+philodendron brasil,94,128079075104,bazaarstoree,plant,12.0,False,False,True
+philodendron brasil,95,306921189571,mor-329450,bundle,,False,False,True
+philodendron brasil,96,354763906738,blackfitgardeners,cutting,,False,False,True
+philodendron brasil,97,389706225775,mellly9-64,cutting,,False,False,True
+philodendron brasil,98,336194291322,monicos_garden,cutting,,False,False,True
+philodendron brasil,99,397756500953,nnplant,plant,6.0,True,True,True
+philodendron brasil,100,227496525682,leri_56,plant,6.0,True,True,True
+philodendron brasil,101,196844234919,jenaw336,plant,4.0,True,True,True
+philodendron brasil,102,227543635137,dirtslinger561,plant,,False,False,True
+philodendron brasil,103,206211018877,savv-7662,plant,,True,True,True
+philodendron brasil,104,153632336263,palmsathyco,cutting,,True,False,True
+philodendron brasil,105,256021201963,rikyroad,plant,4.0,True,True,True
+philodendron brasil,106,356454584702,blackfitgardeners,bundle,,True,False,True
+philodendron brasil,107,195332780275,theflowerpotnursery,plant,4.0,True,True,True
+philodendron brasil,108,394479500103,kunjmat_42,plant,4.0,True,True,True
+philodendron brasil,109,278372494522,shylasgarden,cutting,,False,False,True
+philodendron brasil,110,315529539135,plantyhands,plant,,True,True,True
+philodendron brasil,111,204113635166,ellasgarden,plant,4.0,True,True,True
+philodendron brasil,112,305417766591,shanor39,cutting,,True,False,True
+philodendron brasil,113,227097129517,asheleys,plant,4.0,True,True,True
+philodendron brasil,114,397907414908,redberryorchid,plant,3.0,True,True,True
+philodendron brasil,115,407235859089,the_internet_shop,plant,8.0,True,True,True
+philodendron brasil,116,315772497680,bubbleblooms.shop,plant,4.0,True,True,True
+philodendron brasil,117,374731311042,greeenlife,plant,4.0,True,True,True
+philodendron brasil,118,126149197497,yahtasha,plant,3.0,True,True,True
+philodendron brasil,119,286787250827,uniquehomemart,plant,,True,True,True
+philodendron brasil,120,374731308098,greeenlife,bundle,4.0,True,False,True
+philodendron micans,1,860002641382,tinyturtlestropicals,bundle,,True,False,True
+philodendron micans,2,860002692001,tinyturtlestropicals,plant,,False,False,True
+philodendron micans,3,307104595556,moss.market,cutting,,False,False,True
+philodendron micans,4,820156995690,danniialocasia410,plant,,True,True,True
+philodendron micans,5,326747809068,czgrainllc,plant,2.0,True,True,True
+philodendron micans,6,860002732750,tinyturtlestropicals,plant,,True,True,True
+philodendron micans,7,820194890973,inkblotstickers,plant,,True,True,True
+philodendron micans,8,237030264957,plantspotsparadise,plant,,True,True,True
+philodendron micans,9,168754494251,plantasha_creatives,plant,,True,True,True
+philodendron micans,10,277059773805,kelrpitts,cutting,,True,False,True
+philodendron micans,11,237096131309,plantspotsparadise,plant,,True,True,True
+philodendron micans,12,137801390971,theplantdeli,plant,,True,True,True
+philodendron micans,13,314667130630,bubbleblooms.shop,plant,4.0,True,True,True
+philodendron micans,14,318802630247,victoriababyfarms07,plant,,True,True,True
+philodendron micans,15,318917579406,victoriababyfarms07,plant,,True,True,True
+philodendron micans,16,314667168161,bubbleblooms.shop,plant,6.0,True,True,True
+philodendron micans,17,137751562193,theplantdeli,plant,,True,True,True
+philodendron micans,18,318874918439,alexsexotics,plant,2.0,True,True,True
+philodendron micans,19,285465559377,maiksylvia,plant,2.0,True,True,True
+philodendron micans,20,168724347690,plantasha_creatives,plant,,True,True,True
+philodendron micans,21,366369116216,upshining,cutting,,True,False,True
+philodendron micans,22,147535618796,jensorchids,bundle,3.0,True,False,True
+philodendron micans,23,236992529730,plantspotsparadise,plant,,True,True,True
+philodendron micans,24,237068433872,plantspotsparadise,plant,,True,True,True
+philodendron micans,25,168735822685,plantasha_creatives,plant,,True,True,True
+philodendron micans,26,800550850780,floriculture-us,plant,4.0,True,True,True
+philodendron micans,27,236743164517,formosa_plants,plant,2.0,True,False,True
+philodendron micans,28,185836162183,succulentsandcactus,cutting,,True,False,True
+philodendron micans,29,318694624788,victoriababyfarms07,plant,,True,True,True
+philodendron micans,30,406081309508,twilighttropics,plant,,True,False,True
+philodendron micans,31,128104364180,dimensionalprint,plant,,True,True,True
+philodendron micans,32,358595707462,vero-413641,bundle,,True,False,True
+philodendron micans,33,257548564902,abdullahalazam,plant,2.0,True,True,True
+philodendron micans,34,237096116253,plantspotsparadise,plant,,True,True,True
+philodendron micans,35,168699174532,canopygems,plant,2.5,True,True,True
+philodendron micans,36,257609030864,abdullahalazam,cutting,,True,False,True
+philodendron micans,37,127062415552,kuuhaku0,plant,,True,True,True
+philodendron micans,38,275756297809,maiksylvia,cutting,,True,False,True
+philodendron micans,39,398368322637,brit1799,plant,,True,True,True
+philodendron micans,40,315342724360,bubbleblooms.shop,plant,4.0,True,True,True
+philodendron micans,41,158136489876,canopygems,plant,2.5,True,True,True
+philodendron micans,42,205691592323,savv-7662,cutting,,True,False,True
+philodendron micans,43,388933921926,momogarden,cutting,,True,False,True
+philodendron micans,44,237080498324,thornbloomplants,plant,8.0,True,True,True
+philodendron micans,45,327075796855,330treetrash,plant,,True,True,True
+philodendron micans,46,327243737129,upa_llc,cutting,,True,False,True
+philodendron micans,47,117345404421,your_plant_haven,plant,,True,True,True
+philodendron micans,48,168578976248,riversidegreenhouses,plant,4.0,True,True,True
+philodendron micans,49,185836160823,succulentsandcactus,cutting,,True,False,True
+philodendron micans,50,203497677479,ellasgarden,cutting,,True,False,True
+philodendron micans,51,236881570865,plantspotsparadise,plant,,True,True,True
+philodendron micans,52,137357670329,theplantdeli,plant,3.0,True,True,True
+philodendron micans,53,168537967535,snakerootbotanicals,plant,,True,True,True
+philodendron micans,54,377512934707,20believe12,plant,,True,True,True
+philodendron micans,55,227529817247,tropicalflipper,cutting,,True,False,True
+philodendron micans,56,124923044992,deason-spares,cutting,,True,False,True
+philodendron micans,57,206354740075,savv-7662,cutting,,True,False,True
+philodendron micans,58,403928107319,orchidelights,bundle,,True,False,True
+philodendron micans,59,124892028036,deason-spares,cutting,,True,False,True
+philodendron micans,60,398132265590,angelan-65,plant,,True,True,True
+philodendron micans,61,307182834073,moss.market,cutting,,False,False,True
+philodendron micans,62,186659485843,livingbreathingcreations,cutting,,True,False,True
+philodendron micans,63,800520562878,streetkids,plant,,True,True,True
+philodendron micans,64,318497270001,suzysplants,plant,,True,True,True
+philodendron micans,65,398239415316,redberryorchid,plant,4.0,True,True,True
+philodendron micans,66,317442485337,ks_plants,plant,,True,False,True
+philodendron micans,67,318335015526,milar71,cutting,,False,False,True
+philodendron micans,68,395462923730,nnplant,plant,6.0,True,True,True
+philodendron micans,69,366577228203,joc-3170,plant,,True,True,True
+philodendron micans,70,178415045887,purposeofplantscutureplantshop,plant,4.0,True,True,True
+philodendron micans,71,298499958649,sekostk_0,plant,,True,True,True
+philodendron micans,72,227522015582,junglehouseplantsco,plant,,False,False,True
+philodendron micans,73,318573148875,burc_5550,plant,,True,True,True
+philodendron micans,74,127703451652,deason-spares,cutting,,False,False,True
+philodendron micans,75,358876095522,thebarenode,plant,4.0,False,False,True
+philodendron micans,76,188380844198,loverboys_0,plant,4.0,True,True,True
+philodendron micans,77,404554196910,orchidelights,plant,,False,False,True
+philodendron micans,78,405005977270,orchidelights,plant,3.0,False,False,True
+philodendron micans,79,266851195524,plantasticrootsllc,cutting,,True,False,True
+philodendron micans,80,377414660546,greeenlife,plant,4.0,True,True,True
+philodendron micans,81,314658778116,tropical-76,plant,,True,True,True
+philodendron micans,82,275410488428,aershop19,plant,,True,True,True
+philodendron micans,83,305420017088,shanor39,cutting,,True,False,True
+philodendron micans,84,376875741939,mirdib_24,plant,2.0,True,True,True
+philodendron micans,85,403879500818,amandabr12,cutting,,True,False,True
+philodendron micans,86,354079203195,darhug-4936,plant,,True,True,True
+philodendron micans,87,354079204305,darhug-4936,plant,,True,True,True
+philodendron micans,88,407068179359,tra_3682,plant,,True,True,True
+philodendron micans,89,287456856884,todirl0,plant,,True,True,True
+philodendron micans,90,393427311765,kunjmat_42,plant,,False,False,True
+philodendron micans,91,374829932395,yayaroots,bundle,,False,False,True
+philodendron micans,92,256271892432,trees_22,plant,,False,False,True
+philodendron micans,93,315201185373,cbcruz_rn_2,plant,,False,False,True
+philodendron micans,94,225899564906,mystri-0,plant,4.5,False,False,True
+philodendron micans,95,287624752930,momsgotthegoods,plant,4.0,True,True,True
+philodendron micans,96,318692759959,bronxplantlady1225,plant,8.0,True,True,True
+philodendron micans,97,226035317987,tratanke8,plant,2.0,False,False,True
+philodendron micans,98,167844103375,stellarplants,plant,6.0,True,True,True
+philodendron micans,99,206402950830,tampanurserya0,plant,,True,True,True
+philodendron micans,100,335273104549,rootedbymarii,cutting,,True,False,True
+philodendron micans,101,145313461264,wekivafoliage,plant,,False,False,True
+philodendron micans,102,145359463533,wekivafoliage,plant,4.0,True,True,True
+philodendron micans,103,145507210710,wekivafoliage,plant,4.0,False,False,True
+philodendron micans,104,145507327683,wekivafoliage,plant,4.0,False,False,True
+philodendron micans,105,145905401309,wekivafoliage,plant,6.0,True,True,True
+philodendron micans,106,146358876228,wekivafoliage,non_plant,4.0,True,False,True
+philodendron micans,107,145546451962,wekivafoliage,plant,4.0,False,False,True
+philodendron micans,108,145731736361,wekivafoliage,plant,4.0,True,False,True
+philodendron micans,109,204438170176,freshyplants,plant,,True,True,True
+philodendron micans,110,204548148702,freshyplants,plant,,False,False,True
+philodendron micans,111,204814244305,freshyplants,plant,,False,False,True
+philodendron pink princess,1,307212273185,hanwin-2412,plant,,True,True,True
+philodendron pink princess,2,315772499886,bubbleblooms.shop,plant,2.0,True,True,True
+philodendron pink princess,3,315772497595,bubbleblooms.shop,plant,4.0,True,True,True
+philodendron pink princess,4,177275996161,eunsun04_6,plant,4.0,True,True,True
+philodendron pink princess,5,307212262520,hanwin-2412,plant,,True,True,True
+philodendron pink princess,6,307212272357,hanwin-2412,plant,,True,True,True
+philodendron pink princess,7,278150405517,karinnastreasures,plant,,True,True,True
+philodendron pink princess,8,255646694975,daddyssweethope,plant,,True,True,True
+philodendron pink princess,9,147528879281,southernoakaquaticsfl,plant,4.0,True,True,True
+philodendron pink princess,10,326854064719,exoticwholesale,plant,4.0,True,True,True
+philodendron pink princess,11,137494817871,leaflyf,plant,,False,False,True
+philodendron pink princess,12,287434615726,happilyplanted,plant,4.0,True,True,True
+philodendron pink princess,13,315342727325,bubbleblooms.shop,plant,2.0,True,True,True
+philodendron pink princess,14,257465194463,greenvue,plant,,True,False,True
+philodendron pink princess,15,406093474868,babyve21,plant,,False,False,True
+philodendron pink princess,16,185951344481,succulentsandcactus,plant,4.0,True,True,True
+philodendron pink princess,17,366621052155,pottedjunglefl,plant,,True,True,True
+philodendron pink princess,18,318934661668,sa_119549,cutting,,True,False,True
+philodendron pink princess,19,287616519156,happilyplanted,plant,4.0,True,True,True
+philodendron pink princess,20,267751587991,mfyplants,plant,6.0,False,False,True
+philodendron pink princess,21,267658412636,mfyplants,plant,6.0,False,False,True
+philodendron pink princess,22,267797560385,mfyplants,plant,6.0,True,True,True
+philodendron pink princess,23,137494817867,leaflyf,bundle,,False,False,True
+philodendron pink princess,24,168556390430,canopygems,plant,,True,True,True
+philodendron pink princess,25,168735725197,plantasha_creatives,plant,,False,False,True
+philodendron pink princess,26,137494818037,leaflyf,plant,8.0,False,False,True
+philodendron pink princess,27,820178502771,tsl711,plant,,True,False,True
+philodendron pink princess,28,137494817868,leaflyf,plant,,True,True,True
+philodendron pink princess,29,168217862191,plantasha_creatives,plant,,True,True,True
+philodendron pink princess,30,315662321249,bubbleblooms.shop,plant,4.0,True,True,True
+philodendron pink princess,31,147518364579,akwa52,plant,,True,True,True
+philodendron pink princess,32,277215965809,maiksylvia,plant,3.0,True,True,True
+philodendron pink princess,33,127997663832,church_of_flora,plant,,True,True,True
+philodendron pink princess,34,158213762272,canopygems,plant,,True,True,True
+philodendron pink princess,35,255995267172,jessicascutietootie,plant,,True,True,True
+philodendron pink princess,36,128004511070,lakrees_90,plant,,True,True,True
+philodendron pink princess,37,307187856612,hanwin-2412,plant,,True,True,True
+philodendron pink princess,38,168683614597,plantasha_creatives,plant,,False,False,True
+philodendron pink princess,39,277451172391,maiksylvia,plant,3.0,True,True,True
+philodendron pink princess,40,185828644839,succulentsandcactus,plant,,True,True,True
+philodendron pink princess,41,128058818192,lakrees_90,plant,,True,True,True
+philodendron pink princess,42,398373091809,trishje0,plant,4.0,True,True,True
+philodendron pink princess,43,158110714803,canopygems,plant,,True,True,True
+philodendron pink princess,44,317260855019,var_plant,plant,,True,True,True
+philodendron pink princess,45,318842564979,augustastore1,plant,,True,True,True
+philodendron pink princess,46,257441681880,daddyssweethope,plant,,True,True,True
+philodendron pink princess,47,196018530740,wellspringgardens,plant,,False,False,True
+philodendron pink princess,48,307162880761,hanwin-2412,plant,,True,True,True
+philodendron pink princess,49,800130856328,dynamic_gardens,plant,2.5,True,True,True
+philodendron pink princess,50,134182161822,jessicastootielou,plant,,True,True,True
+philodendron pink princess,51,117302401846,your_plant_haven,plant,,False,False,True
+philodendron pink princess,52,377460917841,20believe12,cutting,,True,False,True
+philodendron pink princess,53,237043837261,savannahgreer97,plant,,True,True,True
+philodendron pink princess,54,307181070414,hanwin-2412,plant,,True,True,True
+philodendron pink princess,55,157434225112,canopygems,plant,4.0,True,True,True
+philodendron pink princess,56,276334402764,maiksylvia,plant,3.5,True,True,True
+philodendron pink princess,57,366655658299,chau-4790,plant,,True,True,True
+philodendron pink princess,58,236936628489,plantspotsparadise,plant,,True,True,True
+philodendron pink princess,59,318842568422,augustastore1,plant,,True,True,True
+philodendron pink princess,60,237045811149,plantspotsparadise,plant,,True,True,True
+philodendron pink princess,61,198492569727,bigfootnursery,cutting,,True,False,True
+philodendron pink princess,62,366655658297,chau-4790,plant,,True,True,True
+philodendron pink princess,63,318842545628,augustastore1,plant,,True,True,True
+philodendron pink princess,64,168574247964,canopygems,plant,4.0,True,True,True
+philodendron pink princess,65,366694079287,kri232696,plant,,True,True,True
+philodendron pink princess,66,307189299827,hanwin-2412,plant,,True,True,True
+philodendron pink princess,67,389047889129,foxtownfarms,plant,,True,True,True
+philodendron pink princess,68,168373988866,canopygems,plant,2.5,True,True,True
+philodendron pink princess,69,168631668531,canopygems,plant,,True,True,True
+philodendron pink princess,70,318842545608,augustastore1,plant,,True,True,True
+philodendron pink princess,71,178509638524,gardenialabllc,plant,,False,False,True
+philodendron pink princess,72,267768508733,mfyplants,plant,3.0,False,False,True
+philodendron pink princess,73,237045814188,plantspotsparadise,plant,,True,True,True
+philodendron pink princess,74,157879793119,zenbloomllc,plant,,True,True,True
+philodendron pink princess,75,127914960221,hammondfamilyfarm,plant,,False,False,True
+philodendron pink princess,76,257663100263,thia1229,cutting,,True,False,True
+philodendron pink princess,77,198523806745,am_100806,plant,4.0,True,True,True
+philodendron pink princess,78,407109700044,galactic.g_35,plant,4.0,True,True,True
+philodendron pink princess,79,158081719257,fulleffex,plant,,False,False,True
+philodendron pink princess,80,257660711166,thia1229,cutting,,True,False,True
+philodendron pink princess,81,257646383610,thia1229,cutting,,True,False,True
+philodendron pink princess,82,366655658298,chau-4790,plant,,True,True,True
+philodendron pink princess,83,168531147617,plantasha_creatives,plant,,False,False,True
+philodendron pink princess,84,318917579406,victoriababyfarms07,plant,,False,False,True
+philodendron pink princess,85,257651106369,thia1229,cutting,,True,False,True
+philodendron pink princess,86,257410998210,kimanne1980,plant,,True,True,True
+philodendron pink princess,87,316846717132,timmor-2928,plant,3.0,True,True,True
+philodendron pink princess,88,256553016384,lizjac21,cutting,,True,False,True
+philodendron pink princess,89,257630022200,thia1229,cutting,,True,False,True
+philodendron pink princess,90,307156001949,hanwin-2412,plant,,True,True,True
+philodendron pink princess,91,317442502394,ks_plants,plant,,True,False,True
+philodendron pink princess,92,195336718923,theflowerpotnursery,plant,4.0,True,True,True
+philodendron pink princess,93,257630023350,thia1229,cutting,,True,False,True
+philodendron pink princess,94,168284607710,riversidegreenhouses,plant,4.0,True,True,True
+philodendron pink princess,95,377167929738,prestigeun_35,plant,,True,True,True
+philodendron pink princess,96,366655658283,chau-4790,plant,,True,True,True
+philodendron pink princess,97,406751938331,galactic.g_35,plant,4.0,True,True,True
+philodendron pink princess,98,185828641646,succulentsandcactus,plant,4.0,True,True,True
+philodendron pink princess,99,376733266503,melallen-0,plant,,True,True,True
+philodendron pink princess,100,185811087380,succulentsandcactus,plant,4.0,True,True,True
+philodendron pink princess,101,178509638237,gardenialabllc,plant,,False,False,True
+philodendron pink princess,102,188380096986,loverboys_0,plant,,True,True,True
+philodendron pink princess,103,318659889155,var_plant,plant,,True,True,True
+philodendron pink princess,104,178509638291,gardenialabllc,plant,,False,False,True
+philodendron pink princess,105,256553014140,lizjac21,cutting,,True,False,True
+philodendron pink princess,106,256567983680,lizjac21,cutting,,True,False,True
+philodendron pink princess,107,147436743654,angelina_atelier_botanique,plant,,True,True,True
+philodendron pink princess,108,318432947869,malibuplants,plant,6.0,True,True,True
+philodendron pink princess,109,317291575215,var_plant,plant,,True,True,True
+philodendron pink princess,110,256971802454,kimanne1980,plant,,True,True,True
+philodendron pink princess,111,195749021729,theflowerpotnursery,plant,6.0,True,True,True
+philodendron pink princess,112,256553020664,lizjac21,cutting,,True,False,True
+philodendron pink princess,113,257690948937,greenvue,plant,4.0,False,False,True
+philodendron pink princess,114,397393095902,plantcore.id,plant,,True,True,True
+philodendron pink princess,115,404031675727,hans_plant,plant,,True,True,True
+philodendron pink princess,116,396050206306,kristedot8,cutting,,True,False,True
+philodendron pink princess,117,397472192117,hosea-74,plant,,True,True,True
+philodendron pink princess,118,314139712209,mjtropicals,plant,,True,True,True
+philodendron pink princess,119,387096901208,om.bro,plant,6.0,True,True,True
+philodendron pink princess,120,365670623262,allazifi,plant,,False,False,True
+pilea peperomioides,1,406898188504,dealcrossing,plant,2.0,True,True,True
+pilea peperomioides,2,398417758182,nygardenia,plant,4.5,True,True,True
+pilea peperomioides,3,407082982498,lensgardenusa,plant,3.0,True,True,True
+pilea peperomioides,4,206496219537,cougarnanna,plant,,True,True,True
+pilea peperomioides,5,314779024469,joyfulblooms,plant,,True,True,True
+pilea peperomioides,6,307047954551,primo_deals,plant,,True,True,True
+pilea peperomioides,7,407078677934,dealcrossing,bundle,2.0,True,False,True
+pilea peperomioides,8,127843055081,wil_153392,plant,4.0,True,True,True
+pilea peperomioides,9,366659102178,greenharborgardenco,plant,4.0,True,True,True
+pilea peperomioides,10,366345850384,joach-6675,plant,12.0,True,True,True
+pilea peperomioides,11,197235004105,caragl02,plant,4.0,True,True,True
+pilea peperomioides,12,377537995355,tofu_box_retail,plant,3.0,True,True,True
+pilea peperomioides,13,127169349847,dimensionalprint,plant,4.0,True,True,True
+pilea peperomioides,14,206554469788,cougarnanna,plant,,False,False,True
+pilea peperomioides,15,116633532063,fun_plantsandcactus,plant,4.0,True,True,True
+pilea peperomioides,16,127171224051,dimensionalprint,plant,,True,True,True
+pilea peperomioides,17,376034837830,plantytronics,plant,,True,True,True
+pilea peperomioides,18,186072810521,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,19,278002385830,byclicking,plant,4.0,True,True,True
+pilea peperomioides,20,127801743890,wintergreenhouse,plant,3.0,True,True,True
+pilea peperomioides,21,298672023153,beautiflorist,plant,,True,True,True
+pilea peperomioides,22,336771602371,plants-zen,plant,6.0,True,True,True
+pilea peperomioides,23,327329765634,exoticwholesale,plant,4.0,True,True,True
+pilea peperomioides,24,376808851638,brig_9823,plant,2.0,True,True,True
+pilea peperomioides,25,186072801752,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,26,116222219042,fun_plantsandcactus,plant,2.0,True,True,True
+pilea peperomioides,27,185827861246,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,28,196289271977,laurantoni-76,plant,4.0,True,True,True
+pilea peperomioides,29,398383437836,brit1799,plant,4.0,True,True,True
+pilea peperomioides,30,128073213563,meig-4641,plant,,True,True,True
+pilea peperomioides,31,317442498495,ks_plants,plant,,True,False,True
+pilea peperomioides,32,376433499996,brig_9823,plant,4.0,True,True,True
+pilea peperomioides,33,127169348511,dimensionalprint,plant,2.0,True,True,True
+pilea peperomioides,34,168586309339,snakerootbotanicals,plant,,True,True,True
+pilea peperomioides,35,185827865681,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,36,178509639378,gardenialabllc,plant,,True,True,True
+pilea peperomioides,37,406725248581,galactic.g_35,plant,4.0,True,True,True
+pilea peperomioides,38,178509638991,gardenialabllc,plant,,True,True,True
+pilea peperomioides,39,186072812236,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,40,376808846556,brig_9823,plant,4.0,True,True,True
+pilea peperomioides,41,398409734940,ahvnllc,plant,,True,True,True
+pilea peperomioides,42,186072811060,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,43,306936935741,varienic,plant,,True,True,True
+pilea peperomioides,44,407109700004,galactic.g_35,plant,4.0,True,True,True
+pilea peperomioides,45,306223031738,primo_deals,cutting,,True,False,True
+pilea peperomioides,46,398409735065,ahvnllc,plant,,True,True,True
+pilea peperomioides,47,186072803603,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,48,168578976235,riversidegreenhouses,plant,4.0,True,True,True
+pilea peperomioides,49,234065360144,uskc-fg,plant,4.0,True,True,True
+pilea peperomioides,50,398333416595,ahvnllc,plant,,True,True,True
+pilea peperomioides,51,398409734916,ahvnllc,plant,,True,True,True
+pilea peperomioides,52,186072807710,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,53,398409734968,ahvnllc,plant,,True,True,True
+pilea peperomioides,54,398333416589,ahvnllc,plant,,True,True,True
+pilea peperomioides,55,227246135082,unicornsalesxx,plant,,True,True,True
+pilea peperomioides,56,388594119040,bobkop-36,plant,4.0,True,True,True
+pilea peperomioides,57,398409734965,ahvnllc,plant,,True,True,True
+pilea peperomioides,58,366343529018,joach-6675,plant,,True,True,True
+pilea peperomioides,59,206107417455,cougarnanna,plant,,True,True,True
+pilea peperomioides,60,127914576069,meig-4641,bundle,12.0,True,False,True
+pilea peperomioides,61,325891057455,czgrainllc,plant,,True,True,True
+pilea peperomioides,62,128007490639,meig-4641,plant,,True,True,True
+pilea peperomioides,63,127962015163,meig-4641,plant,,True,True,True
+pilea peperomioides,64,336770419706,rj_esales,plant,,False,False,True
+pilea peperomioides,65,185827858931,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,66,188205593586,coastaltill1,plant,,True,True,True
+pilea peperomioides,67,336770402448,rj_esales,plant,,False,False,True
+pilea peperomioides,68,185827860452,succulentsandcactus,cutting,4.0,True,False,True
+pilea peperomioides,69,388594118050,bobkop-36,plant,2.0,True,True,True
+pilea peperomioides,70,178305670961,mywetplants,plant,,True,True,True
+pilea peperomioides,71,127171849034,fanmeshop,plant,,True,True,True
+pilea peperomioides,72,178509639384,gardenialabllc,plant,,True,True,True
+pilea peperomioides,73,127983414876,meig-4641,plant,,True,True,True
+pilea peperomioides,74,336424598726,rj_esales,plant,8.0,False,False,True
+pilea peperomioides,75,185827864716,succulentsandcactus,plant,4.0,True,True,True
+pilea peperomioides,76,178509638989,gardenialabllc,plant,,True,True,True
+pilea peperomioides,77,305049541825,plumarea,plant,,True,True,True
+pilea peperomioides,78,254765168462,succulentsdepot,plant,,False,False,True
+pilea peperomioides,79,234761311792,uskc-fg,plant,2.5,True,True,True
+pilea peperomioides,80,375368149905,gardenshops,plant,2.5,True,True,True
+pilea peperomioides,81,336770395857,rj_esales,plant,,False,False,True
+pilea peperomioides,82,188929488566,floridaplantsforsale,cutting,6.0,True,False,True
+pilea peperomioides,83,286802440420,maiksylvia,plant,5.0,True,True,True
+pilea peperomioides,84,255034937903,succulentsdepot,plant,,False,False,True
+pilea peperomioides,85,306971271488,linservic0,plant,,True,True,True
+pilea peperomioides,86,267621108356,incan-treasures,plant,6.0,False,False,True
+pilea peperomioides,87,375424554768,gardenshops,bundle,2.0,False,False,True
+pilea peperomioides,88,267802914616,john.come,plant,,True,False,True
+pilea peperomioides,89,314751016449,bubbleblooms.shop,plant,,True,True,True
+pilea peperomioides,90,398409734941,ahvnllc,plant,6.0,True,True,True
+pilea peperomioides,91,265796390264,familyelbow,plant,,False,False,True
+pilea peperomioides,92,398333415493,ahvnllc,plant,4.0,True,True,True
+pilea peperomioides,93,128097342970,meig-4641,plant,,True,True,True
+pilea peperomioides,94,398333416240,ahvnllc,plant,,True,True,True
+pilea peperomioides,95,267118341988,incan-treasures,plant,6.0,True,True,True
+pilea peperomioides,96,398409734914,ahvnllc,plant,,True,True,True
+pilea peperomioides,97,375424554923,gardenshops,non_plant,2.5,False,False,True
+pilea peperomioides,98,277820776259,annwoo,plant,7.0,False,False,True
+pilea peperomioides,99,267624833596,incan-treasures,plant,,True,True,True
+pilea peperomioides,100,137464137767,leaflyf,plant,,True,True,True
+pilea peperomioides,101,267430195682,incan-treasures,plant,6.0,True,True,True
+pilea peperomioides,102,317683542219,holygreen,plant,8.0,False,False,True
+pilea peperomioides,103,267132198539,incan-treasures,plant,6.0,True,True,True
+pilea peperomioides,104,128097342208,meig-4641,plant,,True,True,True
+pilea peperomioides,105,336124111102,rj_esales,plant,,False,False,True
+pilea peperomioides,106,145502140586,casparcuriosities,plant,,False,False,True
+pilea peperomioides,107,267533143977,incan-treasures,plant,6.0,False,False,True
+pilea peperomioides,108,205187861789,unique_leaf_plants,plant,4.0,True,True,True
+pilea peperomioides,109,267099108819,incan-treasures,plant,,False,False,True
+pilea peperomioides,110,267066040154,incan-treasures,plant,6.0,False,False,True
+pilea peperomioides,111,267086242147,incan-treasures,plant,6.0,False,False,True
+pilea peperomioides,112,375588187812,greeenlife,plant,4.0,True,True,True
+pilea peperomioides,113,168555941230,prettylittlethang,plant,,False,False,True
+pilea peperomioides,114,267085623482,incan-treasures,plant,6.0,True,True,True
+pilea peperomioides,115,335054540664,007leaf,plant,2.5,True,True,True
+pilea peperomioides,116,267140939620,incan-treasures,plant,,True,True,True
+pilea peperomioides,117,398333416245,ahvnllc,plant,,False,False,True
+pilea peperomioides,118,168593855961,prettylittlethang,plant,2.0,False,False,True
+pilea peperomioides,119,376433481726,brig_9823,plant,2.0,True,True,True
+pilea peperomioides,120,298621782079,kristine_555,plant,4.0,True,False,True
+raven zz plant,1,398117223936,eden-elements,plant,,True,True,True
+raven zz plant,2,358903439261,danniialocasia410,plant,,True,True,True
+raven zz plant,3,198215749371,myshop_50,plant,,True,True,True
+raven zz plant,4,287433355540,maiksylvia,plant,,True,True,True
+raven zz plant,5,178548468275,rider13pr,plant,,True,True,True
+raven zz plant,6,178549218395,rider13pr,plant,,True,True,True
+raven zz plant,7,158216369854,rayolv47,plant,,True,True,True
+raven zz plant,8,358552297684,pheobe-41,plant,,True,True,True
+raven zz plant,9,307212500064,hanwin-2412,plant,,False,False,True
+raven zz plant,10,314170264420,ricvela-5326,plant,,True,True,True
+raven zz plant,11,293801770563,capeliving,plant,,True,True,True
+raven zz plant,12,366671785748,wicked_roots,plant,,True,True,True
+raven zz plant,13,287433354738,maiksylvia,plant,,True,True,True
+raven zz plant,14,316539340169,ks_plants,plant,,True,False,True
+raven zz plant,15,185826336490,succulentsandcactus,plant,4.0,True,True,True
+raven zz plant,16,285755888601,epicesolutions,plant,,True,True,True
+raven zz plant,17,188863614776,coastaltill1,plant,6.0,True,True,True
+raven zz plant,18,287340952536,byclicking,plant,6.0,True,True,True
+raven zz plant,19,278002349826,byclicking,plant,6.0,True,True,True
+raven zz plant,20,314009457176,ricvela-5326,plant,4.0,True,True,True
+raven zz plant,21,336794952175,plantieshoppe,plant,,True,True,True
+raven zz plant,22,398333416412,ahvnllc,plant,3.0,True,True,True
+raven zz plant,23,147483087645,janicen321,plant,,False,False,True
+raven zz plant,24,166048379676,miclosetshoppe,plant,,True,True,True
+raven zz plant,25,307195066151,hanwin-2412,plant,,False,False,True
+raven zz plant,26,358552290143,pheobe-41,plant,,True,True,True
+raven zz plant,27,168284607742,riversidegreenhouses,plant,4.0,True,True,True
+raven zz plant,28,314667165084,bubbleblooms.shop,plant,4.0,True,True,True
+raven zz plant,29,395943266683,kristedot8,cutting,,False,False,True
+raven zz plant,30,375326440748,greeenlife,plant,6.0,True,True,True
+raven zz plant,31,398333416237,ahvnllc,plant,,True,True,True
+raven zz plant,32,178415046545,purposeofplantscutureplantshop,plant,5.0,True,True,True
+raven zz plant,33,375654918618,greeenlife,plant,4.0,True,True,True
+raven zz plant,34,318512028941,bronxplantlady1225,plant,6.0,True,True,True
+raven zz plant,35,376116334568,nilsatropicalgarden,plant,,True,True,True
+raven zz plant,36,166924191932,nukemhi,bundle,9.0,True,False,True
+raven zz plant,37,167669604965,nukemhi,plant,,True,True,True
+raven zz plant,38,168599492496,sevenseasfinds,plant,3.0,True,True,True
+raven zz plant,39,145357201739,wekivafoliage,plant,8.0,False,False,True
+raven zz plant,40,146006998409,wekivafoliage,plant,4.0,True,True,True
+raven zz plant,41,146388565532,wekivafoliage,non_plant,4.0,True,False,True
+raven zz plant,42,204372545093,freshyplants,plant,,True,True,True
+raven zz plant,43,205895388683,freshyplants,plant,,False,False,True
+raven zz plant,44,206042086725,freshyplants,plant,,False,False,True
+raven zz plant,45,206109009367,freshyplants,plant,,True,True,True
+raven zz plant,46,198525809403,kitsch*kitty,bundle,,True,False,True
+raven zz plant,47,398117224932,eden-elements,plant,4.0,False,False,False
+raven zz plant,48,287552705675,maiksylvia,plant,3.0,False,False,False
+raven zz plant,49,398039156562,nnplant,plant,4.0,False,False,False
+raven zz plant,50,406090902953,raz.-77,plant,6.0,False,False,False
+raven zz plant,51,116616020059,fun_plantsandcactus,plant,4.0,False,False,False
+raven zz plant,52,237104468512,plantspotsparadise,cutting,,False,False,False
+raven zz plant,53,237104465340,plantspotsparadise,cutting,,False,False,False
+raven zz plant,54,206430703196,clasemama,plant,4.0,False,False,False
+raven zz plant,55,237020405382,plantspotsparadise,cutting,,False,False,False
+raven zz plant,56,326762059478,karyn541,plant,,True,False,False
+raven zz plant,57,358600228750,vero-413641,plant,,False,False,False
+raven zz plant,58,227363914426,buyselltx,plant,,False,False,False
+raven zz plant,59,800387904914,kamama_23,plant,6.0,False,False,False
+raven zz plant,60,237094032413,thornbloomplants,plant,10.0,False,False,False
+raven zz plant,61,236746106862,selem223,plant,6.0,False,False,False
+raven zz plant,62,316539347966,ks_plants,plant,,False,False,False
+raven zz plant,63,227253434933,buyselltx,plant,4.0,False,False,False
+raven zz plant,64,198661638265,kitsch*kitty,bundle,,False,False,False
+raven zz plant,65,237094030271,thornbloomplants,plant,10.0,False,False,False
+raven zz plant,66,287440032379,happilyplanted,plant,6.0,False,False,False
+raven zz plant,67,147598837693,iamsoandso,plant,,False,False,False
+raven zz plant,68,237049510391,plantspotsparadise,plant,,True,False,False
+raven zz plant,69,168537950968,snakerootbotanicals,plant,,False,False,False
+raven zz plant,70,358553670726,exoticgardenblisss,plant,8.0,False,False,False
+raven zz plant,71,198552053930,kitsch*kitty,plant,,False,False,False
+raven zz plant,72,287618514652,70-seven,plant,,False,False,False
+raven zz plant,73,158242659896,cristian-beltran,plant,,False,False,False
+raven zz plant,74,287618517879,70-seven,plant,,False,False,False
+raven zz plant,75,137741456775,theplantdeli,plant,5.0,False,False,False
+raven zz plant,76,168578976271,riversidegreenhouses,plant,2.0,False,False,False
+raven zz plant,77,198513783432,clasemama,plant,4.0,False,False,False
+raven zz plant,78,287618520185,70-seven,plant,,False,False,False
+raven zz plant,79,137801372924,theplantdeli,plant,,False,False,False
+raven zz plant,80,127206498317,christopheart10,plant,,False,False,False
+raven zz plant,81,398333417013,ahvnllc,plant,,True,False,False
+raven zz plant,82,168578976218,riversidegreenhouses,plant,8.0,False,False,False
+raven zz plant,83,188863614778,coastaltill1,plant,4.0,False,False,False
+raven zz plant,84,406351766345,twilighttropics,plant,,False,False,False
+raven zz plant,85,336803865419,plantieshoppe,plant,6.0,False,False,False
+raven zz plant,86,257259478668,mairim55563,plant,,False,False,False
+raven zz plant,87,137801370742,theplantdeli,plant,,False,False,False
+raven zz plant,88,198661632702,kitsch*kitty,bundle,,False,False,False
+raven zz plant,89,127881384817,jmlovessd,plant,,False,False,False
+raven zz plant,90,178509639238,gardenialabllc,plant,3.0,True,False,False
+raven zz plant,91,147351819300,schottenterprises,plant,6.0,False,False,False
+raven zz plant,92,358552305877,pheobe-41,plant,8.0,False,False,False
+raven zz plant,93,185873606524,succulentsandcactus,plant,4.0,False,False,False
+raven zz plant,94,407080908089,desertscapesucculent,plant,,False,False,False
+raven zz plant,95,158217760516,cristian-beltran,plant,,False,False,False
+raven zz plant,96,313999451542,ricvela-5326,plant,,False,False,False
+raven zz plant,97,336812962831,debuff_0,bundle,,False,False,False
+raven zz plant,98,377522877481,woo4578,bundle,,False,False,False
+raven zz plant,99,397893478472,tariqhk2,plant,6.0,False,False,False
+raven zz plant,100,137559491014,lielim63,plant,10.0,False,False,False
+raven zz plant,101,396850520156,badgir_4739,plant,3.0,False,False,False
+raven zz plant,102,404816515100,vmcplants,plant,6.0,False,False,False
+raven zz plant,103,314060839519,ricvela-5326,plant,,False,False,False
+raven zz plant,104,314019838243,ricvela-5326,plant,,False,False,False
+raven zz plant,105,375368087478,gardenshops,plant,4.0,False,False,False
+raven zz plant,106,353447243480,nichmor-4643,plant,8.0,False,False,False
+raven zz plant,107,314667169175,bubbleblooms.shop,plant,6.0,False,False,False
+raven zz plant,108,393429495902,kunjmat_42,plant,,False,False,False
+raven zz plant,109,396865573746,mattimich-0,non_plant,,False,False,False
+raven zz plant,110,353447182058,nichmor-4643,plant,,False,False,False
+raven zz plant,111,315342714434,bubbleblooms.shop,plant,6.0,False,False,False
+raven zz plant,112,155837170600,tashi-8050,plant,4.0,False,False,False
+raven zz plant,113,398333416394,ahvnllc,plant,3.0,True,False,False
+raven zz plant,114,168578976252,riversidegreenhouses,plant,2.0,False,False,False
+raven zz plant,115,185826338515,succulentsandcactus,plant,,False,False,False
+raven zz plant,116,178509639237,gardenialabllc,plant,3.0,True,False,False
+raven zz plant,117,206581804121,qualitycart-ib,plant,,False,False,False
+raven zz plant,118,257668981837,basicbargains,plant,6.0,False,False,False
+raven zz plant,119,236263672128,littlebebe_store,non_plant,,False,False,False
+raven zz plant,120,375593362642,greeenlife,plant,6.0,False,False,False
+raven zz plant,121,396335228629,redhawk5,plant,,False,False,False
+raven zz plant,122,398316319229,redhawk5,plant,,False,False,False
+raven zz plant,123,387607280094,sharkma_1,plant,,False,False,False
+raven zz plant,124,255702295310,earthandparadisee,plant,4.0,False,False,False
+raven zz plant,125,165619839997,stellarplants,plant,4.0,False,False,False
+raven zz plant,126,166449745302,stellarplants,plant,6.0,False,False,False
+raven zz plant,127,397784042489,bri9867,plant,,True,False,False
+raven zz plant,128,358902939811,fairviewtrading,plant,6.0,False,False,False
+raven zz plant,129,185826339505,succulentsandcactus,plant,4.0,False,False,False
+rhaphidophora tetrasperma,1,226222584395,backtoobasics,cutting,,True,False,True
+rhaphidophora tetrasperma,2,284421794929,butterflygardenseeds,plant,,True,True,True
+rhaphidophora tetrasperma,3,204398834487,quinta_dos_ouriques,plant,,True,True,True
+rhaphidophora tetrasperma,4,198515989372,bigfootnursery,non_plant,6.0,True,False,True
+rhaphidophora tetrasperma,5,257778955411,th_ploy23,cutting,,True,False,True
+rhaphidophora tetrasperma,6,407263240740,thehippieplantshop,plant,,True,True,True
+rhaphidophora tetrasperma,7,188718689662,coastaltill1,plant,4.0,True,True,True
+rhaphidophora tetrasperma,8,168685611929,plantasha_creatives,plant,,True,True,True
+rhaphidophora tetrasperma,9,188726127184,thegreenr-78,plant,3.0,True,True,True
+rhaphidophora tetrasperma,10,117302401854,your_plant_haven,plant,,True,True,True
+rhaphidophora tetrasperma,11,128028504330,irynamiller,plant,,True,True,True
+rhaphidophora tetrasperma,12,318642291000,jakestropicalstock,plant,,True,True,True
+rhaphidophora tetrasperma,13,318510428795,var_plant,plant,,True,True,True
+rhaphidophora tetrasperma,14,318598149256,ks_plants,bundle,,False,False,True
+rhaphidophora tetrasperma,15,406898544003,babyve21,plant,,True,True,True
+rhaphidophora tetrasperma,16,317442485296,ks_plants,plant,,True,False,True
+rhaphidophora tetrasperma,17,185819068298,succulentsandcactus,plant,,True,True,True
+rhaphidophora tetrasperma,18,185839433765,succulentsandcactus,cutting,,True,False,True
+rhaphidophora tetrasperma,19,404949358964,hans_plant,plant,,True,True,True
+rhaphidophora tetrasperma,20,234636127202,daor_8518,plant,,True,True,True
+rhaphidophora tetrasperma,21,168578976210,riversidegreenhouses,plant,4.0,True,True,True
+rhaphidophora tetrasperma,22,197755044266,beautyroot,plant,,True,True,True
+rhaphidophora tetrasperma,23,366523944883,torashop_garden,plant,,True,True,True
+rhaphidophora tetrasperma,24,397341414007,plantcore.id,plant,,True,True,True
+rhaphidophora tetrasperma,25,820101487796,nusantara29,plant,,True,True,True
+rhaphidophora tetrasperma,26,287498914374,happilyplanted,plant,4.0,True,True,True
+rhaphidophora tetrasperma,27,185839441510,succulentsandcactus,plant,4.0,True,True,True
+rhaphidophora tetrasperma,28,168578976216,riversidegreenhouses,plant,8.0,True,True,True
+rhaphidophora tetrasperma,29,406351766352,twilighttropics,cutting,,True,False,True
+rhaphidophora tetrasperma,30,305959517285,09*comet,plant,4.0,True,True,True
+rhaphidophora tetrasperma,31,365754131167,allazifi,plant,,True,True,True
+rhaphidophora tetrasperma,32,398445101997,rosolo15,plant,,True,True,True
+rhaphidophora tetrasperma,33,366027251793,ahda_5374,plant,,True,True,True
+rhaphidophora tetrasperma,34,306925332242,mor-329450,bundle,4.0,True,False,True
+rhaphidophora tetrasperma,35,124724362648,deason-spares,cutting,,True,False,True
+rhaphidophora tetrasperma,36,187075473182,succulentsandcactus,plant,6.0,True,True,True
+rhaphidophora tetrasperma,37,325995557774,veronique.be.unique,plant,,True,True,True
+rhaphidophora tetrasperma,38,394774994851,deepalbodh-0,plant,,True,True,True
+rhaphidophora tetrasperma,39,317201753624,var_plant,plant,,True,True,True
+rhaphidophora tetrasperma,40,305959514273,09*comet,plant,4.0,True,True,True
+rhaphidophora tetrasperma,41,358921984267,jovans6669,plant,,True,True,True
+rhaphidophora tetrasperma,42,398231341637,hosea-74,plant,,True,True,True
+rhaphidophora tetrasperma,43,146898526445,the_nile,non_plant,,True,False,True
+rhaphidophora tetrasperma,44,168592892499,djsan_5659,plant,,True,True,True
+rhaphidophora tetrasperma,45,358921970891,jovans6669,plant,,True,True,True
+rhaphidophora tetrasperma,46,398199059144,grandeagleretail,non_plant,,True,False,True
+rhaphidophora tetrasperma,47,404265440852,hans_plant,plant,,True,True,True
+rhaphidophora tetrasperma,48,377272473195,evergreennature,plant,6.0,True,True,True
+rhaphidophora tetrasperma,49,257306529600,luxuryprintz,non_plant,,True,False,True
+rhaphidophora tetrasperma,50,325995557756,veronique.be.unique,plant,,True,True,True
+rhaphidophora tetrasperma,51,335738324608,lazaun32,plant,4.0,True,True,True
+rhaphidophora tetrasperma,52,168534207701,djsan_5659,plant,,True,True,True
+rhaphidophora tetrasperma,53,306180268172,tych176,plant,,True,True,True
+rhaphidophora tetrasperma,54,364710701386,bkinterplant,plant,,True,True,True
+rhaphidophora tetrasperma,55,165507871061,ann_273,cutting,,True,False,True
+rhaphidophora tetrasperma,56,168484887509,djsan_5659,plant,,True,True,True
+rhaphidophora tetrasperma,57,167766238110,sarah_sellsstuff,plant,,True,True,True
+rhaphidophora tetrasperma,58,384432003802,greg17086,seed,,True,False,True
+rhaphidophora tetrasperma,59,224288108715,sasithornpanatuek,plant,,True,True,True
+rhaphidophora tetrasperma,60,374733029062,nilsatropicalgarden,plant,,True,True,True
+rhaphidophora tetrasperma,61,128005814324,nocturnalgardens,plant,4.0,True,True,True
+rhaphidophora tetrasperma,62,398412913523,marketallin,bundle,,False,False,True
+rhaphidophora tetrasperma,63,206550200719,awoutlet15,bundle,,False,False,True
+sansevieria moonshine,1,189015033875,pamz5432,plant,,True,True,True
+sansevieria moonshine,2,315342742719,bubbleblooms.shop,plant,4.0,True,True,True
+sansevieria moonshine,3,257775122838,abdullahalazam,plant,,True,True,True
+sansevieria moonshine,4,186950086058,succulentsandcactus,plant,4.0,True,True,True
+sansevieria moonshine,5,407260461610,judjik0,plant,,True,True,True
+sansevieria moonshine,6,117433547833,giorgios1972,plant,4.0,True,True,True
+sansevieria moonshine,7,257769834264,abdullahalazam,plant,,True,True,True
+sansevieria moonshine,8,257428914011,abdullahalazam,plant,4.0,True,True,True
+sansevieria moonshine,9,267764535911,adapperdandy,plant,14.0,True,True,True
+sansevieria moonshine,10,398332035637,anna_0h,plant,,True,True,True
+sansevieria moonshine,11,167953684092,jp_paradise,plant,,True,True,True
+sansevieria moonshine,12,157495395867,jp_paradise,plant,,True,True,True
+sansevieria moonshine,13,318322340549,var_plant,plant,,True,True,True
+sansevieria moonshine,14,358695848888,jovans6669,plant,,True,True,True
+sansevieria moonshine,15,307161775646,alfinvi_0,plant,,True,True,True
+sansevieria moonshine,16,318289802308,var_plant,plant,,True,True,True
+sansevieria moonshine,17,236851776271,kebonan02,plant,,True,True,True
+sansevieria moonshine,18,168578976215,riversidegreenhouses,plant,6.0,True,True,True
+sansevieria moonshine,19,820165638481,vero-413641,plant,6.0,True,True,True
+sansevieria moonshine,20,820139284865,planetdesert,plant,,True,False,True
+sansevieria moonshine,21,326720851870,exoticwholesale,plant,6.0,True,True,True
+sansevieria moonshine,22,306270284372,thoriq9,plant,,True,True,True
+sansevieria moonshine,23,364966162867,beleafandgrow,plant,,True,True,True
+sansevieria moonshine,24,257642292769,keedy2277,plant,4.0,True,True,True
+sansevieria moonshine,25,257696619147,adapperdandy,plant,14.0,True,True,True
+sansevieria moonshine,26,257428899923,abdullahalazam,plant,6.0,True,True,True
+sansevieria moonshine,27,226829088533,buyselltx,cutting,,True,False,True
+sansevieria moonshine,28,315453511375,ricvela-5326,plant,2.0,True,True,True
+sansevieria moonshine,29,127852152764,milavalya2014,plant,,True,True,True
+sansevieria moonshine,30,317275595691,ks_plants,plant,,True,False,True
+sansevieria moonshine,31,128043877574,rocky_mountain_duo,plant,,False,False,True
+sansevieria moonshine,32,406221113485,hans_plant,plant,,True,True,True
+sansevieria moonshine,33,226829109502,buyselltx,plant,,True,True,True
+sansevieria moonshine,34,406701342289,theplantry,plant,6.0,True,True,True
+sansevieria moonshine,35,366696152492,gallery_ku,plant,,True,True,True
+sansevieria moonshine,36,166821327683,racbau-3,plant,4.0,True,True,True
+sansevieria moonshine,37,236938648545,mdlj2567,plant,,False,False,True
+sansevieria moonshine,38,236938658614,mdlj2567,plant,,True,False,True
+sansevieria moonshine,39,376695769593,tropic_plant,plant,,True,True,True
+sansevieria moonshine,40,407080955668,lree57,plant,,False,False,True
+sansevieria moonshine,41,205609878403,tekikplants_store,plant,,True,True,True
+sansevieria moonshine,42,236301712644,albizuista,plant,,True,True,True
+sansevieria moonshine,43,236938666308,mdlj2567,plant,,False,False,True
+sansevieria moonshine,44,226829115433,buyselltx,plant,4.5,True,True,True
+sansevieria moonshine,45,116198920126,refinale,plant,,True,True,True
+sansevieria moonshine,46,236938615152,mdlj2567,plant,,False,False,True
+sansevieria moonshine,47,126905803242,micke_152,plant,,True,True,True
+sansevieria moonshine,48,188941131594,blooming_faith_farm,non_plant,,True,False,True
+sansevieria moonshine,49,306270284366,thoriq9,plant,,True,True,True
+sansevieria moonshine,50,406230573187,hans_plant,plant,,True,True,True
+sansevieria moonshine,51,235108367494,mdlj2567,plant,,False,False,True
+sansevieria moonshine,52,235567410405,albizuista,plant,,True,True,True
+sansevieria moonshine,53,334943454139,mdlj2567,plant,,False,False,True
+sansevieria moonshine,54,184445077444,donjune14,plant,,True,True,True
+sansevieria moonshine,55,168111840213,rainbowxtropical,plant,,True,True,True
+sansevieria moonshine,56,236994429853,mdlj2567,plant,,False,False,True
+sansevieria moonshine,57,205622853452,tekikplants_store,plant,,True,True,True
+sansevieria moonshine,58,397787342925,hosea-74,plant,,True,True,True
+sansevieria moonshine,59,167911039107,djsan_5659,plant,,True,True,True
+sansevieria moonshine,60,389305690733,hari9286,plant,,True,True,True
+sansevieria moonshine,61,226035683436,plantsandpicks,cutting,,False,False,True
+sansevieria moonshine,62,158101316065,crostric,plant,,False,False,True
+sansevieria moonshine,63,405955495626,vania1087,plant,,False,False,True
+sansevieria moonshine,64,357608458967,nusantara29,plant,,True,True,True
+sansevieria moonshine,65,374985307728,anitang,plant,6.0,True,True,True
+sansevieria moonshine,66,336688838118,mdlj2567,plant,,False,False,True
+sansevieria moonshine,67,800196683773,ncha_6454,plant,,True,True,True
+sansevieria moonshine,68,168111839162,rainbowxtropical,plant,,True,True,True
+sansevieria moonshine,69,318576070418,ahaland-96,plant,,False,False,True
+sansevieria moonshine,70,334854365625,mdlj2567,plant,,False,False,True
+sansevieria moonshine,71,357654916368,nusantara29,plant,,True,True,True
+sansevieria moonshine,72,167891994022,djsan_5659,plant,,True,True,True
+sansevieria moonshine,73,318778309150,benjbondur_0,plant,,False,False,True
+sansevieria moonshine,74,168111842054,rainbowxtropical,plant,,True,True,True
+sansevieria moonshine,75,365893709284,ahda_5374,plant,,True,True,True
+sansevieria moonshine,76,376701517589,tropic_plant,plant,,True,True,True
+sansevieria moonshine,77,168446387856,djsan_5659,plant,,True,True,True
+sansevieria moonshine,78,167849138765,stellarplants,plant,4.0,True,True,True
+sansevieria moonshine,79,167849138783,stellarplants,plant,6.0,True,True,True
+sansevieria moonshine,80,267510514495,it-your-plant,cutting,,True,False,True
+sansevieria moonshine,81,167893900501,djsan_5659,plant,,True,True,True
+sansevieria moonshine,82,168098878799,djsan_5659,plant,,True,True,True
+sansevieria moonshine,83,318489677895,prime-essentials-us,plant,,False,False,True
+sansevieria moonshine,84,377408140889,brings123_8,plant,,False,False,True
+sansevieria moonshine,85,366273965839,ahda_5374,plant,,False,False,True
+sansevieria moonshine,86,298579105676,berichandgrowshop,plant,,True,True,True
+sansevieria moonshine,87,298602738366,berichandgrowshop,plant,4.0,True,True,True
+sansevieria moonshine,88,376018093066,nilsatropicalgarden,plant,,True,True,True
+sansevieria moonshine,89,377191265186,nilsatropicalgarden,plant,,True,True,True
+sansevieria moonshine,90,365891727800,ahda_5374,plant,,True,True,True
+sansevieria moonshine,91,158126505583,yadi_2265,plant,6.0,True,True,True
+sansevieria moonshine,92,235841936193,voelkplants,plant,8.0,True,True,True
+satin pothos,1,257757509874,abdullahalazam,cutting,,True,False,True
+satin pothos,2,178148711881,pikaplants,cutting,,True,False,True
+satin pothos,3,257544572077,abdullahalazam,cutting,,True,False,True
+satin pothos,4,196939580162,morpheous64,cutting,,True,False,True
+satin pothos,5,285198559813,maiksylvia,cutting,,True,False,True
+satin pothos,6,147585154107,littlegg,cutting,,True,False,True
+satin pothos,7,394870848958,nnplant,plant,4.0,True,True,True
+satin pothos,8,227458258921,plantsandpicks,cutting,,True,False,True
+satin pothos,9,287612769014,flowerchild0123,cutting,,True,False,True
+satin pothos,10,137718425383,theplantdeli,plant,6.0,True,True,True
+satin pothos,11,188910445236,coastaltill1,plant,4.0,False,False,True
+satin pothos,12,257700652490,abdullahalazam,cutting,,True,False,True
+satin pothos,13,314667150350,bubbleblooms.shop,non_plant,,True,False,True
+satin pothos,14,318715435528,sawsch25,bundle,,False,False,True
+satin pothos,15,168694688897,gadgetpavilion,bundle,,False,False,True
+satin pothos,16,314667162247,bubbleblooms.shop,plant,6.0,True,True,True
+satin pothos,17,125492732826,deason-spares,cutting,,True,False,True
+satin pothos,18,285321857010,maiksylvia,cutting,,False,False,True
+satin pothos,19,257749060237,abdullahalazam,cutting,,True,False,True
+satin pothos,20,185880751257,succulentsandcactus,plant,4.0,True,True,True
+satin pothos,21,257326202540,abdullahalazam,cutting,,True,False,True
+satin pothos,22,285822733882,maiksylvia,plant,5.0,False,False,True
+satin pothos,23,276502089733,kelrpitts,cutting,,True,False,True
+satin pothos,24,278188204065,kelrpitts,cutting,,True,False,True
+satin pothos,25,406483375129,finethings_4308,plant,,True,True,True
+satin pothos,26,317442490335,ks_plants,plant,,True,False,True
+satin pothos,27,198647257728,bigfootnursery,cutting,,True,False,True
+satin pothos,28,298220212868,stelladimarenursery,cutting,,True,False,True
+satin pothos,29,286812357408,uniquehomemart,plant,4.0,True,True,True
+satin pothos,30,358600242017,vero-413641,plant,,True,True,True
+satin pothos,31,395839552391,nygardenia,cutting,4.0,False,False,True
+satin pothos,32,406888538664,babasehgal,bundle,,False,False,True
+satin pothos,33,407054388049,gooddealsshop4u,bundle,,False,False,True
+satin pothos,34,287498908428,happilyplanted,plant,6.0,True,True,True
+satin pothos,35,298404719754,res_2859,plant,,True,True,True
+satin pothos,36,395988234544,nygardenia,cutting,4.0,False,False,True
+satin pothos,37,236887866422,silvergreens,plant,,True,True,True
+satin pothos,38,398185572363,treasure_crabb,bundle,,False,False,True
+satin pothos,39,800538598910,mivvonaa,bundle,,False,False,True
+satin pothos,40,267701127180,annpta6,cutting,,True,False,True
+satin pothos,41,389742401111,bluethistleco,plant,6.0,True,True,True
+satin pothos,42,227420150064,plantsandpicks,plant,,True,True,True
+satin pothos,43,168578976270,riversidegreenhouses,plant,4.0,True,True,True
+satin pothos,44,406093583187,raz.-77,plant,6.0,True,True,True
+satin pothos,45,226039931279,plantsandpicks,cutting,,True,False,True
+satin pothos,46,227522245652,deejaysflips,bundle,,False,False,True
+satin pothos,47,800108266038,hyperluck-5,bundle,,False,False,True
+satin pothos,48,198313397530,bigfootnursery,cutting,,False,False,True
+satin pothos,49,206264635141,udasell78,bundle,,False,False,True
+satin pothos,50,185880749861,succulentsandcactus,plant,4.0,True,True,True
+satin pothos,51,185685415350,succulentsandcactus,cutting,,True,False,True
+satin pothos,52,407022625803,rachelunsupervised,cutting,,True,False,True
+satin pothos,53,187332866428,coastaltill1,plant,6.0,False,False,True
+satin pothos,54,168578976237,riversidegreenhouses,plant,4.0,True,True,True
+satin pothos,55,306940057835,mor-329450,bundle,,True,False,True
+satin pothos,56,336560277815,iva-2006,bundle,,False,False,True
+satin pothos,57,298649710240,jackie908,plant,,True,True,True
+satin pothos,58,394776707035,nnplant,non_plant,6.0,True,False,True
+satin pothos,59,397179450472,nnplant,non_plant,6.0,True,False,True
+satin pothos,60,128064580040,princeofbarkness,plant,,False,False,True
+satin pothos,61,188541531834,anniestore2010,plant,4.0,True,True,True
+satin pothos,62,237065411858,uniquetreasures000,cutting,,True,False,True
+satin pothos,63,117023369117,plantsinthehouse,cutting,,False,False,True
+satin pothos,64,358881291146,orc393,plant,,False,False,True
+satin pothos,65,237052563224,silvergreens,plant,8.0,True,True,True
+satin pothos,66,257691134527,matontsjack,bundle,4.0,False,False,True
+satin pothos,67,287356233785,myplantsllc,plant,4.0,True,True,True
+satin pothos,68,305420061579,shanor39,cutting,,True,False,True
+satin pothos,69,287356233780,myplantsllc,plant,2.0,True,True,True
+satin pothos,70,377178728988,koch6491,bundle,,False,False,True
+satin pothos,71,236845636775,angiehdez428-7,cutting,,True,False,True
+satin pothos,72,127182972632,evangelincar0,plant,,True,True,True
+satin pothos,73,237040185504,silvergreens,plant,11.0,True,True,True
+satin pothos,74,287356233777,myplantsllc,plant,4.0,True,True,True
+satin pothos,75,407196397162,buyerl86,bundle,2.0,False,False,True
+satin pothos,76,128065050324,bre-779371,plant,,True,True,True
+satin pothos,77,178185176299,junior6765,bundle,,False,False,True
+satin pothos,78,147379293394,schottenterprises,plant,2.0,False,False,True
+satin pothos,79,366694090739,kri232696,cutting,,False,False,True
+satin pothos,80,358110120464,ja-94581525,plant,,True,True,True
+satin pothos,81,236828785867,jadi_734,bundle,,False,False,True
+satin pothos,82,318627166673,gbma45,plant,6.0,True,True,True
+satin pothos,83,316539213694,ks_plants,plant,,True,True,True
+satin pothos,84,237040197012,silvergreens,plant,8.0,True,True,True
+satin pothos,85,266851273600,plantasticrootsllc,cutting,,True,False,True
+satin pothos,86,267170585522,preciouspothos,plant,6.0,False,False,True
+satin pothos,87,800545904504,modern-markets,plant,6.0,True,True,True
+satin pothos,88,336452489075,dadeplantco305,plant,4.0,True,True,True
+satin pothos,89,287368340075,myplantsllc,plant,6.0,True,True,True
+satin pothos,90,198494238182,bigfootnursery,cutting,,True,False,True
+satin pothos,91,398377406639,redberryorchid,plant,4.0,True,True,True
+satin pothos,92,168641070199,dadams3914,bundle,,False,False,True
+satin pothos,93,287355751909,lucys_store,bundle,,False,False,True
+satin pothos,94,377287313830,greeenlife,plant,6.0,True,True,True
+satin pothos,95,186053792967,ms.dirt-diggers,plant,6.0,False,False,True
+satin pothos,96,267170587062,preciouspothos,plant,5.0,False,False,True
+satin pothos,97,267170586266,preciouspothos,cutting,3.0,False,False,True
+satin pothos,98,336571347603,thespirit24,plant,4.0,True,True,True
+satin pothos,99,267261795687,preciouspothos,cutting,3.0,False,False,True
+satin pothos,100,366500066525,fiskercar,bundle,,False,False,True
+satin pothos,101,174778277461,loisgu-12,plant,,True,True,True
+satin pothos,102,267345819283,preciouspothos,plant,5.0,False,False,True
+satin pothos,103,384836762255,le-599586,non_plant,,True,False,True
+satin pothos,104,394867965566,elizpre81,cutting,,False,False,True
+satin pothos,105,167849138760,stellarplants,plant,4.0,True,True,True
+satin pothos,106,167849138751,stellarplants,plant,6.0,True,True,True
+satin pothos,107,287497878191,hollerpapaw,cutting,,True,False,True
+satin pothos,108,225947997163,inezsila,plant,6.0,True,True,True
+satin pothos,109,376204003552,nilsatropicalgarden,plant,,True,True,True
+satin pothos,110,155118086597,sarah_sellsstuff,cutting,,True,False,True
+satin pothos,111,144929203444,wekivafoliage,plant,4.0,True,True,True
+satin pothos,112,146495459145,wekivafoliage,non_plant,4.0,True,False,True
+satin pothos,113,147362279282,wekivafoliage,plant,4.0,False,False,True
+satin pothos,114,227307763605,lit-7716,plant,,False,False,True
+satin pothos,115,317115611714,vitalitym-60,plant,,True,True,True
+satin pothos,116,235621674324,voelkplants,plant,10.0,False,False,True
+syngonium chiapense,1,306845168403,famplants,bundle,,False,False,True
+syngonium chiapense,2,227550968838,backtoobasics,plant,,True,False,True
+syngonium chiapense,3,227550965923,backtoobasics,plant,,True,True,True
+syngonium chiapense,4,168750636465,plantasha_creatives,plant,,True,True,True
+syngonium chiapense,5,860004752191,the_sentient_garden,plant,3.5,True,True,True
+syngonium chiapense,6,307138306955,buyplants2013,plant,,True,True,True
+syngonium chiapense,7,318792385728,the_sentient_garden,plant,3.5,True,True,True
+syngonium chiapense,8,318872470761,the_sentient_garden,plant,3.5,True,True,True
+syngonium chiapense,9,168757082158,canopygems,plant,,True,True,True
+syngonium chiapense,10,168757082157,canopygems,plant,,True,True,True
+syngonium chiapense,11,318872472757,the_sentient_garden,plant,3.5,True,True,True
+syngonium chiapense,12,168661928643,canopygems,plant,4.0,True,True,True
+syngonium chiapense,13,206347444642,savv-7662,plant,2.0,True,True,True
+syngonium chiapense,14,287608071482,maiksylvia,plant,5.0,False,False,True
+syngonium chiapense,15,128059508613,hammondfamilyfarm,plant,4.0,False,False,True
+syngonium chiapense,16,318765076009,victoriababyfarms07,plant,,False,False,True
+syngonium chiapense,17,198675923323,9w6nd77,plant,,True,True,True
+syngonium chiapense,18,285960543462,maiksylvia,plant,5.0,True,True,True
+syngonium chiapense,19,276367372658,maiksylvia,plant,5.0,True,True,True
+syngonium chiapense,20,168578976217,riversidegreenhouses,plant,4.0,True,True,True
+syngonium chiapense,21,267790260635,mfyplants,plant,6.0,False,False,True
+syngonium chiapense,22,137567787163,southernoakaquaticsfl,plant,4.0,False,False,True
+syngonium chiapense,23,304804214702,smi_5387,plant,,True,True,True
+syngonium chiapense,24,366581509505,housenplantsllc,plant,4.0,False,False,True
+syngonium chiapense,25,278169248790,maiksylvia,plant,5.0,False,False,True
+syngonium chiapense,26,117050619178,fun_plantsandcactus,bundle,2.0,False,False,True
+syngonium chiapense,27,358739263949,classic_beauties,plant,,False,False,True
+syngonium chiapense,28,267738885797,mfyplants,plant,6.0,False,False,True
+syngonium chiapense,29,318621197045,victoriababyfarms07,plant,,False,False,True
+syngonium chiapense,30,287449938244,maiksylvia,plant,,False,False,True
+syngonium chiapense,31,128057889983,hammondfamilyfarm,plant,,False,False,True
+syngonium chiapense,32,278169276482,maiksylvia,plant,,False,False,True
+syngonium chiapense,33,236963162392,plantspotsparadise,plant,,False,False,True
+syngonium chiapense,34,336552958365,sunshinestatefoliage,cutting,,False,False,True
+syngonium chiapense,35,366581514106,housenplantsllc,plant,,False,False,True
+syngonium chiapense,36,336733459098,sheisells179,bundle,4.0,False,False,True
+syngonium chiapense,37,318935623185,wildeartha,plant,4.0,False,False,True
+syngonium chiapense,38,147528879372,southernoakaquaticsfl,plant,4.0,False,False,True
+syngonium chiapense,39,137648274127,crazyfunitems,plant,,False,False,True
+syngonium chiapense,40,128075829290,hammondfamilyfarm,plant,,False,False,True
+syngonium chiapense,41,406081553281,wicatetfarm,plant,4.0,False,False,True
+syngonium chiapense,42,168626177701,baysidenursery02,plant,,False,False,True
+syngonium chiapense,43,326720837258,exoticwholesale,plant,4.0,False,False,True
+syngonium chiapense,44,267685578000,mfyplants,plant,6.0,False,False,True
+syngonium chiapense,45,366593108697,housenplantsllc,plant,4.0,False,False,True
+syngonium chiapense,46,167899303454,canopygems,plant,2.5,False,False,True
+syngonium chiapense,47,117290531675,your_plant_haven,plant,,False,False,True
+syngonium chiapense,48,366593140853,housenplantsllc,plant,4.0,False,False,True
+syngonium chiapense,49,267684375647,mfyplants,plant,6.0,False,False,True
+syngonium chiapense,50,137499815485,jahrassicpark,plant,,False,False,True
+syngonium chiapense,51,236982811187,plantspotsparadise,plant,,False,False,True
+syngonium chiapense,52,257709396228,bsmi7441,plant,,False,False,True
+syngonium chiapense,53,158366184560,canopygems,plant,4.0,False,False,True
+syngonium chiapense,54,307066194152,buyplants2013,plant,,False,False,True
+syngonium chiapense,55,116810741800,fun_plantsandcactus,plant,4.0,False,False,True
+syngonium chiapense,56,800148805587,momogarden,plant,,False,False,True
+syngonium chiapense,57,158269300961,chris751011,plant,,False,False,True
+syngonium chiapense,58,287617313067,plants_42,cutting,,False,False,True
+syngonium chiapense,59,227477558044,bohogreenhouse,plant,,False,False,True
+syngonium chiapense,60,366589498417,housenplantsllc,plant,4.0,False,False,True
+syngonium chiapense,61,395401700916,kunjmat_42,plant,,False,False,True
+syngonium chiapense,62,336552954994,sunshinestatefoliage,cutting,,False,False,True
+syngonium chiapense,63,128057925604,hammondfamilyfarm,plant,4.0,False,False,True
+syngonium chiapense,64,117345392066,your_plant_haven,plant,,False,False,True
+syngonium chiapense,65,800163014721,757seasidethrift,plant,6.0,False,False,True
+syngonium chiapense,66,313597737093,ricvela-5326,plant,3.0,False,False,True
+syngonium chiapense,67,168747690898,canopygems,plant,,False,False,True
+syngonium chiapense,68,800148630160,momogarden,cutting,,False,False,True
+syngonium chiapense,69,388918782066,momogarden,plant,,False,False,True
+syngonium chiapense,70,227458588917,gta.hi,plant,4.0,False,False,True
+syngonium chiapense,71,158372370861,canopygems,plant,,False,False,True
+syngonium chiapense,72,267784172152,mfyplants,plant,6.0,False,False,True
+syngonium chiapense,73,155835734432,matievski,plant,,False,False,True
+syngonium chiapense,74,366440327277,lovelena143,plant,,False,False,True
+syngonium chiapense,75,960005000696,canopygems,plant,2.5,False,False,True
+syngonium chiapense,76,800148633576,momogarden,cutting,,False,False,True
+syngonium chiapense,77,188891994952,alyzappy,plant,,False,False,True
+syngonium chiapense,78,168497075951,freshrootscollective,plant,3.0,False,False,True
+syngonium chiapense,79,327095905757,330treetrash,plant,,False,False,True
+syngonium chiapense,80,137756472474,crazyfunitems,plant,,False,False,True
+syngonium chiapense,81,235805461950,morgacharrie0,plant,3.0,False,False,True
+syngonium chiapense,82,188769232661,noisykoala,plant,,False,False,True
+syngonium chiapense,83,114294276328,saladbeardfarm,plant,,False,False,True
+syngonium chiapense,84,318899730249,ricvela-5326,plant,3.0,False,False,True
+syngonium chiapense,85,158372370859,canopygems,plant,,False,False,True
+syngonium chiapense,86,158372370855,canopygems,plant,,False,False,True
+syngonium chiapense,87,236845634769,angiehdez428-7,plant,,False,False,True
+syngonium chiapense,88,366594009400,housenplantsllc,plant,6.0,False,False,True
+syngonium chiapense,89,178204963926,birdsonggardens,plant,3.0,False,False,True
+syngonium chiapense,90,114792483945,saladbeardfarm,plant,,False,False,True
+syngonium chiapense,91,147584957129,crazyfunitems,plant,,False,False,True
+syngonium chiapense,92,366236639600,lovelena143,plant,,False,False,True
+syngonium chiapense,93,398447623498,jacksonacar6607,plant,,False,False,True
+syngonium chiapense,94,125554022776,lada.tropical.plants,plant,4.0,False,False,True
+syngonium chiapense,95,358740185133,orc393,plant,,False,False,True
+syngonium chiapense,96,198424489150,victoriarialto,plant,4.0,False,False,True
+syngonium chiapense,97,168578976213,riversidegreenhouses,plant,,False,False,True
+syngonium chiapense,98,314667166307,bubbleblooms.shop,bundle,,False,False,True
+syngonium chiapense,99,147584990551,crazyfunitems,plant,,False,False,True
+syngonium chiapense,100,158269655695,ba_644078,plant,,False,False,True
+syngonium chiapense,101,278381218081,goldendragonfly7,plant,,False,False,True
+syngonium chiapense,102,327075796868,330treetrash,plant,,False,False,True
+syngonium chiapense,103,304572173583,smi_5387,cutting,,False,False,True
+syngonium chiapense,104,188912335371,alyzappy,plant,,False,False,True
+syngonium chiapense,105,198626116418,freem_9803,plant,4.0,False,False,True
+syngonium chiapense,106,327075796807,330treetrash,plant,,False,False,True
+syngonium chiapense,107,287490165143,cloww831,plant,,False,False,True
+syngonium chiapense,108,304572160000,smi_5387,cutting,,False,False,True
+syngonium chiapense,109,304575679100,smi_5387,plant,,False,False,True
+syngonium chiapense,110,406044677392,plantdwithjae,plant,,False,False,True
+syngonium chiapense,111,356284888579,trendlovers,plant,,False,False,True
+syngonium chiapense,112,157434209216,canopygems,plant,4.0,False,False,True
+syngonium chiapense,113,366589520642,housenplantsllc,plant,4.0,False,False,True
+syngonium chiapense,114,167767420573,plantdistrict,plant,,True,True,True
+syngonium chiapense,115,206419304848,rareplantaddictus,plant,3.5,False,False,True
+syngonium chiapense,116,365764092361,stavianashandpicked,plant,,False,False,True
+syngonium chiapense,117,800123863109,alv3863,plant,,False,False,True
+syngonium chiapense,118,407065892136,jwplant-40,plant,,False,False,True
+syngonium chiapense,119,316317913026,daplan19,bundle,,False,False,True
+syngonium chiapense,120,165644624264,ljsfanc-52,plant,,False,False,True
+syngonium mojito,1,178425562170,anniestore2010,plant,4.0,True,True,True
+syngonium mojito,2,168724643273,plantasha_creatives,plant,,True,True,True
+syngonium mojito,3,158322626712,ar_trendz,plant,4.0,True,True,True
+syngonium mojito,4,327182052170,bohogreenhouse,plant,,True,True,True
+syngonium mojito,5,158155390107,canopygems,plant,2.5,True,True,True
+syngonium mojito,6,117290531675,your_plant_haven,plant,,True,True,True
+syngonium mojito,7,405194694523,themagicmudshop,cutting,,False,False,True
+syngonium mojito,8,158155392449,canopygems,plant,4.0,True,True,True
+syngonium mojito,9,278018084160,maiksylvia,plant,5.0,True,True,True
+syngonium mojito,10,168578976211,riversidegreenhouses,plant,4.0,True,True,True
+syngonium mojito,11,188769232661,noisykoala,plant,,False,False,True
+syngonium mojito,12,366594009400,housenplantsllc,plant,6.0,False,False,True
+syngonium mojito,13,124708593736,saladbeardfarm,plant,,False,False,True
+syngonium mojito,14,234433786434,the_plantista,plant,,True,True,True
+syngonium mojito,15,234433785744,the_plantista,plant,,True,True,True
+syngonium mojito,16,158269655695,ba_644078,plant,,False,False,True
+syngonium mojito,17,405717083532,akasha_1980,plant,,True,True,True
+syngonium mojito,18,266906841341,zensclosetcollection,plant,3.0,True,True,True
+syngonium mojito,19,266906844450,zensclosetcollection,bundle,3.0,True,False,True
+syngonium mojito,20,404464854857,aubreysplants,plant,,False,False,True
+syngonium mojito,21,256573645402,zensclosetcollection,plant,3.0,True,True,True
+syngonium mojito,22,306845168403,famplants,bundle,,False,False,False
+syngonium mojito,23,227550968838,backtoobasics,plant,,False,False,False
+syngonium mojito,24,227550965923,backtoobasics,plant,,False,False,False
+syngonium mojito,25,860005680538,toly9535,plant,,False,False,False
+syngonium mojito,26,287624647126,caseymae13,plant,,False,False,False
+syngonium mojito,27,267790260635,mfyplants,plant,6.0,False,False,False
+syngonium mojito,28,287617313067,plants_42,cutting,,False,False,False
+syngonium mojito,29,257768877264,aokplantcompany,cutting,,False,False,False
+syngonium mojito,30,327364196899,kdblack2015,plant,,False,False,False
+syngonium mojito,31,287608071482,maiksylvia,plant,5.0,False,False,False
+syngonium mojito,32,227550673517,backtoobasics,bundle,,False,False,False
+syngonium mojito,33,147550358939,nate_the_plant_guy,plant,,False,False,False
+syngonium mojito,34,278169248790,maiksylvia,plant,5.0,False,False,False
+syngonium mojito,35,158372370858,canopygems,plant,,False,False,False
+syngonium mojito,36,307208844478,akitakittymomma,plant,6.0,False,False,False
+syngonium mojito,37,128109392389,lakrees_90,plant,,False,False,False
+syngonium mojito,38,287608031017,maiksylvia,plant,5.0,False,False,False
+syngonium mojito,39,198676394114,jos.jungle,plant,,False,False,False
+syngonium mojito,40,366581509505,housenplantsllc,plant,4.0,False,False,False
+syngonium mojito,41,237096094197,plantspotsparadise,plant,,False,False,False
+syngonium mojito,42,336767137017,plants-zen,plant,3.0,False,False,False
+syngonium mojito,43,227477558676,bohogreenhouse,plant,,False,False,False
+syngonium mojito,44,860004752191,the_sentient_garden,plant,3.5,False,False,False
+syngonium mojito,45,137567787163,southernoakaquaticsfl,plant,4.0,False,False,False
+syngonium mojito,46,287602076303,plants_42,cutting,,False,False,False
+syngonium mojito,47,286699438106,maiksylvia,plant,5.0,False,False,False
+syngonium mojito,48,236925588518,plantspotsparadise,plant,,False,False,False
+syngonium mojito,49,287508437363,happilyplanted,plant,4.0,False,False,False
+syngonium mojito,50,198676465555,jos.jungle,plant,,False,False,False
+syngonium mojito,51,128059508613,hammondfamilyfarm,plant,4.0,False,False,False
+syngonium mojito,52,800728020439,phi650590,plant,,False,False,False
+syngonium mojito,53,366589498417,housenplantsllc,plant,4.0,False,False,False
+syngonium mojito,54,227477558044,bohogreenhouse,plant,,False,False,False
+syngonium mojito,55,287618729812,tanglenursery,cutting,5.0,False,False,False
+syngonium mojito,56,285286723501,maiksylvia,cutting,,False,False,False
+syngonium mojito,57,318621197045,victoriababyfarms07,plant,,False,False,False
+syngonium mojito,58,178156380129,pikaplants,cutting,,False,False,False
+syngonium mojito,59,127960325368,hammondfamilyfarm,plant,6.0,False,False,False
+syngonium mojito,60,158323195301,ar_trendz,plant,4.0,False,False,False
+syngonium mojito,61,366581514106,housenplantsllc,plant,,False,False,False
+syngonium mojito,62,267749657216,bkb1fl62,plant,3.0,False,False,False
+syngonium mojito,63,267658449028,mfyplants,plant,6.0,False,False,False
+syngonium mojito,64,198675923323,9w6nd77,plant,,False,False,False
+syngonium mojito,65,137808974313,zehntropicals,plant,,False,False,False
+syngonium mojito,66,318765076009,victoriababyfarms07,plant,,False,False,False
+syngonium mojito,67,318935623185,wildeartha,plant,4.0,False,False,False
+syngonium mojito,68,168626177701,baysidenursery02,plant,,False,False,False
+syngonium mojito,69,295410187919,faetedgarden,plant,,False,False,False
+syngonium mojito,70,267738885797,mfyplants,plant,6.0,False,False,False
+syngonium mojito,71,117050619178,fun_plantsandcactus,bundle,2.0,False,False,False
+syngonium mojito,72,358739263949,classic_beauties,plant,,False,False,False
+syngonium mojito,73,257778641898,aokplantcompany,cutting,,False,False,False
+syngonium mojito,74,327299927450,bohogreenhouse,plant,,False,False,False
+syngonium mojito,75,406195739849,twilighttropics,plant,,False,False,False
+syngonium mojito,76,267761000295,chinabitbitsgarden,cutting,,False,False,False
+syngonium mojito,77,117050618645,fun_plantsandcactus,plant,4.0,False,False,False
+syngonium mojito,78,267685578000,mfyplants,plant,6.0,False,False,False
+syngonium mojito,79,820201430923,inkblotstickers,plant,,False,False,False
+syngonium mojito,80,398036698804,cowboyflowerman,plant,3.0,False,False,False
+syngonium mojito,81,307138306955,buyplants2013,plant,,False,False,False
+syngonium mojito,82,366593108697,housenplantsllc,plant,4.0,False,False,False
+syngonium mojito,83,147528879372,southernoakaquaticsfl,plant,4.0,False,False,False
+syngonium mojito,84,283535635666,sofiyan-6,plant,,False,False,False
+syngonium mojito,85,293941440795,faetedgarden,plant,,False,False,False
+syngonium mojito,86,168319229858,fulleffex,plant,,False,False,False
+syngonium mojito,87,395401700916,kunjmat_42,plant,,False,False,False
+syngonium mojito,88,318598156687,ks_plants,plant,4.0,False,False,False
+syngonium mojito,89,336733459098,sheisells179,bundle,4.0,False,False,False
+syngonium mojito,90,167899303454,canopygems,plant,2.5,False,False,False
+syngonium mojito,91,366593140853,housenplantsllc,plant,4.0,False,False,False
+syngonium mojito,92,307210905350,rcbaitsandblooms,plant,,False,False,False
+syngonium mojito,93,287372477780,maiksylvia,plant,5.0,False,False,False
+syngonium mojito,94,236963162392,plantspotsparadise,plant,,False,False,False
+syngonium mojito,95,366690792815,pottedjunglefl,plant,4.0,False,False,False
+syngonium mojito,96,336552958365,sunshinestatefoliage,cutting,,False,False,False
+syngonium mojito,97,186808335302,anniestore2010,plant,4.0,False,False,False
+syngonium mojito,98,188997856794,broharr-37,plant,,False,False,False
+syngonium mojito,99,287449938244,maiksylvia,plant,,False,False,False
+syngonium mojito,100,395508998898,succulentqueenvira,plant,,False,False,False
+syngonium mojito,101,318934654887,sa_119549,plant,,False,False,False
+syngonium mojito,102,318792385728,the_sentient_garden,plant,3.5,False,False,False
+syngonium mojito,103,237096105119,plantspotsparadise,plant,,False,False,False
+syngonium mojito,104,257470996070,bkb1fl62,plant,6.0,False,False,False
+syngonium mojito,105,147526887859,janicen321,plant,,False,False,False
+syngonium mojito,106,307174068982,beautiflorist,plant,,False,False,False
+syngonium mojito,107,318872472757,the_sentient_garden,plant,3.5,False,False,False
+syngonium mojito,108,267684375647,mfyplants,plant,6.0,False,False,False
+syngonium mojito,109,227458588917,gta.hi,plant,4.0,False,False,False
+syngonium mojito,110,398317658014,madroots,plant,,False,False,False
+syngonium mojito,111,800088190521,momogarden,plant,,False,False,False
+syngonium mojito,112,307066194152,buyplants2013,plant,,False,False,False
+syngonium mojito,113,267720816645,exoticwholesale,plant,4.0,False,False,False
+syngonium mojito,114,800109454171,momogarden,plant,,False,False,False
+syngonium mojito,115,168668560118,plantasha_creatives,plant,,False,False,False
+syngonium mojito,116,267769367965,mfyplants,plant,6.0,False,False,False
+syngonium mojito,117,128011044582,lakrees_90,plant,,False,False,False
+syngonium mojito,118,227456853716,bohogreenhouse,plant,,False,False,False
+syngonium mojito,119,366673608450,zonetenplants1,plant,,False,False,False
+syngonium mojito,120,189014763401,wildeartha,plant,4.0,False,False,False
+syngonium mojito,121,137499815485,jahrassicpark,plant,,False,False,False
+syngonium mojito,122,158366184560,canopygems,plant,4.0,False,False,False
+syngonium mojito,123,296207367300,faetedgarden,plant,,False,False,False
+syngonium mojito,124,318872470761,the_sentient_garden,plant,3.5,False,False,False
+syngonium mojito,125,237091128614,roots_and_relics,plant,4.0,False,False,False
+syngonium mojito,126,198523815152,am_100806,plant,4.0,False,False,False
+syngonium mojito,127,267761002171,chinabitbitsgarden,cutting,,False,False,False
+syngonium mojito,128,224768878140,myfrogparadise,plant,,False,False,False
+syngonium mojito,129,326720837258,exoticwholesale,plant,4.0,False,False,False
+syngonium mojito,130,406081553281,wicatetfarm,plant,4.0,False,False,False
+syngonium mojito,131,127914971469,hammondfamilyfarm,plant,4.0,False,False,False
+syngonium mojito,132,168750636465,plantasha_creatives,plant,,False,False,False
+texas ebony plant,1,155300931749,exotic_cactus_collection,seed,,True,False,True
+texas ebony plant,2,136730340680,nicfur68,seed,,True,False,True
+texas ebony plant,3,318104924120,oldphotosonline,non_plant,,True,False,True
+texas ebony plant,4,358410286337,oldphotosonline,non_plant,,True,False,True
+texas ebony plant,5,960005529982,strawberrymilkat3am,plant,,True,False,True
+texas ebony plant,6,168284607758,riversidegreenhouses,plant,4.0,True,True,True
+texas ebony plant,7,158310653546,arizonacacti,seed,,True,False,True
+texas ebony plant,8,267344798771,jetshepherd,seed,,True,False,True
+texas ebony plant,9,125487411687,plantsandseedskingdom,seed,,True,False,False
+texas ebony plant,10,267802617834,mttreasurefinder,non_plant,,False,False,False
+texas ebony plant,11,266203156508,katieehardy,seed,,True,False,False
+texas ebony plant,12,227550966784,crum_8150,non_plant,,False,False,False
+texas ebony plant,13,377541650019,g.isa58,non_plant,,False,False,False
+texas ebony plant,14,178549031953,queen_city_thrift,non_plant,,False,False,False
+texas ebony plant,15,127878368836,emeraldgoddessgardens,plant,,False,False,False
+texas ebony plant,16,144409069006,sddarkman619,plant,,False,False,False
+texas ebony plant,17,276707512787,maiksylvia,bundle,,False,False,False
+texas ebony plant,18,298343722616,the_rugged_garden,bundle,,False,False,False
+texas ebony plant,19,198386077106,reblan25,plant,,False,False,False
+texas ebony plant,20,168742860669,storageking478,non_plant,,False,False,False
+texas ebony plant,21,366704411396,nug-97896,non_plant,,False,False,False
+texas ebony plant,22,407264433467,chil_4434,non_plant,,False,False,False
+texas ebony plant,23,336821386022,pinellas_postcards,plant,,False,False,False
+texas ebony plant,24,227300964255,rogers_earthworks,plant,,False,False,False
+texas ebony plant,25,398429400810,lady_arcade,non_plant,,False,False,False
+texas ebony plant,26,227541526257,brhu-7053,non_plant,,False,False,False
+texas ebony plant,27,307204523264,kb8337,non_plant,,False,False,False
+texas ebony plant,28,860002817216,miavi1_199,non_plant,,False,False,False
+texas ebony plant,29,124339245875,plantsandseedskingdom,seed,,True,False,False
+texas ebony plant,30,124805018757,emeraldgoddessgardens,plant,,False,False,False
+texas ebony plant,31,265900266664,daddyssweethope,plant,,False,False,False
+texas ebony plant,32,168566601264,indoorjungletx,plant,,False,False,False
+texas ebony plant,33,398131339974,brit1799,plant,4.0,False,False,False
+texas ebony plant,34,398131406415,brit1799,plant,,False,False,False
+texas ebony plant,35,236093148150,flfoliage,plant,,False,False,False
+texas ebony plant,36,116874085687,ctxplants,plant,,False,False,False
+texas ebony plant,37,366677214487,jeff_3d_art,plant,,False,False,False
+texas ebony plant,38,178551924476,phinsfan5413,non_plant,12.0,False,False,False
+texas ebony plant,39,188859180278,cbauer06,plant,,False,False,False
+texas ebony plant,40,267801050335,bigloraz,non_plant,,False,False,False
+texas ebony plant,41,324310335971,textmexdecors,cutting,9.0,False,False,False
+texas ebony plant,42,144409080284,sddarkman619,plant,,False,False,False
+texas ebony plant,43,137771420807,cmjretro,non_plant,,False,False,False
+texas ebony plant,44,265958941267,daddyssweethope,plant,,False,False,False
+texas ebony plant,45,336821306089,mountainmamasvintagegifts,non_plant,,False,False,False
+texas ebony plant,46,178533811263,kirabird,non_plant,,False,False,False
+texas ebony plant,47,800731304134,downtowncardshopcom,plant,,False,False,False
+texas ebony plant,48,236936040991,lemonsnowman,bundle,,False,False,False
+texas ebony plant,49,267802634039,centralave_records,non_plant,,False,False,False
+texas ebony plant,50,800750257652,sa-282927,non_plant,,False,False,False
+texas ebony plant,51,365816100771,usatropicalgardenshop,cutting,,False,False,False
+texas ebony plant,52,168674150540,bigtunagdb,plant,,False,False,False
+texas ebony plant,53,920005886577,jisaladin-0,non_plant,,False,False,False
+texas ebony plant,54,407255393683,oscoxa,non_plant,,False,False,False
+texas ebony plant,55,377521031949,shawelk0,non_plant,,False,False,False
+texas ebony plant,56,128105359838,starfish797979,non_plant,,False,False,False
+texas ebony plant,57,137809618384,cams-thrift-finds,non_plant,,False,False,False
+texas ebony plant,58,237101056554,smuhlen,non_plant,,False,False,False
+texas ebony plant,59,800739016556,musica-4924,plant,,False,False,False
+texas ebony plant,60,166530595216,chriscantwell,plant,5.0,True,False,False
+texas ebony plant,61,227536254082,buckeye.ent_41,non_plant,,False,False,False
+texas ebony plant,62,252086646164,crazyhcactus,plant,,False,False,False
+texas ebony plant,63,267783405951,kcsodafiz,non_plant,,False,False,False
+texas ebony plant,64,278418930736,b_great,non_plant,,False,False,False
+texas ebony plant,65,920005635765,migqu_10,non_plant,,False,False,False
+texas ebony plant,66,237028022668,trvl4ja,non_plant,,False,False,False
+texas ebony plant,67,166235397500,chriscantwell,plant,6.0,True,False,False
+texas ebony plant,68,188957710093,popculture007,non_plant,,False,False,False
+texas ebony plant,69,298731061777,jnlfinds,non_plant,,False,False,False
+texas ebony plant,70,157960154711,beyondleftovers,non_plant,,False,False,False
+texas ebony plant,71,377541199987,tilac-94,non_plant,,False,False,False
+texas ebony plant,72,318926308162,savarob_96,non_plant,,False,False,False
+texas ebony plant,73,158377717912,weauctionit4u,plant,,False,False,False
+texas ebony plant,74,237102849075,big86ries,non_plant,,False,False,False
+texas ebony plant,75,257779923147,abeki10kofo,non_plant,,False,False,False
+texas ebony plant,76,125347177688,plantsandseedskingdom,seed,,True,False,False
+texas ebony plant,77,178551101311,itsallgoods.store,non_plant,,False,False,False
+texas ebony plant,78,206549017271,midwestcollectorscorner,non_plant,,False,False,False
+texas ebony plant,79,257639352472,ajstabosz6708,non_plant,,False,False,False
+texas ebony plant,80,257780217453,tarandacuense,non_plant,,False,False,False
+texas ebony plant,81,277525906454,kristenschicboutique,plant,,False,False,False
+texas ebony plant,82,389941902098,landa_tro3,plant,,False,False,False
+texas ebony plant,83,800730558172,metherd_resale,non_plant,,False,False,False
+texas ebony plant,84,307176981241,kkmoondog,non_plant,,False,False,False
+texas ebony plant,85,327371121241,successvault,non_plant,,False,False,False
+texas ebony plant,86,396286318881,pack_rats_online,non_plant,,False,False,False
+texas ebony plant,87,236910188025,upperplacegardens,plant,3.25,False,False,False
+texas ebony plant,88,257732147570,funlifepickers,non_plant,,False,False,False
+texas ebony plant,89,398445400003,pnw_treasuress,non_plant,12.0,False,False,False
+texas ebony plant,90,267802783843,promiselandpickers,non_plant,,False,False,False
+texas ebony plant,91,278411870786,mattkyamaha,non_plant,,False,False,False
+texas ebony plant,92,178552372983,3j2guy,non_plant,,False,False,False
+texas ebony plant,93,325015777880,textmexdecors,cutting,,False,False,False
+texas ebony plant,94,227550711540,captainkcollectibles,non_plant,,False,False,False
+texas ebony plant,95,364172986939,emeraldgoddessgardens,plant,,False,False,False
+texas ebony plant,96,147608641413,angel368,non_plant,,False,False,False
+texas ebony plant,97,278414754029,hjlstar,non_plant,,False,False,False
+texas ebony plant,98,366667433366,3dpropmaker,plant,,False,False,False
+texas ebony plant,99,178407027578,coolemblems,plant,,False,False,False
+texas ebony plant,100,206596169787,peddlers101,non_plant,,False,False,False
+texas ebony plant,101,267693935969,des569,plant,,False,False,False
+texas ebony plant,102,318622188014,nicholasloot,non_plant,,False,False,False
+texas ebony plant,103,327382107114,milestone_collectibles,non_plant,,False,False,False
+texas ebony plant,104,366664795902,marcyramone,non_plant,,False,False,False
+texas ebony plant,105,117414311322,vinobarrera1,non_plant,,False,False,False
+texas ebony plant,106,117445299662,diegosgiftemporium,non_plant,,False,False,False
+texas ebony plant,107,147614857532,levitatingdesigns,non_plant,,False,False,False
+texas ebony plant,108,237099523626,cousinsuzy,non_plant,,False,False,False
+texas ebony plant,109,227547928852,coloradolady-25,non_plant,,False,False,False
+texas ebony plant,110,236732541227,questmatrix,bundle,,False,False,False
+texas ebony plant,111,278286844951,hmg1214,plant,,False,False,False
+texas ebony plant,112,189013276339,crazy-for-vintage,non_plant,,False,False,False
+texas ebony plant,113,236732551574,questmatrix,bundle,,False,False,False
+texas ebony plant,114,278415623985,michaelm19742009,non_plant,,False,False,False
+texas ebony plant,115,298721148305,halfpint-flipping,non_plant,,False,False,False
+texas ebony plant,116,318752058251,ekmmarket,non_plant,,False,False,False
+texas ebony plant,117,327265645268,textmexdecors,bundle,,False,False,False
+texas ebony plant,118,327385196262,nifty_thrifty_finds_shop,non_plant,,False,False,False
+texas ebony plant,119,336815398386,all_nite57ri,non_plant,,False,False,False
+texas ebony plant,120,398441974831,monks_92,non_plant,,False,False,False
+texas ebony plant,121,198203206937,reblan25,plant,,False,False,False
+texas ebony plant,122,387772442546,vip_shop_usa,bundle,,False,False,False
+watermelon peperomia,1,188238774347,coastaltill1,plant,,True,True,True
+watermelon peperomia,2,315342753552,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,3,168578976274,riversidegreenhouses,plant,4.0,True,True,True
+watermelon peperomia,4,314667169695,bubbleblooms.shop,bundle,4.0,True,False,True
+watermelon peperomia,5,406891647649,galactic.g_35,plant,4.0,True,True,True
+watermelon peperomia,6,277475896829,daniemorloc8,plant,,True,True,True
+watermelon peperomia,7,185774937290,succulentsandcactus,plant,4.0,True,True,True
+watermelon peperomia,8,287434650718,happilyplanted,plant,4.0,True,True,True
+watermelon peperomia,9,188682899915,coastaltill1,plant,,True,True,True
+watermelon peperomia,10,398132250360,angelan-65,plant,,True,True,True
+watermelon peperomia,11,203497695331,ellasgarden,plant,4.0,True,True,True
+watermelon peperomia,12,158043923052,leolinshop,plant,4.0,True,True,True
+watermelon peperomia,13,315029350581,bubbleblooms.shop,plant,,True,True,True
+watermelon peperomia,14,315342719426,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,15,314667153553,bubbleblooms.shop,bundle,4.0,True,False,True
+watermelon peperomia,16,315342740787,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,17,314667140564,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,18,315350789940,leslykcol,plant,4.0,True,True,True
+watermelon peperomia,19,398409735122,ahvnllc,plant,,True,True,True
+watermelon peperomia,20,398409735126,ahvnllc,plant,,True,True,True
+watermelon peperomia,21,296187593864,harmonyfoliage,bundle,2.0,True,False,True
+watermelon peperomia,22,398445102043,rosolo15,plant,,True,True,True
+watermelon peperomia,23,314667162608,bubbleblooms.shop,plant,6.0,True,True,True
+watermelon peperomia,24,314667168899,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,25,317442485317,ks_plants,plant,,True,False,True
+watermelon peperomia,26,800265255782,amph_3297,bundle,4.0,True,False,True
+watermelon peperomia,27,185774939206,succulentsandcactus,plant,4.0,True,True,True
+watermelon peperomia,28,315342741896,bubbleblooms.shop,bundle,2.0,True,False,True
+watermelon peperomia,29,315342748696,bubbleblooms.shop,plant,4.0,True,True,True
+watermelon peperomia,30,315342736203,bubbleblooms.shop,plant,,False,False,True
+watermelon peperomia,31,315123707763,bubbleblooms.shop,bundle,2.0,True,False,True
+watermelon peperomia,32,315123704824,bubbleblooms.shop,plant,,False,False,True
+watermelon peperomia,33,185774939912,succulentsandcactus,plant,4.0,True,True,True
+watermelon peperomia,34,185774938444,succulentsandcactus,plant,4.0,True,True,True
+watermelon peperomia,35,296187589076,harmonyfoliage,bundle,2.0,True,False,True
+watermelon peperomia,36,206402950835,tampanurserya0,plant,,True,True,True
+watermelon peperomia,37,318638049426,bronxplantlady1225,plant,6.0,True,True,True
+watermelon peperomia,38,128006476093,nocturnalgardens,plant,4.0,True,True,True
+watermelon peperomia,39,233766997203,uskc-fg,plant,,False,False,True
+watermelon peperomia,40,315342715424,bubbleblooms.shop,plant,2.0,False,False,False
+watermelon peperomia,41,315342717063,bubbleblooms.shop,plant,,False,False,False
+watermelon peperomia,42,186120237111,succulentsandcactus,plant,,False,False,False
+watermelon peperomia,43,405841706465,wicatetfarm,bundle,,False,False,False
+watermelon peperomia,44,287556713484,happilyplanted,plant,4.0,False,False,False
+watermelon peperomia,45,178466577427,gardenialabllc,plant,,False,False,False
+watermelon peperomia,46,397982414423,nnplant,plant,4.0,False,False,False
+watermelon peperomia,47,397010942606,nnplant,plant,4.0,False,False,False
+watermelon peperomia,48,326552315417,sunny0454,plant,4.0,False,False,False
+watermelon peperomia,49,168523919366,flowersplants,plant,2.0,False,False,False
+watermelon peperomia,50,257732006876,aokplantcompany,plant,4.0,False,False,False
+watermelon peperomia,51,407177886309,galactic.g_35,plant,4.0,True,False,False
+watermelon peperomia,52,395446273871,nnplant,cutting,6.0,False,False,False
+watermelon peperomia,53,395467410302,nnplant,plant,4.0,False,False,False
+watermelon peperomia,54,198311046238,florida-seeds,seed,3.5,False,False,False
+watermelon peperomia,55,377488134553,pzste-60,plant,4.0,False,False,False
+watermelon peperomia,56,397981370070,nnplant,plant,4.0,False,False,False
+watermelon peperomia,57,394775997043,nnplant,plant,4.0,False,False,False
+watermelon peperomia,58,366700335712,zonetenplants1,plant,,False,False,False
+watermelon peperomia,59,116810738472,fun_plantsandcactus,plant,2.0,False,False,False
+watermelon peperomia,60,287534457492,happilyplanted,plant,4.0,False,False,False
+watermelon peperomia,61,137687408036,krifian_0,cutting,,False,False,False
+watermelon peperomia,62,168629261058,snakerootbotanicals,plant,,False,False,False
+watermelon peperomia,63,116957994367,your_plant_haven,plant,,False,False,False
+watermelon peperomia,64,187934364127,coastaltill1,plant,,False,False,False
+watermelon peperomia,65,336767136924,plants-zen,plant,6.0,False,False,False
+watermelon peperomia,66,336552953498,sunshinestatefoliage,cutting,,False,False,False
+watermelon peperomia,67,117419182585,fun_plantsandcactus,plant,,False,False,False
+watermelon peperomia,68,315342736716,bubbleblooms.shop,plant,4.0,False,False,False
+watermelon peperomia,69,397010923529,nnplant,plant,4.0,False,False,False
+watermelon peperomia,70,314667168512,bubbleblooms.shop,plant,6.0,False,False,False
+watermelon peperomia,71,336821308890,plants-zen,plant,4.0,False,False,False
+watermelon peperomia,72,336552956208,sunshinestatefoliage,cutting,,False,False,False
+watermelon peperomia,73,157838501263,irvin-sophi,plant,4.0,False,False,False
+watermelon peperomia,74,287618502858,happilyplanted,plant,4.0,False,False,False
+watermelon peperomia,75,407109700055,galactic.g_35,plant,4.0,False,False,False
+watermelon peperomia,76,277034656718,maiksylvia,plant,,False,False,False
+watermelon peperomia,77,198311047053,florida-seeds,seed,3.5,False,False,False
+watermelon peperomia,78,314949651334,bubbleblooms.shop,plant,4.0,False,False,False
+watermelon peperomia,79,326018448887,sunny0454,plant,2.0,False,False,False
+watermelon peperomia,80,198614681182,mayita246,cutting,6.0,False,False,False
+watermelon peperomia,81,158271483490,irvin-sophi,plant,,False,False,False
+watermelon peperomia,82,147483144293,janicen321,plant,,False,False,False
+watermelon peperomia,83,287387247934,happilyplanted,plant,4.0,False,False,False
+watermelon peperomia,84,375409539751,gardenshops,plant,2.5,False,False,False
+watermelon peperomia,85,158323126127,ar_trendz,plant,4.0,False,False,False
+watermelon peperomia,86,287387287199,happilyplanted,plant,4.0,False,False,False
+watermelon peperomia,87,336771602372,plants-zen,plant,4.0,False,False,False
+watermelon peperomia,88,336552957654,sunshinestatefoliage,cutting,,False,False,False
+watermelon peperomia,89,117347708954,sandrus_zuodl,plant,,False,False,False
+watermelon peperomia,90,156716852917,wycstore,plant,,True,False,False
+watermelon peperomia,91,157803473881,irvin-sophi,plant,,False,False,False
+watermelon peperomia,92,317822371008,ks_plants,plant,,False,False,False
+watermelon peperomia,93,137568092482,theplantdeli,bundle,4.0,False,False,False
+watermelon peperomia,94,147549800087,acfishroom,plant,3.0,False,False,False
+watermelon peperomia,95,315342712939,bubbleblooms.shop,plant,4.0,False,False,False
+watermelon peperomia,96,406725098817,galactic.g_35,plant,4.0,False,False,False
+watermelon peperomia,97,317442485300,ks_plants,plant,,False,False,False
+watermelon peperomia,98,147549794069,acfishroom,plant,3.0,False,False,False
+watermelon peperomia,99,227037721580,plantladyantics3,plant,,False,False,False
+watermelon peperomia,100,186143503817,succulentsandcactus,plant,4.0,False,False,False
+watermelon peperomia,101,287599264275,sustyshop,plant,,False,False,False
+watermelon peperomia,102,357790686695,trendlovers,plant,,False,False,False
+watermelon peperomia,103,147427389132,denny10991,plant,3.5,False,False,False
+watermelon peperomia,104,157884535354,irvin-sophi,plant,,False,False,False
+watermelon peperomia,105,287574407834,sustyshop,plant,3.0,False,False,False
+watermelon peperomia,106,117347687077,sandrus_zuodl,plant,,False,False,False
+watermelon peperomia,107,315342749472,bubbleblooms.shop,plant,4.0,False,False,False
+watermelon peperomia,108,397010995598,nnplant,plant,4.0,False,False,False
+watermelon peperomia,109,298491362236,beautiflorist,plant,,False,False,False
+watermelon peperomia,110,395724763986,nnplant,cutting,,False,False,False
+watermelon peperomia,111,397981359811,nnplant,plant,4.0,False,False,False
+watermelon peperomia,112,398409735100,ahvnllc,plant,4.0,False,False,False
+watermelon peperomia,113,336767136943,plants-zen,plant,6.0,False,False,False
+watermelon peperomia,114,336552956830,sunshinestatefoliage,cutting,,False,False,False
+watermelon peperomia,115,178466577441,gardenialabllc,plant,3.5,False,False,False
+watermelon peperomia,116,186143505849,succulentsandcactus,plant,4.0,False,False,False
+watermelon peperomia,117,314667132225,bubbleblooms.shop,plant,4.0,False,False,False
+watermelon peperomia,118,324971828743,czgrainllc,seed,,True,False,False
+watermelon peperomia,119,397982025999,nnplant,plant,6.0,False,False,False
+watermelon peperomia,120,168578976256,riversidegreenhouses,plant,4.0,False,False,False
+watermelon peperomia,121,186113888151,succulentsandcactus,plant,4.0,False,False,False
+watermelon peperomia,122,376803267512,brig_9823,plant,,False,False,False
+watermelon peperomia,123,235593926897,cocotropics239,plant,,False,False,False
+watermelon peperomia,124,405870714205,deme-8594,plant,4.0,False,False,False
+watermelon peperomia,125,185605048196,succulentsandcactus,plant,4.0,False,False,False
+watermelon peperomia,126,316481308554,bubbleblooms.shop,plant,4.0,False,False,False

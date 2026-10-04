@@ -1,0 +1,23 @@
+attribute,old_template,new_template
+listings,67,64
+created (one day per template),2026-04-03,2026-08-01
+title chars median,45.0,61.5
+price median $,23.29,17.99
+delivered price median $,33.28,24.98
+shipping,$9.99 USPS Priority Mail,$6.99 USPS Ground Advantage
+handling days,3,2
+ship-from text,"Riverside, California","Jurupa Valley, CA"
+Best Offer,67 of 67,0 of 64
+photos (count: listings),1: 67,"2: 56, 3: 5, 4: 2, 5: 1"
+item specifics (count: listings),"19: 5, 20: 1, 22: 46, 23: 15","7: 1, 8: 1, 13: 1, 14: 49, 15: 12"
+Genus specific,0 of 67,59 of 64
+Common Name specific,0 of 67,62 of 64
+MPN specific,67 of 67,0 of 64
+condition set,0 of 67,0 of 64
+description chars median,455.0,645.5
+description has care instructions,67 of 67,0 of 64
+description has live-arrival / DOA wording,67 of 67,0 of 64
+description has Cold Protection Guide (Thermal Cool Shield / Heat Pack),0 of 67,64 of 64
+"""More than 10 available""",0 of 67,58 of 64
+units sold,4,6
+listings with >=1 watcher,10 of 67,13 of 64

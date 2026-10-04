@@ -1,0 +1,73 @@
+{
+  "verified_on": "2026-10-04",
+  "verification_notes": "MEASURED = observed directly by this project today. DOCS = stated on developers.etsy.com / Etsy help pages as read today. THIRD-PARTY = blog/aggregator claim, not verified. NOT-READ = page blocked to us.",
+  "base_url": "https://openapi.etsy.com  (the docs also list https://api.etsy.com/v3/ as equivalent)",
+  "spec_file": {
+    "url": "https://www.etsy.com/openapi/generated/oas/3.0.0.json",
+    "status": "MEASURED: plain GET from this container returned HTTP 200, Last-Modified Fri 02 Oct 2026 17:43:44 GMT, 911,340 bytes, access-control-allow-origin: *, OpenAPI 3.0.2, info.version 3.0.0, 76 paths / 105 operations (saved at etsy_market_raw/etsy_openapi_v3.json; machine extract in etsy_market_openapi_extract.json)"
+  },
+  "auth": {
+    "api_key_header": "x-api-key: <keystring>:<shared_secret>",
+    "format_change": "DOCS/MEASURED: since 2026-02-09 a bare keystring is rejected; the header must contain keystring and shared secret separated by a colon. Announced 2026-02-02 by openapi-support[bot] at github.com/etsy/open-api/discussions/1529 ('ACTION REQUIRED: Requests Without Shared Secret Will Be Rejected After Feb 9, 2026'). Spec securityScheme api_key: name=x-api-key, in=header, description 'format keystring:shared_secret'.",
+    "live_check": "MEASURED 2026-10-04: unauthenticated GET https://openapi.etsy.com/v3/application/openapi-ping from this container -> HTTP 403 {\"error\":\"Invalid API key: should be in the format 'keystring:shared_secret'.\"}. The API host is NOT behind the DataDome wall that blocks www.etsy.com pages, so calls with a real key can run from this container.",
+    "oauth": "DOCS: the API key is required on every request; OAuth 2.0 (Authorization: Bearer <user_id>.<access_token>) is additionally required only for private user data or write operations. In the spec, 32 of 105 operations need no OAuth scope (API key only) - including every endpoint this study needs (list below).",
+    "terms_page": "NOT-READ: https://www.etsy.com/legal/api (API Terms of Use) returned HTTP 403 to my fetch; I did not try to get around it. The owner must read it before using competitor data (look for restrictions on caching/storing Etsy Content, scraping, and competitive use)."
+  },
+  "access_levels_DOCS": {
+    "seller_app": "For a seller's OWN shop only; 'Seller App Access is for your own shop use only. You will only be allowed to authenticate your app with your shop.' 'Eligible sellers are approved within minutes, with no manual review queue.' Eligibility (Etsy Help 'How to Register a Seller App with Etsy's API', snippet): active Etsy shop in good standing and no app already registered.",
+    "personal_app": "For developers building tools that other buyers or sellers may use at limited scale; 'goes through a deeper review process than Seller Apps'.",
+    "commercial_access": "Requires an approved Personal App first, then a separate manual review; covers any seller who grants OAuth consent.",
+    "open_question": "The docs do not say in terms whether a Seller App key may call the PUBLIC endpoints about OTHER shops (listing search, getShop, reviews). The spec classifies those endpoints as API-key-only, so it should work; confirm with the first search call after approval."
+  },
+  "how_the_owner_gets_a_key": [
+    "1. Sign in to etsy.com with the account that owns RvsdGreenhouses (shop must be active and in good standing; no app registered yet).",
+    "2. Open https://www.etsy.com/developers/register and fill in the app form (name, short description, intended use). Choose 'Seller App' (own-shop tools, near-instant) - or Personal App if Etsy asks for the broader path.",
+    "3. Accept the Etsy API Terms of Use.",
+    "4. Wait for approval: 'Your API key is not active until it has been approved' (Seller App: minutes; Personal App: deeper review).",
+    "5. Open https://www.etsy.com/developers/your-apps, click the visibility (eye) icon next to the shared secret and copy BOTH the keystring and the shared secret.",
+    "6. Test: curl -H 'x-api-key: KEYSTRING:SHARED_SECRET' https://openapi.etsy.com/v3/application/openapi-ping  (expect HTTP 200 and an application_id).",
+    "7. Put the two values in environment variables ETSY_KEYSTRING / ETSY_SHARED_SECRET and run data/etsy_market_api_quickstart.py --ping, then --run. Never paste the shared secret into chat, a repo or a ticket."
+  ],
+  "rate_limits_DOCS": {
+    "scope": "per application (API key), same for public and private auth; two metrics: queries per second (QPS) and queries per day (QPD, sliding 24 h window divided into buckets)",
+    "your_numbers": "shown per app in the Developer Portal (not stated in the docs); example response headers in the docs: x-limit-per-second 150, x-remaining-this-second 149, x-limit-per-day 100000, x-remaining-today 99998 (illustrative)",
+    "headers": [
+      "x-limit-per-second",
+      "x-remaining-this-second",
+      "x-limit-per-day",
+      "x-remaining-today"
+    ],
+    "on_exceed": "HTTP 429 with retry-after (seconds); docs recommend caching and exponential backoff; higher limits by emailing developer@etsy.com",
+    "third_party_unverified": "Blogs/aggregators cite 5-10 QPS and 5,000-10,000 QPD defaults for new apps - NOT confirmed by Etsy docs.",
+    "planned_usage": "25 keywords x 3 pages = 75 search calls, ~10 listing-batch calls, ~150 getShop calls, <20 owner-shop calls: under 300 calls in total."
+  },
+  "endpoints_needed": {
+    "a_search_active_listings_by_keyword_relevance": {
+      "request": "GET https://openapi.etsy.com/v3/application/listings/active?keywords=hoya%20sunrise&sort_on=score&limit=100&offset=0   with header x-api-key: KEYSTRING:SHARED_SECRET",
+      "operationId": "findAllListingsActive",
+      "auth": "API key only",
+      "params": "limit 1-100 (default 25), offset >=0, keywords, sort_on in [created, price, updated, score] (default created), sort_order in [asc, ascending, desc, descending, up, down] (default desc), min_price, max_price, taxonomy_id, shop_location, is_safe, currency, buyer_country",
+      "sort_on_score_notes": "Spec: sort_on only works together with a search option such as keywords; with score the results are always descending regardless of sort_order. The spec does NOT promise that 'score' equals the order a logged-in shopper sees on etsy.com (personalisation, ads, location, Star Seller effects are unknown) - treat as Etsy's relevance score, an approximation.",
+      "no_includes_param": "findAllListingsActive has no 'includes'; use GET /v3/application/listings/batch?listing_ids=..&includes=Images,Shop to add images, shop and the 'views' field.",
+      "response": "{count, results:[ShopListing]} - ShopListing fields: listing_id, user_id, shop_id, title, description, state, created/creation_timestamp, ending_timestamp, original_creation_timestamp, last_modified/updated_timestamp, state_timestamp, quantity, shop_section_id, featured_rank, url, num_favorers, is_taxable, is_customizable, is_personalizable, listing_type, tags[] (up to 13), materials[], shipping_profile_id, return_policy_id, processing_min/max, who_made, when_made, is_supply, item dimensions/weight, style[], has_variations, should_auto_renew, language, price{amount,divisor,currency_code}, taxonomy_id, readiness_state_id (57 fields in total, see etsy_market_openapi_extract.json). Shipping COST is not in the listing; shipping_profile_id only."
+    },
+    "b_shop_its_active_listings_and_its_reviews": {
+      "find_shop_id": "GET /v3/application/shops?shop_name=RvsdGreenhouses  (findShops; shop_name required; limit<=100)",
+      "get_shop": "GET /v3/application/shops/{shop_id} (getShop). Fields include shop_name, create_date, listing_active_count, transaction_sold_count (lifetime sales), num_favorers, review_count and review_average (reviews of shop listings in the PAST YEAR per spec), is_vacation, currency_code, shop_location_country_iso, shipping_from_country_iso, policies, languages (47 fields).",
+      "shop_active_listings": "GET /v3/application/shops/{shop_id}/listings/active?limit=100&offset=N&sort_on=score&keywords=.. (findAllActiveListingsByShop; same ShopListing fields; keywords filter works inside one shop)",
+      "shop_reviews": "GET /v3/application/shops/{shop_id}/reviews?limit=100&offset=N&min_created=..&max_created=.. (getReviewsByShop). Each review: shop_id, listing_id, transaction_id, buyer_user_id (may be absent), rating 1-5, review text, language, image_url_fullxfull (may be absent), created/updated timestamps. Also GET /v3/application/listings/{listing_id}/reviews (getReviewsByListing).",
+      "all_public": "All five are API-key-only in the spec; no OAuth needed to read ANY shop's public data."
+    }
+  },
+  "what_the_api_cannot_give": [
+    "Etsy's internal rank positions for a logged-in shopper, ad placements, or the score formula.",
+    "Competitors' views/visits/conversion (the 'views' field exists only on listings/batch with associations - check it is populated for other shops before relying on it).",
+    "Shipping price per listing (only shipping_profile_id is on the listing; shipping_profile association appears on listings/batch)."
+  ],
+  "composio": {
+    "etsy_toolkit": "NONE. 9 Etsy-focused queries in 3 COMPOSIO_SEARCH_TOOLS calls (auto + tool_search strategies; wording: Etsy, Etsy listings, Etsy shop reviews, Etsy search by keyword, ETSY_FIND_ALL_LISTINGS_ACTIVE, marketplace seller receipts/OAuth, handmade-marketplace toolkits) returned no Etsy toolkit. The only Etsy-named tools belong to toolkit benchmark_email (Benchmark Email's own Etsy integration): BENCHMARK_EMAIL_GET_ETSY_STORE_NAME, BENCHMARK_EMAIL_TEST_ETSY_INTEGRATION, BENCHMARK_EMAIL_CONNECT_SERVICE (AuthSite ETSY|EBAY|SHOPIFY|SALESFORCE -> returns an OAuth URL), BENCHMARK_EMAIL_DISCONNECT_ETSY_INTEGRATION. They need a Benchmark Email account/connection and read nothing about listings, search or reviews - not usable here.",
+    "what_would_be_required": "Nothing to connect for Etsy itself. Either (a) run data/etsy_market_api_quickstart.py with the owner's key as environment variables (reachability from this container is confirmed), or (b) the owner could add Etsy as a custom HTTP/MCP connection in the Composio dashboard (https://dashboard.composio.dev/~/org/connect/apps?add-custom-mcp=true) with the x-api-key header.",
+    "connections_state": "No connection was started. Active toolkits seen: shopify (account shopify_kilim-melic, created 2026-09-30, not used), plus Composio 'instant' accounts for serpapi, serper, just_one_api and composio_search (used read-only for search-engine queries).",
+    "search_tools_used": "COMPOSIO_SEARCH_SHOPPING (SerpApi google_shopping, 40 rows/query, no auth) and SERPER_SEARCH_WEB / SERPER_BATCH_SEARCH_WEB (free instant account: result_count>10 is refused with 'Query pattern not allowed for free accounts'; paging by cursor works). SERPER_SCRAPE_WEBPAGE and any page-fetching scraper were deliberately NOT used on etsy.com."
+  }
+}

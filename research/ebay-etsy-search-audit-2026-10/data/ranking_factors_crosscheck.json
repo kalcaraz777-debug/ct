@@ -1,0 +1,107 @@
+{
+ "n_queries": 23,
+ "n_cards": 2353,
+ "n_top10": 230,
+ "n_11_60": 1136,
+ "free_delivery_pct": {
+  "top10": 30.9,
+  "ranks_11_60": 24.5,
+  "all": 24.9
+ },
+ "watchers_shown_pct": {
+  "top10": 27.4,
+  "ranks_11_60": 18.9,
+  "all": 17.1
+ },
+ "sold_shown_pct": {
+  "top10": 8.3,
+  "ranks_11_60": 3.7,
+  "all": 4.0
+ },
+ "save_up_to_badge_pct": {
+  "top10": 23.9,
+  "ranks_11_60": 16.1,
+  "all": 15.0
+ },
+ "just_listed_pct": {
+  "top10": 5.2,
+  "ranks_11_60": 1.4,
+  "all": 1.3
+ },
+ "free_returns_pct": {
+  "top10": 4.3,
+  "ranks_11_60": 6.4,
+  "all": 6.6
+ },
+ "fb_le_10_pct": {
+  "top10": 8.7,
+  "ranks_11_60": 12.3,
+  "all": 12.7
+ },
+ "fb_gt_1000_pct": {
+  "top10": 42.6,
+  "ranks_11_60": 38.4,
+  "all": 39.7
+ },
+ "median_feedback": {
+  "top10": 561.5,
+  "ranks_11_60": 431.0,
+  "all": 456
+ },
+ "median_total_price_plus_ship": {
+  "top10": 28.12,
+  "ranks_11_60": 32.91,
+  "all": 31.88
+ },
+ "owner_listings_in_serps": 33,
+ "owner_queries_with_listing": 22,
+ "owner_queries_with_2plus": 8,
+ "owner_top10_ranks": [
+  1,
+  3,
+  5,
+  5,
+  6,
+  7,
+  10
+ ],
+ "photos_owner_pages": {
+  "n": 13,
+  "median": 2,
+  "values": [
+   1,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   4
+  ]
+ },
+ "photos_competitor_pages": {
+  "n": 14,
+  "median": 6.0,
+  "values": [
+   2,
+   2,
+   3,
+   3,
+   5,
+   5,
+   6,
+   6,
+   6,
+   9,
+   9,
+   9,
+   9,
+   11
+  ]
+ }
+}

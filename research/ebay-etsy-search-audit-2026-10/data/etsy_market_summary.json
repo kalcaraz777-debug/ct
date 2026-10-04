@@ -1,0 +1,92 @@
+{
+ "generated": "2026-10-04",
+ "proxy_warning": "All competitor/owner facts are from search-engine output (Google Shopping via SerpApi/Composio; Google web results via Serper). No etsy.com page was fetched by this project; this is what Google surfaces, NOT Etsy's internal search order.",
+ "gshopping": {
+  "plants": 25,
+  "rows": 942,
+  "etsy_sourced": 824,
+  "rows_with_shop_name": 210,
+  "owner_rows": 4
+ },
+ "web_harvest": {
+  "rows": 2377,
+  "distinct_listing_ids": 1299,
+  "distinct_shops": 621
+ },
+ "owner": {
+  "catalog_rows": 67,
+  "with_listing_id": 57,
+  "with_price": 38,
+  "free_shipping_seen": 21,
+  "title_chars_median": 118,
+  "title_chars_min": 102,
+  "title_chars_max": 139,
+  "price_median": 18.494999999999997,
+  "price_min": 12.99,
+  "price_max": 27.99,
+  "etsy_vs_ebay_price": {
+   "matched": 38,
+   "equal": 27,
+   "etsy_higher": 11,
+   "etsy_lower": 0
+  },
+  "shop_snapshots": {
+   "n": 26,
+   "first": {
+    "listing_id": "4514511083",
+    "sales": "1.0",
+    "reviews": "0",
+    "rating": "",
+    "age_text": "New on Etsy",
+    "owner": "Angel",
+    "location": "Riverside, California"
+   },
+   "last": {
+    "listing_id": "4514475992",
+    "sales": "89.0",
+    "reviews": "35.0",
+    "rating": "4.9",
+    "age_text": "4 months on Etsy",
+    "owner": "Angel",
+    "location": "Riverside, California"
+   }
+  },
+  "plants_with_owner_etsy_listing": [
+   "hoya sunrise",
+   "hoya kerrii",
+   "hoya australis lisa",
+   "hoya carnosa compacta",
+   "syngonium chiapense",
+   "syngonium pink splash",
+   "syngonium mojito",
+   "monstera peru",
+   "rhaphidophora tetrasperma",
+   "philodendron micans",
+   "philodendron brasil",
+   "monstera siltepecana",
+   "peperomia hope",
+   "watermelon peperomia",
+   "pilea peperomioides",
+   "calathea setosa",
+   "calathea rattlesnake",
+   "satin pothos",
+   "cebu blue pothos",
+   "christmas cactus",
+   "sansevieria moonshine"
+  ],
+  "plants_without_owner_etsy_listing": [
+   "raven zz plant",
+   "philodendron pink princess",
+   "texas ebony plant",
+   "hoya cummingiana"
+  ],
+  "market_pages": {
+   "observations": 159,
+   "distinct_pages": 146,
+   "page1_observations": 69
+  }
+ },
+ "price_position": {
+  "n_plants": 21
+ }
+}

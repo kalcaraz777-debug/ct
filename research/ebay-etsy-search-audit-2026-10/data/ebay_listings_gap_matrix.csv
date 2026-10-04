@@ -1,0 +1,23 @@
+attribute,pct_organic_top3,n_organic_top3,pct_adslot_top3,n_adslot_top3,pct_owner_best,n_owner_best,queries_where_2of3_organic_have_it_and_owner_lacks,queries_compared
+>=5 photos,55.1,69,72.0,50,4.3,23,12,23
+video,7.2,69,2.0,50,0.0,23,0,23
+sold>0,52.2,69,58.0,50,13.0,23,10,23
+watchers>=1,84.1,69,86.0,50,30.4,23,14,23
+in a cart,43.5,69,48.0,50,8.7,23,7,23
+free shipping,43.5,69,46.0,50,0.0,23,10,23
+volume discount,11.6,69,40.0,50,0.0,23,0,23
+handling<=1d,24.6,69,44.0,50,0.0,23,4,23
+free returns,1.4,69,8.0,50,0.0,23,0,23
+title has pot size,39.1,69,54.0,50,100.0,23,0,23
+title species/latin,58.0,69,46.0,50,65.2,23,3,23
+title common name,79.7,69,72.0,50,95.7,23,0,23
+title starts w/ query,33.3,69,26.0,50,78.3,23,0,23
+title >=70 chars,55.1,69,60.0,50,21.7,23,11,23
+Genus specific,69.6,69,54.0,50,82.6,23,3,23
+Common Name specific,58.0,69,54.0,50,82.6,23,2,23
+desc >=1000 chars,47.8,69,56.0,50,0.0,23,11,23
+desc care info,37.7,69,38.0,50,17.4,23,7,23
+desc live-arrival/DOA,24.6,69,14.0,50,17.4,23,4,23
+desc packing/shipping,65.2,69,68.0,50,17.4,23,12,23
+revised <=30d,34.8,69,40.0,50,0.0,23,7,23
+fresh (listed/revised <=30d),59.4,69,60.0,50,0.0,23,14,23

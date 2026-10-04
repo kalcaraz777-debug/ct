@@ -1,0 +1,23 @@
+plant,owner_title,owner_size_in,owner_price,owner_prices_seen,owner_free_shipping,n_comps,comp_p25,comp_median,comp_p75,owner_pct_of_comps_cheaper_than_owner,n_noncutting_any_size,median_noncutting_any_size,owner_pct_cheaper_vs_noncutting_any_size,comp_free_delivery_pct,verdict
+calathea rattlesnake,"Calathea Rattlesnake 4"" Live Houseplant | Lancifolia Prayer Plant | Easy Care Tropical Indoor Plant",4.0,17.99,17.99,not shown,9,17.99,24.0,27.99,22,35,19.2,46,56,below median
+calathea setosa,"Calathea Setosa Grey Star 4"" Live Houseplant | Prayer Plant | Easy Care Tropical Indoor Plant",4.0,18.99,18.99,not shown,3,15.99,15.99,19.47,67,16,33.6,25,0,thin sample (n<4)
+cebu blue pothos,"Cebu Blue Pothos 3"" Live Houseplant | Epipremnum Pinnatum | Easy Care Rare Vining Indoor Plant",3.0,15.99,12.79/15.99,not shown,4,15.78,18.46,21.7,25,20,17.99,45,50,below median
+pilea peperomioides,"Chinese Money Plant 4"" Live Houseplant | Pilea Peperomioides | Easy Care Indoor Plant",4.0,21.99,21.99,yes,8,16.95,22.45,27.2,50,39,12.0,72,25,below median
+christmas cactus,"Christmas Cactus 4"" Live Flowering Cactus | Surprise Color | Unique Holiday Plant",4.0,17.99,17.99,yes,2,18.99,18.99,18.99,0,33,39.99,21,0,thin sample (n<4)
+hoya australis lisa,"Hoya Australis Lisa 4"" Live Houseplant | Variegated Hoya | Easy Care Vining Indoor Plant",4.0,18.99,16.99/18.99,yes,5,18.99,20.0,24.0,20,30,29.0,23,40,below median
+hoya carnosa compacta,"Hoya Hindu Rope Variegated 2"" Live Houseplant | Hoya Carnosa Compacta | Rare Vining Plant",2.0,16.99,13.99/16.99,not shown,3,16.23,17.46,21.23,33,33,35.0,9,67,thin sample (n<4)
+hoya kerrii,"Hoya Kerrii 4"" Variegated 1 Heart Leaf Live Succulent Heart Plant Easy Care Indoor Plant",4.0,21.99,21.99,yes,6,28.43,34.87,43.75,17,31,27.99,39,17,below median
+hoya sunrise,"Hoya Sunrise 4"" Live Houseplant | Rare Hoya | Easy Care Indoor Vining Plant",4.0,18.99,18.99,yes,5,25.0,28.0,34.0,0,32,28.0,22,20,below median
+rhaphidophora tetrasperma,"Mini Monstera 4"" Live Houseplant | Rhaphidophora Tetrasperma | Easy Care Vining Indoor Plant",4.0,16.99,16.99/17.99,yes,4,47.25,79.5,106.99,25,38,69.03,13,0,below median
+rhaphidophora tetrasperma,"Mini Monstera 8"" Live Houseplant | Rhaphidophora Tetrasperma | Easy Care Vining Indoor Plant",8.0,27.99,27.99,not shown,1,87.0,87.0,87.0,0,38,69.03,32,100,thin sample (n<4)
+monstera peru,"Monstera Peru 3"" Live Houseplant | Monstera Karstenianum | Easy Care Rare Tropical Indoor Plant",3.0,17.5,17.5,not shown,2,22.63,25.75,28.87,0,30,33.49,23,0,thin sample (n<4)
+monstera siltepecana,"Monstera Siltepecana 4"" Live Houseplant | Silver Monstera | Easy Care Rare Tropical Indoor Plant",4.0,21.99,21.99,yes,1,27.95,27.95,27.95,0,21,29.99,24,0,thin sample (n<4)
+peperomia hope,"Peperomia Hope 4"" Live Houseplant | Trailing Peperomia | Easy Care Indoor Plant",4.0,17.99,16.99/17.99,not shown,5,9.9,17.99,24.0,40,27,23.95,30,60,at/above median
+philodendron brasil,"Philodendron Brasil 6"" Live Houseplant | Variegated Heartleaf Philodendron | Easy Care Vining Indoor Plant",6.0,18.99,18.99,not shown,2,43.74,67.5,91.25,0,25,16.2,56,0,thin sample (n<4)
+philodendron micans,"Philodendron Micans 4"" Live Houseplant | Velvet Leaf Philodendron | Easy Care Vining Indoor Plant",4.0,15.99,15.99,not shown,2,16.49,17.0,17.5,0,26,52.5,12,0,thin sample (n<4)
+sansevieria moonshine,"Sansevieria Moonshine 6"" Live Houseplant | Silver Snake Plant | Easy Care Low Light Indoor Plant",6.0,23.99,18.99/21.99/23.99,yes,1,25.99,25.99,25.99,0,39,30.0,28,0,thin sample (n<4)
+satin pothos,"Satin Pothos 4"" Live Houseplant | Scindapsus Pictus | Easy Care Vining Indoor Plant",4.0,17.99,16.99/17.99,yes,1,12.0,12.0,12.0,100,21,19.49,43,0,thin sample (n<4)
+syngonium chiapense,"Syngonium Chiapense 4"" Live Houseplant | Rare Arrowhead Plant | Easy Care Tropical Indoor Plant",4.0,21.99,21.99,yes,2,42.25,49.5,56.75,0,39,40.99,18,50,thin sample (n<4)
+syngonium mojito,"Syngonium Mojito 4"" Live Houseplant | Rare Variegated Arrowhead Plant | Easy Care Tropical Indoor Plant",4.0,23.99,23.99,yes,4,19.94,19.94,36.2,75,18,22.84,56,75,at/above median
+syngonium pink splash,"Syngonium Pink Splash 4"" Live Houseplant | Arrowhead Plant | Easy Care Tropical Indoor Plant",4.0,24.99,24.99,yes,4,18.08,21.46,24.24,75,26,26.5,46,75,at/above median
+watermelon peperomia,"Watermelon Peperomia (Stilt) 4"" Live Houseplant | Peperomia Argyreia | Easy Care Tropical Indoor Plant",4.0,18.99,18.99,not shown,1,14.39,14.39,14.39,100,29,16.99,55,0,thin sample (n<4)

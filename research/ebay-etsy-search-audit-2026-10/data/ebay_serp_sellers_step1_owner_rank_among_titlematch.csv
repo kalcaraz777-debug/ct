@@ -1,0 +1,30 @@
+query,owner_rank,N,owner_allwords,n_allwords_cards,owner_rank_among_allwords,owner_logfb
+calathea rattlesnake,7,53,True,38,7.0,0.6989700043360189
+calathea setosa,1,119,True,2,1.0,0.6989700043360189
+cebu blue pothos,52,85,True,67,46.0,0.6989700043360189
+hoya australis lisa,27,120,True,24,23.0,0.6989700043360189
+hoya carnosa compacta,5,69,True,31,5.0,0.6989700043360189
+hoya cummingiana,5,120,True,6,2.0,0.6989700043360189
+hoya kerrii,88,120,True,84,79.0,0.6989700043360189
+hoya kerrii,95,120,True,84,81.0,0.6989700043360189
+monstera peru,33,56,True,50,30.0,0.6989700043360189
+monstera peru,36,56,True,50,33.0,0.6989700043360189
+monstera peru,43,56,True,50,39.0,0.6989700043360189
+monstera siltepecana,21,63,True,24,16.0,0.6989700043360189
+peperomia hope,17,57,True,27,13.0,0.6989700043360189
+peperomia hope,23,57,True,27,17.0,0.6989700043360189
+philodendron brasil,49,120,True,77,40.0,0.6989700043360189
+philodendron micans,48,111,True,87,46.0,0.6989700043360189
+philodendron pink princess,94,120,True,101,79.0,0.6989700043360189
+pilea peperomioides,48,120,True,69,44.0,0.6989700043360189
+raven zz plant,27,46,False,28,,0.6989700043360189
+rhaphidophora tetrasperma,21,63,True,56,19.0,0.6989700043360189
+rhaphidophora tetrasperma,28,63,True,56,26.0,0.6989700043360189
+sansevieria moonshine,18,92,True,67,18.0,0.6989700043360189
+satin pothos,43,116,True,65,31.0,0.6989700043360189
+satin pothos,54,116,True,65,36.0,0.6989700043360189
+syngonium chiapense,20,120,True,18,16.0,0.6989700043360189
+syngonium chiapense,97,120,False,18,,0.6989700043360189
+syngonium mojito,10,21,True,15,9.0,0.6989700043360189
+texas ebony plant,6,8,False,1,,0.6989700043360189
+watermelon peperomia,3,39,True,35,3.0,0.6989700043360189

@@ -1,0 +1,106 @@
+{
+ "tag": "snap2_all",
+ "n_rows_total_cards": 2388,
+ "n_rows_in_N": 1994,
+ "n_queries": 23,
+ "rank1_fb_median": 433.0,
+ "rank1_fb_lt100": 7,
+ "rank1_fb_lt10": 3,
+ "rank1_fb_values": {
+  "calathea rattlesnake": [
+   "jessicastootielou",
+   6700
+  ],
+  "calathea setosa": [
+   "riversidegreenhouses",
+   4
+  ],
+  "cebu blue pothos": [
+   "snakerootbotanicals",
+   57
+  ],
+  "christmas cactus": [
+   "rwwsr",
+   3600
+  ],
+  "hoya australis lisa": [
+   "irvin-sophi",
+   1800
+  ],
+  "hoya carnosa compacta": [
+   "snakerootbotanicals",
+   57
+  ],
+  "hoya cummingiana": [
+   "riversidegreenhouses",
+   4
+  ],
+  "hoya kerrii": [
+   "abznursery",
+   37
+  ],
+  "hoya sunrise": [
+   "giorgios1972",
+   9700
+  ],
+  "monstera siltepecana": [
+   "abdullahalazam",
+   410
+  ],
+  "peperomia hope": [
+   "happilyplanted",
+   230
+  ],
+  "philodendron brasil": [
+   "succulentsandcactus",
+   2400
+  ],
+  "philodendron micans": [
+   "tinyturtlestropicals",
+   8
+  ],
+  "philodendron pink princess": [
+   "hanwin-2412",
+   60
+  ],
+  "pilea peperomioides": [
+   "dealcrossing",
+   2400
+  ],
+  "raven zz plant": [
+   "eden-elements",
+   250
+  ],
+  "rhaphidophora tetrasperma": [
+   "backtoobasics",
+   433
+  ],
+  "satin pothos": [
+   "abdullahalazam",
+   410
+  ],
+  "syngonium chiapense": [
+   "famplants",
+   1100
+  ],
+  "syngonium mojito": [
+   "anniestore2010",
+   21100
+  ],
+  "syngonium pink splash": [
+   "famplants",
+   1100
+  ],
+  "texas ebony plant": [
+   "exotic_cactus_collection",
+   56300
+  ],
+  "watermelon peperomia": [
+   "coastaltill1",
+   25600
+  ]
+ },
+ "top3_fb_lt100_share": 0.2463768115942029,
+ "top10_fb_lt100_share": 0.24561403508771928,
+ "rest_fb_lt100_share": 0.31257078142695355
+}
