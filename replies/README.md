@@ -13,7 +13,9 @@ Drafts replies to Etsy reviews and buyer messages; you copy, paste into Etsy and
 - [x] Etsy review fetcher (`fetch_etsy_reviews.py`) — tested without a key only
 - [ ] Owner confirms the playbook's [confirm] items
 - [ ] Etsy approves the API app → add `ETSY_KEYSTRING` and `ETSY_SHARED_SECRET` in the cloud environment settings (environment menu in the session title bar → Edit). Never paste them in chat.
-- [ ] Owner connects the shop email as a claude.ai connector
+- [ ] Messages: the shop email is Yahoo. There is no claude.ai Yahoo connector, and the cloud environment cannot reach Yahoo's IMAP port (993; only 443 is allowed through the proxy).
+      Options: (a) paste messages into the Reply Desk (works now); (b) send Etsy notifications to a Gmail address and connect Gmail at https://claude.ai/customize/connectors;
+      (c) run `fetch_yahoo_etsy_messages.py` on a computer you own (needs YAHOO_EMAIL + YAHOO_APP_PASSWORD there).
 - [ ] Check that Etsy's "new message" emails include the message text
 - [ ] Create the routine (3×/day) with the email connector attached
 - [ ] Next: eBay (Feedback API respond_to_feedback; Trading API member messages). Negative feedback is never auto-answered (eBay policy).
