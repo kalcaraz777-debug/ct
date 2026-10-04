@@ -16,6 +16,7 @@ Drafts replies to Etsy reviews and buyer messages; you copy, paste into Etsy and
 - [ ] Messages: the shop email is Yahoo. There is no claude.ai Yahoo connector, and the cloud environment cannot reach Yahoo's IMAP port (993; only 443 is allowed through the proxy).
       Options: (a) paste messages into the Reply Desk (works now); (b) send Etsy notifications to a Gmail address and connect Gmail at https://claude.ai/customize/connectors;
       (c) run `fetch_yahoo_etsy_messages.py` on a computer you own (needs YAHOO_EMAIL + YAHOO_APP_PASSWORD there).
-- [ ] Check that Etsy's "new message" emails include the message text
+- [ ] CHOSEN: owner forwards the Yahoo inbox to a dedicated Riverside Greenhouses Gmail and connects that Gmail at https://claude.ai/customize/connectors (fallback if Yahoo forwarding needs Yahoo Mail Plus: change the Etsy account email to the new Gmail).
+- [ ] In a new session (connectors load at session start): confirm Etsy's "new message" emails include the message text, then create the routine with the Gmail connector — it can draft messages before the Etsy API key arrives (reviews are skipped until then)
 - [ ] Create the routine (3×/day) with the email connector attached
 - [ ] Next: eBay (Feedback API respond_to_feedback; Trading API member messages). Negative feedback is never auto-answered (eBay policy).
